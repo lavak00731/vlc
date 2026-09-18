@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Playfair_Display, Plus_Jakarta_Sans } from "next/fon
 import 'material-symbols';
 import "./globals.css";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 
 
 const playfair = Playfair_Display({
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <Header/>
         <main>{children}</main>
+        <Footer/>
       </body>
     </html>
   );

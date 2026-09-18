@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="es-Ar" className={`${playfair.variable} ${plusjakarta.variable}`}>
       <body>
         <Header/>
-        <main>{children}</main>
+        <main className="flex flex-col relative w-full pt-16 bg-[#DDD8B8] grow">{children}</main>
         <Footer/>
       </body>
     </html>

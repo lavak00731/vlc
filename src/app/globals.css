@@ -155,6 +155,8 @@ button {
 .bg-vivero-bg { background-color: var(--color-vivero-bg); }
 .bg-vivero-nav { background-color: var(--color-vivero-nav); }
 .bg-vivero-primary { background-color: var(--color-vivero-primary); }
+.btn-text-color { color: #FFF};
+.btn-text-color:hover, .btn-text-color:focus-visible {color: var(--color-vivero-primary)};
 .hover\:bg-vivero-primary-hover:hover { background-color: var(--color-vivero-primary-hover); }
 
 .text-vivero-text { color: var(--color-vivero-text); }
@@ -187,3 +189,42 @@ button {
 .shadow-card { box-shadow: var(--shadow-card); }
 .shadow-botanical { box-shadow: var(--shadow-botanical); }
 .shadow-elevated { box-shadow: var(--shadow-elevated); }
+
+/* Nav styling */
+.animated-link {
+  position: relative;
+  text-decoration: none; /* Quitamos el subrayado nativo */
+  color: var(--color-primary);
+}
+.animated-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Grosor de la línea */
+  bottom: -2px; /* Distancia respecto al texto */
+  left: 0;
+  background-color: var(--color-primary);  
+  /* Estado inicial: encogido a escala 0 */
+  transform: scaleX(0);
+  transform-origin: bottom right;  
+}
+.animated-link:hover::after {
+  /* Estado final: se expande a escala 1 */
+  transform: scaleX(1);
+}
+.animated-link:focus-visible {
+  outline-color: var(--color-primary);
+  outline-offset: 3px;
+  outline-width: 2px;
+}
+@media (prefers-reduced-motion: no-preference) {
+/* Creamos la línea con un pseudo-elemento */
+  .animated-link::after {
+    transition: transform 0.3s ease-out;
+  }
+
+  /* Estado al pasar el cursor (Hover) */
+  .animated-link:hover::after {    
+    transform-origin: bottom left;
+  }
+}

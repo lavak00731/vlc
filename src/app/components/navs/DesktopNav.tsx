@@ -16,8 +16,8 @@ export const DesktopNav = () => {
                 aria-current={active ? "page" : undefined}
                 className={
                   active
-                    ? "font-bold text-primary transition-colors"
-                    : "font-label-md text-on-surface-variant transition-colors hover:text-on-surface"
+                    ? "font-bold text-primary transition-colors animated-link"
+                    : "font-label-md text-on-surface-variant transition-colors hover:text-on-surface animated-link"
                 }
               >
                 {item.name}

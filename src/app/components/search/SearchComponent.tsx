@@ -1,0 +1,23 @@
+export const SearchComponent = () => {
+  return (
+    <div className="relative xl:block w-100 group">        
+        <div className="p-2 flex items-center bg-surface-container-lowest rounded-full px-space-sm py-space-xxs shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+            <span aria-hidden="true" className="material-symbols-outlined text-outline text-[18px] mr-space-xxs">
+                search
+            </span>
+            <input
+                className="w-full bg-transparent ml-2 font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline"
+                placeholder="Buscar plantas, macetas..."
+                type="text"
+            />
+            <button type="button" className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all">
+                <span className="text-inherit">Buscar</span>
+                <span aria-hidden="true" className="material-symbols-outlined ml-2 material-symbols-outlined text-2xl mr-space-xxs text-inherit">
+                    arrow_forward
+                </span>
+               
+            </button>
+        </div>
+    </div>
+  )
+}

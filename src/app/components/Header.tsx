@@ -3,6 +3,8 @@ import Link from "next/link";
 import { DesktopNav } from './navs/DesktopNav';
 import { MobileNav } from './navs/MobileNav';
 import { QuotationsBtn } from './QuotationsBtn';
+import { SearchComponent } from "./search/SearchComponent";
+import { SearchMobileComponent } from "./search/SearchMobileComponent";
 
 export const Header = () => {
   return (
@@ -18,20 +20,10 @@ export const Header = () => {
               </Link>
             </div>
             <DesktopNav />
-            
-            <div className="hidden relative xl:block w-72 group">
-              <div className="p-2 flex items-center bg-surface-container-lowest rounded-full px-space-sm py-space-xxs shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
-                <span aria-hidden="true" className="material-symbols-outlined text-outline text-[18px] mr-space-xxs">
-                  search
-                </span>
-                <input
-                  className="w-full bg-transparent font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline"
-                  placeholder="Buscar plantas, macetas..."
-                  type="text"
-                />
-              </div>
-
-            </div>
+            <SearchMobileComponent />
+            <div className="hidden md:block">
+              <SearchComponent/>
+            </div>            
             <QuotationsBtn />
             <MobileNav />
           </div>

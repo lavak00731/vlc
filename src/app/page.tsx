@@ -1,115 +1,98 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
+import { VideoComponent } from "./components/VideoComponent";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full p-4">
       <section className="relative overflow-hidden pt-space-xl pb-space-3xl px-space-md lg:px-space-xl">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center relative z-10">
           <div className="lg:col-span-7 flex flex-col items-start space-y-space-md">
-            <div className="inline-flex items-center gap-space-xs bg-surface-container-highest/80 px-space-md py-space-xxs rounded-full text-on-surface">
-              <span className="material-symbols-outlined text-primary text-[18px]">
+            <div className="inline-flex items-center gap-space-xs bg-surface-container-highest/80 p-2 px-space-md py-space-xxs rounded-full text-on-surface shadow-elevated mb-6">
+              <span aria-hidden="true" className="material-symbols-outlined text-primary text-[18px]">
                 eco
               </span>
-              <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+              <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold text-primary">
                 Botánica &amp; Jardinería Artesanal
               </span>
             </div>
-            <h1 className="font-headline-lg text-headline-lg lg:font-display-hero lg:text-display-hero text-on-surface tracking-tight leading-none font-bold">
+            <h1 className="text-4xl lg:text-7xl lg:text-display-hero text-on-surface tracking-tight leading-none font-bold mb-5">
               Vida y naturaleza para tus espacios
             </h1>
-            <p className="font-body-lg text-body-lg text-on-surface/85 max-w-xl">
+            <p className="font-body-lg text-body-lg text-on-surface/85 max-w-xl mb-5">
               Cultivamos ejemplares botánicos seleccionados con dedicación
               orgánica. Diseñamos paisajes que inspiran paz, purifican tus
               rincones y transforman cualquier habitación en un oasis vivo.
             </p>
-            <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
-              <a
-                className="inline-flex items-center gap-space-xs bg-primary text-on-primary hover:bg-primary-container px-8 py-3.5 rounded-full font-label-md text-label-md transition-all duration-300 shadow-sm hover:shadow-md"
-                data-path="productos"
-                href="#"
+            <div className="flex flex-wrap items-center gap-5 md:gap-0 mb-5">
+              <Link
+                className="group inline-flex items-center gap-space-xs px-8 py-3.5 rounded-full font-label-md text-label-md transition-all duration-300 shadow-sm hover:shadow-md bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container w-full justify-center gap-4"
+                href="/productos"
               >
-                <span>Explorar Productos</span>
-                <span className="material-symbols-outlined text-[18px]">
+                <span className="text-inherit">Explorar Productos</span>
+                <span aria-hidden="true" className="material-symbols-outlined text-[18px] text-inherit">
                   arrow_forward
                 </span>
-              </a>
+              </Link>
               <a
-                className="inline-flex items-center gap-space-xs bg-transparent text-primary hover:bg-primary/10 px-7 py-3 rounded-full font-label-md text-label-md transition-colors"
-                data-path="cotizacion"
-                href="#"
+                className="inline-flex items-center gap-space-xs bg-transparent text-primary hover:bg-primary/10 px-7 py-3 rounded-full font-label-md text-label-md transition-colors w-full  btn-secondary-text-color justify-center gap-4"
+                href="https://wa.me/543412590671"
               >
-                <span className="material-symbols-outlined text-[20px]">
+                <span aria-hidden="true" className="material-symbols-outlined text-[20px] text-inherit">
                   assignment
                 </span>
-                <span>Cotizar Directamente</span>
+                <span className="text-inherit">Cotizar Directamente</span>
               </a>
             </div>
-            <div className="grid grid-cols-3 gap-space-md pt-space-lg w-full max-w-lg">
-              <div className="flex items-center gap-space-xs">
-                <span className="material-symbols-outlined text-primary text-[24px]">
+            <div className="flex gap-4 pt-space-lg w-full max-w-lg mb-5">
+              <div className="flex flex-col bg-white gap-3 rounded-2xl p-2">
+                <span aria-hidden="true" className="material-symbols-outlined text-primary text-[24px] text-center">
                   verified
                 </span>
                 <div>
-                  <p className="font-title-md text-title-md font-bold text-on-surface leading-tight">
+                  <p className="font-title-md text-sm font-bold text-on-surface leading-tight text-center">
                     100%
                   </p>
-                  <p className="font-body-sm text-body-sm text-on-surface/70">
+                  <p className="font-body-sm text-sm text-on-surface/70 text-center">
                     Sanidad vegetal
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-space-xs">
-                <span className="material-symbols-outlined text-primary text-[24px]">
+              <div className="flex flex-col bg-white gap-3 rounded-2xl p-2">
+                <span  aria-hidden="true" className="material-symbols-outlined text-primary text-[24px] text-center">
                   local_shipping
                 </span>
                 <div>
-                  <p className="font-title-md text-title-md font-bold text-on-surface leading-tight">
+                  <p className="font-title-md text-sm font-bold text-on-surface leading-tight text-center">
                     Envíos
                   </p>
-                  <p className="font-body-sm text-body-sm text-on-surface/70">
+                  <p className="font-body-sm text-body-sm text-on-surface/70 text-center">
                     Seguros en zona
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-space-xs">
-                <span className="material-symbols-outlined text-primary text-[24px]">
+              <div className="flex flex-col bg-white gap-3 rounded-2xl p-2">
+                <span aria-hidden="true" className="material-symbols-outlined text-primary text-[24px] text-center">
                   support_agent
                 </span>
                 <div>
-                  <p className="font-title-md text-title-md font-bold text-on-surface leading-tight">
+                  <p className="font-title-md text-sm font-bold text-on-surface leading-tight text-center">
                     Asesoría
                   </p>
-                  <p className="font-body-sm text-body-sm text-on-surface/70">
+                  <p className="font-body-sm text-body-sm text-on-surface/70 text-center">
                     Botánica guiada
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="lg:col-span-5 relative mt-space-lg lg:mt-0">
-            <div className="relative w-full aspect-4/5 rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest">
-              <img
-                className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                data-alt="Lush conservatory greenhouse filled with tropical fiddle leaf figs, monstera deliciosa, terracotta pots, sunbeams cutting through morning mist, warm artisanal botanical nursery aesthetic, natural earthy tones, quiet serene atmosphere"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOqbw96XpS-wNk0tmwmUPlS50IstC4QH2WCY2MKzrLaZrhh_zCT0wRsaV-t0bDxsEVAQGSKYhdSsnydnkUQJrwA9pHsn0iyHflXt2FTBoFYaqIFe7L27sAEWqZcf7au6hJAssYXB7hd8IxNBi4460gugcl_n6eHv9kqnVpYXHNnz4c-YRLDby_Xhg7mTZhmPFvEvMJff5beDvXW_4IjliqZh1qhgAj4kdFIfi8HwvHH5CxS4lLqQQB"
-              />
-              <div className="absolute inset-0 bg-linear-to-t from-on-surface/70 via-transparent to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-space-lg text-surface">
-                <span className="inline-block bg-tertiary-fixed text-on-surface font-label-sm text-label-sm px-space-xs py-space-xxs rounded-full mb-space-xxs font-semibold">
-                  Selección de Temporada
-                </span>
-                <h3 className="font-headline-sm text-headline-sm text-surface font-bold">
-                  Ficus Lyrata &amp; Maceta Terracota
-                </h3>
-                <p className="font-body-sm text-body-sm text-surface/80">
-                  Acondicionada para interior con luz filtrada.
-                </p>
-              </div>
-            </div>
-            <div className="-bottom-space-sm -left-space-md lg:-left-space-lg absolute bg-surface-container-lowest p-space-md rounded-2xl shadow-xl flex items-center gap-space-sm max-w-xs">
+          <div className="lg:col-span-5 mt-space-lg lg:mt-0 mb-5">
+            <div className="relative w-full aspect-720/1280 rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest mb-5">              
+               <VideoComponent width="720" height="1280" poster="/posterlisto.webp" src="/viverovideo.mp4" />
+            </div> 
+            <div className="bg-surface-container-lowest p-space-md rounded-2xl shadow-xl flex items-center gap-space-sm p-4 gap-4 w-full">
               <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary shrink-0">
-                <span className="material-symbols-outlined text-[26px]">
+                <span aria-hidden="true" className="material-symbols-outlined text-[26px]">
                   potted_plant
                 </span>
               </div>
@@ -118,7 +101,7 @@ export default function Home() {
                   Cultivo Artesanal
                 </span>
                 <p className="font-title-md text-title-md text-on-surface font-semibold leading-snug">
-                  Más de 250 especies aclimatadas
+                  Más de 250 especies
                 </p>
               </div>
             </div>

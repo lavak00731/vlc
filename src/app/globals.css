@@ -161,6 +161,12 @@ button {
 .btn-text-color:active {
   color: var(--color-vivero-primary);
 }  
+.btn-secondary-text-color { color: var(--color-primary); background-color: #FFF};
+.btn-secondary-text-color:hover,
+.btn-secondary-text-color:focus-within,
+.btn-secondary-text-color:active {
+  color:#FFF; background-color: var(--color-primary);
+}  
 .hover\:bg-vivero-primary-hover:hover { background-color: var(--color-vivero-primary-hover); }
 
 .text-vivero-text { color: var(--color-vivero-text); }

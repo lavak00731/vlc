@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
+import Head from 'next/head'
 import 'material-symbols';
+import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
@@ -24,9 +25,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es-Ar" className={`${playfair.variable} ${plusjakarta.variable}`}>
+      <Head>
+        <link rel="preload" as="video" href="/viverovideo" type="video/mp4" />
+      </Head>
       <body>
         <Header/>
-        <main className="flex flex-col relative w-full pt-16 bg-[#DDD8B8] grow">{children}</main>
+        <main className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow">{children}</main>
         <Footer/>
       </body>
     </html>

@@ -108,11 +108,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-space-3xl px-space-md lg:px-space-xl bg-surface-container-low/60">
+      <section className="py-12 bg-surface-container-low -mx-6  px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md mb-5">
             <div>
-              <div className="flex items-center gap-space-xs text-primary mb-space-xxs">
+              <div className="flex items-center gap-space-xs text-primary mb-space-xxs mb-5 md:mb-0">
                 <span className="material-symbols-outlined text-[20px]">
                   category
                 </span>
@@ -120,20 +120,19 @@ export default function Home() {
                   Catálogo Curado
                 </span>
               </div>
-              <h2 className="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">
+              <h2 className="font-headline-lg text-3xl md:text-6xl font-bold text-on-surface tracking-tight">
                 Categorías de Productos
               </h2>
             </div>
-            <a
+            <Link
               className="inline-flex items-center gap-space-xs text-secondary hover:underline font-label-md text-label-md font-semibold"
-              data-path="productos"
-              href="#"
+              href="/productos"
             >
               <span>Ver catálogo completo</span>
-              <span className="material-symbols-outlined text-[18px]">
+              <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
                 trending_flat
               </span>
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
             <a

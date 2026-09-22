@@ -433,9 +433,9 @@ export default function Home() {
             <h2 className="font-headline-lg text-3xl md:text-6xl font-bold text-on-surface tracking-tight mb-5 text-balance">
               ¿Cómo cotizar tu pedido online?
             </h2>
-            <p className="font-body-md text-body-md text-on-surface/80 mt-space-xs mb-6">
+            <p className="font-body-md text-body-md text-on-surface/80 mt-space-xs mb-6 text-balance">
               Comprar plantas requiere asesoramiento. Prepara tu lista y
-              nuestro equipoverificará el stock y las condiciones
+              nuestro equipo verificará el stock y las condiciones
               óptimas de despacho para tus ejemplares.
             </p>
           </div>

@@ -11,7 +11,7 @@ export const QuotationsBtn = () => {
             <span className="material-symbols-outlined text-[18px] text-inherit">
                 shopping_bag
             </span>
-            <span className="hidden sm:inline text-inherit">Ver Cotización:</span>
+            <span className="hidden xl:inline text-inherit">Ver Cotización:</span>
             <span className="ml-4 text-inherit" aria-live="polite"> <span className="sr-only">Cantidad de Items a cotizar</span>0</span>
             </a>
             

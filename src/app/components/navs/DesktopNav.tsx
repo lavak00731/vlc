@@ -5,7 +5,7 @@ import { IsNavigationActive } from "@/app/utils/isNavigationActive";
 
 export const DesktopNav = () => {
   return (
-    <nav className="hidden md:flex items-center gap-space-lg">
+    <nav className="hidden lg:flex items-center gap-space-lg">
       <ul className="flex list-none gap-5">
         {NavItems.map((item) => {
           const active = IsNavigationActive(item.url);

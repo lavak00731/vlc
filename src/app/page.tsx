@@ -430,7 +430,7 @@ export default function Home() {
                 Simple, Transparente y Rápido
               </span>
             </div>
-            <h2 className="font-headline-lg text-3xl md:text-6xl font-bold text-on-surface tracking-tight mb-5">
+            <h2 className="font-headline-lg text-3xl md:text-6xl font-bold text-on-surface tracking-tight mb-5 text-balance">
               ¿Cómo cotizar tu pedido online?
             </h2>
             <p className="font-body-md text-body-md text-on-surface/80 mt-space-xs mb-6">
@@ -515,9 +515,9 @@ export default function Home() {
               </div>
             </li>
           </ul>
-          <div className="text-center mt-space-xl">
+          <div className="text-center">
             <a
-              className="inline-flex items-center gap-space-xs bg-primary text-white! hover:bg-primary-container hover:text-on-surface-variant! px-8 py-3.5 rounded-full font-label-md text-label-md transition-all shadow-sm"
+              className="inline-flex items-center gap-space-xs bg-primary text-white! hover:bg-primary-container hover:text-on-surface-variant! px-8 py-3.5 rounded-full font-label-md text-label-md transition-all shadow-sm gap-2"
               target="_blank"
               href="https://wa.me/543412590671?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
             >

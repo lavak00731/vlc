@@ -27,10 +27,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="es-Ar" className={`${playfair.variable} ${plusjakarta.variable}`}>
       <Head>
         <link rel="preload" as="video" href="/viverovideo" type="video/mp4" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <body>
         <Header/>
-        <main className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow">{children}</main>
+        <main className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow overflow-hidden">{children}</main>
         <Footer/>
       </body>
     </html>

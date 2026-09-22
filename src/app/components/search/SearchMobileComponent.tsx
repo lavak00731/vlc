@@ -16,7 +16,7 @@ export const SearchMobileComponent = () => {
             </span>
             <span className="sr-only">Abrir campo de búsqueda</span>
         </button>
-        <div className="absolute top-18 left-0 flex align-items bg-primary p-2 lg:left-[50%]" id={id} hidden={btnStatus ? false : true}>
+        <div className="w-full w-max-lg absolute top-18 left-0 flex align-items justify-center bg-primary p-2 lg:left-[50%]" id={id} hidden={btnStatus ? false : true}>
             <SearchComponent/>
         </div>
     </>

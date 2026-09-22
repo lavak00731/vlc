@@ -7,8 +7,9 @@ export const SearchComponent = () => {
             </span>
             <input
                 className="w-full bg-transparent ml-2 font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline"
+                aria-label="Buscar"
                 placeholder="Buscar plantas, macetas..."
-                type="text"
+                type="search"
             />
             <button type="button" title="Buscar" className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all">
                 <span className="sr-only">Buscar</span>

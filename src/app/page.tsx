@@ -419,37 +419,35 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-space-3xl px-space-md lg:px-space-xl bg-surface-container-highest/40">
+      <section className="py-12 px-6 -mx-6 bg-surface-container-highest/40">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-space-2xl">
-            <div className="inline-flex items-center gap-space-xs bg-tertiary-fixed text-on-surface px-space-md py-space-xxs rounded-full mb-space-xs font-semibold">
-              <span className="material-symbols-outlined text-primary text-[18px]">
+            <div className="inline-flex items-center gap-space-xs bg-tertiary-fixed text-on-surface px-space-md py-space-xxs rounded-full mb-space-xs font-semibold bg-vivero-badge-stock p-2 mb-6">
+              <span aria-hidden="true" className="material-symbols-outlined text-primary text-[18px]">
                 verified_user
               </span>
               <span className="font-label-sm text-label-sm uppercase tracking-wider">
                 Simple, Transparente y Rápido
               </span>
             </div>
-            <h2 className="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">
+            <h2 className="font-headline-lg text-3xl md:text-6xl font-bold text-on-surface tracking-tight mb-5">
               ¿Cómo cotizar tu pedido online?
             </h2>
-            <p className="font-body-md text-body-md text-on-surface/80 mt-space-xs">
-              Comprar plantas requiere asesoramiento vivo. Prepara tu lista y
-              nuestro equipo de botánicos verificará el stock y las condiciones
+            <p className="font-body-md text-body-md text-on-surface/80 mt-space-xs mb-6">
+              Comprar plantas requiere asesoramiento. Prepara tu lista y
+              nuestro equipoverificará el stock y las condiciones
               óptimas de despacho para tus ejemplares.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-space-xl relative">
-            <div className="relative bg-surface-container-lowest p-space-xl rounded-3xl shadow-md flex flex-col items-start transition-transform duration-300 hover:-translate-y-1">
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 relative mb-6">
+            <li className="relative bg-surface-container-lowest p-8 rounded-3xl shadow-md flex flex-col items-start transition-transform duration-300 hover:-translate-y-1 gap-4">
               <div className="w-14 h-14 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center mb-space-md font-bold text-2xl font-headline-md">
                 01
               </div>
-              <div className="mb-space-xs">
-                <span className="material-symbols-outlined text-primary text-[32px]">
+              <h3 className="font-headline-sm text-xl font-bold text-on-surface mb-space-xs flex gap-2 items-center">
+                <span aria-hidden="true" className="material-symbols-outlined text-primary">
                   travel_explore
                 </span>
-              </div>
-              <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">
                 Explora y Elige
               </h3>
               <p className="font-body-md text-body-md text-on-surface/80">
@@ -458,25 +456,23 @@ export default function Home() {
                 de riego y dimensiones finales.
               </p>
               <div className="mt-space-md pt-space-md w-full">
-                <span className="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider block">
+                <span aria-hidden="true" className="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider block">
                   Recomendación
                 </span>
                 <span className="font-body-sm text-body-sm text-on-surface/70">
                   Usa los filtros de sombra o sol según tu ambiente.
                 </span>
               </div>
-            </div>
+            </li>
 
-            <div className="relative bg-surface-container-lowest p-space-xl rounded-3xl shadow-md flex flex-col items-start transition-transform duration-300 hover:-translate-y-1">
+            <li className="relative bg-surface-container-lowest p-8 rounded-3xl shadow-md flex flex-col items-start transition-transform duration-300 hover:-translate-y-1 gap-4">
               <div className="w-14 h-14 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center mb-space-md font-bold text-2xl font-headline-md">
                 02
               </div>
-              <div className="mb-space-xs">
-                <span className="material-symbols-outlined text-primary text-[32px]">
+              <h3 className="font-headline-sm text-xl font-bold text-on-surface mb-space-xs flex gap-2 items-center">
+                <span aria-hidden="true" className="material-symbols-outlined text-primary">
                   add_shopping_cart
                 </span>
-              </div>
-              <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">
                 Agrega a tu Cotización
               </h3>
               <p className="font-body-md text-body-md text-on-surface/80">
@@ -492,18 +488,16 @@ export default function Home() {
                   Añade notas específicas sobre el tamaño o macetero deseado.
                 </span>
               </div>
-            </div>
+            </li>
 
-            <div className="relative bg-surface-container-lowest p-space-xl rounded-3xl shadow-md flex flex-col items-start transition-transform duration-300 hover:-translate-y-1">
+            <li className="relative bg-surface-container-lowest p-8 rounded-3xl shadow-md flex flex-col items-start transition-transform duration-300 hover:-translate-y-1 gap-4">
               <div className="w-14 h-14 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center mb-space-md font-bold text-2xl font-headline-md">
                 03
               </div>
-              <div className="mb-space-xs">
-                <span className="material-symbols-outlined text-primary text-[32px]">
+              <h3 className="font-headline-sm text-xl font-bold text-on-surface mb-space-xs flex gap-2 items-center">
+                <span aria-hidden="true" className="material-symbols-outlined text-primary">
                   local_shipping
                 </span>
-              </div>
-              <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">
                 Envía y Coordinamos
               </h3>
               <p className="font-body-md text-body-md text-on-surface/80">
@@ -519,16 +513,16 @@ export default function Home() {
                   Embalaje acolchado especial para preservar la raíz y follaje.
                 </span>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
           <div className="text-center mt-space-xl">
             <a
-              className="inline-flex items-center gap-space-xs bg-primary text-on-primary hover:bg-primary-container px-8 py-3.5 rounded-full font-label-md text-label-md transition-all shadow-sm"
-              data-path="productos"
-              href="#"
+              className="inline-flex items-center gap-space-xs bg-primary text-white! hover:bg-primary-container hover:text-on-surface-variant! px-8 py-3.5 rounded-full font-label-md text-label-md transition-all shadow-sm"
+              target="_blank"
+              href="https://wa.me/543412590671?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
             >
               <span>Comenzar mi cotización ahora</span>
-              <span className="material-symbols-outlined text-[18px]">
+              <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
                 east
               </span>
             </a>
@@ -536,26 +530,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-space-2xl px-space-md lg:px-space-xl">
-        <div className="max-w-7xl mx-auto bg-linear-to-r from-primary via-primary to-primary-container text-on-primary rounded-3xl p-space-xl lg:p-space-2xl shadow-xl relative overflow-hidden">
+      <section className="py-12 px-6 -mx-6">
+        <div className="max-w-7xl mx-auto bg-linear-to-r from-primary via-primary to-primary-container text-on-primary rounded-3xl p-8 shadow-xl relative overflow-hidden">
           <svg
-            className="absolute -right-16 -bottom-16 w-80 h-80 text-white/5 pointer-events-none"
+            aria-hidden="true"
+            className="lg:block hidden absolute -right-16 -bottom-16 w-80 h-80 text-white/5 pointer-events-none"
             fill="currentColor"
             viewBox="0 0 200 200"
           >
             <path d="M42.5,31.2C56.8,17.4,77.7,11.5,96.6,18.3C115.5,25.2,132.5,44.9,130.6,65.3C128.8,85.6,108.1,106.6,87.7,117.8C67.3,129.1,47.2,130.6,33.5,120.3C19.8,110,12.5,87.9,15.7,66.7C18.9,45.5,28.2,45,42.5,31.2Z"></path>
           </svg>
           <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-space-xl">
-            <div className="max-w-2xl text-center lg:text-left space-y-space-xs">
-              <div className="inline-flex items-center gap-space-xs bg-white/15 backdrop-blur px-space-md py-space-xxs rounded-full text-on-primary">
-                <span className="material-symbols-outlined text-[18px]">
+            <div className="max-w-2xl text-center lg:text-left space-y-space-xs mb-5 lg:mb-0">
+              <div className="inline-flex items-center gap-space-xs bg-white/15 backdrop-blur px-space-md py-space-xxs rounded-full text-on-primary p-2 mb-5">
+                <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
                   bolt
                 </span>
-                <span className="font-label-sm text-label-sm font-semibold tracking-wider uppercase">
+                <span className="font-label-sm text-base font-semibold tracking-wider uppercase">
                   Respuesta en menos de 30 minutos
                 </span>
               </div>
-              <h2 className="font-headline-lg text-headline-lg font-bold text-on-primary tracking-tight">
+              <h2 className="font-headline-lg text-2xl lg:text-3xl font-bold text-white! tracking-tight mb-5">
                 ¿Dudas sobre qué planta elegir o necesitas asesoramiento para un
                 proyecto?
               </h2>
@@ -567,25 +562,15 @@ export default function Home() {
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-space-md shrink-0">
               <a
-                className="inline-flex items-center gap-space-sm bg-surface text-primary hover:bg-surface-container-high px-8 py-4 rounded-full font-label-md text-label-md font-bold shadow-lg hover:scale-105 transition-all duration-300"
-                href="https://wa.me/56987654321?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
+                className="inline-flex gap-2 items-center gap-space-sm bg-surface text-primary! hover:bg-surface-container-high px-8 py-4 rounded-full font-label-md text-label-md font-bold shadow-lg hover:scale-105 transition-all duration-300"
+                href="https://wa.me/543412590671?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <span className="material-symbols-outlined text-[24px]">
+                <span aria-hidden="true" className="material-symbols-outlined text-[24px]">
                   chat
                 </span>
                 <span>Chatear por WhatsApp</span>
-              </a>
-              <a
-                className="inline-flex items-center gap-space-xs text-on-primary hover:underline font-label-md text-label-md px-4 py-2"
-                data-path="contacto"
-                href="#"
-              >
-                <span>Ver mapa y horarios</span>
-                <span className="material-symbols-outlined text-[18px]">
-                  chevron_right
-                </span>
               </a>
             </div>
           </div>

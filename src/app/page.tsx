@@ -16,7 +16,7 @@ export default function Home() {
                 eco
               </span>
               <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold text-primary">
-                Botánica &amp; Jardinería Artesanal
+                Jardín & Deco
               </span>
             </div>
             <h1 className="text-4xl lg:text-7xl lg:text-display-hero text-on-surface tracking-tight leading-none font-bold mb-5">
@@ -42,7 +42,7 @@ export default function Home() {
               </Link>
               <a
                 className="inline-flex items-center gap-space-xs bg-transparent text-primary hover:bg-primary/10 px-7 py-3 rounded-full font-label-md text-label-md transition-colors w-full  btn-secondary-text-color shadow-xl justify-center gap-4 md:max-w-80"
-                href="https://wa.me/543412590671"
+                href="https://wa.me/543415001111"
               >
                 <span
                   aria-hidden="true"
@@ -105,13 +105,13 @@ export default function Home() {
             </div>
           </div>
           <div className="md:col-span-5 mt-space-lg lg:mt-0 mb-5">
-            <div className="relative w-full aspect-720/1280 rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest mb-5">
+            <div className="relative w-full aspect-1900/1080 rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest mb-5">
               <VideoComponent
                 className="w-full"
-                width="720"
-                height="1280"
-                poster="/posterlisto.webp"
-                src="/viverovideo.mp4"
+                width="1900"
+                height="1080"
+                poster="/posterviverolisto2.webp"
+                src="/viverohome2.mp4"
               />
             </div>
             <div className="bg-surface-container-lowest p-space-md rounded-2xl shadow-xl flex items-center gap-space-sm p-4 gap-4 w-full">
@@ -140,7 +140,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md mb-5">
             <div>
               <div className="flex items-center gap-space-xs text-primary mb-space-xxs mb-5 md:mb-0">
-                <span className="material-symbols-outlined text-[20px]">
+                <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
                   category
                 </span>
                 <span className="font-label-md text-label-md uppercase tracking-wider font-semibold">
@@ -329,11 +329,11 @@ export default function Home() {
                   aria-label="Fertilizantes y sustratos, "
                   href="/productos/fertilizantes"
                 >
-                  <div className="relative w-full h-full lg:h-56.5 overflow-hidden">
+                  <div className="relative w-full h-full overflow-hidden">
                     <Image
                       alt=""
-                      width="396"
-                      height="226"
+                      width="300"
+                      height="300"
                       loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       src="/fertilizantes.webp"
@@ -519,7 +519,7 @@ export default function Home() {
             <a
               className="inline-flex items-center gap-space-xs bg-primary text-white! hover:bg-primary-container hover:text-on-surface-variant! px-8 py-3.5 rounded-full font-label-md text-label-md transition-all shadow-sm gap-2"
               target="_blank"
-              href="https://wa.me/543412590671?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
+              href="https://wa.me/543415001111?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
             >
               <span>Comenzar mi cotización ahora</span>
               <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
@@ -563,7 +563,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-center gap-space-md shrink-0">
               <a
                 className="inline-flex gap-2 items-center gap-space-sm bg-surface text-primary! hover:bg-surface-container-high px-8 py-4 rounded-full font-label-md text-label-md font-bold shadow-lg hover:scale-105 transition-all duration-300"
-                href="https://wa.me/543412590671?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
+                href="https://wa.me/543415001111?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
                 rel="noopener noreferrer"
                 target="_blank"
               >

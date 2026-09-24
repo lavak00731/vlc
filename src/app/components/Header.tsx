@@ -16,7 +16,7 @@ export const Header = () => {
                 data-path="inicio"
                 href="/"
               >
-                <Image loading='eager' src="/logovivero.svg" width="135" height="32" alt="Inicio La Cumbrecita "/>
+                <Image loading='eager' src="/logovivero.svg" width="135" height="58" alt="Inicio La Cumbrecita "/>
               </Link>
             </div>
             <DesktopNav />

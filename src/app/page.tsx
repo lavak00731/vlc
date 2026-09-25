@@ -5,8 +5,8 @@ import { VideoComponent } from "./components/VideoComponent";
 export default function Home() {
   return (
     <div className="flex flex-col w-full">
-      <section className="relative overflow-hidden pt-space-xl pb-space-3xl px-space-md lg:px-space-xl pb-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-space-xl items-center relative z-10 gap-8 p-4 md:px-8 md:py-12">
+      <section className="relative overflow-hidden pt-space-xl pb-space-3xl px-space-md lg:px-space-xl py-12">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-space-xl items-center relative z-10 gap-8 p-4 md:px-8 ">
           <div className="md:col-span-7 flex flex-col items-start space-y-space-md">
             <div className="inline-flex items-center gap-space-xs bg-surface-container-highest/80 p-2 gap-2 px-space-md py-space-xxs rounded-full text-on-surface shadow-elevated mb-6">
               <span
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
           <div className="md:col-span-5 mt-space-lg lg:mt-0 mb-5">
-            <div className="relative w-full aspect-1900/1080 rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest mb-5">
+            <div className="relative w-full aspect-1900/1080 rounded-3xl overflow-hidden shadow-xl mb-5">
               <VideoComponent
                 className="w-full"
                 width="1900"
@@ -135,8 +135,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-12 bg-surface-container-low">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
+      <section className="bg-surface-container-low py-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md mb-5">
             <div>
               <div className="flex items-center gap-space-xs text-primary mb-space-xxs mb-5 md:mb-0">
@@ -383,7 +383,7 @@ export default function Home() {
         </div>
       </section>
       <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-space-xl gap-space-md">
             <div className="w-full">
               <div className="flex items-center gap-space-xs gap-2 text-secondary mb-5">
@@ -427,7 +427,7 @@ export default function Home() {
       </section>
 
       <section className="py-12 bg-surface-container-highest/40">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="text-center max-w-2xl mx-auto mb-space-2xl">
             <div className="inline-flex items-center gap-space-xs bg-tertiary-fixed text-on-surface px-space-md py-space-xxs rounded-full mb-space-xs font-semibold bg-vivero-badge-stock p-2 mb-6">
               <span
@@ -556,7 +556,7 @@ export default function Home() {
       </section>
 
       <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="max-w-6xl mx-auto bg-linear-to-r from-primary via-primary to-primary-container text-on-primary rounded-3xl p-8 shadow-xl relative overflow-hidden">
             <svg
               aria-hidden="true"

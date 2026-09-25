@@ -5,18 +5,22 @@ import { Card } from "../components/Card";
 const Productos = () => {
   return (
     <div className="flex flex-col w-full">
-      <div className="max-w-7xl mx-auto w-full px-space-md lg:px-space-xl py-space-lg flex flex-col gap-space-xl px-4 md:px-8 md:py-6 pb-8">
-        <div className="flex flex-col gap-space-xs">
+      <div className="w-full flex flex-col">
+        <div className="flex flex-col w-full max-w-7xl mx-auto py-12 px-4 md:px-8">
           <Breadcrumb />
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md mt-space-xs">
             <div className="max-w-2xl">
-              <Badge icon={'eco'} text={'Productos ideales para tu parque y jardín'} />
+              <Badge
+                icon={"eco"}
+                text={"Productos ideales para tu parque y jardín"}
+              />
               <h1 className="text-4xl lg:text-7xl lg:text-display-hero text-on-surface tracking-tight leading-none font-bold mb-5">
                 Catálogo de Productos
               </h1>
               <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed mb-5">
-                Descubre nuestra selección de especímenes y productos que engalarán tus espacios. Selecciona los ejemplares que deseas incorporar a
-                tu jardín o proyecto y añádelos a tu{" "}
+                Descubre nuestra selección de especímenes y productos que
+                engalarán tus espacios. Selecciona los ejemplares que deseas
+                incorporar a tu jardín o proyecto y añádelos a tu{" "}
                 <strong className="text-on-surface font-semibold">
                   lista de cotización
                 </strong>
@@ -42,18 +46,80 @@ const Productos = () => {
             </div>
           </div>
         </div>
-        <ul
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
-          id="categories-grid"
-        >
-          <Card url={"/productos/plantas"} img={"/plantas.webp"} title={"Plantas"} ariaLabel={"Plantas, de interiores, sombra y florales aromáticas"} description={"Interiores luminosos, sombra profunda y florales aromáticas."} footerDescription={"Monstera, Ficus, Helechos..."} spansInTwo={true} />
-          <Card url={"/productos/arboles"} img={"/arboles.webp"} title={"Árboles y Arbustos"} ariaLabel={"Árboles y Arbustos, Especies nativas, cítricos frutales y arbustos perennes de cerco."} description={"Especies nativas, cítricos frutales y arbustos perennes de cerco."} footerDescription={"Limones, Acacias, Liquidambar..."} spansInTwo={false} />
-          <Card url={"/productos/macetas"} img={"/macetas.webp"} title={"Macetas &amp; Contenedores"} ariaLabel={"Macetas &amp; Contenedores, Cerámica esmaltada, terracota porosa tradicional y fibrocemento moderno."} description={"Cerámica esmaltada, terracota porosa tradicional y fibrocemento moderno."} footerDescription={"Varios tamaños y drenajes"} spansInTwo={false} />
-          <Card url={"/productos/herramientas"} img={"/herramientas.webp"} title={"Accesorios &amp; Herramientas"} ariaLabel={"Accesorios &amp; Herramientas, Equipamiento para amantes de las plantas"} description={"Tijeras de poda japonesas, regaderas de precisión de latón, tutores de musgo y medidores de humedad."} footerDescription={"Equipamiento para amantes de las plantas"} spansInTwo={false} />
-          <Card url={"/productos/fertilizantes"} img={"/fertilizantes.webp"} title={"Sustratos &amp; Nutrición"} ariaLabel={"Fertilizantes y sustratos, Mezclas listas y específicas"} description={"Humus de lombriz, perlita, turba rubia y bioestimulantes biológicos."} footerDescription={"Mezclas listas y específicas"} spansInTwo={false} />
-          
-        </ul>
-
+        <section className="bg-surface-container-highest/40 py-12">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <ul
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+              id="categories-grid"
+            >
+              <Card
+                url={"/productos/plantas"}
+                img={"/plantas.webp"}
+                title={"Plantas"}
+                ariaLabel={
+                  "Plantas, de interiores, sombra y florales aromáticas"
+                }
+                description={
+                  "Interiores luminosos, sombra profunda y florales aromáticas."
+                }
+                footerDescription={"Monstera, Ficus, Helechos..."}
+                spansInTwo={true}
+              />
+              <Card
+                url={"/productos/arboles"}
+                img={"/arboles.webp"}
+                title={"Árboles y Arbustos"}
+                ariaLabel={
+                  "Árboles y Arbustos, Especies nativas, cítricos frutales y arbustos perennes de cerco."
+                }
+                description={
+                  "Especies nativas, cítricos frutales y arbustos perennes de cerco."
+                }
+                footerDescription={"Limones, Acacias, Liquidambar..."}
+                spansInTwo={false}
+              />
+              <Card
+                url={"/productos/macetas"}
+                img={"/macetas.webp"}
+                title={"Macetas &amp; Contenedores"}
+                ariaLabel={
+                  "Macetas &amp; Contenedores, Cerámica esmaltada, terracota porosa tradicional y fibrocemento moderno."
+                }
+                description={
+                  "Cerámica esmaltada, terracota porosa tradicional y fibrocemento moderno."
+                }
+                footerDescription={"Varios tamaños y drenajes"}
+                spansInTwo={false}
+              />
+              <Card
+                url={"/productos/herramientas"}
+                img={"/herramientas.webp"}
+                title={"Accesorios &amp; Herramientas"}
+                ariaLabel={
+                  "Accesorios &amp; Herramientas, Equipamiento para amantes de las plantas"
+                }
+                description={
+                  "Tijeras de poda japonesas, regaderas de precisión de latón, tutores de musgo y medidores de humedad."
+                }
+                footerDescription={"Equipamiento para amantes de las plantas"}
+                spansInTwo={false}
+              />
+              <Card
+                url={"/productos/fertilizantes"}
+                img={"/fertilizantes.webp"}
+                title={"Sustratos &amp; Nutrición"}
+                ariaLabel={
+                  "Fertilizantes y sustratos, Mezclas listas y específicas"
+                }
+                description={
+                  "Humus de lombriz, perlita, turba rubia y bioestimulantes biológicos."
+                }
+                footerDescription={"Mezclas listas y específicas"}
+                spansInTwo={false}
+              />
+            </ul>
+          </div>
+        </section>
         <section className="w-full bg-surface-container rounded-3xl p-space-lg lg:p-space-xl">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg mb-space-lg">
             <div>
@@ -112,7 +178,7 @@ const Productos = () => {
           </div>
         </section>
 
-        <section className="w-full bg-primary text-on-primary rounded-3xl overflow-hidden shadow-xl p-space-lg lg:p-space-2xl relative">
+        <section className="w-full bg-surface-container-highest/40 text-on-primary rounded-3xl overflow-hidden shadow-xl p-space-lg lg:p-space-2xl relative">
           <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none translate-x-12 translate-y-12">
             <svg
               fill="currentColor"

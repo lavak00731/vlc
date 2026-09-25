@@ -9,7 +9,7 @@ const Productos = () => {
         <div className="flex flex-col w-full max-w-7xl mx-auto py-12 px-4 md:px-8">
           <Breadcrumb />
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md mt-space-xs">
-            <div className="max-w-2xl">
+            <div className="max-w-3xl">
               <Badge
                 icon={"eco"}
                 text={"Productos ideales para tu parque y jardín"}
@@ -17,7 +17,7 @@ const Productos = () => {
               <h1 className="text-4xl lg:text-7xl lg:text-display-hero text-on-surface tracking-tight leading-none font-bold mb-5">
                 Catálogo de Productos
               </h1>
-              <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed mb-5">
+              <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed mb-5 max-w-2xl">
                 Descubre nuestra selección de especímenes y productos que
                 engalarán tus espacios. Selecciona los ejemplares que deseas
                 incorporar a tu jardín o proyecto y añádelos a tu{" "}
@@ -120,60 +120,64 @@ const Productos = () => {
             </ul>
           </div>
         </section>
-        <section className="w-full bg-surface-container rounded-3xl p-space-lg lg:p-space-xl">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg mb-space-lg">
-            <div>
-              <span className="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">
-                Proceso Transparente
-              </span>
-              <h3 className="font-headline-md text-headline-md text-on-surface font-bold mt-1">
-                ¿Cómo funciona nuestra cotización en línea?
-              </h3>
-            </div>
-            <p className="font-body-sm text-body-sm text-on-surface-variant max-w-md">
-              Los seres vivos no son productos en serie: verificamos vigor
-              radicular, tamaño real disponible y logística de transporte antes
-              de confirmar tu pedido.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md">
-            <div className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm">
-              <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
-                1
+        <section className="w-full bg-surface-container rounded-3xl py-12">
+          <div className="max-w-7xl p-4 md:p-8 mx-auto">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between bg-surface-container-highest/80 p-4 md:p-8 rounded-3xl mb-5 flex-wrap">
+              <div className="flex flex-col md:flex-row md:items-center items-start justify-between md:min-w-full">
+                <div className="mb-5">
+                  <p className="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold mb-5 ">
+                    Proceso Transparente
+                  </p>
+                  <h2 className="font-headline-sm text-3xl font-bold text-on-surface">
+                    ¿Cómo funciona nuestra cotización en línea?
+                  </h2>
+                </div>
+                <p className="font-body-sm text-body-sm text-on-surface-variant max-w-md mb-5">
+                  Los seres vivos no son productos en serie: verificamos vigor
+                  radicular, tamaño real disponible y logística de transporte
+                  antes de confirmar tu pedido.
+                </p>
               </div>
-              <h4 className="font-title-md text-title-md text-on-surface font-bold">
-                Elige tus ejemplares
-              </h4>
-              <p className="font-body-sm text-body-sm text-on-surface-variant">
-                Explora las categorías y presiona "Añadir a Cotización"
-                indicando cantidades y tamaños aproximados.
-              </p>
-            </div>
+              <ol className="md:w-full grid grid-cols-1 md:grid-cols-3 mx-auto max-w-7xl md:min-w-full gap-8">
+                <li className="bg-surface-container-lowest rounded-2xl flex flex-col gap-space-xs shadow-sm p-4 md:p-8">
+                  <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
+                    1
+                  </div>
+                  <h4 className="font-title-md text-title-md text-on-surface font-bold">
+                    Elige tus ejemplares
+                  </h4>
+                  <p className="font-body-sm text-body-sm text-on-surface-variant">
+                    Explora las categorías y presiona &quot;Añadir a
+                    Cotización&quot; indicando cantidades y tamaños aproximados.
+                  </p>
+                </li>
 
-            <div className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm">
-              <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
-                2
-              </div>
-              <h4 className="font-title-md text-title-md text-on-surface font-bold">
-                Revisión Botánica
-              </h4>
-              <p className="font-body-sm text-body-sm text-on-surface-variant">
-                En menos de 2 horas hábiles nuestros agrónomos validan
-                inventario y condiciones de entrega.
-              </p>
-            </div>
+                <li className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm p-4 md:p-8">
+                  <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
+                    2
+                  </div>
+                  <h4 className="font-title-md text-title-md text-on-surface font-bold">
+                    Revisión Botánica
+                  </h4>
+                  <p className="font-body-sm text-body-sm text-on-surface-variant">
+                    En menos de 2 horas hábiles nuestros agrónomos validan
+                    inventario y condiciones de entrega.
+                  </p>
+                </li>
 
-            <div className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm">
-              <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
-                3
-              </div>
-              <h4 className="font-title-md text-title-md text-on-surface font-bold">
-                Reserva &amp; Despacho
-              </h4>
-              <p className="font-body-sm text-body-sm text-on-surface-variant">
-                Recibes una propuesta detallada con fotos reales de los
-                ejemplares y opciones de envío protegido.
-              </p>
+                <li className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm p-4 md:p-8">
+                  <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
+                    3
+                  </div>
+                  <h4 className="font-title-md text-title-md text-on-surface font-bold">
+                    Reserva &amp; Despacho
+                  </h4>
+                  <p className="font-body-sm text-body-sm text-on-surface-variant">
+                    Recibes una propuesta detallada con fotos reales de los
+                    ejemplares y opciones de envío protegido.
+                  </p>
+                </li>
+              </ol>
             </div>
           </div>
         </section>

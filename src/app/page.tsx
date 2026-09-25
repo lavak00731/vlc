@@ -4,11 +4,11 @@ import { VideoComponent } from "./components/VideoComponent";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full p-4 md:py-12 md:px-8">
+    <div className="flex flex-col w-full">
       <section className="relative overflow-hidden pt-space-xl pb-space-3xl px-space-md lg:px-space-xl pb-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-space-xl items-center relative z-10 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-space-xl items-center relative z-10 gap-8 p-4 md:px-8 md:py-12">
           <div className="md:col-span-7 flex flex-col items-start space-y-space-md">
-            <div className="inline-flex items-center gap-space-xs bg-surface-container-highest/80 p-2 px-space-md py-space-xxs rounded-full text-on-surface shadow-elevated mb-6">
+            <div className="inline-flex items-center gap-space-xs bg-surface-container-highest/80 p-2 gap-2 px-space-md py-space-xxs rounded-full text-on-surface shadow-elevated mb-6">
               <span
                 aria-hidden="true"
                 className="material-symbols-outlined text-primary text-[18px]"
@@ -135,12 +135,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-12 bg-surface-container-low -mx-6  px-6">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 bg-surface-container-low">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md mb-5">
             <div>
               <div className="flex items-center gap-space-xs text-primary mb-space-xxs mb-5 md:mb-0">
-                <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-[20px]"
+                >
                   category
                 </span>
                 <span className="font-label-md text-label-md uppercase tracking-wider font-semibold">
@@ -238,7 +241,10 @@ export default function Home() {
                       Limones, Acacias, Liquidambar...
                     </span>
                     <span className="w-8 h-8 rounded-full flex items-center justify-center bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
-                      <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
+                      <span
+                        aria-hidden="true"
+                        className="material-symbols-outlined text-[18px]"
+                      >
                         arrow_forward
                       </span>
                     </span>
@@ -249,6 +255,8 @@ export default function Home() {
             <li>
               <Link
                 className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col"
+                aria-label="Macetas &amp; Contenedores, Cerámica esmaltada, terracota porosa tradicional y
+                      fibrocemento moderno."
                 href="/productos/macetas"
               >
                 <div className="relative w-full overflow-hidden">
@@ -276,7 +284,10 @@ export default function Home() {
                       Varios tamaños y drenajes
                     </span>
                     <span className="w-8 h-8 rounded-full flex items-center justify-center bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
-                      <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
+                      <span
+                        aria-hidden="true"
+                        className="material-symbols-outlined text-[18px]"
+                      >
                         arrow_forward
                       </span>
                     </span>
@@ -315,7 +326,10 @@ export default function Home() {
                       Equipamiento para amantes de las plantas
                     </span>
                     <span className="w-9 h-9 rounded-full flex items-center justify-center btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
-                      <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+                      <span
+                        aria-hidden="true"
+                        className="material-symbols-outlined text-[20px]"
+                      >
                         arrow_forward
                       </span>
                     </span>
@@ -324,53 +338,59 @@ export default function Home() {
               </Link>
             </li>
             <li>
-                <Link
-                  className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col md:h-auto"
-                  aria-label="Fertilizantes y sustratos, "
-                  href="/productos/fertilizantes"
-                >
-                  <div className="relative w-full h-full overflow-hidden">
-                    <Image
-                      alt=""
-                      width="300"
-                      height="300"
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      src="/fertilizantes.webp"
-                    />
+              <Link
+                className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col md:h-auto"
+                aria-label="Fertilizantes y sustratos, Mezclas listas y específicas"
+                href="/productos/fertilizantes"
+              >
+                <div className="relative w-full h-full overflow-hidden">
+                  <Image
+                    alt=""
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    src="/fertilizantes.webp"
+                  />
+                </div>
+                <div className="p-8 grow flex flex-col justify-between bg-surface-container-lowest">
+                  <div>
+                    <h3 className="font-headline-sm text-2xl font-bold text-on-surface group-hover:text-primary transition-colors mb-5">
+                      Sustratos &amp; Nutrición
+                    </h3>
+                    <p className="font-body-sm text-body-sm text-on-surface/75 mt-space-xxs mb-5">
+                      Humus de lombriz, perlita, turba rubia y bioestimulantes
+                      biológicos.
+                    </p>
                   </div>
-                  <div className="p-8 grow flex flex-col justify-between bg-surface-container-lowest">
-                    <div>
-                      <h3 className="font-headline-sm text-2xl font-bold text-on-surface group-hover:text-primary transition-colors mb-5">
-                        Sustratos &amp; Nutrición
-                      </h3>
-                      <p className="font-body-sm text-body-sm text-on-surface/75 mt-space-xxs mb-5">
-                        Humus de lombriz, perlita, turba rubia y bioestimulantes
-                        biológicos.
-                      </p>
-                    </div>
-                    <div className="flex items-center justify-between pt-space-xs">
-                      <span className="font-label-sm text-label-sm text-secondary font-semibold">
-                        Mezclas listas y específicas
+                  <div className="flex items-center justify-between pt-space-xs">
+                    <span className="font-label-sm text-label-sm text-secondary font-semibold">
+                      Mezclas listas y específicas
+                    </span>
+                    <span className="w-8 h-8 rounded-full flex items-center justify-center  btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
+                      <span
+                        aria-hidden="true"
+                        className="material-symbols-outlined text-[18px]"
+                      >
+                        arrow_forward
                       </span>
-                      <span className="w-8 h-8 rounded-full flex items-center justify-center  btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
-                        <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
-                          arrow_forward
-                        </span>
-                      </span>
-                    </div>
+                    </span>
                   </div>
-                </Link>
-            </li>            
+                </div>
+              </Link>
+            </li>
           </ul>
         </div>
       </section>
-      <section className="py-12 px-6 -mx-6">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-space-xl gap-space-md">
             <div className="w-full">
-              <div className="flex items-center gap-space-xs text-secondary mb-5">
-                <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+              <div className="flex items-center gap-space-xs gap-2 text-secondary mb-5">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-[20px]"
+                >
                   photo_camera
                 </span>
                 <span className="font-label-md text-label-md uppercase tracking-wider font-semibold">
@@ -378,52 +398,42 @@ export default function Home() {
                 </span>
               </div>
               <h2 className="font-headline-lg text-3xl md:text-6xl font-bold text-on-surface tracking-tight mb-5">
-                Seguinos en Instagram y en Facebook
+                Seguinos en Instagram
               </h2>
               <p className="font-body-md text-body-md text-on-surface/75 mt-space-xxs mb-5">
-                Aprende sobre cuidados, trasplantes y novedades semanales.           
+                Aprende sobre cuidados, trasplantes y novedades semanales.
               </p>
-              <p className="font-body-md text-body-md text-on-surface/75 mt-space-xxs mb-5">
-                Encontranos en: 
-              </p>
-              <ul className="flex flex-col sm:flex-row justify-between items-center w-full max-w-lg mx-auto gap-8">
-                <li className="flex flex-col justify-center items-center">
-                 <h3 className="mb-5 text-2xl">Instagram</h3> 
-                 <a
-                className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all gap-2"
-                href="https://www.instagram.com/viverolacumbrecita/"
-                rel="noopener noreferrer"
-                target="_blank"
-              > 
-                <Image loading="lazy" alt="" width="32" height="32" src="/instagram.svg"/>                
-                @viverolacumbrecita
-              </a></li>
-                <li className="flex flex-col justify-center items-center">
-                  <h3 className="mb-5 text-2xl">Facebook</h3> 
-                  <a
+              <p className="font-body-md text-body-md flex items-center gap-4 text-on-surface/75 mb-5">
+                Encontranos en:
+                <a
                   className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all gap-2"
-                  href="https://www.facebook.com/ViveroLaCumbrecitaRosario/"
+                  href="https://www.instagram.com/viverodelgolf/"
                   rel="noopener noreferrer"
                   target="_blank"
-                >   
-                  <Image loading="lazy" alt="" width="32" height="32" src="/facebook.svg"/>                   
-                  ViveroLaCumbrecitaRosario
+                >
+                  <Image
+                    loading="lazy"
+                    alt=""
+                    width="32"
+                    height="32"
+                    src="/instagram.svg"
+                  />
+                  @viverodelgolf
                 </a>
-                </li>
-              </ul>
-              
+              </p>
             </div>
-
           </div>
-          
         </div>
       </section>
 
-      <section className="py-12 px-6 -mx-6 bg-surface-container-highest/40">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 bg-surface-container-highest/40">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
           <div className="text-center max-w-2xl mx-auto mb-space-2xl">
             <div className="inline-flex items-center gap-space-xs bg-tertiary-fixed text-on-surface px-space-md py-space-xxs rounded-full mb-space-xs font-semibold bg-vivero-badge-stock p-2 mb-6">
-              <span aria-hidden="true" className="material-symbols-outlined text-primary text-[18px]">
+              <span
+                aria-hidden="true"
+                className="material-symbols-outlined text-primary text-[18px]"
+              >
                 verified_user
               </span>
               <span className="font-label-sm text-label-sm uppercase tracking-wider">
@@ -434,9 +444,9 @@ export default function Home() {
               ¿Cómo cotizar tu pedido online?
             </h2>
             <p className="font-body-md text-body-md text-on-surface/80 mt-space-xs mb-6 text-balance">
-              Comprar plantas requiere asesoramiento. Prepara tu lista y
-              nuestro equipo verificará el stock y las condiciones
-              óptimas de despacho para tus ejemplares.
+              Comprar plantas requiere asesoramiento. Prepara tu lista y nuestro
+              equipo verificará el stock y las condiciones óptimas de despacho
+              para tus ejemplares.
             </p>
           </div>
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 relative mb-6">
@@ -445,7 +455,10 @@ export default function Home() {
                 01
               </div>
               <h3 className="font-headline-sm text-xl font-bold text-on-surface mb-space-xs flex gap-2 items-center">
-                <span aria-hidden="true" className="material-symbols-outlined text-primary">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-primary"
+                >
                   travel_explore
                 </span>
                 Explora y Elige
@@ -456,7 +469,10 @@ export default function Home() {
                 de riego y dimensiones finales.
               </p>
               <div className="mt-space-md pt-space-md w-full">
-                <span aria-hidden="true" className="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider block">
+                <span
+                  aria-hidden="true"
+                  className="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider block"
+                >
                   Recomendación
                 </span>
                 <span className="font-body-sm text-body-sm text-on-surface/70">
@@ -470,7 +486,10 @@ export default function Home() {
                 02
               </div>
               <h3 className="font-headline-sm text-xl font-bold text-on-surface mb-space-xs flex gap-2 items-center">
-                <span aria-hidden="true" className="material-symbols-outlined text-primary">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-primary"
+                >
                   add_shopping_cart
                 </span>
                 Agrega a tu Cotización
@@ -495,7 +514,10 @@ export default function Home() {
                 03
               </div>
               <h3 className="font-headline-sm text-xl font-bold text-on-surface mb-space-xs flex gap-2 items-center">
-                <span aria-hidden="true" className="material-symbols-outlined text-primary">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-primary"
+                >
                   local_shipping
                 </span>
                 Envía y Coordinamos
@@ -522,7 +544,10 @@ export default function Home() {
               href="https://wa.me/543415001111?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
             >
               <span>Comenzar mi cotización ahora</span>
-              <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
+              <span
+                aria-hidden="true"
+                className="material-symbols-outlined text-[18px]"
+              >
                 east
               </span>
             </a>
@@ -530,48 +555,57 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 px-6 -mx-6">
-        <div className="max-w-7xl mx-auto bg-linear-to-r from-primary via-primary to-primary-container text-on-primary rounded-3xl p-8 shadow-xl relative overflow-hidden">
-          <svg
-            aria-hidden="true"
-            className="lg:block hidden absolute -right-16 -bottom-16 w-80 h-80 text-white/5 pointer-events-none"
-            fill="currentColor"
-            viewBox="0 0 200 200"
-          >
-            <path d="M42.5,31.2C56.8,17.4,77.7,11.5,96.6,18.3C115.5,25.2,132.5,44.9,130.6,65.3C128.8,85.6,108.1,106.6,87.7,117.8C67.3,129.1,47.2,130.6,33.5,120.3C19.8,110,12.5,87.9,15.7,66.7C18.9,45.5,28.2,45,42.5,31.2Z"></path>
-          </svg>
-          <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-space-xl">
-            <div className="max-w-2xl text-center lg:text-left space-y-space-xs mb-5 lg:mb-0">
-              <div className="inline-flex items-center gap-space-xs bg-white/15 backdrop-blur px-space-md py-space-xxs rounded-full text-on-primary p-2 mb-5">
-                <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
-                  bolt
-                </span>
-                <span className="font-label-sm text-base font-semibold tracking-wider uppercase">
-                  Respuesta en menos de 30 minutos
-                </span>
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 md:py-12">
+          <div className="max-w-6xl mx-auto bg-linear-to-r from-primary via-primary to-primary-container text-on-primary rounded-3xl p-8 shadow-xl relative overflow-hidden">
+            <svg
+              aria-hidden="true"
+              className="lg:block hidden absolute -right-16 -bottom-16 w-80 h-80 text-white/5 pointer-events-none"
+              fill="currentColor"
+              viewBox="0 0 200 200"
+            >
+              <path d="M42.5,31.2C56.8,17.4,77.7,11.5,96.6,18.3C115.5,25.2,132.5,44.9,130.6,65.3C128.8,85.6,108.1,106.6,87.7,117.8C67.3,129.1,47.2,130.6,33.5,120.3C19.8,110,12.5,87.9,15.7,66.7C18.9,45.5,28.2,45,42.5,31.2Z"></path>
+            </svg>
+            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+              <div className="max-w-2xl text-center lg:text-left space-y-space-xs mb-5 lg:mb-0">
+                <div className="inline-flex items-center gap-space-xs bg-white/15 backdrop-blur px-space-md py-space-xxs rounded-full text-on-primary p-2 mb-5">
+                  <span
+                    aria-hidden="true"
+                    className="material-symbols-outlined text-[18px]"
+                  >
+                    bolt
+                  </span>
+                  <span className="font-label-sm text-base font-semibold tracking-wider uppercase">
+                    Respuesta en menos de 30 minutos
+                  </span>
+                </div>
+                <h2 className="font-headline-lg text-2xl lg:text-3xl font-bold text-white! tracking-tight mb-5">
+                  ¿Dudas sobre qué planta elegir o necesitas asesoramiento para
+                  un proyecto?
+                </h2>
+                <p className="font-body-md text-body-md text-on-primary/85 max-w-xl">
+                  Escríbenos directamente por WhatsApp. Nuestro equipo botánico
+                  te enviará fotos de plantas disponibles en el vivero hoy
+                  mismo, resolverá consultas de cuidados y te guiará paso a
+                  paso.
+                </p>
               </div>
-              <h2 className="font-headline-lg text-2xl lg:text-3xl font-bold text-white! tracking-tight mb-5">
-                ¿Dudas sobre qué planta elegir o necesitas asesoramiento para un
-                proyecto?
-              </h2>
-              <p className="font-body-md text-body-md text-on-primary/85 max-w-xl">
-                Escríbenos directamente por WhatsApp. Nuestro equipo botánico te
-                enviará fotos de plantas disponibles en el vivero hoy mismo,
-                resolverá consultas de cuidados y te guiará paso a paso.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row items-center gap-space-md shrink-0">
-              <a
-                className="inline-flex gap-2 items-center gap-space-sm bg-surface text-primary! hover:bg-surface-container-high px-8 py-4 rounded-full font-label-md text-label-md font-bold shadow-lg hover:scale-105 transition-all duration-300"
-                href="https://wa.me/543415001111?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span aria-hidden="true" className="material-symbols-outlined text-[24px]">
-                  chat
-                </span>
-                <span>Chatear por WhatsApp</span>
-              </a>
+              <div className="flex flex-col sm:flex-row items-center gap-space-md shrink-0">
+                <a
+                  className="inline-flex gap-2 items-center gap-space-sm bg-surface text-primary! hover:bg-surface-container-high px-8 py-4 rounded-full font-label-md text-label-md font-bold shadow-lg hover:scale-105 transition-all duration-300"
+                  href="https://wa.me/543415001111?text=Hola%20Vivero%20La%20Cumbrecita,%20quisiera%20asesoramiento%20y%20cotizar%20algunas%20plantas"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-symbols-outlined text-[24px]"
+                  >
+                    chat
+                  </span>
+                  <span>Chatear por WhatsApp</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

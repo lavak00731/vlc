@@ -1,6 +1,7 @@
 import { Breadcrumb } from "../components/navs/Breadcrumb";
 import { Badge } from "../components/Badge";
 import { Card } from "../components/Card";
+import { CTASection } from "../components/CTASection";
 
 const Productos = () => {
   return (
@@ -140,7 +141,7 @@ const Productos = () => {
               </div>
               <ol className="md:w-full grid grid-cols-1 md:grid-cols-3 mx-auto max-w-7xl md:min-w-full gap-8">
                 <li className="bg-surface-container-lowest rounded-2xl flex flex-col gap-space-xs shadow-sm p-4 md:p-8">
-                  <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
+                  <div className="w-8 h-8 rounded-full bg-vivero-badge-stock text-vivero-badge-stock font-bold flex items-center justify-center font-headline-sm mb-5">
                     1
                   </div>
                   <h4 className="font-title-md text-title-md text-on-surface font-bold">
@@ -153,7 +154,7 @@ const Productos = () => {
                 </li>
 
                 <li className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm p-4 md:p-8">
-                  <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
+                  <div className="w-8 h-8 rounded-full bg-vivero-badge-stock text-vivero-badge-stock font-bold flex items-center justify-center font-headline-sm mb-5">
                     2
                   </div>
                   <h4 className="font-title-md text-title-md text-on-surface font-bold">
@@ -166,7 +167,7 @@ const Productos = () => {
                 </li>
 
                 <li className="bg-surface-container-lowest p-space-md rounded-2xl flex flex-col gap-space-xs shadow-sm p-4 md:p-8">
-                  <div className="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center justify-center font-headline-sm">
+                  <div className="w-8 h-8 rounded-full bg-vivero-badge-stock text-vivero-badge-stock font-bold flex items-center justify-center font-headline-sm mb-5">
                     3
                   </div>
                   <h4 className="font-title-md text-title-md text-on-surface font-bold">
@@ -181,61 +182,9 @@ const Productos = () => {
             </div>
           </div>
         </section>
-
-        <section className="w-full bg-surface-container-highest/40 text-on-primary rounded-3xl overflow-hidden shadow-xl p-space-lg lg:p-space-2xl relative">
-          <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none translate-x-12 translate-y-12">
-            <svg
-              fill="currentColor"
-              height="420"
-              viewBox="0 0 200 200"
-              width="420"
-            >
-              <path
-                d="M42.7,-64.1C55.4,-57.1,65.8,-46,72.4,-32.8C79,-19.6,81.9,-4.3,79.5,10.2C77,24.7,69.2,38.3,58.7,48.9C48.2,59.5,35,67,20.8,70.8C6.6,74.6,-8.7,74.7,-23.7,70.5C-38.7,66.3,-53.4,57.7,-63.9,45.1C-74.4,32.5,-80.7,16.2,-79.8,0.5C-78.9,-15.2,-70.8,-30.4,-60.1,-41.7C-49.4,-53,-36.1,-60.4,-22.5,-66.9C-8.9,-73.4,5,-79,18.8,-77.3C32.6,-75.7,30,-71,42.7,-64.1Z"
-                transform="translate(100 100)"
-              ></path>
-            </svg>
-          </div>
-          <div className="relative z-10 max-w-3xl flex flex-col gap-space-md">
-            <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-primary-container text-on-primary-container text-label-sm font-label-sm w-fit">
-              <span className="material-symbols-outlined text-[16px]">
-                domain
-              </span>
-              <span>Proyectos • Paisajistas • Empresas</span>
-            </div>
-            <h2 className="font-headline-lg text-headline-lg font-bold text-on-primary leading-tight">
-              ¿Necesitas un presupuesto por volumen o asesoría botánica en
-              terreno?
-            </h2>
-            <p className="font-body-lg text-body-lg text-on-primary-container">
-              Trabajamos de la mano con estudios de arquitectura, desarrollos
-              inmobiliarios y particulares. Ofrecemos listas de especies nativas
-              a granel, fichas técnicas de mantención y visita diagnóstica a
-              parcela.
-            </p>
-            <div className="flex flex-wrap items-center gap-space-md mt-space-sm">
-              <a
-                className="inline-flex items-center gap-space-xs bg-surface-container-lowest text-primary hover:bg-surface-container px-space-xl py-space-sm rounded-full font-title-md text-title-md font-bold transition-all shadow-md"
-                href="#"
-              >
-                <span className="material-symbols-outlined text-[22px]">
-                  contact_support
-                </span>
-                <span>Solicitar Asesoría Mayorista</span>
-              </a>
-              <a
-                className="inline-flex items-center gap-space-xs text-on-primary hover:text-on-primary-container font-label-md text-label-md transition-colors"
-                href="https://wa.me/56987654321"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span className="material-symbols-outlined text-[20px]">
-                  chat
-                </span>
-                <span>Escribir directamente por WhatsApp</span>
-              </a>
-            </div>
-          </div>
+        <section className="py-12">
+          <CTASection icon={"domain"} badgetext={"Proyectos • Paisajistas • Empresas"} title={"¿Necesitas un presupuesto por volumen o asesoría botánica en terreno?"} content={"Trabajamos de la mano con estudios de arquitectura, desarrollos inmobiliarios y particulares. Ofrecemos listas de especies nativas a granel, fichas técnicas de mantención y visita diagnóstica a parcela. "} />
+                    
         </section>
       </div>
     </div>

@@ -19,7 +19,7 @@ export const MobileNav = () => {
             <span aria-hidden="true" className="material-symbols-outlined text-primary text-[32px] transition-colors" hidden={btnStatus ? false : true}>close</span>
             <span className="sr-only">Menu</span>
         </button>
-        <nav id={id} className="absolute top-16 left-0 items-center gap-space-lg shadow-elevated w-full bg-vivero-badge-stock lg:hidden" hidden={btnStatus ? false : true}>
+        <nav id={id} className="absolute top-22 left-0 items-center gap-space-lg shadow-elevated w-full bg-vivero-badge-stock lg:hidden" hidden={btnStatus ? false : true}>
             <ul className="flex flex-col list-none gap-5 p-4">
                 {NavItems.map((item) => {
                 const active = IsNavigationActive(item.url);

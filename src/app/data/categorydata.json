@@ -1,0 +1,22 @@
+{
+    "plantas": {
+        "filter": ["plantas de interior", "plantas de exterior", "aromáticas", "kokedamas", "suculentas y cactus", "floral"],
+        "image": "/plantas.webp",
+        "badgeIcon": "potted_plant",
+        "badgeText": "Productos ideales para tu parque y jardín",
+        "title": "Catálogo de Plantas",
+        "description": ["Encontrá en nuestro vivero una amplia selección de plantas en Rosario para transformar, decorar y llenar de vida tus espacios.", "Tenemos opciones para <strong>interiores, jardines, balcones, terrazas y patios</strong>, además de variedades ideales para quienes buscan plantas fáciles de cuidar o especies con flores y aromas especiales.", "Explorá nuestras categorías de plantas y encontrá la especie ideal para tu espacio:"]
+    },
+    "arboles-y-arbustos": {
+        "filter": ["ornamentales","frutales y cítricos","forestales","cercos vivos","arbolado urbano","arbustos para topiarios y estructuras","arbustos siempreverdes y de follaje ornamental"],
+        "image": "/arboles.webp",
+        "badgeIcon": "forest",
+        "badgeText": "Árboles y arbustos que engalan tu parque, jardín, u obra",
+        "title": "Catálogo de Árboles y Arbustos",
+        "description": ["Encontrá en nuestro vivero una amplia variedad de árboles y arbustos en Rosario para crear, renovar y embellecer jardines, patios, terrazas y espacios verdes.", "Seleccionamos especies para diferentes necesidades de paisajismo, <strong>desde árboles ornamentales y frutales hasta especies forestales, arbustos para cercos y variedades especialmente elegidas para el arbolado urbano</strong>.", "Explorá nuestras categorías y encontrá los árboles y arbustos ideales para tu jardín, proyecto paisajístico o espacio verde en Rosario y alrededores."]
+
+    }
+
+        
+     
+}

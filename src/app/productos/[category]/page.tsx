@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { JsonLd } from "./../../components/JsonLd";
 import { getProductsByCategory } from "./../../lib/products";
 import { Breadcrumb } from "@/app/components/navs/Breadcrumb";
 import { Badge } from "@/app/components/Badge";
 import { ProductFilter } from "@/app/components/ProductFilter";
-
+import categoryData from "@/app/data/categorydata.json";
 type Params = { category: string };
 
 export async function generateMetadata({
@@ -31,6 +32,8 @@ export default async function CategoriaPage({
 }) {
   const { category } = await params;
   const productos = getProductsByCategory(category);
+  const prodData = categoryData[category];
+
   if (!productos.length) notFound();
 
   const url = `/productos/${category}`;
@@ -74,28 +77,27 @@ export default async function CategoriaPage({
         <div className="w-full flex flex-col">
           <div className="flex flex-col w-full max-w-7xl mx-auto py-12 px-4 md:px-8">
             <Breadcrumb />
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md mt-space-xs">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mt-space-xs">
               <div className="max-w-3xl">
                 <Badge
-                  icon={"potted_plant"}
-                  text={"Plantas para cada uno de tus ambientes"}
+                  icon={prodData.badgeIcon}
+                  text={prodData.badgeText}
                 />
                 <h1 className="text-4xl lg:text-7xl lg:text-display-hero text-on-surface tracking-tight leading-none font-bold mb-5">
-                  Catálogo de Plantas
+                  {prodData.title}
                 </h1>
-                <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed mb-5 max-w-2xl">
-                  Descubre nuestra amplia variedad de plantas de interior, de
-                  exterior, aromáticas, kokedamas, suculentas, cactus y
-                  florales. Elegí las que más te gusten y se ajusten a tu plan,
-                  y agregalas a la cotización. Nosotros te asesoraremos sobre
-                  sus cuidados y te guiaremos en su cuidado.
-                </p>
+                {
+                  prodData.description.map((para:string, i:number) => <p key={'descrip'+i} className="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed mb-5 max-w-2xl" dangerouslySetInnerHTML={{ __html: para }}  />)
+                }                
+              </div>
+              <div className="hidden md:block md:col-span-5 rounded-3xl overflow-hidden shadow-xl mb-5">
+                <Image preload src={prodData.image} width="400" height="400" alt=""/>
               </div>
             </div>
           </div>
           <section className="bg-surface-container-highest/40 py-12">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
-              <ProductFilter />
+              <ProductFilter filter={prodData.filter} />
             </div>
           </section>
           <section className="w-full py-12">

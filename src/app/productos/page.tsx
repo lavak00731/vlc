@@ -67,7 +67,7 @@ const Productos = () => {
                 spansInTwo={true}
               />
               <Card
-                url={"/productos/arboles"}
+                url={"/productos/arboles-y-arbustos"}
                 img={"/arboles.webp"}
                 title={"Árboles y Arbustos"}
                 ariaLabel={

@@ -215,7 +215,7 @@ export default function Home() {
               <Link
                 className="group h-full rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col"
                 aria-label="Árboles y Arbustos, Especies nativas, cítricos frutales y arbustos perennes de cerco."
-                href="/productos/arboles"
+                href="/productos/arboles-y-arbustos"
               >
                 <div className="relative w-full overflow-hidden">
                   <Image

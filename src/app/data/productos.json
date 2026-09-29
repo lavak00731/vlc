@@ -3003,7 +3003,7 @@
             "name": "Magnolia Púrpura",
             "url-canonica": "/productos/arboles-y-arbustos/magnolia-purpura",
             "description": "Árbol caducifolio muy valorado por su floración de fines de invierno y comienzos de primavera. Sus flores grandes, en tonos rosados, púrpuras o blancos, aparecen antes o junto con las hojas. Prefiere suelo fértil, fresco y bien drenado, exposición soleada o de semisombra y protección frente a heladas tardías y vientos fuertes. Es apropiada para jardines, parques y espacios donde se pueda apreciar su floración.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Magnolia%20soulangeana.jpg"
@@ -3066,7 +3066,7 @@
             "name": "Cerezo Sakura",
             "url-canonica": "/productos/arboles-y-arbustos/cerezo-sakura",
             "description": "Árbol caducifolio ornamental originario de Asia, cultivado principalmente por su espectacular floración primaveral. Forma una copa elegante y puede presentar flores simples o dobles según el cultivar. Requiere suelo fértil y bien drenado, riego regular durante el establecimiento y una ubicación luminosa. Se utiliza en jardines, parques y alineaciones ornamentales.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/-%20Prunus%20serrulata%2001%20-.jpg"
@@ -3129,7 +3129,7 @@
             "name": "Almendro",
             "url-canonica": "/productos/arboles-y-arbustos/almendro",
             "description": "Árbol caducifolio frutal que florece muy temprano, generalmente antes de desarrollar completamente el follaje. Produce almendras y resulta atractivo también como ornamental por sus flores blancas o rosadas. Necesita mucho sol, suelo profundo y bien drenado y riego moderado, evitando encharcamientos. Es sensible a heladas durante la floración.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Frutales y Cítricos",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Prunus%20Dulcis.jpg"
@@ -3192,7 +3192,7 @@
             "name": "Peral de Flor",
             "url-canonica": "/productos/arboles-y-arbustos/peral-de-flor",
             "description": "Árbol caducifolio de copa generalmente piramidal, apreciado por su floración blanca de primavera y por el color otoñal de su follaje. Tolera distintas condiciones de suelo una vez establecido y funciona bien a pleno sol. Se utiliza como ornamental y en arbolado urbano, aunque la elección del cultivar debe considerar el espacio disponible y la estructura de sus ramas.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pyrus%20calleryana.jpg"
@@ -3255,7 +3255,7 @@
             "name": "Olivos",
             "url-canonica": "/productos/arboles-y-arbustos/olivos",
             "description": "Árbol perenne mediterráneo, longevo y resistente, cultivado por sus frutos y por su valor ornamental. Prefiere pleno sol, suelos bien drenados y riego moderado una vez establecido. Tolera sequía y poda, por lo que puede utilizarse en jardines, patios, veredas amplias y plantaciones productivas. El exceso de humedad y los suelos mal drenados pueden perjudicarlo.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Frutales y Cítricos",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Olea%20europaea.jpg"
@@ -3318,7 +3318,7 @@
             "name": "Ciprés Piramidal",
             "url-canonica": "/productos/arboles-y-arbustos/cipres-piramidal",
             "description": "Conífera perenne de porte estrecho y vertical, característica de jardines y paisajes mediterráneos. Puede alcanzar gran altura y se utiliza como ejemplar aislado, alineación, pantalla visual o elemento arquitectónico vegetal. Prefiere pleno sol y suelo bien drenado y tolera períodos de sequía una vez establecido.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cupressus%20sempervirens.jpg"
@@ -3381,7 +3381,7 @@
             "name": "Pino Elliotti",
             "url-canonica": "/productos/arboles-y-arbustos/pino-elliotti",
             "description": "Conífera perenne de crecimiento vigoroso, conocida como pino de Elliott o slash pine. Se adapta a climas cálidos y húmedos y es utilizada tanto en plantaciones forestales como en espacios amplios. Requiere buena iluminación y suelo con drenaje adecuado. Por su tamaño adulto debe ubicarse lejos de construcciones, cables y servicios subterráneos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Forestales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pinus%20elliottii.jpg"
@@ -3444,7 +3444,7 @@
             "name": "Magnolia Grandiflora",
             "url-canonica": "/productos/arboles-y-arbustos/magnolia-grandiflora",
             "description": "Árbol perenne de gran porte, con hojas grandes, coriáceas y brillantes y flores blancas muy perfumadas. Es una especie ornamental de larga vida que puede formar una copa amplia. Prefiere pleno sol o semisombra luminosa, suelo fértil y bien drenado y humedad regular, especialmente durante los primeros años. Se recomienda dejar espacio suficiente para su desarrollo.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/MagnoliaGrandiflora.jpg"
@@ -3507,7 +3507,7 @@
             "name": "Acer Palmatum",
             "url-canonica": "/productos/arboles-y-arbustos/acer-palmatum",
             "description": "Árbol o arbusto caducifolio de crecimiento relativamente lento, muy apreciado por la forma de sus hojas y por sus colores otoñales. Existen numerosos cultivares con follaje verde, rojo, púrpura o finamente dividido. Prefiere suelos frescos, ricos en materia orgánica y bien drenados, con protección del sol intenso de la tarde y de vientos secos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Acer%20palmatum%20plant.jpg"
@@ -3570,7 +3570,7 @@
             "name": "Eleagnus",
             "url-canonica": "/productos/arboles-y-arbustos/eleagnus",
             "description": "Grupo de arbustos y pequeños árboles perennes o caducifolios utilizados con frecuencia para formar cercos, pantallas y masas vegetales. Presentan follaje generalmente resistente y toleran condiciones relativamente difíciles una vez establecidos. Necesitan buena iluminación y suelo con drenaje adecuado. Conviene definir la especie o cultivar antes de plantar, porque el porte, la rusticidad y el comportamiento varían dentro del género.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Cercos vivos",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Elaeagnus%20angustifolia.jpg"
@@ -3633,7 +3633,7 @@
             "name": "Ginkgo Biloba",
             "url-canonica": "/productos/arboles-y-arbustos/ginkgo-biloba",
             "description": "Árbol caducifolio muy longevo, de hojas características en forma de abanico y llamativa coloración amarilla en otoño. Presenta buena tolerancia a condiciones urbanas cuando está bien establecido y se utiliza como árbol ornamental y de alineación. Prefiere pleno sol y suelos profundos y bien drenados. En espacios urbanos se suelen seleccionar ejemplares masculinos para evitar los frutos de olor fuerte de los árboles femeninos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbolado urbano",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ginkgo%20biloba.jpg"
@@ -3696,7 +3696,7 @@
             "name": "Ciruelo de Jardín",
             "url-canonica": "/productos/arboles-y-arbustos/ciruelo-de-jardin",
             "description": "Árbol caducifolio pequeño o mediano, utilizado por su floración temprana y por el atractivo follaje de cultivares de hojas púrpuras. Puede adaptarse a distintos suelos si existe buen drenaje y responde bien a una ubicación soleada. Se utiliza como ornamental, ejemplar aislado o en pequeños grupos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Prunus%20cerasifera.jpg"
@@ -3759,7 +3759,7 @@
             "name": "Acer Buergeriano",
             "url-canonica": "/productos/arboles-y-arbustos/acer-buergeriano",
             "description": "Arce caducifolio de porte pequeño a mediano, conocido por sus hojas trilobuladas y por sus colores otoñales. Es valorado en jardinería, arbolado urbano y también para bonsái. Prefiere pleno sol o semisombra, suelo fértil y bien drenado y riego regular sin encharcamientos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Acer%20buergerianum.jpg"
@@ -3822,7 +3822,7 @@
             "name": "Acer Negundo Variegado",
             "url-canonica": "/productos/arboles-y-arbustos/acer-negundo-variegado",
             "description": "Cultivar ornamental de Acer negundo caracterizado por su follaje variegado, utilizado para aportar contraste de color en jardines y parques. Es un árbol caducifolio de crecimiento relativamente rápido y debe ubicarse en espacios acordes con su tamaño adulto. Prefiere buena iluminación, suelo con drenaje adecuado y riego regular durante el establecimiento.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Acer%20negundo%20variegatum.jpg"
@@ -3885,7 +3885,7 @@
             "name": "Ciprés Calvo",
             "url-canonica": "/productos/arboles-y-arbustos/cipres-calvo",
             "description": "Conífera caducifolia de gran porte, adaptada naturalmente a zonas húmedas y suelos encharcables. Produce una copa amplia y cambia de verde a tonos cobrizos o rojizos antes de perder las hojas. Es adecuada para parques, grandes jardines y áreas próximas al agua. Necesita mucho espacio para desarrollar sus raíces y su copa.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Forestales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Taxodium%20distichum.jpg"
@@ -3948,7 +3948,7 @@
             "name": "Fresno Rojo",
             "url-canonica": "/productos/arboles-y-arbustos/fresno-rojo",
             "description": "Árbol caducifolio de crecimiento rápido y copa amplia, utilizado en arbolado urbano, parques y espacios abiertos. Tolera distintas condiciones una vez establecido, aunque responde mejor en suelos profundos y con humedad disponible. Por su tamaño adulto requiere planificación del espacio y mantenimiento estructural durante su desarrollo.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbolado urbano",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fraxinus%20pennsylvanica.jpg"
@@ -4011,7 +4011,7 @@
             "name": "Rhus Sucedonia",
             "url-canonica": "/productos/arboles-y-arbustos/rhus-sucedonia",
             "description": "Árbol caducifolio asiático conocido como árbol de cera, valorado por su follaje y por sus colores otoñales. Puede alcanzar porte mediano y requiere una ubicación soleada con suelo bien drenado. Debe identificarse correctamente antes de incorporarlo a un jardín, ya que el género Rhus incluye especies con características y comportamientos diferentes.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rhus%20succedanea.jpg"
@@ -4074,7 +4074,7 @@
             "name": "Catalpa",
             "url-canonica": "/productos/arboles-y-arbustos/catalpa",
             "description": "Árbol caducifolio de copa amplia, hojas grandes y flores blancas con manchas internas, seguido de largas vainas decorativas. Es de crecimiento vigoroso y resulta apropiado para parques, grandes jardines y espacios donde se busque sombra. Prefiere pleno sol, suelo fértil y buen drenaje, y necesita espacio suficiente para su copa.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Catalpa%20bignonioides.JPG"
@@ -4137,7 +4137,7 @@
             "name": "Acacia Frisia",
             "url-canonica": "/productos/arboles-y-arbustos/acacia-frisia",
             "description": "Cultivar de Robinia pseudoacacia con follaje amarillo verdoso muy luminoso que se vuelve especialmente atractivo durante la temporada de crecimiento. Es un árbol caducifolio de porte mediano a grande y se utiliza como ejemplar ornamental. Prefiere pleno sol y suelos bien drenados; requiere espacio suficiente y mantenimiento de formación durante su desarrollo.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Robinia%20pseudoacacia%20Frisia.jpg"
@@ -4200,7 +4200,7 @@
             "name": "Lapacho Amarillo",
             "url-canonica": "/productos/arboles-y-arbustos/lapacho-amarillo",
             "description": "Árbol caducifolio de floración muy vistosa, con flores amarillas que aparecen antes o durante la brotación. Es una especie nativa de regiones del norte de Argentina y está presente en ambientes cálidos. Se utiliza como ornamental y en arbolado en zonas adecuadas. Los ejemplares jóvenes requieren protección frente a heladas intensas.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Handroanthus%20ochraceus.jpg"
@@ -4263,7 +4263,7 @@
             "name": "Sauce Llorón",
             "url-canonica": "/productos/arboles-y-arbustos/sauce-lloron",
             "description": "Árbol caducifolio de gran porte, reconocido por sus ramas largas y péndulas que forman una copa característica. Se adapta especialmente bien a lugares con humedad disponible y es muy utilizado junto a lagos, cursos de agua y grandes jardines. Necesita espacio, riego suficiente y una ubicación donde sus raíces no interfieran con infraestructura.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Salix%20babylonica.jpg"
@@ -4326,7 +4326,7 @@
             "name": "Sauce Eléctrico",
             "url-canonica": "/productos/arboles-y-arbustos/sauce-electrico",
             "description": "Sauce ornamental de ramas arqueadas y de coloración amarilla a anaranjada, muy utilizado por su efecto paisajístico durante el invierno. Es un árbol de crecimiento rápido que prefiere suelos húmedos o con buena disponibilidad de agua y exposición soleada. Necesita espacio para desarrollar raíces y copa y podas de formación cuando corresponda.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Salix%20%C3%97%20erythroflexuosa.jpg"
@@ -4389,7 +4389,7 @@
             "name": "Álamo Piramidal Plateado",
             "url-canonica": "/productos/arboles-y-arbustos/alamo-piramidal-plateado",
             "description": "Forma columnar de Populus alba, de follaje verde en la cara superior y plateado en el envés. Su porte estrecho permite utilizarlo como elemento vertical en parques, caminos y alineaciones amplias. Crece con rapidez y necesita buena disponibilidad de agua durante el establecimiento, además de espacio para sus raíces y control del crecimiento mediante manejo adecuado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbolado urbano",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Populus%20alba%20Pyramidalis.jpg"
@@ -4452,7 +4452,7 @@
             "name": "Fresno Dorado",
             "url-canonica": "/productos/arboles-y-arbustos/fresno-dorado",
             "description": "Cultivar ornamental del fresno europeo, apreciado por sus ramas y tallos amarillentos y por el interés estacional de su follaje. Forma un árbol de porte mediano a grande y se utiliza en jardines y parques. Prefiere pleno sol o semisombra, suelo fértil y buen drenaje y debe plantarse dejando espacio para su desarrollo.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fraxinus%20excelsior%20Aurea.jpg"
@@ -4515,7 +4515,7 @@
             "name": "Lapacho Rosado",
             "url-canonica": "/productos/arboles-y-arbustos/lapacho-rosado",
             "description": "Árbol caducifolio de gran valor ornamental por su floración rosada, que suele producirse antes de la aparición completa de las hojas. Es una especie característica de regiones cálidas de Sudamérica y se utiliza en calles, plazas, parques y jardines. Requiere una ubicación soleada y protección frente a heladas fuertes durante la etapa juvenil.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Handroanthus%20impetiginosus.jpg"
@@ -4578,7 +4578,7 @@
             "name": "Crespón",
             "url-canonica": "/productos/arboles-y-arbustos/crespon",
             "description": "Árbol o arbolito caducifolio muy utilizado en jardines y arbolado urbano por su larga floración estival y su corteza ornamental. Sus flores pueden ser blancas, rosadas, rojas o púrpuras según el cultivar. Prefiere pleno sol, suelo bien drenado y riego regular durante el establecimiento. Admite poda de formación y presenta un tamaño adecuado para muchos espacios urbanos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Ornamentales",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lagerstroemia%20indica.jpg"
@@ -4642,7 +4642,7 @@
             "scientificName": "Buxus sempervirens",
             "url-canonica": "/productos/arboles-y-arbustos/boj",
             "description": "Arbusto siempreverde de follaje denso y hojas pequeñas, clásico para setos bajos, borduras y topiarios. Tolera podas frecuentes y formas geométricas. Prefiere suelo bien drenado, riego moderado y sol suave o semisombra.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buxus%20sempervirens.jpg"
@@ -4693,7 +4693,7 @@
             "scientificName": "Pittosporum tobira",
             "url-canonica": "/productos/arboles-y-arbustos/pitosporo",
             "description": "Arbusto perenne de follaje verde brillante, compacto y resistente, utilizado para cercos, grupos y ejemplares aislados. Produce flores pequeñas y perfumadas. Prefiere buena iluminación, suelo bien drenado y riego regular durante el establecimiento.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pittosporum%20tobira.jpg"
@@ -4744,7 +4744,7 @@
             "scientificName": "Ligustrum japonicum",
             "url-canonica": "/productos/arboles-y-arbustos/ligustro-japones",
             "description": "Arbusto siempreverde de hojas gruesas y brillantes, apto para cercos y poda de formación. Su follaje denso permite crear pantallas y formas topiarias. Prefiere buena iluminación, suelo fértil y drenaje adecuado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ligustrum%20japonicum.jpg"
@@ -4795,7 +4795,7 @@
             "scientificName": "Ligustrum ovalifolium",
             "url-canonica": "/productos/arboles-y-arbustos/ligustrina",
             "description": "Arbusto perenne o semiperenne de crecimiento vigoroso, usado para cercos, borduras y topiarios. Forma una masa de follaje densa y responde bien a la poda. Prefiere sol o semisombra y suelo bien drenado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ligustrum%20ovalifolium.jpg"
@@ -4846,7 +4846,7 @@
             "scientificName": "Euonymus japonicus",
             "url-canonica": "/productos/arboles-y-arbustos/evonimo-japones",
             "description": "Arbusto siempreverde de follaje denso, con cultivares verdes y variegados. Es apropiado para setos, borduras, macizos y poda de formación. Prefiere suelo fértil y bien drenado y sol o semisombra.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Euonymus%20japonicus.jpg"
@@ -4897,7 +4897,7 @@
             "scientificName": "Lonicera nitida",
             "url-canonica": "/productos/arboles-y-arbustos/lonicera-nitida",
             "description": "Arbusto siempreverde compacto, de hojas pequeñas y ramificación densa, especialmente útil para borduras, setos bajos y topiarios. Tolera podas frecuentes y formas geométricas.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lonicera%20nitida.jpg"
@@ -4948,7 +4948,7 @@
             "scientificName": "Myrtus communis",
             "url-canonica": "/productos/arboles-y-arbustos/mirto",
             "description": "Arbusto siempreverde aromático, de hojas pequeñas y brillantes, flores blancas y frutos decorativos. Su follaje compacto y buena respuesta a la poda lo hacen apropiado para topiarios y setos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Myrtus%20communis.jpg"
@@ -4999,7 +4999,7 @@
             "scientificName": "Laurus nobilis",
             "url-canonica": "/productos/arboles-y-arbustos/laurel",
             "description": "Arbusto o pequeño árbol siempreverde, aromático y de follaje denso. Puede cultivarse como ejemplar, cerco o topiario y admite poda de formación. Prefiere sol o semisombra y suelo bien drenado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laurus%20nobilis.jpg"
@@ -5050,7 +5050,7 @@
             "scientificName": "Teucrium fruticans",
             "url-canonica": "/productos/arboles-y-arbustos/teucrio",
             "description": "Arbusto perenne de follaje gris plateado, ramas arqueadas y flores azuladas. Resiste la sequía una vez establecido y resulta útil en jardines de bajo consumo hídrico. Prefiere pleno sol y suelo bien drenado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Teucrium%20fruticans.jpg"
@@ -5101,7 +5101,7 @@
             "scientificName": "Ilex aquifolium",
             "url-canonica": "/productos/arboles-y-arbustos/acebo",
             "description": "Arbusto o pequeño árbol siempreverde de hojas coriáceas y frutos rojos en ejemplares femeninos con polinización. Se utiliza como ornamental, pantalla y estructura vegetal. Prefiere suelo fresco y bien drenado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ilex%20aquifolium.jpg"
@@ -5152,7 +5152,7 @@
             "scientificName": "Photinia × fraseri",
             "url-canonica": "/productos/arboles-y-arbustos/fotinia",
             "description": "Arbusto siempreverde de follaje denso, muy utilizado en cercos y pantallas. Las hojas jóvenes de muchos cultivares presentan tonos rojos intensos. Prefiere sol o semisombra, suelo fértil y buen drenaje.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Photinia%20%C3%97%20fraseri.jpg"
@@ -5203,7 +5203,7 @@
             "scientificName": "Nandina domestica",
             "url-canonica": "/productos/arboles-y-arbustos/nandina",
             "description": "Arbusto ornamental de follaje fino y aspecto ligero, con cambios de color estacionales y pequeños frutos rojos. Puede utilizarse en grupos, borduras y macizos. Prefiere suelo fértil y buena iluminación.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nandina%20domestica.jpg"
@@ -5254,7 +5254,7 @@
             "scientificName": "Abelia × grandiflora",
             "url-canonica": "/productos/arboles-y-arbustos/abelia",
             "description": "Arbusto de follaje persistente o semipersistente, ramificación arqueada y floración prolongada. Es útil en borduras, grupos y cercos informales. Prefiere sol o semisombra y suelo bien drenado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Abelia%20%C3%97%20grandiflora.jpg"
@@ -5305,7 +5305,7 @@
             "scientificName": "Hibiscus rosa-sinensis",
             "url-canonica": "/productos/arboles-y-arbustos/hibisco",
             "description": "Arbusto ornamental de grandes flores de colores variados. Se utiliza en jardines, macizos y cercos florales. Necesita buena iluminación, suelo fértil y riego regular; debe protegerse de heladas.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hibiscus%20rosa-sinensis.jpg"
@@ -5356,7 +5356,7 @@
             "scientificName": "Rhododendron simsii",
             "url-canonica": "/productos/arboles-y-arbustos/azalea",
             "description": "Arbusto ornamental de floración abundante y vistosa. Prefiere suelos ácidos, ricos en materia orgánica y con buen drenaje, además de semisombra luminosa y humedad constante sin encharcamiento.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rhododendron%20simsii.jpg"
@@ -5407,7 +5407,7 @@
             "scientificName": "Hydrangea macrophylla",
             "url-canonica": "/productos/arboles-y-arbustos/hortensia",
             "description": "Arbusto ornamental de grandes inflorescencias. Prefiere semisombra, suelo fértil y húmedo pero bien drenado y protección del sol intenso.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hydrangea%20macrophylla.jpg"
@@ -5458,7 +5458,7 @@
             "scientificName": "Duranta erecta",
             "url-canonica": "/productos/arboles-y-arbustos/duranta",
             "description": "Arbusto de crecimiento vigoroso, utilizado en jardines, cercos y composiciones ornamentales. Presenta follaje verde o variegado según cultivar. Prefiere pleno sol, suelo bien drenado y riego regular.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Duranta%20erecta.jpg"
@@ -5509,7 +5509,7 @@
             "scientificName": "Pyracantha coccinea",
             "url-canonica": "/productos/arboles-y-arbustos/pyracantha",
             "description": "Arbusto siempreverde o semiperenne, espinoso, de ramas densas, flores blancas y frutos de colores vivos. Es útil para cercos, pantallas y estructuras ornamentales. Tolera poda y formación.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pyracantha%20coccinea.jpg"
@@ -5560,7 +5560,7 @@
             "scientificName": "Cotoneaster franchetii",
             "url-canonica": "/productos/arboles-y-arbustos/cotoneaster",
             "description": "Arbusto de follaje persistente o semipersistente, ramas arqueadas, flores pequeñas y frutos decorativos. Se utiliza en grupos, borduras, taludes y pantallas. Prefiere buena iluminación y suelo bien drenado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cotoneaster%20franchetii.jpg"
@@ -5611,7 +5611,7 @@
             "scientificName": "Mahonia aquifolium",
             "url-canonica": "/productos/arboles-y-arbustos/mahonia",
             "description": "Arbusto siempreverde de hojas compuestas y coriáceas, flores amarillas y frutos azulados. Aporta interés durante varias estaciones y funciona bien en borduras y grupos.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mahonia%20aquifolium.jpg"
@@ -5662,7 +5662,7 @@
             "scientificName": "Aucuba japonica",
             "url-canonica": "/productos/arboles-y-arbustos/aucuba-japonica",
             "description": "Arbusto siempreverde de hojas grandes y coriáceas, con variedades verdes o moteadas de amarillo. Es especialmente útil en semisombra o sombra luminosa. Prefiere suelo rico y buen drenaje.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aucuba%20japonica.jpg"
@@ -5713,7 +5713,7 @@
             "scientificName": "Viburnum tinus",
             "url-canonica": "/productos/arboles-y-arbustos/viburnum-tinus",
             "description": "Arbusto siempreverde de copa compacta, hojas oscuras y floración clara durante los meses frescos, seguida de frutos decorativos. Se utiliza en grupos, cercos y como ejemplar.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Viburnum%20tinus.jpg"
@@ -5764,7 +5764,7 @@
             "scientificName": "Osmanthus heterophyllus",
             "url-canonica": "/productos/arboles-y-arbustos/osmanto",
             "description": "Arbusto siempreverde de follaje denso y brillante, apto para setos, pantallas y poda estructural. Prefiere suelo fértil y bien drenado y exposición de sol o semisombra.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Osmanthus%20heterophyllus.jpg"
@@ -5815,7 +5815,7 @@
             "scientificName": "Pittosporum tobira 'Variegata'",
             "url-canonica": "/productos/arboles-y-arbustos/pittosporum-variegado",
             "description": "Cultivar de pitosporo de follaje variegado, utilizado para aportar contraste cromático en jardines, borduras y cercos. Mantiene estructura compacta y tolera poda de formación.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pittosporum%20tobira%20Variegata.jpg"
@@ -5866,7 +5866,7 @@
             "scientificName": "Euonymus japonicus 'Variegatus'",
             "url-canonica": "/productos/arboles-y-arbustos/euonymus-variegado",
             "description": "Cultivar de evónimo japonés con hojas variegadas, apropiado para borduras, macizos y cercos bajos. Prefiere buena iluminación, suelo bien drenado y riego moderado.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos Siempreverdes y de Follaje Ornamental",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Euonymus%20japonicus%20Variegatus.jpg"
@@ -5917,7 +5917,7 @@
             "scientificName": "Buxus microphylla",
             "url-canonica": "/productos/arboles-y-arbustos/boj-japones",
             "description": "Boj de hoja pequeña, siempreverde y compacto, muy utilizado para borduras, setos bajos y topiarios. Su follaje denso permite mantener formas geométricas mediante podas periódicas.",
-            "category": "Árboles y Arbustos",
+            "category": "arboles-y-arbustos",
             "subcategory": "Arbustos para Topiarios y Estructuras",
             "images": [
                 "https://commons.wikimedia.org/wiki/Special:Redirect/file/Buxus%20microphylla.jpg"

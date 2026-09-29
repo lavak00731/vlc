@@ -1,5 +1,5 @@
 
-export interface ProductInterface {
+export interface CategoryInterface {
 	filter: string[];
 	image: string;
 	badgeIcon: string;

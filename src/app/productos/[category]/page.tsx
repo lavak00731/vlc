@@ -4,6 +4,7 @@ import { JsonLd } from "./../../components/JsonLd";
 import { getProductsByCategory } from "./../../lib/products";
 import { Breadcrumb } from "@/app/components/navs/Breadcrumb";
 import { Badge } from "@/app/components/Badge";
+import { ProductFilter } from "@/app/components/ProductFilter";
 
 type Params = { category: string };
 
@@ -47,7 +48,7 @@ export default async function CategoriaPage({
           itemListElement: productos.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
-            url: `${url}/${p["url-canonica"]}`,
+            url: p["url-canonica"],
             name: p.name,
           })),
         },
@@ -83,27 +84,38 @@ export default async function CategoriaPage({
                   Catálogo de Plantas
                 </h1>
                 <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed mb-5 max-w-2xl">
-                  Descubre nuestra amplia variedad de plantas de interior, de exterior, aromáticas, kokedamas, suculentas, cactus y florales. 
-                  Elegí las que más te gusten y se ajusten a tu plan, y agregalas a la cotización. Nosotros te asesoraremos sobre sus cuidados 
-                  y te guiaremos en su cuidado.                   
+                  Descubre nuestra amplia variedad de plantas de interior, de
+                  exterior, aromáticas, kokedamas, suculentas, cactus y
+                  florales. Elegí las que más te gusten y se ajusten a tu plan,
+                  y agregalas a la cotización. Nosotros te asesoraremos sobre
+                  sus cuidados y te guiaremos en su cuidado.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-full max-w-7xl mx-auto py-12 px-4 md:px-8">
-
-          </div>
+          <section className="bg-surface-container-highest/40 py-12">
+            <div className="max-w-7xl mx-auto px-4 md:px-8">
+              <ProductFilter />
+            </div>
+          </section>
+          <section className="w-full py-12">
+            <div className="max-w-7xl p-4 md:p-8 mx-auto">
+              <ul>
+                {productos.map((p) => (
+                  <li key={p["id"]}>
+                    <Link
+                      href={p["url-canonica"]}
+                    >
+                      {p.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
         </div>
       </div>
-      <ul>
-        {productos.map((p) => (
-          <li key={p["id"]}>
-            <Link href={`/productos/${p.category}/${p["url-canonica"]}`}>
-              {p.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+
       <JsonLd data={jsonLd} />
     </>
   );

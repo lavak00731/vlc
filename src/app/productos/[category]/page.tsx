@@ -7,7 +7,7 @@ import { Breadcrumb } from "@/app/components/navs/Breadcrumb";
 import { Badge } from "@/app/components/Badge";
 import { ProductFilter } from "@/app/components/ProductFilter";
 import categoryData from "@/app/data/categorydata.json";
-import type { CategoryInterface } from "@/app/interfaces/CategoryInterface";
+import type { ProductInterface} from "@/app/interfaces/CategoryInterface";
 type Params = { category: string };
 
 export async function generateMetadata({
@@ -36,10 +36,7 @@ export default async function CategoriaPage({
 
   if (!productos.length || !Object.hasOwn(categoryData, category)) notFound();
 
-  const prodData = categoryData[category as keyof typeof categoryData] as Omit<
-    CategoryInterface,
-    "plantas" | "arbolesarbustos"
-  >;
+  const prodData = (categoryData as Record<string, ProductInterface>)[category];
 
   const url = `/productos/${category}`;
 

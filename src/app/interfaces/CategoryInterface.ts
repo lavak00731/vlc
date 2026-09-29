@@ -1,5 +1,5 @@
 
-export interface product {
+export interface ProductInterface {
 	filter: string[];
 	image: string;
 	badgeIcon: string;
@@ -8,7 +8,3 @@ export interface product {
 	description: string[];
 }
 
-export interface CategoryInterface {
-	plantas: product;
-	arbolesarbustos: product;
-}

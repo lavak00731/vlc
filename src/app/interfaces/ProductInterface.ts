@@ -7,14 +7,14 @@ interface AdditionalPropertyInterface {
 interface ProductInterface  {
     "id": string;
     "name": string;
-    "url-canonica": string;
+    "urlcanonica": string;
     "description": string;
     "category": string;
     "subcategory": string;
     "images": string[];
     "metaDescription": string;
     "scientificName"?: string;
-    "jsonld": {
+    "jsonld"?: {
         "@context": string;
         "@type": string;
         "@id": string;

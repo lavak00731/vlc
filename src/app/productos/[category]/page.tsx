@@ -8,6 +8,7 @@ import { Badge } from "@/app/components/Badge";
 import { ProductFilter } from "@/app/components/ProductFilter";
 import categoryData from "@/app/data/categorydata.json";
 import type { CategoryInterface } from "@/app/interfaces/CategoryInterface";
+import { ProductCard } from "@/app/components/ProductCard";
 type Params = { category: string };
 
 export async function generateMetadata({
@@ -53,7 +54,7 @@ export default async function CategoriaPage({
           itemListElement: productos.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
-            url: p["url-canonica"],
+            url: p["urlcanonica"],
             name: p.name,
           })),
         },
@@ -104,14 +105,10 @@ export default async function CategoriaPage({
           </section>
           <section className="w-full py-12">
             <div className="max-w-7xl p-4 md:p-8 mx-auto">
-              <ul>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {productos.map((p) => (
                   <li key={p["id"]}>
-                    <Link
-                      href={p["url-canonica"]}
-                    >
-                      {p.name}
-                    </Link>
+                    <ProductCard product={p as Parameters<typeof ProductCard>[0]["product"]} />
                   </li>
                 ))}
               </ul>

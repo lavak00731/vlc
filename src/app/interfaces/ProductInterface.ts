@@ -13,7 +13,6 @@ interface ProductInterface  {
     "subcategory": string;
     "images": string[];
     "metaDescription": string;
-    "scientificName"?: string;
     "jsonld"?: {
         "@context": string;
         "@type": string;

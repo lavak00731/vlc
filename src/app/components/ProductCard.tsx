@@ -8,16 +8,16 @@ import type ProductInterface from "../interfaces/ProductInterface";
 export const ProductCard = ({product}:{product:ProductInterface}) => {
   const {images, name, description, subcategory, urlcanonica} = product;
   return (
-    <div className="group h-full rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col lg:flex-row lg:min-h-105 5">
-      {/* <Image
+    <div className="group h-full rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col">
+      <Image
         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         loading="lazy"
         alt=""
         width="300"
         height="300"
         src={images[0]}
-      /> */}
-      <div className="p-8 flex flex-col justify-between bg-surface-container-lowest">
+      />
+      <div className="p-8 flex flex-col justify-between bg-surface-container-lowest sm:min-h-90 md:min-h-105 lg:min-h-90">
         <div className="flex flex-col items-center">
           <h2 className="font-headline-sm text-2xl font-bold text-on-surface group-hover:text-primary transition-colors mb-5">
             { name }

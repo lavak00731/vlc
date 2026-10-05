@@ -9,7 +9,15 @@ import { ProductFilter } from "@/app/components/ProductFilter";
 import categoryData from "@/app/data/categorydata.json";
 import type { CategoryInterface } from "@/app/interfaces/CategoryInterface";
 import { ProductCard } from "@/app/components/ProductCard";
+import { Pagination } from "@/app/components/navs/Pagination";
+import { QuantityComponent } from "@/app/components/QuantityComponent";
 type Params = { category: string };
+type SearchParams = {
+  filter?: string | string[];
+  page?: string | string[];
+};
+
+const PRODUCTS_PER_PAGE = 8;
 
 export async function generateMetadata({
   params,
@@ -29,10 +37,12 @@ export async function generateMetadata({
 
 export default async function CategoriaPage({
   params,
+  searchParams,
 }: {
   params: Promise<Params>;
+  searchParams: Promise<SearchParams>;
 }) {
-  const { category } = await params;
+  const [{ category }, query] = await Promise.all([params, searchParams]);
   const productos = getProductsByCategory(category);
 
   if (!productos.length || !Object.hasOwn(categoryData, category)) notFound();
@@ -40,6 +50,28 @@ export default async function CategoriaPage({
   const prodData = (categoryData as Record<string, CategoryInterface>)[category];
 
   const url = `/productos/${category}`;
+  const rawFilter = Array.isArray(query.filter) ? query.filter[0] : query.filter;
+  const selectedFilter =
+    prodData.filter.find(
+      (filter) => normalizeSubcategory(filter) === normalizeSubcategory(rawFilter ?? ""),
+    ) ?? null;
+  const filteredProducts = selectedFilter
+    ? productos.filter((product) => {
+        const subcategory = normalizeSubcategory(product.subcategory);
+        const filter = normalizeSubcategory(selectedFilter);
+        return subcategory === filter || (filter === "floral" && subcategory === "florales");
+      })
+    : productos;
+  const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE));
+  const rawPage = Array.isArray(query.page) ? query.page[0] : query.page;
+  const parsedPage = rawPage && /^[1-9]\d*$/.test(rawPage) ? Number(rawPage) : 1;
+  const currentPage = Math.min(parsedPage, totalPages);
+  const visibleProducts = filteredProducts.slice(
+    (currentPage - 1) * PRODUCTS_PER_PAGE,
+    currentPage * PRODUCTS_PER_PAGE,
+  );
+console.log(visibleProducts)
+  
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -100,18 +132,36 @@ export default async function CategoriaPage({
           </div>
           <section className="bg-surface-container-highest/40 py-12">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
-              <ProductFilter filter={prodData.filter} />
+              <ProductFilter
+                categoryPath={url}
+                filter={prodData.filter}
+                selectedFilter={selectedFilter}
+              />
             </div>
           </section>
           <section className="w-full py-12">
             <div className="max-w-7xl p-4 md:p-8 mx-auto">
-              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {productos.map((p) => (
-                  <li key={p["id"]}>
-                    <ProductCard product={p as Parameters<typeof ProductCard>[0]["product"]} />
-                  </li>
-                ))}
-              </ul>
+              {filteredProducts.length > 0 &&
+              <div>
+                <QuantityComponent prods={filteredProducts.length} visibleProds={visibleProducts.length}/>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {visibleProducts.map((p) => (
+                    <li key={p["id"]}>
+                      <ProductCard product={p as Parameters<typeof ProductCard>[0]["product"]} />
+                    </li>
+                  ))}
+                </ul>
+                </div>
+              }
+              
+              {filteredProducts.length === 0 && (
+                <p className="mt-8 text-center text-on-surface-variant">
+                  No hay productos para este filtro.
+                </p>
+              )}
+              {totalPages > 1 && (
+                <Pagination totalPages={totalPages} selectedFilter={selectedFilter} currentPage={currentPage} url={url} />
+              )}
             </div>
           </section>
         </div>
@@ -123,4 +173,11 @@ export default async function CategoriaPage({
 }
 function notFound(): never {
   throw new Error("Category not found");
+}
+
+function normalizeSubcategory(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase();
 }

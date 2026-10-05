@@ -5,7 +5,7 @@ export const QuotationsBtn = () => {
     <>
         <div className="flex items-center gap-space-sm shrink-0">
             <a
-            className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all"
+            className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all"
             href="#"
             >
             <span className="material-symbols-outlined text-[18px] text-inherit">

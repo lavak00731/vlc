@@ -6,7 +6,29 @@ import type ProductInterface from "../interfaces/ProductInterface";
 
 
 export const ProductCard = ({product}:{product:ProductInterface}) => {
-  const {images, name, description, subcategory, urlcanonica} = product;
+  const {images, name, description, category, subcategory, urlcanonica} = product;
+  let badgeIcon: string;
+
+  switch (category) {
+    case "plantas":
+      badgeIcon = "nest_eco_leaf";
+      break;
+    case "arboles-y-arbustos":
+      badgeIcon = "nature";
+      break;
+    case "macetas":
+      badgeIcon = "potted_plant";
+      break;
+    case "sustratos-y-fertilizantes":
+      badgeIcon = "water_drop";
+      break;
+    case "herramientas":
+      badgeIcon = "shovel";
+      break;
+    default:
+      badgeIcon = "nest_eco_leaf";
+  }
+
   return (
     <div className="group h-full rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col">
       <Image
@@ -22,7 +44,7 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
           <h2 className="font-headline-sm text-2xl font-bold text-on-surface group-hover:text-primary transition-colors mb-5">
             { name }
           </h2>
-          <Badge icon={ "nest_eco_leaf" } text={ subcategory } />
+          <Badge icon={badgeIcon} text={ subcategory } />
           <p className="font-body-sm text-body-sm text-on-surface/75 mt-space-xs mb-5 line-clamp-3">
             { description }
           </p>

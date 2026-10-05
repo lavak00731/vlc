@@ -17,7 +17,7 @@ type SearchParams = {
   page?: string | string[];
 };
 
-const PRODUCTS_PER_PAGE = 8;
+const PRODUCTS_PER_PAGE = 9;
 
 export async function generateMetadata({
   params,

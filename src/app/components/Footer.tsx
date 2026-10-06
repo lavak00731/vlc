@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="flex flex-col items-center text-center gap-4 max-w-sm mx-auto">
         <div className="flex flex-col items-center gap-5">
           <Image loading='eager' src="/logovivero.svg" width="135" height="58" alt="" className="rounded-sm shadow"/>
-          <p className="font-body-sm text-on-surface-variant mb-5">
+          <p className="font-body-sm text-on-surface-variant">
             <span className="block">Av. Jorge Newbery 9320</span> Rosario, Santa Fe
           </p>
           <p className="font-body-sm text-on-surface-variant"><strong className="block">Horarios de Atención: </strong> de Martes a Domingo  09 a 19 hs</p>

@@ -33,6 +33,7 @@ export const MobileNav = () => {
                             ? "font-bold text-primary transition-colors w-full text-center block p-2"
                             : "font-label-md text-on-surface-variant transition-colors hover:text-on-surface focus-visible:text-on-surface w-full text-center block p-2"
                         }
+                        onClick={handleClick}
                     >
                         {item.name}
                     </Link>

@@ -16,4 +16,6 @@ export function getProductsBySubcategory(subcategory: string): Product[] {
 	return products.filter((product) => product.subcategory === subcategory);
 }
 
-export const getProducts = (category: string, slug: string) =>   products.find((p) => p.category === category && p['urlcanonica']=== slug);
+export function getProductByCanonicalUrl(canonicalUrl: string): Product | undefined {
+	return products.find((product) => product.urlcanonica === canonicalUrl);
+}

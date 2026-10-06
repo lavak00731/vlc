@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import { JsonLd } from "./../../components/JsonLd";
 import { getProductsByCategory } from "./../../lib/products";
@@ -70,8 +69,7 @@ export default async function CategoriaPage({
     (currentPage - 1) * PRODUCTS_PER_PAGE,
     currentPage * PRODUCTS_PER_PAGE,
   );
-console.log(visibleProducts)
-  
+ 
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -144,7 +142,7 @@ console.log(visibleProducts)
               {filteredProducts.length > 0 &&
               <div>
                 <QuantityComponent prods={filteredProducts.length} visibleProds={visibleProducts.length}/>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
                   {visibleProducts.map((p) => (
                     <li key={p["id"]}>
                       <ProductCard product={p as Parameters<typeof ProductCard>[0]["product"]} />

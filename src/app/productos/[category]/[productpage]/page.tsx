@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,7 +5,11 @@ import { notFound } from "next/navigation";
 import { Badge } from "../../../components/Badge";
 import { JsonLd } from "../../../components/JsonLd";
 import { Breadcrumb } from "../../../components/navs/Breadcrumb";
-import { getAllProducts, getProductByCanonicalUrl } from "../../../lib/products";
+import {
+  getAllProducts,
+  getProductByCanonicalUrl,
+} from "../../../lib/products";
+import { Carousel } from "@/app/components/Carousel";
 
 type Params = {
   category: string;
@@ -51,47 +54,20 @@ export default async function ProductPage({
 
   if (!product) notFound();
 
-  const productJsonLd =
-    "jsonLd" in product ? product.jsonLd : product.jsonld;
+  const productJsonLd = "jsonLd" in product ? product.jsonLd : product.jsonld;
 
   return (
     <>
       <div className="mx-auto flex w-full max-w-7xl flex-col px-4 py-12 md:px-8">
         <Breadcrumb />
-        <section className="grid gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="flex flex-col gap-4">
-            <div className="relative aspect-square overflow-hidden rounded-3xl bg-surface-container">
-              <Image
-                className="object-cover"
-                src={product.images[0]}
-                alt={product.name}
-                fill
-                priority
-                sizes="(min-width: 1024px) 50vw, 100vw"
-              />
-            </div>
-            {product.images.length > 1 && (
-              <ul className="grid grid-cols-3 gap-4">
-                {product.images.map((image, index) => (
-                  <li
-                    className="relative aspect-square overflow-hidden rounded-2xl bg-surface-container"
-                    key={image}
-                  >
-                    <Image
-                      className="object-cover"
-                      src={image}
-                      alt={`${product.name}, vista ${index + 2}`}
-                      fill
-                      loading="lazy"
-                      sizes="(min-width: 1024px) 16vw, 30vw"
-                    />
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-
-          <div className="flex flex-col items-start">
+        <section className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="flex min-w-0 flex-col gap-4">
+            <div className="relative overflow-hidden rounded-3xl bg-surface-container flex flex-col gap-5">
+              <Carousel images={product.images} />
+            </div>            
+          </div> 
+          
+          <div className="flex min-w-0 flex-col items-start">
             <Badge icon="potted_plant" text={product.subcategory} />
             <h1 className="mb-5 text-4xl font-bold leading-tight tracking-tight text-on-surface lg:text-6xl">
               {product.name}
@@ -118,14 +94,18 @@ export default async function ProductPage({
               {product.description}
             </p>
 
-            
-
-            <Link
-              className="rounded-full bg-primary px-6 py-3 font-label-md text-label-md text-on-surface transition-colors hover:bg-primary-container"
-              href={`/productos/${product.category}`}
+            <button
+              type="button"
+              className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-al min-w-40 justify-center"
             >
-              Ver más productos
-            </Link>
+              <span
+                aria-hidden="true"
+                className="material-symbols-outlined text-[16px]"
+              >
+                add_shopping_cart
+              </span>
+              Cotizar <span className="sr-only">{product.name}</span>
+            </button>
           </div>
         </section>
       </div>

@@ -238,3 +238,11 @@ button {
     transform-origin: bottom left;
   }
 }
+/* Swiper */
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  color: var(--color-vivero-primary);
+  background-color: var(--color-vivero-bg);
+  padding: 8px;
+  border-radius: 4px;
+}

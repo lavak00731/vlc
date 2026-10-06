@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <footer className="w-full bg-vivero-badge-stock px-4 pt-6 pb-18 mt-8">
       <div className="flex flex-col items-center text-center gap-4 max-w-sm mx-auto">
-        <div className="flex flex-col items-center gap-1">
-          <Image loading='eager' src="/logovivero.svg" width="135" height="58" alt="Inicio Vivero del Golf" className="rounded-sm shadow"/>
+        <div className="flex flex-col items-center gap-5">
+          <Image loading='eager' src="/logovivero.svg" width="135" height="58" alt="" className="rounded-sm shadow"/>
           <p className="font-body-sm text-on-surface-variant mb-5">
             <span className="block">Av. Jorge Newbery 9320</span> Rosario, Santa Fe
           </p>

@@ -1,13 +1,12 @@
-import React from "react";
+
+import Image from "next/image";
 
 export const Footer = () => {
   return (
     <footer className="w-full bg-vivero-badge-stock px-4 pt-6 pb-18 mt-8">
       <div className="flex flex-col items-center text-center gap-4 max-w-sm mx-auto">
         <div className="flex flex-col items-center gap-1">
-          <h2 className="text-2xl mb-6">
-            Vivero Del Golf
-          </h2>
+          <Image loading='eager' src="/logovivero.svg" width="135" height="58" alt="Inicio Vivero del Golf" className="rounded-sm shadow"/>
           <p className="font-body-sm text-on-surface-variant mb-5">
             <span className="block">Av. Jorge Newbery 9320</span> Rosario, Santa Fe
           </p>
@@ -23,7 +22,7 @@ export const Footer = () => {
           <span className="text-inherit">WhatsApp: +54 341 500 - 1111</span>
         </a>
         <p className="font-label-sm text-[10px] text-[#000000]/60 tracking-wider uppercase pt-2">
-          © { new Date().getFullYear() } Vivero La Cumbrecita. Todos los derechos reservados.
+          © { new Date().getFullYear() } Vivero Del Golf. Todos los derechos reservados.
         </p>
       </div>
     </footer>

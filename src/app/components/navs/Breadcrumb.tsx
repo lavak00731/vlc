@@ -12,15 +12,15 @@ export const Breadcrumb = () => {
   return (
     <nav
         aria-label="Miga de pan"
-        className="flex items-center gap-space-xs font-label-sm text-label-sm text-secondary uppercase tracking-widest"
+        className="flex items-center gap-space-xs font-label-sm text-label-sm text-secondary capitalize tracking-widest"
         >
-        <ul className="flex w-full mb-5">
+        <ul className="flex w-full mb-5 items-center flex-wrap">
             <li>
-                <Link className="hover:text-on-surface transition-colors flex items-center gap-1" href="/">
+                <Link className="hover:text-on-surface transition-colors flex items-center gap-1 text-[12px] lg:text-[16px]" href="/">
                     <span aria-hidden="true" className="material-symbols-outlined text-[14px]">
                         home
                     </span>
-                    Inicio
+                    <span className="underline! underline-offset-2 decoration-current">Inicio</span>
                 </Link>
             </li>
             {pathnames.map((value, index) => {
@@ -33,16 +33,16 @@ export const Breadcrumb = () => {
                     .replace(/\b\w/g, (char) => char.toUpperCase());
 
                 return (
-                    <li className="flex" key={href} >
+                    <li className="inline-flex hover:text-on-surface transition-colors items-center gap-1" key={href} >
                         <span aria-hidden="true" className="material-symbols-outlined text-[14px]">
                             chevron_right
                         </span>
                         {isLast ? (
-                            <span className="text-on-surface font-bold flex items-center gap-1" aria-current="page">
+                            <span className="text-on-surface font-bold flex items-center gap-1 text-[12px] lg:text-[16px]" aria-current="page">
                             {displayName}
                             </span>
                         ) : (
-                            <Link className="hover:text-on-surface transition-colors flex items-center gap-1" href={href}>{displayName}</Link>
+                            <Link className="hover:text-on-surface transition-colors flex items-center gap-1 text-[12px] lg:text-[16px] underline! underline-offset-2 decoration-current" href={href}>{displayName}</Link>
                         )}
                     </li>
                 );

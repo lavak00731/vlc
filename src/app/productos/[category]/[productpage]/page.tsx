@@ -72,7 +72,7 @@ export default async function ProductPage({
             </div>
             {product.images.length > 1 && (
               <ul className="grid grid-cols-3 gap-4">
-                {product.images.slice(1).map((image, index) => (
+                {product.images.map((image, index) => (
                   <li
                     className="relative aspect-square overflow-hidden rounded-2xl bg-surface-container"
                     key={image}
@@ -82,6 +82,7 @@ export default async function ProductPage({
                       src={image}
                       alt={`${product.name}, vista ${index + 2}`}
                       fill
+                      loading="lazy"
                       sizes="(min-width: 1024px) 16vw, 30vw"
                     />
                   </li>
@@ -95,13 +96,9 @@ export default async function ProductPage({
             <h1 className="mb-5 text-4xl font-bold leading-tight tracking-tight text-on-surface lg:text-6xl">
               {product.name}
             </h1>
-            <p className="mb-8 max-w-2xl leading-relaxed text-on-surface-variant">
-              {product.description}
-            </p>
-
-            <dl className="mb-8 grid w-full gap-4 rounded-2xl bg-surface-container-highest/40 p-6 sm:grid-cols-2">
+            <dl className="mb-5 grid w-full gap-4 rounded-2xl bg-surface-container-highest/40 p-4 sm:grid-cols-2">
               <div>
-                <dt className="font-label-sm uppercase tracking-widest text-outline">
+                <dt className="font-label-sm uppercase tracking-widest text-vivero-badge-stock">
                   Categoría
                 </dt>
                 <dd className="mt-1 font-semibold text-on-surface">
@@ -109,7 +106,7 @@ export default async function ProductPage({
                 </dd>
               </div>
               <div>
-                <dt className="font-label-sm uppercase tracking-widest text-outline">
+                <dt className="font-label-sm uppercase tracking-widest text-vivero-badge-stock">
                   Subcategoría
                 </dt>
                 <dd className="mt-1 font-semibold text-on-surface">
@@ -117,6 +114,11 @@ export default async function ProductPage({
                 </dd>
               </div>
             </dl>
+            <p className="mb-8 max-w-2xl leading-relaxed text-on-surface-variant">
+              {product.description}
+            </p>
+
+            
 
             <Link
               className="rounded-full bg-primary px-6 py-3 font-label-md text-label-md text-on-surface transition-colors hover:bg-primary-container"

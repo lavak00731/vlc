@@ -33,7 +33,7 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
     <div className="group h-full rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col">
       <Image
         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-        loading="lazy"
+        loading="eager"
         alt=""
         width="300"
         height="300"

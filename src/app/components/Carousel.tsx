@@ -30,7 +30,7 @@ export const Carousel = ({images}:{images:string[]}) => {
         {
             images.map((image, i) => (
                 <SwiperSlide key={i} className="relative h-full overflow-hidden rounded-2xl">
-                    <Image src={image} fill loading="eager" alt="" sizes="(min-width: 1024px) 50vw, 100vw" />
+                    <Image src={image} fill loading="eager" fetchPriority="high" alt="" sizes="(min-width: 1024px) 50vw, 100vw" />
                 </SwiperSlide>
             ) )
         }

@@ -47,6 +47,7 @@ export default async function ProductPage({
 }: {
   params: Promise<Params>;
 }) {
+  let categoryName;
   const { category, productpage } = await params;
   const product = getProductByCanonicalUrl(
     `/productos/${category}/${productpage}`,
@@ -56,6 +57,16 @@ export default async function ProductPage({
 
   const productJsonLd = "jsonLd" in product ? product.jsonLd : product.jsonld;
 
+  switch (category) {
+    case "plantas":
+      categoryName = category
+      break;
+    case "arboles-y-arbustos":
+      categoryName = "Árboles y Arbustos"
+      break;  
+    default:
+      break;
+  }
   return (
     <>
       <div className="mx-auto flex w-full max-w-7xl flex-col px-4 py-12 md:px-8">
@@ -77,8 +88,8 @@ export default async function ProductPage({
                 <dt className="font-label-sm uppercase tracking-widest text-vivero-badge-stock">
                   Categoría
                 </dt>
-                <dd className="mt-1 font-semibold text-on-surface">
-                  {product.category}
+                <dd className="mt-1 font-semibold text-on-surface capitalize">
+                  {categoryName}
                 </dd>
               </div>
               <div>

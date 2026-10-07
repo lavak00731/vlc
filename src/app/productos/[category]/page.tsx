@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 import { JsonLd } from "./../../components/JsonLd";
 import { getProductsByCategory } from "./../../lib/products";
 import { Breadcrumb } from "@/app/components/navs/Breadcrumb";
@@ -168,9 +169,6 @@ export default async function CategoriaPage({
       <JsonLd data={jsonLd} />
     </>
   );
-}
-function notFound(): never {
-  throw new Error("Category not found");
 }
 
 function normalizeSubcategory(value: string): string {

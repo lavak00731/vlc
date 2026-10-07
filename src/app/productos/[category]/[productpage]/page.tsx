@@ -96,7 +96,7 @@ export default async function ProductPage({
                 <dt className="font-label-sm uppercase tracking-widest text-vivero-badge-stock">
                   Subcategoría
                 </dt>
-                <dd className="mt-1 font-semibold text-on-surface">
+                <dd className="mt-1 font-semibold text-on-surface capitalize">
                   {product.subcategory}
                 </dd>
               </div>

@@ -184,7 +184,7 @@ export default function ContactPage() {
                         className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline shadow-inner"
                         id="fullName"
                         placeholder="Ej. Camila Morales Silva"
-                        required=""
+                        required
                         type="text"
                       />
                     </div>
@@ -206,7 +206,7 @@ export default function ContactPage() {
                           className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline shadow-inner"
                           id="email"
                           placeholder="tu@correo.cl"
-                          required=""
+                          required
                           type="email"
                         />
                       </div>
@@ -244,9 +244,9 @@ export default function ContactPage() {
                       <select
                         className="w-full bg-surface-container-lowest text-on-surface pl-space-md pr-10 py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md appearance-none cursor-pointer shadow-inner"
                         id="subject"
-                        required=""
+                        required
                       >
-                        <option disabled="" selected="" value="">
+                        <option disabled selected value="">
                           Selecciona el motivo de tu consulta...
                         </option>
                         <option value="botanica">
@@ -286,11 +286,11 @@ export default function ContactPage() {
                     <textarea
                       className="w-full bg-surface-container-lowest text-on-surface p-space-md rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline resize-none shadow-inner"
                       id="message"
-                      maxlength="800"
-                      oninput="document.getElementById('charCounter').innerText = this.value.length + ' / 800'"
+                      maxLength={800}
+                     
                       placeholder="Escribe aquí las dimensiones de tu espacio, requerimientos de luz solar, especie de interés o detalles de tu proyecto paisajístico..."
-                      required=""
-                      rows="5"
+                      required
+                    
                     ></textarea>
                   </div>
 
@@ -299,7 +299,7 @@ export default function ContactPage() {
                       <input
                         className="mt-1 w-4 h-4 rounded text-primary focus:ring-secondary accent-primary cursor-pointer"
                         id="privacyConsent"
-                        required=""
+                        required
                         type="checkbox"
                       />
                       <span className="font-body-sm text-body-sm text-on-surface-variant">

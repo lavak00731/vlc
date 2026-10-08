@@ -38,7 +38,7 @@ export default function NotFound() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:flex absolute -right-4 md:right-12 lg:right-16 top-6 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs">
+              <div className="hidden sm:flex absolute -right-4 md:right-12 lg:right-16 top-6 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs p-2">
                 <span
                   aria-hidden="true"
                   className="material-symbols-outlined text-primary text-[20px]"
@@ -49,7 +49,7 @@ export default function NotFound() {
                   Buscando mejor luz
                 </span>
               </div>
-              <div className="hidden sm:flex absolute -left-4 md:left-12 lg:left-16 bottom-16 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs">
+              <div className="hidden sm:flex absolute -left-4 md:left-12 lg:left-16 bottom-16 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs p-2">
                 <span
                   aria-hidden="true"
                   className="material-symbols-outlined text-secondary text-[20px]"

@@ -6,22 +6,29 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="flex flex-col w-full">
-      <section className=" w-full overflow-hidden py-12 flex items-center justify-center">        
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-space-xl items-center relative z-10 gap-8 p-4 md:px-8">
-          <Badge icon={"psychology_alt"} text={"Extravío Botánico • Código 404"}/>
-          <div className="relative w-full max-w-xl mx-auto mb-space-xl flex flex-col items-center flex-nowrap">
-            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest flex items-center justify-center group mb-5">
-              <Image
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                width="500"
-                height="500"
-                src="/404.webp"
-                alt=""
-              />              
-            </div>
-            <div className="bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl px-space-md py-space-xs flex items-center justify-between shadow-md p-4">
+      <section className=" w-full overflow-hidden py-12 flex items-center justify-center">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex lg:flex-row lg:flex-nowrap gap-space-xl items-center relative z-10 gap-8 p-4 md:px-8">
+          <div className="w-full">
+            <Badge
+              icon={"psychology_alt"}
+              text={"Extravío Botánico • Código 404"}
+            />
+            <div className="relative w-full max-w-3xl mx-auto mb-space-xl flex flex-col items-center">
+              <div className="relative aspect-square rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest flex items-center justify-center group mb-5">
+                <Image
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  width="500"
+                  height="500"
+                  src="/404.webp"
+                  alt=""
+                />
+              </div>
+              <div className="bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl px-space-md py-space-xs flex items-center justify-between shadow-md p-4">
                 <div className="flex items-center gap-space-xs text-left gap-4">
-                  <span aria-hidden="true" className="material-symbols-outlined text-primary text-[20px]">
+                  <span
+                    aria-hidden="true"
+                    className="material-symbols-outlined text-primary text-[20px]"
+                  >
                     local_florist
                   </span>
                   <div>
@@ -31,26 +38,33 @@ export default function NotFound() {
                   </div>
                 </div>
               </div>
-            <div
-              className="hidden sm:flex absolute -right-6 top-6 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs">
-              <span aria-hidden="true" className="material-symbols-outlined text-primary text-[20px]">
-                wb_sunny
-              </span>
-              <span className="font-label-sm text-label-sm text-on-surface font-medium">
-                Buscando mejor luz
-              </span>
-            </div>
-            <div className="hidden sm:flex absolute -left-6 bottom-16 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs">
-              <span aria-hidden="true" className="material-symbols-outlined text-secondary text-[20px]">
-                water_drop
-              </span>
-              <span className="font-label-sm text-label-sm text-on-surface font-medium">
-                Tierra fresca asegurada
-              </span>
+              <div className="hidden sm:flex absolute -right-4 md:right-12 lg:right-16 top-6 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-primary text-[20px]"
+                >
+                  wb_sunny
+                </span>
+                <span className="font-label-sm text-label-sm text-on-surface font-medium">
+                  Buscando mejor luz
+                </span>
+              </div>
+              <div className="hidden sm:flex absolute -left-4 md:left-12 lg:left-16 bottom-16 bg-surface-container-lowest shadow-md rounded-2xl p-space-sm items-center gap-space-xs">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-secondary text-[20px]"
+                >
+                  water_drop
+                </span>
+                <span className="font-label-sm text-label-sm text-on-surface font-medium">
+                  Tierra fresca asegurada
+                </span>
+              </div>
             </div>
           </div>
-          <div className="max-w-2xl mx-auto flex flex-col items-center">
-            <h1 className="font-headline-lg text-headline-lg text-on-surface font-bold mb-space-sm font text-4xl lg:text-7xl mb-5 text-balance">
+
+          <div className="max-w-2xl mx-auto md:max-w-4xl flex flex-col items-center">
+            <h1 className="font-headline-lg text-headline-lg text-on-surface font-bold mb-space-sm font text-4xl lg:text-5xl mb-5 text-balance sm:text-center">
               ¡Ups! Esta planta parece haber cambiado de maceta
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto mb-space-xl mb-5">
@@ -66,7 +80,10 @@ export default function NotFound() {
                 data-path="inicio"
                 href="/"
               >
-                <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-[20px]"
+                >
                   home
                 </span>
                 <span>Volver al Inicio</span>
@@ -76,27 +93,38 @@ export default function NotFound() {
                 data-path="productos"
                 href="/productos"
               >
-                <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-[20px]"
+                >
                   park
                 </span>
                 <span>Explorar Catálogo de Productos</span>
               </Link>
             </div>
             <div className="mt-space-xl pt-space-md flex flex-col items-center justify-center">
-              <h2 className="font-headline-sm text-2xl font-bold text-on-surface mb-5">¿Buscabas una variedad específica?</h2>
+              <h2 className="font-headline-sm text-2xl font-bold text-on-surface mb-5">
+                ¿Buscabas una variedad específica?
+              </h2>
               <a
                 className="group inline-flex w-full sm:w-auto items-center justify-center font-label-md text-label-md text-secondary hover:text-on-surface transition-colors gap-2 btn-secondary-text-color rounded-full p-2 shadow-sm hover:shadow-md"
                 href="https://wa.me/543415001111?text=Hola%20Vivero%20del%20Golf,%20estaba%20buscando%20un%20ejemplar%20en%20su%20web%20y%20no%20lo%20encuentro."
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-[20px]"
+                >
                   chat
-                </span>                  
+                </span>
                 <strong className="underline decoration-secondary/50 font-semibold text-balance">
                   Contactar por WhatsApp
                 </strong>
-                <span aria-hidden="true" className="material-symbols-outlined text-[16px]">
+                <span
+                  aria-hidden="true"
+                  className="material-symbols-outlined text-[16px]"
+                >
                   arrow_forward
                 </span>
               </a>

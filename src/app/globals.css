@@ -157,13 +157,13 @@ button {
 .bg-vivero-primary { background-color: var(--color-vivero-primary); }
 .btn-text-color { color: #FFF};
 .btn-text-color:hover,
-.btn-text-color:focus-within,
+.btn-text-color:focus-visible,
 .btn-text-color:active {
   color: var(--color-vivero-primary);
 }  
 .btn-secondary-text-color { color: var(--color-primary); background-color: #FFF};
 .btn-secondary-text-color:hover,
-.btn-secondary-text-color:focus-within,
+.btn-secondary-text-color:focus-visible,
 .btn-secondary-text-color:active {
   color:#FFF; background-color: var(--color-primary);
 }  

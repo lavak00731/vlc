@@ -11,7 +11,7 @@ export default function ContactPage() {
           <section className="max-w-3xl mb-space-2xl">
             <Badge icon={'spa'} text={"Atención Botánica y Asesorías"}/>
             <h1 className="font-display-hero text-4xl lg:text-7xl text-on-surface tracking-tight font-bold mb-5">
-              Ponte en Contacto con Vivero La Cumbrecita
+              Ponte en Contacto con Vivero del Golf
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-5">
               Estamos aquí para guiarte en cada etapa: resuelve tus inquietudes
@@ -22,55 +22,53 @@ export default function ContactPage() {
           </section>
 
           <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-space-3xl">
-            <aside className="lg:col-span-5 flex flex-col">
+            <aside className="lg:col-span-5 flex flex-col gap-8">
               <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] hover:shadow-[0_12px_28px_-6px_rgba(45,55,40,0.12)] transition-shadow p-4 md:p-8">
-                <div className="flex items-start justify-between">
-                  <div className="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center shrink-0">
+                <div className="flex items-center gap-4 mb-5">
+                  <div className="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center ">
                     <span aria-hidden="true" className="material-symbols-outlined text-primary text-[26px]">
                       chat
                     </span>
                   </div>
-                  <span className="bg-surface-container text-on-surface font-label-sm text-label-sm px-space-xs py-space-xxs rounded-full font-medium">
+                  <p className="bg-surface-container text-primary font-label-sm text-label-sm px-space-xs py-space-xxs rounded-full font-medium p-2">
                     Respuesta inmediata
-                  </span>
+                  </p>
                 </div>
                 <h2 className="font-title-md text-2xl text-on-surface font-bold mb-5">
                   WhatsApp Directo
                 </h2>
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-5">
-                  Chatea en tiempo real con uno de nuestros horticultores para
-                  consultas rápidas sobre disponibilidad de especies o salud
-                  foliar.
+                  Chatea en tiempo real con uno de nuestros especialistas para
+                  consultas rápidas sobre disponibilidad de especies o salud de tus
+                  plantas.
                 </p>
                 
                 <a
-                  className="w-full inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary hover:bg-primary-container px-space-lg py-space-sm rounded-full font-label-md text-label-md font-semibold transition-all shadow-md group"
-                  href="https://wa.me/56987654321"
+                  className="w-full inline-flex items-center justify-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container rounded-full p-2 font-label-md text-label-md font-semibold transition-all shadow-md group"
+                  href="https://wa.me/543415001111?text=Hola%20Vivero%20del%20Golf,%20quiero%20saber%20sobre%20..."
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <span className="material-symbols-outlined text-[20px] transition-transform group-hover:scale-110">
+                  <span aria-hidden="true" className="material-symbols-outlined text-[20px] transition-transform group-hover:scale-110">
                     forum
                   </span>
                   <span>Chatear por WhatsApp</span>
                 </a>
               </div>
 
-              <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] flex flex-col gap-space-md">
-                <div className="flex items-start gap-space-sm">
-                  <div className="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center shrink-0">
-                    <span className="material-symbols-outlined text-primary text-[22px]">
+              <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] flex flex-col p-4 md:p-8">
+                <div className="flex items-start mb-5 gap-4">
+                  <div className="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
+                    <span aria-hidden="true" className="material-symbols-outlined text-primary text-[22px]">
                       location_on
                     </span>
                   </div>
                   <div>
-                    <h4 className="font-title-md text-title-md text-on-surface font-bold">
+                    <h2 className="font-title-md text-title-md text-on-surface text-xl font-bold mb-5">
                       Dirección y Acceso
-                    </h4>
-                    <p className="font-body-md text-body-md text-on-surface mt-space-xxs font-medium">
-                      Camino Los Coihues 420, La Cumbrecita
-                    </p>
-                    <div className="mt-space-xs inline-flex items-center gap-space-xxs bg-surface-container-high px-space-xs py-1 rounded text-on-surface-variant font-body-sm text-body-sm">
+                    </h2>
+                    <p className="font-body-sm text-on-surface-variant"><span className="block">Av. Jorge Newbery 9320</span> Rosario, Santa Fe</p>                    
+                    {/* <div className="mt-space-xs inline-flex items-center gap-space-xxs bg-surface-container-high px-space-xs py-1 rounded text-on-surface-variant font-body-sm text-body-sm">
                       <span className="material-symbols-outlined text-[16px] text-primary">
                         local_parking
                       </span>
@@ -78,57 +76,26 @@ export default function ContactPage() {
                         Estacionamiento privado y gratuito para clientes
                         (capacidad 35 vehículos).
                       </span>
-                    </div>
-                  </div>
+                    </div> */}
+                  </div>                  
                 </div>
-
-                <div className="flex items-start gap-space-sm pt-space-xs">
-                  <div className="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center shrink-0">
-                    <span className="material-symbols-outlined text-primary text-[22px]">
+                <figure className="w-full aspect-video rounded-lg overflow-hidden shadow-inner mb-5">
+                  <iframe title="Ubicación Vivero del Golf" className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.580876884972!2d-60.77203922356906!3d-32.90924797000192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64d87261ecd63%3A0x8151fda3d7d19f6f!2sVivero%20Del%20Golf!5e0!3m2!1ses-419!2sar!4v1791496027782!5m2!1ses-419!2sar" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+                </figure>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
+                    <span aria-hidden="true" className="material-symbols-outlined text-primary text-[22px]">
                       schedule
                     </span>
                   </div>
                   <div>
-                    <h4 className="font-title-md text-title-md text-on-surface font-bold">
+                    <h2 className="font-title-md text-title-md text-on-surface text-xl font-bold">
                       Horarios de Atención
-                    </h4>
-                    <p className="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
-                      <strong>Martes a Domingo:</strong> 09:30 a 19:00 hrs
-                      continuo.
-                      <br />
-                      <span className="text-on-surface-variant/80">
-                        Lunes cerrado por mantenimiento agronómico y
-                        aclimatación de plántulas.
-                      </span>
+                    </h2>
+                    <p className="font-body-sm text-body-sm text-on-surface-variant">
+                      <strong>Martes a Domingo:</strong> 09:0 a 19:00 hrs
+                      continuo.                      
                     </p>
-                  </div>
-                </div>
-
-                <div className="relative w-full rounded-lg overflow-hidden mt-space-xs shadow-inner">
-                  <div
-                    className="w-full h-56 bg-cover bg-center"
-                    data-location="Camino Los Coihues 420, La Cumbrecita, Chile"
-                  ></div>
-                  <div className="absolute bottom-3 left-3 right-3 bg-surface-container-lowest/95 backdrop-blur-sm p-space-xs rounded-lg flex items-center justify-between shadow-sm">
-                    <div className="flex items-center gap-space-xs">
-                      <span className="material-symbols-outlined text-primary text-[18px]">
-                        directions_car
-                      </span>
-                      <span className="font-body-sm text-body-sm text-on-surface">
-                        A 12 min de la plaza central
-                      </span>
-                    </div>
-                    <a
-                      className="font-label-sm text-label-sm text-secondary hover:underline font-semibold flex items-center gap-0.5"
-                      href="https://maps.google.com"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      Ver ruta GPS
-                      <span className="material-symbols-outlined text-[14px]">
-                        open_in_new
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>

@@ -2,15 +2,60 @@ import React from "react";
 import type { Metadata } from "next";
 import { Breadcrumb } from "../components/navs/Breadcrumb";
 import { Badge } from "../components/Badge";
+import { JsonLd } from "../components/JsonLd";
+import { getRequestOrigin } from "../lib/site-url";
 
 export const metadata: Metadata = {
+  title: "Contacto | Vivero del Golf",
+  description:
+    "Contactá a Vivero del Golf en Rosario para consultas sobre plantas, asesoramiento botánico y paisajismo, o coordiná una visita en Av. Jorge Newbery 9320.",
   alternates: { canonical: "/contacto" },
 };
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const origin = await getRequestOrigin();
+  const pageUrl = new URL("/contacto", origin).toString();
+  const organizationId = new URL("/#organization", origin).toString();
+  const organizationUrl = origin.toString();
+  const contactPageJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: "Contacto | Vivero del Golf",
+        description: metadata.description,
+        mainEntity: { "@id": organizationId },
+      },
+      {
+        "@type": "GardenStore",
+        "@id": organizationId,
+        name: "Vivero del Golf",
+        url: organizationUrl,
+        telephone: "+54-341-500-1111",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Av. Jorge Newbery 9320",
+          addressLocality: "Rosario",
+          addressRegion: "Santa Fe",
+          addressCountry: "AR",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: -32.90924797000192,
+          longitude: -60.77203922356906,
+        },
+        sameAs: ["https://www.instagram.com/viverodelgolf/"],
+      },
+    ],
+  };
+
   return (
-    <div className="flex flex-col w-full  py-12  bg-surface-dim/40">
-      <div className="relative max-w-7xl w-full px-4 md:px-8 mx-auto overflow-hidden">
+    <>
+      <JsonLd data={contactPageJsonLd} />
+      <div className="flex flex-col w-full  py-12  bg-surface-dim/40">
+        <div className="relative max-w-7xl w-full px-4 md:px-8 mx-auto overflow-hidden">
         <div className=" mx-auto px-space-md lg:px-space-xl pt-space-xl">
           <Breadcrumb />
           <section className="max-w-3xl mb-space-2xl">
@@ -379,7 +424,8 @@ export default function ContactPage() {
             </div>
           </section>
         </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

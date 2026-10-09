@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import Head from 'next/head'
 import 'material-symbols';
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
@@ -17,10 +18,43 @@ const plusjakarta = Plus_Jakarta_Sans({
   subsets: ["latin"]
 })
 
-export const metadata: Metadata = {
-  title: "Bienvenido a Vivero del Golf",
-  description: "Vivero en Rosario, Santa Fe. En Vivero del Golf encontrá plantas, árboles, arbustos y soluciones para tu jardín, con asesoramiento especializado.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const requestHeaders = await headers();
+  const host = (
+    requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host")
+  )
+    ?.split(",")[0]
+    .trim();
+  const protocol = requestHeaders
+    .get("x-forwarded-proto")
+    ?.split(",")[0]
+    .trim() ?? "https";
+
+  if (!host || (protocol !== "http" && protocol !== "https")) {
+    throw new Error("Unable to determine the request origin for metadata.");
+  }
+
+  const metadataBase = new URL(`${protocol}://${host}`);
+
+  if (
+    metadataBase.username ||
+    metadataBase.password ||
+    metadataBase.pathname !== "/" ||
+    metadataBase.search ||
+    metadataBase.hash
+  ) {
+    throw new Error("The request host is invalid for metadata.");
+  }
+
+  return {
+    metadataBase,
+    title: "Bienvenido a Vivero del Golf",
+    description: "Vivero en Rosario, Santa Fe. En Vivero del Golf encontrá plantas, árboles, arbustos y soluciones para tu jardín, con asesoramiento especializado.",
+    twitter: {
+      card: "summary_large_image",
+    },
+  };
+}
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (

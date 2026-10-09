@@ -1,6 +1,11 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Breadcrumb } from "../components/navs/Breadcrumb";
 import { Badge } from "../components/Badge";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/contacto" },
+};
 
 export default function ContactPage() {
   return (
@@ -9,15 +14,14 @@ export default function ContactPage() {
         <div className=" mx-auto px-space-md lg:px-space-xl pt-space-xl">
           <Breadcrumb />
           <section className="max-w-3xl mb-space-2xl">
-            <Badge icon={'spa'} text={"Atención Botánica y Asesorías"}/>
+            <Badge icon={"spa"} text={"Atención Botánica y Asesorías"} />
             <h1 className="font-display-hero text-4xl lg:text-7xl text-on-surface tracking-tight font-bold mb-5">
               Ponte en Contacto con Vivero del Golf
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-5">
               Estamos aquí para guiarte en cada etapa: resuelve tus inquietudes
-              de cultivo, cotiza intervenciones de paisajismo para tu
-              hogar o empresa, o coordina una visita guiada por nuestros
-              invernaderos.
+              de cultivo, cotiza intervenciones de paisajismo para tu hogar o
+              empresa, o coordina una visita guiada por nuestros invernaderos.
             </p>
           </section>
 
@@ -26,7 +30,10 @@ export default function ContactPage() {
               <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] hover:shadow-[0_12px_28px_-6px_rgba(45,55,40,0.12)] transition-shadow p-4 md:p-8">
                 <div className="flex items-center gap-4 mb-5">
                   <div className="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center ">
-                    <span aria-hidden="true" className="material-symbols-outlined text-primary text-[26px]">
+                    <span
+                      aria-hidden="true"
+                      className="material-symbols-outlined text-primary text-[26px]"
+                    >
                       chat
                     </span>
                   </div>
@@ -39,17 +46,20 @@ export default function ContactPage() {
                 </h2>
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-5">
                   Chatea en tiempo real con uno de nuestros especialistas para
-                  consultas rápidas sobre disponibilidad de especies o salud de tus
-                  plantas.
+                  consultas rápidas sobre disponibilidad de especies o salud de
+                  tus plantas.
                 </p>
-                
+
                 <a
-                  className="w-full inline-flex items-center justify-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container rounded-full p-2 font-label-md text-label-md font-semibold transition-all shadow-md group"
+                  className="w-full inline-flex items-center justify-center bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container rounded-full p-2 font-label-md text-label-md font-semibold transition-all shadow-md group"
                   href="https://wa.me/543415001111?text=Hola%20Vivero%20del%20Golf,%20quiero%20saber%20sobre%20..."
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <span aria-hidden="true" className="material-symbols-outlined text-[20px] transition-transform group-hover:scale-110">
+                  <span
+                    aria-hidden="true"
+                    className="material-symbols-outlined text-[20px] transition-transform group-hover:scale-110"
+                  >
                     forum
                   </span>
                   <span>Chatear por WhatsApp</span>
@@ -59,7 +69,10 @@ export default function ContactPage() {
               <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] flex flex-col p-4 md:p-8">
                 <div className="flex items-start mb-5 gap-4">
                   <div className="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
-                    <span aria-hidden="true" className="material-symbols-outlined text-primary text-[22px]">
+                    <span
+                      aria-hidden="true"
+                      className="material-symbols-outlined text-primary text-[22px]"
+                    >
                       location_on
                     </span>
                   </div>
@@ -67,24 +80,30 @@ export default function ContactPage() {
                     <h2 className="font-title-md text-title-md text-on-surface text-xl font-bold mb-5">
                       Dirección y Acceso
                     </h2>
-                    <p className="font-body-sm text-on-surface-variant"><span className="block">Av. Jorge Newbery 9320</span> Rosario, Santa Fe</p>                    
-                    {/* <div className="mt-space-xs inline-flex items-center gap-space-xxs bg-surface-container-high px-space-xs py-1 rounded text-on-surface-variant font-body-sm text-body-sm">
-                      <span className="material-symbols-outlined text-[16px] text-primary">
-                        local_parking
-                      </span>
-                      <span>
-                        Estacionamiento privado y gratuito para clientes
-                        (capacidad 35 vehículos).
-                      </span>
-                    </div> */}
-                  </div>                  
+                    <p className="font-body-sm text-on-surface-variant">
+                      <span className="block">Av. Jorge Newbery 9320</span>{" "}
+                      Rosario, Santa Fe
+                    </p>
+                  </div>
                 </div>
                 <figure className="w-full aspect-video rounded-lg overflow-hidden shadow-inner mb-5">
-                  <iframe title="Ubicación Vivero del Golf" className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.580876884972!2d-60.77203922356906!3d-32.90924797000192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64d87261ecd63%3A0x8151fda3d7d19f6f!2sVivero%20Del%20Golf!5e0!3m2!1ses-419!2sar!4v1791496027782!5m2!1ses-419!2sar" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+                  <iframe
+                    title="Ubicación Vivero del Golf"
+                    className="w-full h-full"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.580876884972!2d-60.77203922356906!3d-32.90924797000192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64d87261ecd63%3A0x8151fda3d7d19f6f!2sVivero%20Del%20Golf!5e0!3m2!1ses-419!2sar!4v1791496027782!5m2!1ses-419!2sar"
+                    width="600"
+                    height="450"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                  ></iframe>
                 </figure>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
-                    <span aria-hidden="true" className="material-symbols-outlined text-primary text-[22px]">
+                    <span
+                      aria-hidden="true"
+                      className="material-symbols-outlined text-primary text-[22px]"
+                    >
                       schedule
                     </span>
                   </div>
@@ -94,237 +113,134 @@ export default function ContactPage() {
                     </h2>
                     <p className="font-body-sm text-body-sm text-on-surface-variant">
                       <strong>Martes a Domingo:</strong> 09:0 a 19:00 hrs
-                      continuo.                      
+                      continuo.
                     </p>
                   </div>
                 </div>
               </div>
-
-              <div className="bg-tertiary-fixed/60 rounded-xl p-space-md flex items-center gap-space-md shadow-sm">
-                <div className="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center shrink-0">
-                  <span className="material-symbols-outlined text-primary text-[24px]">
-                    psychology_alt
-                  </span>
-                </div>
-                <div>
-                  <h5 className="font-title-md text-title-md font-bold text-on-surface">
-                    ¿Dudas con una planta enferma?
-                  </h5>
-                  <p className="font-body-sm text-body-sm text-on-surface-variant">
-                    Puedes traer una muestra de hoja protegida en bolsa
-                    hermética para diagnóstico presencial sin costo.
-                  </p>
-                </div>
-              </div>
             </aside>
 
-            <main className="lg:col-span-7">
-              <div className="bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)]">
+            <div className="lg:col-span-7">
+              <div className="bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] p-4 md:p-8">
                 <div className="mb-space-lg">
-                  <span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold block mb-space-xxs">
-                    Envío de Solicitudes
-                  </span>
-                  <h2 className="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">
+                  <h2 className="font-headline-md text-on-surface text-xl font-bold tracking-tight">
                     Envíanos un Mensaje
                   </h2>
-                  <p className="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  <p className="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-5">
                     Completa el formulario y te responderemos en un plazo máximo
                     de 24 horas hábiles.
                   </p>
                 </div>
                 <form className="flex flex-col gap-space-md" id="contactForm">
-                  <div className="flex flex-col gap-space-xxs">
-                    <label
-                      className="font-label-md text-label-md font-semibold text-on-surface flex justify-between"
-                      htmlFor="fullName"
-                    >
-                      <span>Nombre completo</span>
-                      <span className="text-on-surface-variant font-normal text-body-sm">
-                        Obligatorio
-                      </span>
-                    </label>
-                    <div className="relative">
-                      <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">
-                        person
-                      </span>
-                      <input
-                        className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline shadow-inner"
-                        id="fullName"
-                        placeholder="Ej. Camila Morales Silva"
-                        required
-                        type="text"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
-                    <div className="flex flex-col gap-space-xxs">
+                  <fieldset>
+                    <div className="flex flex-col mb-5">
                       <label
-                        className="font-label-md text-label-md font-semibold text-on-surface"
-                        htmlFor="email"
+                        className="font-label-md text-label-md font-semibold text-on-surface flex mb-2"
+                        htmlFor="fullName"
                       >
-                        Correo electrónico
+                        Nombre completo (Obligatorio)
                       </label>
                       <div className="relative">
-                        <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">
-                          mail
+                        <span aria-hidden="true" className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">
+                          person
                         </span>
                         <input
-                          className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline shadow-inner"
-                          id="email"
-                          placeholder="tu@correo.cl"
+                          className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus-visible:outline-none focus-visible:border-vivero-badge-stock  transition-all font-body-md text-body-md placeholder:text-outline shadow-lg border-2 border-primary "
+                          id="fullName"
+                          placeholder="Ej. Camila Morales Silva"
                           required
-                          type="email"
+                          type="text"
                         />
                       </div>
                     </div>
 
-                    <div className="flex flex-col gap-space-xxs">
+                    <div className="grid grid-cols-1">
+                      <div className="flex flex-col mb-5">
+                        <label
+                          className="font-label-md text-label-md font-semibold text-on-surface flex mb-2" 
+                          htmlFor="phone"
+                        >
+                          Teléfono celular (Obligatorio)                         
+                        </label>
+                        <div className="relative">
+                          <span aria-hidden="true" className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">
+                            call
+                          </span>
+                          <input
+                            className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus-visible:outline-none focus-visible:border-vivero-badge-stock  transition-all font-body-md text-body-md placeholder:text-outline shadow-lg border-2 border-primary"
+                            id="phone"
+                            placeholder="+54 9 341 600 5678"
+                            type="tel"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col mb-5">
                       <label
-                        className="font-label-md text-label-md font-semibold text-on-surface"
-                        htmlFor="phone"
+                        className="font-label-md text-label-md font-semibold text-on-surface flex mb-2"
+                        htmlFor="subject"
                       >
-                        Teléfono celular
+                        Asunto del contacto (Obligatorio)
                       </label>
                       <div className="relative">
-                        <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">
-                          call
+                        <select
+                          className="w-full bg-surface-container-lowest text-on-surface p-3 rounded-lg focus-visible:outline-none focus-visible:border-vivero-badge-stock  transition-all font-body-md text-body-md placeholder:text-outline shadow-lg border-2 border-primary appearance-none"
+                          id="subject"
+                          required
+                        >
+                          <option disabled selected value="">
+                            Motivo de tu consulta...
+                          </option>
+                          <option value="botanica">
+                            Consulta de cuidado de especies
+                          </option>
+                          <option value="cotizacion">
+                            Cotización para empresas y paisajistas
+                          </option>
+                          <option value="postventa">
+                            Servicio de postventa
+                          </option>
+                        </select>
+                        <span aria-hidden="true" className="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[20px]">
+                          expand_more
                         </span>
-                        <input
-                          className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline shadow-inner"
-                          id="phone"
-                          placeholder="+56 9 1234 5678"
-                          type="tel"
-                        />
                       </div>
                     </div>
-                  </div>
 
-                  <div className="flex flex-col gap-space-xxs">
-                    <label
-                      className="font-label-md text-label-md font-semibold text-on-surface"
-                      htmlFor="subject"
-                    >
-                      Asunto del contacto
-                    </label>
-                    <div className="relative">
-                      <select
-                        className="w-full bg-surface-container-lowest text-on-surface pl-space-md pr-10 py-3 rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md appearance-none cursor-pointer shadow-inner"
-                        id="subject"
-                        required
-                      >
-                        <option disabled selected value="">
-                          Selecciona el motivo de tu consulta...
-                        </option>
-                        <option value="botanica">
-                          Consulta botánica o cuidado de especies
-                        </option>
-                        <option value="cotizacion">
-                          Cotización para empresas y paisajistas
-                        </option>
-                        <option value="visita">
-                          Visita grupal o educativa al vivero
-                        </option>
-                        <option value="postventa">
-                          Reclamos, garantías o servicio de postventa
-                        </option>
-                      </select>
-                      <span className="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[20px]">
-                        expand_more
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-space-xxs">
-                    <div className="flex items-center justify-between">
-                      <label
-                        className="font-label-md text-label-md font-semibold text-on-surface"
-                        htmlFor="message"
-                      >
-                        Mensaje detallado
-                      </label>
-                      <span
-                        className="font-body-sm text-body-sm text-on-surface-variant"
-                        id="charCounter"
-                      >
-                        0 / 800
-                      </span>
-                    </div>
-                    <textarea
-                      className="w-full bg-surface-container-lowest text-on-surface p-space-md rounded-lg focus:outline-none focus:bg-surface-container-low transition-all font-body-md text-body-md placeholder:text-outline resize-none shadow-inner"
-                      id="message"
-                      maxLength={800}
-                     
-                      placeholder="Escribe aquí las dimensiones de tu espacio, requerimientos de luz solar, especie de interés o detalles de tu proyecto paisajístico..."
-                      required
-                    
-                    ></textarea>
-                  </div>
-
-                  <div className="pt-space-xxs">
-                    <label className="flex items-start gap-space-xs cursor-pointer select-none">
-                      <input
-                        className="mt-1 w-4 h-4 rounded text-primary focus:ring-secondary accent-primary cursor-pointer"
-                        id="privacyConsent"
-                        required
-                        type="checkbox"
-                      />
-                      <span className="font-body-sm text-body-sm text-on-surface-variant">
-                        He leído y acepto la política de manejo biológico y el{" "}
-                        <a
-                          className="text-secondary underline hover:text-on-surface transition-colors"
-                          href="#"
+                    <div className="flex flex-col  mb-5">
+                      <div className="flex items-center gap-5 mb-2">
+                        <label
+                          className="font-label-md text-label-md font-semibold text-on-surface"
+                          htmlFor="message"
                         >
-                          aviso de privacidad
-                        </a>{" "}
-                        para el tratamiento de mis datos de contacto.
-                      </span>
-                    </label>
-                  </div>
-
-                  <div
-                    className="hidden rounded-lg p-space-sm bg-error-container/30 text-error flex items-start gap-space-xs"
-                    id="formErrorBanner"
-                  >
-                    <span className="material-symbols-outlined text-[20px] shrink-0 text-error">
-                      error
-                    </span>
-                    <div className="text-body-sm font-body-sm leading-snug">
-                      <strong className="font-semibold">Atención:</strong> Por
-                      favor completa todos los campos obligatorios antes de
-                      continuar el envío.
+                          Mensaje detallado (Obligatorio)
+                        </label>
+                      </div>
+                      <textarea
+                        className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 rounded-lg focus-visible:outline-none focus-visible:border-vivero-badge-stock  transition-all font-body-md text-body-md placeholder:text-outline shadow-lg border-2 border-primary"
+                        id="message"
+                        maxLength={800}
+                        placeholder="Escribe aquí las dimensiones de tu espacio, requerimientos de luz solar, especie de interés o detalles de tu proyecto paisajístico..."
+                        required
+                      ></textarea>
                     </div>
-                  </div>
 
-                  <div
-                    className="hidden rounded-lg p-space-sm bg-tertiary-fixed text-on-tertiary-fixed flex items-start gap-space-xs"
-                    id="formSuccessBanner"
-                  >
-                    <span className="material-symbols-outlined text-[20px] shrink-0 text-primary">
-                      check_circle
-                    </span>
-                    <div className="text-body-sm font-body-sm leading-snug">
-                      <strong className="font-semibold">
-                        ¡Mensaje enviado con éxito!
-                      </strong>{" "}
-                      Un botánico especialista te responderá a la brevedad.
+                    <div className="pt-space-xs">
+                      <button
+                        className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container p-3 rounded-full font-label-md text-label-md font-bold transition-all shadow-md"
+                        type="submit"
+                      >
+                        <span aria-hidden="true" className="material-symbols-outlined text-[20px]">
+                          send
+                        </span>
+                        <span>Enviar Mensaje</span>
+                      </button>
                     </div>
-                  </div>
-
-                  <div className="pt-space-xs">
-                    <button
-                      className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary hover:bg-primary-container active:bg-on-primary-fixed-variant px-space-xl py-3 rounded-full font-label-md text-label-md font-bold transition-all shadow-md"
-                      type="submit"
-                    >
-                      <span className="material-symbols-outlined text-[20px]">
-                        send
-                      </span>
-                      <span>Enviar Mensaje</span>
-                    </button>
-                  </div>
+                  </fieldset>
                 </form>
               </div>
-            </main>
+            </div>
           </section>
 
           <section className="mt-space-xl bg-surface-container-lowest rounded-2xl p-space-lg lg:p-space-2xl shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)]">

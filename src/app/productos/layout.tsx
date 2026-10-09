@@ -7,6 +7,7 @@ import "./../globals.css";
 export const metadata: Metadata = {
   title: "Productos - Vivero del Golf",
   description: "Vivero en Rosario, Santa Fe. En Vivero del Golf encontrá plantas, árboles, arbustos y soluciones para tu jardín, con asesoramiento especializado.",
+  alternates: { canonical: "/productos" },
 };
 
 export default function ProductLayout({ children }: LayoutProps<"/">) {

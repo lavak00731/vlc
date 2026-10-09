@@ -161,7 +161,7 @@ const Productos = () => {
                     Revisión Botánica
                   </h4>
                   <p className="font-body-sm text-body-sm text-on-surface-variant">
-                    En menos de 2 horas hábiles nuestros agrónomos validan
+                    En menos de 3 horas hábiles nuestros especialistas validan
                     inventario y condiciones de entrega.
                   </p>
                 </li>

@@ -25,7 +25,7 @@ export default function ContactPage() {
             </p>
           </section>
 
-          <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-space-3xl">
+          <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-8">
             <aside className="lg:col-span-5 flex flex-col gap-8">
               <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] hover:shadow-[0_12px_28px_-6px_rgba(45,55,40,0.12)] transition-shadow p-4 md:p-8">
                 <div className="flex items-center gap-4 mb-5">
@@ -189,10 +189,10 @@ export default function ContactPage() {
                           id="subject"
                           required
                         >
-                          <option disabled selected value="">
+                          <option value="">
                             Motivo de tu consulta...
                           </option>
-                          <option value="botanica">
+                          <option value="consulta">
                             Consulta de cuidado de especies
                           </option>
                           <option value="cotizacion">
@@ -243,13 +243,13 @@ export default function ContactPage() {
             </div>
           </section>
 
-          <section className="mt-space-xl bg-surface-container-lowest rounded-2xl p-space-lg lg:p-space-2xl shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)]">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+          <section className="mt-space-xl bg-surface-container-lowest rounded-2xl p-space-lg lg:p-space-2xl shadow-[0_4px_20px_-4px_rgba(45,55,40,0.08)] p-4 md:p-8">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-5">
               <div>
-                <span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold block mb-space-xxs">
+                <span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold mb-5 text-[12px]">
                   Resolución Rápida
                 </span>
-                <h2 className="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">
+                <h2 className="font-headline-md text-headline-md text-on-surface font-bold tracking-tight text-2xl">
                   Preguntas Frecuentes sobre Visitas y Envíos
                 </h2>
               </div>
@@ -258,63 +258,55 @@ export default function ContactPage() {
                 y soporte posterior a la compra de ejemplares.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
-              <div className="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+              <div className="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between p-4">
                 <div>
-                  <div className="flex items-center gap-space-xs mb-space-xs text-primary">
-                    <span className="material-symbols-outlined text-[24px]">
+                  <div className="flex items-center gap-5 mb-5 text-primary">
+                    <span aria-hidden="true" className="material-symbols-outlined text-[24px]">
                       local_shipping
                     </span>
                     <h3 className="font-title-md text-title-md text-on-surface font-bold">
-                      ¿Hacen despachos a regiones de todo el país?
+                      ¿Hacen despachos a Rosario o a Funes?
                     </h3>
                   </div>
-                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                    Sí, enviamos a todas las regiones continentales. Para
-                    especies de follaje sensible o arbolado de gran porte (más
-                    de 1.80m), utilizamos una flota climatizada propia para la
-                    zona central y convenios de transporte especializado con
-                    furgones de control térmico hacia el norte y sur.
+                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
+                    Sí, pero debemos establecer un monto mínimo y tener en cuenta de qué mercadería estamos tratando.
                   </p>
                 </div>
-                <div className="mt-space-md pt-space-xs flex items-center gap-space-xxs font-label-sm text-label-sm text-secondary font-semibold">
-                  <span className="material-symbols-outlined text-[16px]">
+                <div className="mt-space-md pt-space-xs flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+                  <span aria-hidden="true" className="material-symbols-outlined text-[16px]">
                     verified
                   </span>
                   <span>Plazos de 48 a 72 hrs hábiles</span>
                 </div>
               </div>
 
-              <div className="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between">
+              <div className="bg-surface-container-low rounded-xl p-4 flex flex-col justify-between">
                 <div>
-                  <div className="flex items-center gap-space-xs mb-space-xs text-primary">
-                    <span className="material-symbols-outlined text-[24px]">
+                  <div className="flex items-center gap-5 mb-5 text-primary">
+                    <span aria-hidden="true" className="material-symbols-outlined text-[24px]">
                       eco
                     </span>
                     <h3 className="font-title-md text-title-md text-on-surface font-bold">
                       ¿Cómo garantizan que las plantas lleguen sanas?
                     </h3>
                   </div>
-                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                    Cada planta pasa por un riguroso riego de hidratación
-                    profunda e hidratación de cepellón 24 horas antes del viaje.
-                    Su contenedor es embalado con mallas de fibra biodegradable
-                    y cajas respirables anti-vuelco con soportes internos para
-                    evitar el quiebre foliar y el estrés hídrico.
+                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
+                    En cada caso tomamos los recaudos necesarios desde nuestra experiencia, seguimos un protocolo estricto donde cuidamos los bienes que enviamos, y sobretodo los ejemplares que son seres vivos, tenemos siempre en cuenta su integridad.
                   </p>
                 </div>
-                <div className="mt-space-md pt-space-xs flex items-center gap-space-xxs font-label-sm text-label-sm text-secondary font-semibold">
-                  <span className="material-symbols-outlined text-[16px]">
+                <div className="mt-space-md pt-space-xs flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+                  <span aria-hidden="true" className="material-symbols-outlined text-[16px]">
                     shield
                   </span>
-                  <span>Garantía biológica de reposición de 15 días</span>
+                  <span>Seguimos estrictos protocolos de seguridad y envío</span>
                 </div>
               </div>
 
-              <div className="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between">
+              <div className="bg-surface-container-low rounded-xl p-4 flex flex-col justify-between">
                 <div>
-                  <div className="flex items-center gap-space-xs mb-space-xs text-primary">
-                    <span className="material-symbols-outlined text-[24px]">
+                  <div className="flex items-center gap-5 mb-5 text-primary">
+                    <span aria-hidden="true" className="material-symbols-outlined text-[24px]">
                       group
                     </span>
                     <h3 className="font-title-md text-title-md text-on-surface font-bold">
@@ -322,52 +314,46 @@ export default function ContactPage() {
                       particulares?
                     </h3>
                   </div>
-                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
                     No requieres reserva para recorrer nuestras galerías y
-                    sectores de venta libre. Sin embargo, para grupos de más de
-                    8 personas o asesorías de paisajismo en terreno con un
-                    arquitecto botánico, recomendamos escribirnos con 48 hrs de
-                    antelación.
+                    sectores de venta libre. 
                   </p>
                 </div>
-                <div className="mt-space-md pt-space-xs flex items-center gap-space-xxs font-label-sm text-label-sm text-secondary font-semibold">
-                  <span className="material-symbols-outlined text-[16px]">
+                <div className="mt-space-md pt-space-xs flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+                  <span aria-hidden="true" className="material-symbols-outlined text-[16px]">
                     info
                   </span>
                   <span>Ingreso libre de Martes a Domingo</span>
                 </div>
               </div>
 
-              <div className="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between">
+              <div className="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between p-4">
                 <div>
-                  <div className="flex items-center gap-space-xs mb-space-xs text-primary">
+                  <div className="flex items-center gap-5 mb-5 text-primary">
                     <span className="material-symbols-outlined text-[24px]">
                       potted_plant
                     </span>
                     <h3 className="font-title-md text-title-md text-on-surface font-bold">
-                      ¿Ofrecen servicio de trasplante con macetas de greda?
+                      ¿Ofrecen servicio de asesoramiento?
                     </h3>
                   </div>
-                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                    Totalmente. Si compras tanto la planta como su maceta o
-                    jardinera artesanal en nuestro vivero, realizamos el montaje
-                    biológico con nuestro sustrato poroso enriquecido con
-                    micorrizas sin costo adicional antes de retirar o despachar.
+                  <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
+                    Totalmente. Somos expertos en el ámbito de las especies vegetales y todo lo relacionado al uso de herramientas y decoración para tus espacios.
                   </p>
                 </div>
-                <div className="mt-space-md pt-space-xs flex items-center gap-space-xxs font-label-sm text-label-sm text-secondary font-semibold">
-                  <span className="material-symbols-outlined text-[16px]">
+                <div className="mt-space-md pt-space-xs flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+                  <span aria-hidden="true" className="material-symbols-outlined text-[16px]">
                     volunteer_activism
                   </span>
-                  <span>Servicio de armado artesanal incluido</span>
+                  <span>Servicio de asesoramiento profesional</span>
                 </div>
               </div>
             </div>
 
-            <div className="mt-space-xl p-space-lg bg-surface-container-high rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
-              <div className="flex items-center gap-space-sm">
+            <div className="mt-space-xl p-space-lg bg-surface-container-high rounded-xl flex flex-col sm:flex-row items-center justify-between gap-5 p-4">
+              <div className="flex items-center gap-5">
                 <div className="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center shrink-0">
-                  <span className="material-symbols-outlined text-primary text-[24px]">
+                  <span aria-hidden="true" className="material-symbols-outlined text-primary text-[24px]">
                     support_agent
                   </span>
                 </div>
@@ -382,11 +368,11 @@ export default function ContactPage() {
                 </div>
               </div>
               <a
-                className="shrink-0 inline-flex items-center gap-space-xs bg-primary text-on-primary hover:bg-primary-container px-space-lg py-space-xs rounded-full font-label-md text-label-md font-semibold transition-all"
-                href="https://wa.me/56987654321"
+                className="shrink-0 inline-flex items-center bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container px-space-lg py-space-xs rounded-full font-label-md text-label-md font-semibold transition-all p-2"
+                href="https://wa.me/543415001111?text=Hola%20Vivero%20del%20Golf,%20necesito%20ayuda%20experta%20..."
               >
                 <span>Consultar a un Experto</span>
-                <span className="material-symbols-outlined text-[18px]">
+                <span aria-hidden="true" className="material-symbols-outlined text-[18px]">
                   arrow_forward
                 </span>
               </a>

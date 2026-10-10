@@ -32,8 +32,8 @@ export const ContactForm = () => {
     // 3. Crear la URL final de WhatsApp
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${mensajeCodificado}`;
 
-    // 4. Redirigir al usuario en una nueva pestaña
-    window.open(whatsappUrl, '_blank');
+    // Navegar en la misma pestaña evita bloqueos de ventanas emergentes en móviles.
+    window.location.assign(whatsappUrl);
 
     setFormData({
         nombre: "",

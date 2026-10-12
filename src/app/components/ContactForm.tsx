@@ -148,6 +148,7 @@ export const ContactForm = () => {
             name="mensaje"
             value={formData.mensaje}
             onChange={handleChange}
+            rows={5}
             placeholder="Escribe aquí las dimensiones de tu espacio, requerimientos de luz solar, especie de interés o detalles de tu proyecto paisajístico..."
             required
           ></textarea>

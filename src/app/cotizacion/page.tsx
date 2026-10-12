@@ -5,6 +5,7 @@ import { JsonLd } from "../components/JsonLd";
 import { getOrganizationJsonLd } from "../lib/site-json-ld";
 import { getRequestOrigin } from "../lib/site-url";
 import { Badge } from "../components/Badge";
+import { QuotationForm } from "../components/QuotationForm";
 
 export const metadata: Metadata = {
   title: "Cotización online | Vivero del Golf",
@@ -212,138 +213,7 @@ export default async function Cotizacion() {
                     PDF y contactarte por WhatsApp.
                   </p>
                 </div>
-                <form
-                  className="flex flex-col gap-space-md"
-                  id="quotation-form"
-                >
-                  <div className="flex flex-col gap-1">
-                    <label
-                      className="font-label-md text-label-md text-on-surface flex items-center justify-between"
-                      htmlFor="client-name"
-                    >
-                      <span>
-                        Nombre y Apellido{" "}
-                        <span className="text-error font-bold">*</span>
-                      </span>
-                    </label>
-                    <div className="relative">
-                      <input
-                        className="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg px-space-md py-space-xs shadow-sm focus:outline-none focus:bg-surface-container-low transition-all"
-                        id="client-name"
-                        name="name"
-                        placeholder="Ej. Constanza Silva"
-                        required
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <label
-                      className="font-label-md text-label-md text-on-surface flex items-center justify-between"
-                      htmlFor="client-phone"
-                    >
-                      <span>
-                        Teléfono / WhatsApp{" "}
-                        <span className="text-error font-bold">*</span>
-                      </span>
-                      <span className="font-label-sm text-label-sm text-on-surface-variant">
-                        Respuestas directas
-                      </span>
-                    </label>
-                    <div className="relative">
-                      <input
-                        className="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg px-space-md py-space-xs shadow-sm focus:outline-none focus:bg-surface-container-low transition-all"
-                        id="client-phone"
-                        name="phone"
-                        placeholder="+56 9 9123 4567"
-                        required
-                        type="tel"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <label
-                      className="font-label-md text-label-md text-on-surface flex items-center justify-between"
-                      htmlFor="client-email"
-                    >
-                      <span>
-                        Correo Electrónico{" "}
-                        <span className="text-error font-bold">*</span>
-                      </span>
-                    </label>
-                    <div className="relative">
-                      <input
-                        className="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg px-space-md py-space-xs shadow-sm focus:outline-none focus:bg-surface-container-low transition-all"
-                        id="client-email"
-                        name="email"
-                        placeholder="ejemplo@dominio.com"
-                        required
-                        type="email"
-                        value="usuario-invalido@"
-                      />
-                    </div>
-                    <div className="bg-error-container text-on-error-container rounded-md p-space-xs mt-1 flex items-center gap-space-xs text-body-sm font-body-sm shadow-sm">
-                      <span className="material-symbols-outlined text-[18px] shrink-0">
-                        error
-                      </span>
-                      <span>
-                        Por favor ingresa un correo electrónico válido
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <label
-                      className="font-label-md text-label-md text-on-surface flex items-center justify-between"
-                      htmlFor="client-address"
-                    >
-                      <span>Dirección o Comuna / Localidad</span>
-                      <span className="font-label-sm text-label-sm text-on-surface-variant">
-                        Opcional para flete
-                      </span>
-                    </label>
-                    <input
-                      className="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg px-space-md py-space-xs shadow-sm focus:outline-none focus:bg-surface-container-low transition-all"
-                      id="client-address"
-                      name="address"
-                      placeholder="Ej. Las Condes, Santiago / Camino La Cumbre s/n"
-                      type="text"
-                    />
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <label
-                      className="font-label-md text-label-md text-on-surface"
-                      htmlFor="client-notes"
-                    >
-                      Notas adicionales o requerimientos especiales
-                    </label>
-                    <textarea
-                      className="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg p-space-xs shadow-sm focus:outline-none focus:bg-surface-container-low transition-all resize-none"
-                      id="client-notes"
-                      name="notes"
-                      placeholder="Indícanos requerimientos de exposición solar, pisos de balcón, trasplante en destino o fecha preferente..."
-                      rows={3}
-                    ></textarea>
-                  </div>
-
-                  <button
-                    className="w-full mt-space-xs bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md py-space-sm px-space-xl rounded-full shadow-md transition-all flex items-center justify-center gap-space-xs cursor-pointer group"
-                    type="submit"
-                  >
-                    <span>Enviar pedido de cotización</span>
-                    <span className="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">
-                      send
-                    </span>
-                  </button>
-                  <div className="flex items-center justify-center gap-space-xs text-on-surface-variant text-center pt-space-xxs">
-                    <span className="material-symbols-outlined text-primary text-[18px]">
-                      verified_user
-                    </span>
-                    <span className="font-label-sm text-label-sm font-medium">
-                      Garantía de respuesta botánica en menos de 24 horas
-                      hábiles.
-                    </span>
-                  </div>
-                </form>
+                <QuotationForm />
               </div>
             </div>
           </div>

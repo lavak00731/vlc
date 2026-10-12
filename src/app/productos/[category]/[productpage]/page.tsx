@@ -7,6 +7,8 @@ import {
   getAllProducts,
   getProductByCanonicalUrl,
 } from "../../../lib/products";
+import { getOrganizationJsonLd } from "../../../lib/site-json-ld";
+import { getRequestOrigin } from "../../../lib/site-url";
 import { Carousel } from "@/app/components/Carousel";
 
 type Params = {
@@ -54,6 +56,30 @@ export default async function ProductPage({
   if (!product) notFound();
 
   const productJsonLd = "jsonLd" in product ? product.jsonLd : product.jsonld;
+  const origin = await getRequestOrigin();
+  const pageUrl = new URL(product.urlcanonica, origin).toString();
+  const organization = getOrganizationJsonLd(origin);
+  const productPageJsonLd = productJsonLd
+    ? {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            ...productJsonLd,
+            "@id": `${pageUrl}#product`,
+            url: pageUrl,
+          },
+          {
+            "@type": "WebPage",
+            "@id": `${pageUrl}#webpage`,
+            url: pageUrl,
+            name: `${product.name} | Vivero del Golf`,
+            description: product.metaDescription,
+            mainEntity: { "@id": `${pageUrl}#product` },
+          },
+          organization,
+        ],
+      }
+    : undefined;
 
   switch (category) {
     case "plantas":
@@ -118,9 +144,7 @@ export default async function ProductPage({
           </div>
         </section>
       </div>
-      {productJsonLd && (
-        <JsonLd data={{ ...productJsonLd, url: product.urlcanonica }} />
-      )}
+      {productPageJsonLd && <JsonLd data={productPageJsonLd} />}
     </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "../components/navs/Breadcrumb";
 import { Badge } from "../components/Badge";
 import { JsonLd } from "../components/JsonLd";
+import { getOrganizationJsonLd } from "../lib/site-json-ld";
 import { getRequestOrigin } from "../lib/site-url";
 import { ContactForm } from "../components/ContactForm";
 
@@ -15,8 +16,7 @@ export const metadata: Metadata = {
 export default async function ContactPage() {
   const origin = await getRequestOrigin();
   const pageUrl = new URL("/contacto", origin).toString();
-  const organizationId = new URL("/#organization", origin).toString();
-  const organizationUrl = origin.toString();
+  const organization = getOrganizationJsonLd(origin);
   const contactPageJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -26,28 +26,9 @@ export default async function ContactPage() {
         url: pageUrl,
         name: "Contacto | Vivero del Golf",
         description: metadata.description,
-        mainEntity: { "@id": organizationId },
+        mainEntity: { "@id": organization["@id"] },
       },
-      {
-        "@type": "GardenStore",
-        "@id": organizationId,
-        name: "Vivero del Golf",
-        url: organizationUrl,
-        telephone: "+54-341-500-1111",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "Av. Jorge Newbery 9320",
-          addressLocality: "Rosario",
-          addressRegion: "Santa Fe",
-          addressCountry: "AR",
-        },
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: -32.90924797000192,
-          longitude: -60.77203922356906,
-        },
-        sameAs: ["https://www.instagram.com/viverodelgolf/"],
-      },
+      organization,
     ],
   };
 

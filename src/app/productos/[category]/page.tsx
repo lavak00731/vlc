@@ -11,6 +11,8 @@ import type { CategoryInterface } from "@/app/interfaces/CategoryInterface";
 import { ProductCard } from "@/app/components/ProductCard";
 import { Pagination } from "@/app/components/navs/Pagination";
 import { QuantityComponent } from "@/app/components/QuantityComponent";
+import { getOrganizationJsonLd } from "./../../lib/site-json-ld";
+import { getRequestOrigin } from "./../../lib/site-url";
 type Params = { category: string };
 type SearchParams = {
   filter?: string | string[];
@@ -18,6 +20,14 @@ type SearchParams = {
 };
 
 const PRODUCTS_PER_PAGE = 9;
+
+function getCategorySeo(category: string, productCount: number) {
+  return {
+    title: `${category} | Productos`,
+    description: `Explorá nuestra selección de ${category}: ${productCount} productos.`,
+    alternates: { canonical: `/productos/${category}` },
+  };
+}
 
 export async function generateMetadata({
   params,
@@ -28,11 +38,7 @@ export async function generateMetadata({
   const productos = getProductsByCategory(category);
   if (!productos.length) return {};
 
-  return {
-    title: `${category} | Productos`,
-    description: `Explorá nuestra selección de ${category}: ${productos.length} productos.`,
-    alternates: { canonical: `/productos/${category}` },
-  };
+  return getCategorySeo(category, productos.length);
 }
 
 export default async function CategoriaPage({
@@ -49,7 +55,10 @@ export default async function CategoriaPage({
 
   const prodData = (categoryData as Record<string, CategoryInterface>)[category];
 
-  const url = `/productos/${category}`;
+  const origin = await getRequestOrigin();
+  const url = new URL(`/productos/${category}`, origin).toString();
+  const organization = getOrganizationJsonLd(origin);
+  const categorySeo = getCategorySeo(category, productos.length);
   const rawFilter = Array.isArray(query.filter) ? query.filter[0] : query.filter;
   const selectedFilter =
     prodData.filter.find(
@@ -79,13 +88,15 @@ export default async function CategoriaPage({
         "@type": "CollectionPage",
         "@id": `${url}#page`,
         url,
-        name: category,
+        name: categorySeo.title,
+        description: categorySeo.description,
+        mainEntityOfPage: { "@id": `${url}#page` },
         mainEntity: {
           "@type": "ItemList",
           itemListElement: productos.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
-            url: p["urlcanonica"],
+            url: new URL(p["urlcanonica"], origin).toString(),
             name: p.name,
           })),
         },
@@ -97,11 +108,12 @@ export default async function CategoriaPage({
             "@type": "ListItem",
             position: 1,
             name: "Productos",
-            item: `/productos`,
+            item: new URL("/productos", origin).toString(),
           },
           { "@type": "ListItem", position: 2, name: category, item: url },
         ],
       },
+      organization,
     ],
   };
 

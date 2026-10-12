@@ -1,16 +1,51 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { JsonLd } from "./components/JsonLd";
 import { VideoComponent } from "./components/VideoComponent";
 import { CTASection } from "./components/CTASection";
+import { getOrganizationJsonLd } from "./lib/site-json-ld";
+import { getRequestOrigin } from "./lib/site-url";
+
+const title = "Vivero del Golf | Plantas, árboles y jardinería en Rosario";
+const description =
+  "Encontrá plantas, árboles y arbustos en Rosario. En Vivero del Golf te asesoramos para crear y cuidar tus espacios verdes.";
 
 export const metadata: Metadata = {
+  title,
+  description,
   alternates: { canonical: "/" },
 };
 
-export default function Home() {
+export default async function Home() {
+  const origin = await getRequestOrigin();
+  const pageUrl = new URL("/", origin).toString();
+  const organization = getOrganizationJsonLd(origin);
+  const homeJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${pageUrl}#website`,
+        url: pageUrl,
+        name: "Vivero del Golf",
+        publisher: { "@id": organization["@id"] },
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: title,
+        description,
+        mainEntity: { "@id": organization["@id"] },
+      },
+      organization,
+    ],
+  };
+
   return (
     <div className="flex flex-col w-full">
+      <JsonLd data={homeJsonLd} />
       <section className="relative overflow-hidden pt-space-xl pb-space-3xl px-space-md lg:px-space-xl py-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-space-xl items-center relative z-10 gap-8 p-4 md:px-8 ">
           <div className="md:col-span-7 flex flex-col items-start space-y-space-md">
@@ -501,7 +536,7 @@ export default function Home() {
                 Agrega a tu Cotización
               </h3>
               <p className="font-body-md text-body-md text-on-surface/80">
-                Haz clic en "Agregar a cotización" en cada planta, maceta de
+                Haz clic en &quot;Agregar a cotización&quot; en cada planta, maceta de
                 greda o bolsa de sustrato que te interese. No requiere pago
                 inmediato ni tarjetas.
               </p>

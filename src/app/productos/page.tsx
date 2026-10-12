@@ -1,11 +1,57 @@
+import type { Metadata } from "next";
+import { JsonLd } from "../components/JsonLd";
 import { Breadcrumb } from "../components/navs/Breadcrumb";
 import { Badge } from "../components/Badge";
 import { Card } from "../components/Card";
 import { CTASection } from "../components/CTASection";
+import categoryData from "../data/categorydata.json";
+import type { CategoryInterface } from "../interfaces/CategoryInterface";
+import { getOrganizationJsonLd } from "../lib/site-json-ld";
+import { getRequestOrigin } from "../lib/site-url";
 
-const Productos = () => {
+const title = "Catálogo de productos | Vivero del Golf";
+const description =
+  "Explorá plantas, árboles y arbustos del catálogo de Vivero del Golf en Rosario y sumalos a tu lista para solicitar una cotización.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: "/productos" },
+};
+
+const Productos = async () => {
+  const origin = await getRequestOrigin();
+  const pageUrl = new URL("/productos", origin).toString();
+  const organization = getOrganizationJsonLd(origin);
+  const categories = Object.entries(
+    categoryData as Record<string, CategoryInterface>,
+  );
+  const productsJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: title,
+        description,
+        mainEntity: {
+          "@type": "ItemList",
+          itemListElement: categories.map(([category, data], index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            name: data.title,
+            url: new URL(`/productos/${category}`, origin).toString(),
+          })),
+        },
+      },
+      organization,
+    ],
+  };
+
   return (
     <div className="flex flex-col w-full">
+      <JsonLd data={productsJsonLd} />
       <div className="w-full flex flex-col">
         <div className="flex flex-col w-full max-w-7xl mx-auto py-12 px-4 md:px-8">
           <Breadcrumb />

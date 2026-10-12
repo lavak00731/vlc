@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 import { JsonLd } from "../components/JsonLd";
 import { getOrganizationJsonLd } from "../lib/site-json-ld";
 import { getRequestOrigin } from "../lib/site-url";
 import { Badge } from "../components/Badge";
 import { QuotationForm } from "../components/QuotationForm";
+import { QuotationCount, QuotationItems } from "../components/QuotationItems";
 
 export const metadata: Metadata = {
   title: "Cotización online | Vivero del Golf",
@@ -71,120 +70,10 @@ export default async function Cotizacion() {
                     aria-live="polite"
                     id="items-counter-badge"
                   >
-                    3 items
+                    <QuotationCount />
                   </span>
                 </div>
-                <ul className="flex flex-col gap-4 mb-5" id="cart-list">
-                  <li
-                    className="cart-item bg-surface-container-low rounded-lg p-8 flex flex-col sm:flex-row items-center gap-space-md transition-all hover:shadow-md gap-5"
-                  >
-                    <div className="w-24 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container mb-5">
-                      <Image
-                        alt="Monstera Deliciosa in a terracotta handcrafted pot with vibrant fenestrated green leaves, warm ambient afternoon lighting in a botanical conservatory with earthy background tones."
-                        className="w-full h-full object-cover"
-                        width={300}
-                        height={300}
-                        src="/AR-001-1.webp"
-                      />
-                    </div>
-                    <div className="flex flex-col grow min-w-0 w-full sm:w-auto">
-                      <div className="flex items-start justify-between gap-space-xs">
-                        <div>
-                          <h3 className="font-headline-sm text-xl text-on-surface">
-                            Monstera Deliciosa
-                          </h3>
-                        </div>
-                        <button
-                          className="btn-remove text-outline hover:text-error transition-colors p-1"
-                          title="Eliminar ítem"
-                          type="button"
-                        >
-                          <span
-                            aria-hidden="true"
-                            className="material-symbols-outlined text-[20px]"
-                          >
-                            delete
-                          </span>
-                          <span className="sr-only">Borrar Monstera</span>
-                        </button>
-                      </div>
-                      <div className="flex items-center justify-between mt-space-sm pt-space-xs">
-                        <span className="font-label-sm text-label-sm text-on-surface-variant">
-                          Cantidad Solicitada:
-                        </span>
-                        <div className="flex items-center bg-surface-container-lowest rounded-full p-1 shadow-sm">
-                          <button
-                            className="btn-qty-minus w-7 h-7 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors"
-                            type="button"
-                          >
-                            <span
-                              aria-hidden="true"
-                              className="material-symbols-outlined text-[16px]"
-                            >
-                              remove
-                            </span>
-                            <span className="sr-only">
-                              Quitar una unidad de Monstera
-                            </span>
-                          </button>
-                          <span className="qty-display font-title-md text-title-md px-space-sm text-on-surface min-w-7 text-center">
-                            3
-                          </span>
-                          <button
-                            className="btn-qty-plus w-7 h-7 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors"
-                            type="button"
-                          >
-                            <span
-                              aria-hidden="true"
-                              className="material-symbols-outlined text-[16px]"
-                            >
-                              add
-                            </span>
-                            <span className="sr-only">
-                              Agregar una unidad de Monstera
-                            </span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <div className="bg-surface-container rounded-lg p-space-md flex flex-col sm:flex-row items-center justify-between p-8 gap-5">
-                  <div className="flex items-start gap-2">
-                    <span
-                      aria-hidden="true"
-                      className="material-symbols-outlined text-primary text-[24px]"
-                    >
-                      receipt_long
-                    </span>
-                    <div className="flex flex-col">
-                      <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
-                        Balance Estimado
-                      </span>
-                      <span
-                        aria-live="polite"
-                        className="font-title-md text-title-md font-bold text-on-surface"
-                        id="total-summary-text"
-                      >
-                        10 productos para cotizar
-                      </span>
-                    </div>
-                  </div>
-                  <Link
-                    className="inline-flex items-center gap-2 text-secondary hover:text-on-surface font-label-md text-label-md"
-                    href="/productos"
-                  >
-                    <span
-                      aria-hidden="true"
-                      className="material-symbols-outlined text-[18px]"
-                    >
-                      add_circle
-                    </span>
-                    <span className="underline">
-                      Seguir explorando el catálogo
-                    </span>
-                  </Link>
-                </div>
+                <QuotationItems />
                 <div className="bg-surface-container-low rounded-lg p-space-md flex items-center p-8">
                   <div className="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center gap-2 shrink-0">
                     <span
@@ -209,8 +98,7 @@ export default async function Cotizacion() {
                     Datos de contacto para la cotización
                   </h2>
                   <p className="font-body-sm text-body-sm text-on-surface-variant">
-                    Comunícanos tus datos para enviarte el desglose formal en
-                    PDF y contactarte por WhatsApp.
+                    Comunícanos tus datos para enviarte el desglose formal y contactarte por WhatsApp.
                   </p>
                 </div>
                 <QuotationForm />

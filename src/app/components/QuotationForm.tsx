@@ -1,7 +1,9 @@
 "use client";
 import { useState } from 'react';
+import { useQuotation } from "../context/QuotationContext";
 
 export const QuotationForm = () => {
+  const { items } = useQuotation();
      const [formData, setFormData] = useState({
     nombre: '',
     telefono: '',
@@ -19,12 +21,23 @@ export const QuotationForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    const productosSeleccionados =
+      items.length > 0
+        ? items
+            .map(
+              ({ product, quantity }) =>
+                `- ${product.name}: ${quantity}\n${new URL(product.urlcanonica, window.location.origin).toString()}`,
+            )
+            .join("\n")
+        : "No se seleccionaron productos.";
+
     // 1. Estructurar el mensaje de texto de forma legible
     const textoMensaje = `*Nuevo contacto desde la Web*\n\n` +
                          `*Nombre:* ${formData.nombre}\n` +
                          `*Telefono:* ${formData.telefono}\n` +
                          `*Asunto:* ${formData.direccion}\n` +
-                         `*Mensaje:* ${formData.mensaje}`;
+                         `*Mensaje:* ${formData.mensaje}\n\n` +
+                         `*Productos para cotizar:*\n${productosSeleccionados}`;
 
     // 2. Codificar los caracteres especiales para la URL
     const mensajeCodificado = encodeURIComponent(textoMensaje);

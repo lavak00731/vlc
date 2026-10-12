@@ -6,6 +6,7 @@ import "./globals.css";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { getRequestOrigin } from "./lib/site-url";
+import { QuotationProvider } from "./context/QuotationContext";
 
 
 const playfair = Playfair_Display({
@@ -39,9 +40,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <body>
-        <Header/>
-        <main className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow overflow-hidden">{children}</main>
-        <Footer/>
+        <QuotationProvider>
+          <Header/>
+          <main className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow overflow-hidden">{children}</main>
+          <Footer/>
+        </QuotationProvider>
       </body>
     </html>
   );

@@ -1,8 +1,13 @@
 'use client'
 import { useId, useState } from "react"
 import { SearchComponent } from "./SearchComponent";
+import type { SearchProduct } from "../../lib/products";
 
-export const SearchMobileComponent = () => {
+export const SearchMobileComponent = ({
+    searchProducts,
+}: {
+    searchProducts: SearchProduct[];
+}) => {
     const id = useId();
     const [btnStatus, setBtnStatus] = useState<boolean>(false);
     const handleClick = () => {
@@ -17,7 +22,7 @@ export const SearchMobileComponent = () => {
             <span className="sr-only">Abrir campo de búsqueda</span>
         </button>
         <div className="w-full w-max-lg absolute top-22 left-0 flex align-items justify-center bg-primary p-2 lg:left-[50%]" id={id} hidden={btnStatus ? false : true}>
-            <SearchComponent/>
+            <SearchComponent searchProducts={searchProducts} />
         </div>
     </>
   )

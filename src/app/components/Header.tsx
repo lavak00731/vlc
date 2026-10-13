@@ -5,8 +5,11 @@ import { MobileNav } from './navs/MobileNav';
 import { QuotationsBtn } from './QuotationsBtn';
 import { SearchComponent } from "./search/SearchComponent";
 import { SearchMobileComponent } from "./search/SearchMobileComponent";
+import { getSearchProducts } from "../lib/products";
 
 export const Header = () => {
+  const searchProducts = getSearchProducts();
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 shadow-[0_1px_8px_rgba(0,0,0,0.06)] bg-vivero-badge-stock">
           <div className="relative p-4 md:px-8 md:py-6 max-w-7xl mx-auto px-space-md lg:px-space-xl flex items-center justify-between gap-space-md">
@@ -20,9 +23,9 @@ export const Header = () => {
               </Link>
             </div>
             <DesktopNav />
-            <SearchMobileComponent />
+            <SearchMobileComponent searchProducts={searchProducts} />
             <div className="hidden md:block">
-              <SearchComponent/>
+              <SearchComponent searchProducts={searchProducts} />
             </div>            
             <QuotationsBtn />
             <MobileNav />

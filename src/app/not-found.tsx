@@ -2,8 +2,11 @@ import Image from "next/image";
 import { Badge } from "./components/Badge";
 import { SearchComponent } from "./components/search/SearchComponent";
 import Link from "next/link";
+import { getSearchProducts } from "./lib/products";
 
 export default function NotFound() {
+  const searchProducts = getSearchProducts();
+
   return (
     <div className="flex flex-col w-full">
       <section className=" w-full overflow-hidden py-12 flex items-center justify-center">
@@ -17,6 +20,7 @@ export default function NotFound() {
               <div className="relative aspect-square rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest flex items-center justify-center group mb-5">
                 <Image
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="eager"
                   width="500"
                   height="500"
                   src="/404.webp"
@@ -72,7 +76,7 @@ export default function NotFound() {
               mudó a otro rincón soleado de nuestro vivero.
             </p>
             <div className="w-full max-w-lg mb-space-xl mb-5 flex justify-center">
-              <SearchComponent />
+              <SearchComponent searchProducts={searchProducts} />
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-5 w-full sm:w-auto mb-5">
               <Link

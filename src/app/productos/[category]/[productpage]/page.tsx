@@ -128,20 +128,7 @@ export default async function ProductPage({
             </dl>
             <p className="mb-8 max-w-2xl leading-relaxed text-on-surface-variant">
               {product.description}
-            </p>
-
-            {/* <button
-              type="button"
-              className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-al min-w-40 justify-center"
-            >
-              <span
-                aria-hidden="true"
-                className="material-symbols-outlined text-[16px]"
-              >
-                add_shopping_cart
-              </span>
-              Cotizar <span className="sr-only">{product.name}</span>
-            </button> */}
+            </p>            
             <AddToCartBtn
               product={product as unknown as Parameters<typeof AddToCartBtn>[0]["product"]}
             />

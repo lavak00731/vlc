@@ -10,6 +10,7 @@ import {
 import { getOrganizationJsonLd } from "../../../lib/site-json-ld";
 import { getRequestOrigin } from "../../../lib/site-url";
 import { Carousel } from "@/app/components/Carousel";
+import AddToCartBtn from "@/app/components/AddToCartBtn";
 
 type Params = {
   category: string;
@@ -129,7 +130,7 @@ export default async function ProductPage({
               {product.description}
             </p>
 
-            <button
+            {/* <button
               type="button"
               className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-al min-w-40 justify-center"
             >
@@ -140,7 +141,10 @@ export default async function ProductPage({
                 add_shopping_cart
               </span>
               Cotizar <span className="sr-only">{product.name}</span>
-            </button>
+            </button> */}
+            <AddToCartBtn
+              product={product as unknown as Parameters<typeof AddToCartBtn>[0]["product"]}
+            />
           </div>
         </section>
       </div>

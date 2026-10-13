@@ -4,15 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "./Badge";
 import type ProductInterface from "../interfaces/ProductInterface";
-import { useQuotation } from "../context/QuotationContext";
+import AddToCartBtn from "./AddToCartBtn";
 
 
 
 export const ProductCard = ({product}:{product:ProductInterface}) => {
   const {images, name, description, category, subcategory, urlcanonica} = product;
-  const { items, addProduct } = useQuotation();
-  const isSelected = items.some((item) => item.product.id === product.id);
-  let badgeIcon: string;
+   let badgeIcon: string;
 
   switch (category) {
     case "plantas":
@@ -56,12 +54,7 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
         </div>
         <div className="flex items-center justify-between gap-4">
           <Link className="text-vivero-accent flex-1 text-center rounded-full font-label-md text-label-md hover:bg-surface-container transition-colors p-2 underline! underline-offset-4" href={ urlcanonica }>Ver detalle <span className="sr-only">{name}</span></Link>
-          <button type="button" onClick={() => addProduct(product)} className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-visible:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-al min-w-40 justify-center">
-            <span aria-hidden="true" className="material-symbols-outlined text-[16px]">
-              {isSelected ? "check" : "add_shopping_cart"}
-            </span>
-            {isSelected ? "Agregar otra" : "Cotizar"} <span className="sr-only">{name}</span>
-          </button>
+            <AddToCartBtn product={product} />
         </div>
       </div>
     </div>

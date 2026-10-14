@@ -25,6 +25,8 @@ const SearchInteractive = ({
   const [debouncedQuery, setDebouncedQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(-1);
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedSuggestion, setSelectedSuggestion] =
+    useState<SearchProduct | null>(null);
   const normalizedQuery = normalizeProductName(query);
   const isDebouncing = normalizedQuery !== debouncedQuery;
   const suggestions = useMemo(
@@ -55,11 +57,11 @@ const SearchInteractive = ({
 
   const visibleSuggestions = isDebouncing ? [] : suggestions;
 
-  const navigateToSuggestion = (index: number) => {
-    const suggestion = visibleSuggestions[index];
-    if (!suggestion) return;
-
-    router.push(suggestion.urlcanonica);
+  const selectSuggestion = (suggestion: SearchProduct) => {
+    setQuery(suggestion.name);
+    setSelectedSuggestion(suggestion);
+    setActiveIndex(-1);
+    setIsOpen(false);
   };
 
   return (
@@ -67,6 +69,12 @@ const SearchInteractive = ({
       action="/buscar"
       aria-label="Buscar productos"
       className="relative md:block w-70 group"
+      onSubmit={(event) => {
+        if (!selectedSuggestion) return;
+
+        event.preventDefault();
+        router.push(selectedSuggestion.urlcanonica);
+      }}
       role="search"
     >
       <div className="p-2 flex items-center bg-surface-container-lowest rounded-full px-space-sm py-space-xxs shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
@@ -96,6 +104,7 @@ const SearchInteractive = ({
           name="q"
           onChange={(event) => {
             setQuery(event.target.value);
+            setSelectedSuggestion(null);
             setActiveIndex(-1);
             setIsOpen(true);
           }}
@@ -130,7 +139,7 @@ const SearchInteractive = ({
               visibleSuggestions[activeIndex]
             ) {
               event.preventDefault();
-              navigateToSuggestion(activeIndex);
+              selectSuggestion(visibleSuggestions[activeIndex]);
             }
           }}
           placeholder="Buscar plantas, macetas..."
@@ -166,7 +175,7 @@ const SearchInteractive = ({
               }`}
               id={`${listId}-option-${index}`}
               key={product.urlcanonica}
-              onClick={() => navigateToSuggestion(index)}
+              onClick={() => selectSuggestion(product)}
               onMouseDown={(event) => event.preventDefault()}
               role="option"
             >

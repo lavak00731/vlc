@@ -1,7 +1,9 @@
 'use client'
 
+import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useState } from "react";
 import type { SearchProduct } from "../../lib/products";
+import { normalizeProductName } from "../../lib/products";
 
 const DEBOUNCE_DELAY = 250;
 const MAX_SUGGESTIONS = 8;
@@ -11,18 +13,21 @@ export const SearchComponent = ({
 }: {
   searchProducts: SearchProduct[];
 }) => {
+  const router = useRouter();
   const inputId = useId();
   const listId = useId();
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
-  const [isDebouncing, setIsDebouncing] = useState(false);
-  const normalizedQuery = normalizeQuery(query);
+  const [activeIndex, setActiveIndex] = useState(-1);
+  const [isOpen, setIsOpen] = useState(false);
+  const normalizedQuery = normalizeProductName(query);
+  const isDebouncing = normalizedQuery !== debouncedQuery;
   const suggestions = useMemo(
     () =>
       debouncedQuery.length >= 2
         ? searchProducts
             .filter((product) =>
-              normalizeQuery(product.name).includes(debouncedQuery),
+              normalizeProductName(product.name).includes(debouncedQuery),
             )
             .slice(0, MAX_SUGGESTIONS)
         : [],
@@ -32,13 +37,18 @@ export const SearchComponent = ({
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {
       setDebouncedQuery(normalizedQuery);
-      setIsDebouncing(false);
     }, DEBOUNCE_DELAY);
 
     return () => window.clearTimeout(timeoutId);
-  }, [normalizedQuery, query]);
-  const visibleSuggestions =
-    !isDebouncing && normalizedQuery === debouncedQuery ? suggestions : [];
+  }, [normalizedQuery]);
+  const visibleSuggestions = isDebouncing ? [] : suggestions;
+
+  const navigateToSuggestion = (index: number) => {
+    const suggestion = visibleSuggestions[index];
+    if (!suggestion) return;
+
+    router.push(suggestion.urlcanonica);
+  };
 
   return (
     <form
@@ -59,24 +69,61 @@ export const SearchComponent = ({
         </span>
         <input
           autoComplete="off"
+          aria-activedescendant={
+            isOpen && activeIndex >= 0
+              ? `${listId}-option-${activeIndex}`
+              : undefined
+          }
+          aria-autocomplete="list"
+          aria-controls={listId}
+          aria-expanded={isOpen && visibleSuggestions.length > 0}
           className="w-full bg-transparent ml-2 font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline"
           id={inputId}
-          list={listId}
           minLength={2}
           name="q"
           onChange={(event) => {
-            setIsDebouncing(true);
             setQuery(event.target.value);
+            setActiveIndex(-1);
+            setIsOpen(true);
+          }}
+          onFocus={() => setIsOpen(true)}
+          onBlur={() => setIsOpen(false)}
+          role="combobox"
+          onKeyDown={(event) => {
+            if (event.key === "ArrowDown" && visibleSuggestions.length > 0) {
+              event.preventDefault();
+              setIsOpen(true);
+              setActiveIndex((currentIndex) =>
+                Math.min(currentIndex + 1, visibleSuggestions.length - 1),
+              );
+            } else if (
+              event.key === "ArrowUp" &&
+              visibleSuggestions.length > 0
+            ) {
+              event.preventDefault();
+              setIsOpen(true);
+              setActiveIndex((currentIndex) =>
+                currentIndex <= 0
+                  ? visibleSuggestions.length - 1
+                  : currentIndex - 1,
+              );
+            } else if (event.key === "Escape") {
+              setIsOpen(false);
+              setActiveIndex(-1);
+            } else if (
+              event.key === "Enter" &&
+              isOpen &&
+              activeIndex >= 0 &&
+              visibleSuggestions[activeIndex]
+            ) {
+              event.preventDefault();
+              navigateToSuggestion(activeIndex);
+            }
           }}
           placeholder="Buscar plantas, macetas..."
           required
           type="search"
         />
-        <datalist id={listId}>
-          {visibleSuggestions.map((product) => (
-            <option key={product.urlcanonica} value={product.name} />
-          ))}
-        </datalist>
         <button
           type="submit"
           className="group inline-flex p-2 items-center gap-space-xs bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container px-space-md py-space-xs rounded-full font-label-md text-label-md transition-all"
@@ -90,21 +137,45 @@ export const SearchComponent = ({
           </span>
         </button>
       </div>
+      {isOpen && visibleSuggestions.length > 0 && (
+        <ul
+          className="absolute left-0 right-0 top-full z-50 mt-2 max-h-80 overflow-y-auto rounded-2xl bg-surface-container-lowest p-2 shadow-xl"
+          id={listId}
+          role="listbox"
+          aria-label="Productos sugeridos"
+        >
+          {visibleSuggestions.map((product, index) => (
+            <li
+              aria-selected={activeIndex === index}
+              className={`cursor-pointer rounded-xl px-4 py-3 font-body-sm text-on-surface hover:bg-surface-container ${
+                activeIndex === index ? "bg-surface-container" : ""
+              }`}
+              id={`${listId}-option-${index}`}
+              key={product.urlcanonica}
+              onClick={() => navigateToSuggestion(index)}
+              onMouseDown={(event) => event.preventDefault()}
+              role="option"
+            >
+              {product.name}
+            </li>
+          ))}
+        </ul>
+      )}
+      {isOpen &&
+        normalizedQuery.length >= 2 &&
+        !isDebouncing &&
+        visibleSuggestions.length === 0 && (
+          <p className="absolute left-0 right-0 top-full z-50 mt-2 rounded-2xl bg-surface-container-lowest p-4 text-body-sm text-on-surface shadow-xl">
+            Sin sugerencias. Presioná buscar para ver resultados.
+          </p>
+        )}
       <p aria-live="polite" className="sr-only">
         {normalizedQuery.length < 2
           ? ""
           : isDebouncing || normalizedQuery !== debouncedQuery
             ? "Buscando sugerencias."
-            : `${suggestions.length} sugerencias disponibles.`}
+            : `${visibleSuggestions.length} sugerencias disponibles.`}
       </p>
     </form>
   );
-}
-
-function normalizeQuery(value: string): string {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .trim();
-}
+};

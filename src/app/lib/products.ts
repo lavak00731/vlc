@@ -20,6 +20,31 @@ export function getSearchProducts(): SearchProduct[] {
 	}).map(({ name, urlcanonica }) => ({ name, urlcanonica }));
 }
 
+export function getSearchResults(query: string): Product[] {
+	const normalizedQuery = normalizeProductName(query);
+	if (!normalizedQuery) return [];
+
+	const seenNames = new Set<string>();
+
+	return products
+		.filter((product) => {
+			const normalizedName = normalizeProductName(product.name);
+			if (!normalizedName.includes(normalizedQuery) || seenNames.has(normalizedName)) {
+				return false;
+			}
+			seenNames.add(normalizedName);
+			return true;
+		})
+		.sort((first, second) => {
+			const firstName = normalizeProductName(first.name);
+			const secondName = normalizeProductName(second.name);
+			const firstStartsWithQuery = firstName.startsWith(normalizedQuery);
+			const secondStartsWithQuery = secondName.startsWith(normalizedQuery);
+
+			return Number(secondStartsWithQuery) - Number(firstStartsWithQuery);
+		});
+}
+
 export function getProductByName(name: string): Product | undefined {
 	const normalizedName = normalizeProductName(name);
 	return products.find((product) => normalizeProductName(product.name) === normalizedName);

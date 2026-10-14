@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { preload } from "react-dom";
 import Image from "next/image";
 import Link from "next/link";
 import { JsonLd } from "./components/JsonLd";
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
 };
 
 export default async function Home() {
+  preload("/posterviverolisto2.webp", {
+    as: "image",
+    fetchPriority: "high",
+  });
+
   const origin = await getRequestOrigin();
   const pageUrl = new URL("/", origin).toString();
   const organization = getOrganizationJsonLd(origin);

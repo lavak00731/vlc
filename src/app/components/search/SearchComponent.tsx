@@ -1,54 +1,58 @@
-'use client'
+"use client";
 
-import { useRouter } from "next/navigation";
-import { useEffect, useId, useMemo, useState } from "react";
+import { useCallback, useEffect, useId, useRef, useState } from "react";
+import type { ComponentType } from "react";
 import type { SearchProduct } from "../../lib/products";
-import { normalizeProductName } from "../../lib/products";
 
-const DEBOUNCE_DELAY = 250;
-const MAX_SUGGESTIONS = 8;
+type SearchInteractiveProps = {
+  searchProducts: SearchProduct[];
+  initialQuery: string;
+  autoFocus: boolean;
+};
 
 export const SearchComponent = ({
   searchProducts,
+  autoFocus = false,
+  loadOnMount = false,
 }: {
   searchProducts: SearchProduct[];
+  autoFocus?: boolean;
+  loadOnMount?: boolean;
 }) => {
-  const router = useRouter();
   const inputId = useId();
-  const listId = useId();
+  const isLoadingInteractive = useRef(false);
   const [query, setQuery] = useState("");
-  const [debouncedQuery, setDebouncedQuery] = useState("");
-  const [activeIndex, setActiveIndex] = useState(-1);
-  const [isOpen, setIsOpen] = useState(false);
-  const normalizedQuery = normalizeProductName(query);
-  const isDebouncing = normalizedQuery !== debouncedQuery;
-  const suggestions = useMemo(
-    () =>
-      debouncedQuery.length >= 2
-        ? searchProducts
-            .filter((product) =>
-              normalizeProductName(product.name).includes(debouncedQuery),
-            )
-            .slice(0, MAX_SUGGESTIONS)
-        : [],
-    [debouncedQuery, searchProducts],
-  );
+  const [isActivated, setIsActivated] = useState(false);
+  const [InteractiveSearch, setInteractiveSearch] =
+    useState<ComponentType<SearchInteractiveProps> | null>(null);
+
+  const loadInteractiveSearch = useCallback(() => {
+    if (isLoadingInteractive.current) return;
+
+    isLoadingInteractive.current = true;
+    void import("./SearchInteractive").then(({ default: SearchInteractive }) => {
+      setInteractiveSearch(() => SearchInteractive);
+    });
+  }, []);
+
+  const activateSearch = () => {
+    setIsActivated(true);
+    loadInteractiveSearch();
+  };
 
   useEffect(() => {
-    const timeoutId = window.setTimeout(() => {
-      setDebouncedQuery(normalizedQuery);
-    }, DEBOUNCE_DELAY);
+    if (loadOnMount) loadInteractiveSearch();
+  }, [loadInteractiveSearch, loadOnMount]);
 
-    return () => window.clearTimeout(timeoutId);
-  }, [normalizedQuery]);
-  const visibleSuggestions = isDebouncing ? [] : suggestions;
-
-  const navigateToSuggestion = (index: number) => {
-    const suggestion = visibleSuggestions[index];
-    if (!suggestion) return;
-
-    router.push(suggestion.urlcanonica);
-  };
+  if (InteractiveSearch) {
+    return (
+      <InteractiveSearch
+        autoFocus={autoFocus || isActivated}
+        initialQuery={query}
+        searchProducts={searchProducts}
+      />
+    );
+  }
 
   return (
     <form
@@ -68,61 +72,18 @@ export const SearchComponent = ({
           search
         </span>
         <input
+          autoFocus={autoFocus}
           autoComplete="off"
-          aria-activedescendant={
-            isOpen && activeIndex >= 0
-              ? `${listId}-option-${activeIndex}`
-              : undefined
-          }
-          aria-autocomplete="list"
-          aria-controls={listId}
-          aria-expanded={isOpen && visibleSuggestions.length > 0}
           className="w-full bg-transparent ml-2 font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline"
           id={inputId}
           minLength={2}
           name="q"
-          onChange={(event) => {
-            setQuery(event.target.value);
-            setActiveIndex(-1);
-            setIsOpen(true);
-          }}
-          onFocus={() => setIsOpen(true)}
-          onBlur={() => setIsOpen(false)}
-          role="combobox"
-          onKeyDown={(event) => {
-            if (event.key === "ArrowDown" && visibleSuggestions.length > 0) {
-              event.preventDefault();
-              setIsOpen(true);
-              setActiveIndex((currentIndex) =>
-                Math.min(currentIndex + 1, visibleSuggestions.length - 1),
-              );
-            } else if (
-              event.key === "ArrowUp" &&
-              visibleSuggestions.length > 0
-            ) {
-              event.preventDefault();
-              setIsOpen(true);
-              setActiveIndex((currentIndex) =>
-                currentIndex <= 0
-                  ? visibleSuggestions.length - 1
-                  : currentIndex - 1,
-              );
-            } else if (event.key === "Escape") {
-              setIsOpen(false);
-              setActiveIndex(-1);
-            } else if (
-              event.key === "Enter" &&
-              isOpen &&
-              activeIndex >= 0 &&
-              visibleSuggestions[activeIndex]
-            ) {
-              event.preventDefault();
-              navigateToSuggestion(activeIndex);
-            }
-          }}
+          onChange={(event) => setQuery(event.target.value)}
+          onFocus={activateSearch}
           placeholder="Buscar plantas, macetas..."
           required
           type="search"
+          value={query}
         />
         <button
           type="submit"
@@ -137,45 +98,6 @@ export const SearchComponent = ({
           </span>
         </button>
       </div>
-      {isOpen && visibleSuggestions.length > 0 && (
-        <ul
-          className="absolute left-0 right-0 top-full z-50 mt-2 max-h-80 overflow-y-auto rounded-2xl bg-surface-container-lowest p-2 shadow-xl"
-          id={listId}
-          role="listbox"
-          aria-label="Productos sugeridos"
-        >
-          {visibleSuggestions.map((product, index) => (
-            <li
-              aria-selected={activeIndex === index}
-              className={`cursor-pointer rounded-xl px-4 py-3 font-body-sm text-on-surface hover:bg-surface-container ${
-                activeIndex === index ? "bg-surface-container" : ""
-              }`}
-              id={`${listId}-option-${index}`}
-              key={product.urlcanonica}
-              onClick={() => navigateToSuggestion(index)}
-              onMouseDown={(event) => event.preventDefault()}
-              role="option"
-            >
-              {product.name}
-            </li>
-          ))}
-        </ul>
-      )}
-      {isOpen &&
-        normalizedQuery.length >= 2 &&
-        !isDebouncing &&
-        visibleSuggestions.length === 0 && (
-          <p className="absolute left-0 right-0 top-full z-50 mt-2 rounded-2xl bg-surface-container-lowest p-4 text-body-sm text-on-surface shadow-xl">
-            Sin sugerencias. Presioná buscar para ver resultados.
-          </p>
-        )}
-      <p aria-live="polite" className="sr-only">
-        {normalizedQuery.length < 2
-          ? ""
-          : isDebouncing || normalizedQuery !== debouncedQuery
-            ? "Buscando sugerencias."
-            : `${visibleSuggestions.length} sugerencias disponibles.`}
-      </p>
     </form>
   );
 };

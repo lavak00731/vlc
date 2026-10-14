@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Head from 'next/head'
-import 'material-symbols';
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header";

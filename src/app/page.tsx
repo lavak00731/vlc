@@ -342,34 +342,34 @@ export default async function Home() {
                 </div>
               </Link>
             </li>
-            <li className="lg:col-span-2">
+            <li>
               <Link
-                className="group h-full rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col lg:flex-row lg:min-h-105.5"
+                className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col"
                 aria-label="Accesorios &amp; Herramientas, Equipamiento para amantes de las plantas"
                 href="/productos/herramientas"
               >
-                <div className="relative w-full lg:w-1/2  lg:min-h-105.5 overflow-hidden">
+                <div className="relative w-full overflow-hidden">
                   <Image
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     alt=""
                     width="300"
                     height="300"
-                    src="/herramientas.webp"
+                    src="/herramientasdejardinlistas.webp"
                   />
                 </div>
-                <div className="p-8 lg:w-1/2 flex flex-col justify-between bg-surface-container-lowest">
+                <div className="p-8 grow flex flex-col justify-between bg-surface-container-lowest">
                   <div>
                     <h3 className="font-headline-sm text-2xl font-bold text-on-surface group-hover:text-primary transition-colors mb-5">
-                      Accesorios &amp; Herramientas
+                      Herramientas de Jardín
                     </h3>
                     <p className="font-body-sm text-body-sm text-on-surface/75 mt-space-xs mb-5">
                       Tijeras de poda japonesas, regaderas de precisión de
-                      latón, tutores de musgo y medidores de humedad.
+                      latón, rastrillos y otras herramientas para tu lugar preferido.
                     </p>
                   </div>
                   <div className="flex items-center justify-between pt-space-sm mt-space-xs">
-                    <span className="font-label-md text-label-md text-secondary font-semibold max-w-[190px]">
+                    <span className="font-label-md text-label-md text-secondary font-semibold max-w-47.5">
                       Equipamiento para amantes de las plantas
                     </span>
                     <span className="w-9 h-9 rounded-full flex items-center justify-center btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
@@ -386,18 +386,18 @@ export default async function Home() {
             </li>
             <li>
               <Link
-                className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col md:h-auto"
+                className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col"
                 aria-label="Fertilizantes y sustratos, Mezclas listas y específicas"
                 href="/productos/fertilizantes"
               >
-                <div className="relative w-full h-full overflow-hidden">
+                <div className="relative w-full overflow-hidden">
                   <Image
                     alt=""
                     width="300"
                     height="300"
                     loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    src="/fertilizantes.webp"
+                    className="w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    src="/novofertil2.webp"
                   />
                 </div>
                 <div className="p-8 grow flex flex-col justify-between bg-surface-container-lowest">
@@ -406,13 +406,53 @@ export default async function Home() {
                       Sustratos &amp; Nutrición
                     </h3>
                     <p className="font-body-sm text-body-sm text-on-surface/75 mt-space-xxs mb-5">
-                      Humus de lombriz, perlita, turba rubia y bioestimulantes
-                      biológicos.
+                      Compost Orgánico, Sustrato Orgánico, Huertas, Turba Subtropical y Corteza de Pino.
                     </p>
                   </div>
                   <div className="flex items-center justify-between pt-space-xs">
                     <span className="font-label-sm text-label-sm text-secondary font-semibold">
                       Mezclas listas y específicas
+                    </span>
+                    <span className="w-8 h-8 rounded-full flex items-center justify-center  btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
+                      <span
+                        aria-hidden="true"
+                        className="material-symbols-outlined text-[18px]"
+                      >
+                        arrow_forward
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col"
+                aria-label="Fertilizantes y sustratos, Mezclas listas y específicas"
+                href="/productos/fertilizantes"
+              >
+                <div className="relative w-full overflow-hidden">
+                  <Image
+                    alt=""
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    className="w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    src="/decoracion.webp"
+                  />
+                </div>
+                <div className="p-8 grow flex flex-col justify-between bg-surface-container-lowest">
+                  <div>
+                    <h3 className="font-headline-sm text-2xl font-bold text-on-surface group-hover:text-primary transition-colors mb-5">
+                      Deco
+                    </h3>
+                    <p className="font-body-sm text-body-sm text-on-surface/75 mt-space-xxs mb-5">
+                      Una variedad de productos que incluye plantas artificiales, canastos decorativos, estatuas, faroles y accesorios ornamentales.
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-between pt-space-xs">
+                    <span className="font-label-sm text-label-sm text-secondary font-semibold max-w-60">
+                      Decoración natural, clásica, moderna o rústica.
                     </span>
                     <span className="w-8 h-8 rounded-full flex items-center justify-center  btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">
                       <span

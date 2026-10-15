@@ -182,10 +182,9 @@ button {
 .bg-vivero-bg { background-color: var(--color-vivero-bg); }
 .bg-vivero-nav { background-color: var(--color-vivero-nav); }
 .bg-vivero-primary { background-color: var(--color-vivero-primary); }
-.btn-text-color { color: #FFF};
+.btn-text-color, .btn-text-color:active  { color: #FFF};
 .btn-text-color:hover,
-.btn-text-color:focus-visible,
-.btn-text-color:active {
+.btn-text-color:focus-visible{
   color: var(--color-vivero-primary);
 }  
 .btn-secondary-text-color { color: var(--color-primary); background-color: #FFF};

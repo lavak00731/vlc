@@ -16,7 +16,6 @@ import Image from "next/image";
 
 export const Carousel = ({images}:{images:string[]}) => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperInstance | null>(null);
-
   return (
     <div className="flex w-full min-w-0 flex-col gap-4">
       <div className="relative aspect-square w-full overflow-hidden rounded-2xl">
@@ -39,7 +38,7 @@ export const Carousel = ({images}:{images:string[]}) => {
       <Swiper
         onSwiper={setThumbsSwiper}
         spaceBetween={10}
-        slidesPerView={3}
+        slidesPerView={images.length}
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs, A11y]}

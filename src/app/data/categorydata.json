@@ -14,9 +14,15 @@
         "badgeText": "Árboles y arbustos que engalan tu parque, jardín, u obra",
         "title": "Catálogo de Árboles y Arbustos",
         "description": ["Encontrá en nuestro vivero una amplia variedad de árboles y arbustos en Rosario para crear, renovar y embellecer jardines, patios, terrazas y espacios verdes.", "Seleccionamos especies para diferentes necesidades de paisajismo, <strong>desde árboles ornamentales y frutales hasta especies forestales, arbustos para cercos y variedades especialmente elegidas para el arbolado urbano</strong>.", "Explorá nuestras categorías y encontrá los árboles y arbustos ideales para tu jardín, proyecto paisajístico o espacio verde en Rosario y alrededores."]
-
+    },
+    "herramientas": {
+        "filter": ["palas", "rastrillo", "rascador", "aireador", "azada", "tridente"],
+        "image": "/herramientasdejardinlistas.webp",
+        "badgeIcon": "garden_cart",
+        "badgeText": "Suelo y tierra",
+        "title": "Herramientas de Jardín",
+        "description": ["Ofrecemos una gran variedad de herramientas de jardín para ayudarte a plantar, quitar hierbas o transplantar jardineras y macetas. "]
     }
-
         
      
 }

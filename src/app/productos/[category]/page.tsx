@@ -141,15 +141,18 @@ export default async function CategoriaPage({
               </div>
             </div>
           </div>
+          {
+                prodData.filter.length > 0 && 
           <section className="bg-surface-container-highest/40 py-12">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
               <ProductFilter
                 categoryPath={url}
                 filter={prodData.filter}
                 selectedFilter={selectedFilter}
-              />
+              />             
             </div>
           </section>
+          }
           <section className="w-full py-12">
             <div className="max-w-7xl p-4 md:p-8 mx-auto">
               {filteredProducts.length > 0 &&

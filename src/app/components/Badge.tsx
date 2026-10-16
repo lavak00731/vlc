@@ -6,7 +6,7 @@ export const Badge = ({icon, text}:{icon:string, text:string}) => {
         <span aria-hidden="true" className="material-symbols-outlined text-[16px] text-primary">
             {icon}
         </span>
-        <span>{text}</span>
+        <span className="capitalize">{text}</span>
     </div>
   )
 }

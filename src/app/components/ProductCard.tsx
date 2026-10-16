@@ -26,7 +26,7 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
       badgeIcon = "water_drop";
       break;
     case "herramientas":
-      badgeIcon = "shovel";
+      badgeIcon = "garden_cart";
       break;
     default:
       badgeIcon = "nest_eco_leaf";

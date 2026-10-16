@@ -89,6 +89,9 @@ export default async function ProductPage({
     case "arboles-y-arbustos":
       categoryName = "Árboles y Arbustos"
       break;  
+    case "herramientas":
+      categoryName = category
+      break;  
     default:
       break;
   }

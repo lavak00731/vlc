@@ -313,7 +313,7 @@ export default async function Home() {
                     height="300"
                     loading="lazy"
                     alt=""
-                    src="/macetas.webp"
+                    src="/macetaslistas.webp"
                   />
                 </div>
                 <div className="p-8 grow flex flex-col justify-between bg-surface-container-lowest">

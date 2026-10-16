@@ -46,7 +46,7 @@ export const Card = ({
                     </p>
                   </div>
                   <div className="flex items-center justify-between pt-space-sm mt-space-xs">
-                    <span className="font-label-md text-label-md text-secondary font-semibold max-w-[190px]">
+                    <span className="font-label-md text-label-md text-secondary font-semibold max-w-47.5">
                       { footerDescription }
                     </span>
                     <span className="w-9 h-9 rounded-full flex items-center justify-center btn-text-color bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">

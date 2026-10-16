@@ -110,7 +110,7 @@ const Productos = async () => {
                   "Interiores luminosos, sombra profunda y florales aromáticas."
                 }
                 footerDescription={"Monstera, Ficus, Helechos..."}
-                spansInTwo={true}
+                spansInTwo={false}
               />
               <Card
                 url={"/productos/arboles-y-arbustos"}
@@ -127,7 +127,7 @@ const Productos = async () => {
               />
               <Card
                 url={"/productos/macetas"}
-                img={"/macetas.webp"}
+                img={"/macetaslistas.webp"}
                 title={"Macetas &amp; Contenedores"}
                 ariaLabel={
                   "Macetas &amp; Contenedores, Cerámica esmaltada, terracota porosa tradicional y fibrocemento moderno."
@@ -140,28 +140,41 @@ const Productos = async () => {
               />
               <Card
                 url={"/productos/herramientas"}
-                img={"/herramientas.webp"}
-                title={"Accesorios &amp; Herramientas"}
+                img={"/herramientasdejardinlistas.webp"}
+                title={"Herramientas de Jardín"}
                 ariaLabel={
-                  "Accesorios &amp; Herramientas, Equipamiento para amantes de las plantas"
+                  "Accesorios y Herramientas, Equipamiento para amantes de las plantas"
                 }
                 description={
-                  "Tijeras de poda japonesas, regaderas de precisión de latón, tutores de musgo y medidores de humedad."
+                  "Tijeras de poda japonesas, regaderas de precisión de latón, rastrillos y otras herramientas para tu lugar preferido."
                 }
                 footerDescription={"Equipamiento para amantes de las plantas"}
                 spansInTwo={false}
               />
               <Card
                 url={"/productos/fertilizantes"}
-                img={"/fertilizantes.webp"}
-                title={"Sustratos &amp; Nutrición"}
+                img={"/novofertil2.webp"}
+                title={"Sustratos & Nutrición"}
                 ariaLabel={
                   "Fertilizantes y sustratos, Mezclas listas y específicas"
                 }
                 description={
-                  "Humus de lombriz, perlita, turba rubia y bioestimulantes biológicos."
+                  "Compost Orgánico, Sustrato Orgánico, Huertas, Turba Subtropical y Corteza de Pino."
                 }
                 footerDescription={"Mezclas listas y específicas"}
+                spansInTwo={false}
+              />
+              <Card
+                url={"/productos/decoracion"}
+                img={"/decoracion.webp"}
+                title={"Deco"}
+                ariaLabel={
+                  "Decoracion"
+                }
+                description={
+                  "Una variedad de productos que incluye plantas artificiales, canastos decorativos, estatuas, faroles y accesorios ornamentales."
+                }
+                footerDescription={"Decoración natural, clásica, moderna o rústica."}
                 spansInTwo={false}
               />
             </ul>

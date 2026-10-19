@@ -5268,7 +5268,7 @@
         "name": "PureLine Adjustable Rake GARDENA",
         "description": "Rastrillo ajustable para recoger hojas y residuos vegetales del jardín.",
         "sku": "17307-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR001-1.webp",
           "/HERR001-2.webp",
@@ -5296,7 +5296,7 @@
         "name": "PureLine Hoe GARDENA",
         "description": "Azada para remover la tierra y eliminar malas hierbas.",
         "sku": "17309-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR002-1.webp",
           "/HERR002-2.webp",
@@ -5324,7 +5324,7 @@
         "name": "PureLine Garden Hoe GARDENA",
         "description": "Azada compacta para remover la tierra y retirar malas hierbas.",
         "sku": "17310-10",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR003-1.webp",
           "/HERR003-2.webp",
@@ -5352,7 +5352,7 @@
         "name": "PureLine Road Broom GARDENA",
         "description": "Escoba de exterior para limpiar caminos y patios.",
         "sku": "17311-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR004-1.webp",
           "/HERR004-2.webp",
@@ -5380,7 +5380,7 @@
         "name": "PureLine Rake GARDENA",
         "description": "Rastrillo para recoger residuos y nivelar el suelo del jardín.",
         "sku": "17306-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR005-1.webp",
           "/HERR005-2.webp",
@@ -5408,7 +5408,7 @@
         "name": "PureLine Lawn Rake GARDENA",
         "description": "Rastrillo para recoger hojas y restos vegetales del césped.",
         "sku": "17305-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR006-1.webp",
           "/HERR006-2.webp",
@@ -5423,7 +5423,7 @@
       "name": "Recogedor de malas hierbas GARDENA",
       "description": "Herramienta de jardín diseñada para extraer malas hierbas desde la raíz, facilitando el mantenimiento de parterres, canteros y huertos. Permite trabajar con precisión y reducir la necesidad de remover grandes cantidades de tierra.",
       "category": "herramientas",
-      "subcategory": "herramientas-de-jardin",
+      "subcategory": "herramientas de jardin",
       "images": [
         "/HERR007-1.webp",
         "/HERR007-2.webp",
@@ -5436,7 +5436,7 @@
         "name": "Recogedor de malas hierbas GARDENA",
         "description": "Herramienta para extraer malas hierbas desde la raíz.",
         "sku": "3518-26",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR007-1.webp",
           "/HERR007-2.webp",
@@ -5444,15 +5444,14 @@
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/recogedor-de-malas-hierbas",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/recogedor-de-malas-hierbas/970496901.html"
+      "urlcanonica": "/productos/herramientas/recogedor-de-malas-hierbas"
     },
     {
       "id": "HERR008",
       "name": "Esparcidor pequeño GARDENA",
       "description": "Esparcidor manual para distribuir materiales de manera uniforme en superficies pequeñas del jardín. Es adecuado para tareas de mantenimiento del césped y aplicaciones domésticas de jardinería.",
       "category": "herramientas",
-      "subcategory": "herramientas-de-jardin",
+      "subcategory": "herramientas de jardin",
       "images": [
         "/HERR008-1.webp",
         "/HERR008-2.webp"
@@ -5464,22 +5463,21 @@
         "name": "Esparcidor pequeño GARDENA",
         "description": "Esparcidor manual para tareas de mantenimiento del jardín.",
         "sku": "3255-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR008-1.webp",
           "/HERR008-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/esparcidor-pequeno",
-      "sourceUrl": "https://www.gardena.com/es/productos/cuidado-del-cesped/carros-esparcidores/esparcidor-pequeno/967632201.html"
+      "urlcanonica": "/productos/herramientas/esparcidor-pequeno"
     },
     {
       "id": "HERR009",
       "name": "Plantador de bulbos GARDENA",
       "description": "Herramienta para realizar agujeros en el suelo y plantar bulbos de flores con facilidad. Permite preparar los hoyos de plantación de manera uniforme y simplificar las tareas de jardinería estacional.",
       "category": "herramientas",
-      "subcategory": "herramientas-de-jardin",
+      "subcategory": "herramientas de jardin",
       "images": [
         "/HERR009-1.webp",
         "/HERR009-2.webp",
@@ -5492,7 +5490,7 @@
         "name": "Plantador de bulbos GARDENA",
         "description": "Herramienta para preparar agujeros destinados a la plantación de bulbos.",
         "sku": "3412-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR009-1.webp",
           "/HERR009-2.webp",
@@ -5500,15 +5498,14 @@
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/plantador-de-bulbos",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/plantador-de-bulbos/901045701.html"
+      "urlcanonica": "/productos/herramientas/plantador-de-bulbos"
     },
     {
       "id": "HERR010",
       "name": "Plantador GARDENA",
       "description": "Herramienta de jardinería para facilitar la preparación de agujeros destinados a la colocación de semillas, plantines y otras plantas pequeñas. Permite trabajar la tierra de forma localizada y precisa.",
       "category": "herramientas",
-      "subcategory": "herramientas-de-jardin",
+      "subcategory": "herramientas de jardin",
       "images": [
         "/HERR010-1.webp",
         "/HERR010-2.webp"
@@ -5520,22 +5517,21 @@
         "name": "Plantador GARDENA",
         "description": "Herramienta para preparar agujeros de plantación en el jardín.",
         "sku": "3487-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR010-1.webp",
           "/HERR010-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/plantador",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/plantador/901046001.html"
+      "urlcanonica": "/productos/herramientas/plantador"
     },
     {
       "id": "HERR011",
       "name": "Gubia GARDENA",
       "description": "Herramienta manual para trabajos de precisión en el jardín, especialmente útil para aflojar la tierra y retirar hierbas no deseadas en espacios reducidos. Su formato permite trabajar alrededor de plantas y en zonas de difícil acceso.",
       "category": "herramientas",
-      "subcategory": "herramientas-de-jardin",
+      "subcategory": "herramientas de jardin",
       "images": [
         "/HERR011-1.webp",
         "/HERR011-2.webp",
@@ -5548,7 +5544,7 @@
         "name": "Gubia GARDENA",
         "description": "Herramienta manual para trabajos de precisión en el jardín.",
         "sku": "8935-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR011-1.webp",
           "/HERR011-2.webp",
@@ -5556,8 +5552,7 @@
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/gubia",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/gubia/967095101.html"
+      "urlcanonica": "/productos/herramientas/gubia"
     },
     {
       "id": "HERR012",
@@ -5576,15 +5571,14 @@
         "name": "Palita ancha Classic GARDENA",
         "description": "Palita de jardín para cavar, remover tierra y plantar flores.",
         "sku": "8950-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR012-1.webp",
           "/HERR012-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/palita-ancha-classic",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/palita-ancha-classic/967095601.html"
+      "urlcanonica": "/productos/herramientas/palita-ancha-classic"
     },
     {
       "id": "HERR013",
@@ -5603,15 +5597,14 @@
         "name": "Palita estrecha Classic GARDENA",
         "description": "Palita estrecha para plantar y trasplantar en espacios reducidos.",
         "sku": "8951-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR013-1.webp",
           "/HERR013-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/palita-estrecha-classic",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/palita-estrecha-classic/967095801.html"
+      "urlcanonica": "/productos/herramientas/palita-estrecha-classic"
     },
     {
       "id": "HERR014",
@@ -5631,7 +5624,7 @@
         "name": "Tridente Classic GARDENA",
         "description": "Herramienta manual para aflojar y airear la tierra.",
         "sku": "8952-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR014-1.webp",
           "/HERR014-2.webp",
@@ -5639,8 +5632,7 @@
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/tridente-classic",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/tridente-classic/967095901.html"
+      "urlcanonica": "/productos/herramientas/tridente-classic"
     },
     {
       "id": "HERR015",
@@ -5659,15 +5651,14 @@
         "name": "Palita larga GARDENA",
         "description": "Palita para tareas de plantación y manipulación de tierra.",
         "sku": "8953-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR015-1.webp",
           "/HERR015-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/palita-larga",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/palita-larga/967096001.html"
+      "urlcanonica": "/productos/herramientas/palita-larga"
     },
     {
       "id": "HERR016",
@@ -5686,15 +5677,14 @@
         "name": "Azada Comfort GARDENA",
         "description": "Azada para remover el suelo y eliminar malas hierbas.",
         "sku": "8955-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR016-1.webp",
           "/HERR016-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/azada-comfort",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/azada-comfort/967096101.html"
+      "urlcanonica": "/productos/herramientas/azada-comfort"
     },
     {
       "id": "HERR017",
@@ -5713,15 +5703,14 @@
         "name": "Rastrillo plano Comfort GARDENA",
         "description": "Rastrillo para nivelar y acondicionar la superficie del suelo.",
         "sku": "8956-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR017-1.webp",
           "/HERR017-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/rastrillo-plano-comfort",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/rastrillo-plano-comfort/967096201.html"
+      "urlcanonica": "/productos/herramientas/rastrillo-plano-comfort"
     },
     {
       "id": "HERR018",
@@ -5740,15 +5729,14 @@
         "name": "Aireador Comfort GARDENA",
         "description": "Herramienta manual para aflojar y airear el suelo.",
         "sku": "8957-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR018-1.webp",
           "/HERR018-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/aireador-comfort",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/aireador-comfort/967096301.html"
+      "urlcanonica": "/productos/herramientas/aireador-comfort"
     },
     {
       "id": "HERR019",
@@ -5767,15 +5755,14 @@
         "name": "Rastrillo Comfort GARDENA",
         "description": "Rastrillo manual para remover y distribuir tierra.",
         "sku": "8958-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR019-1.webp",
           "/HERR019-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/rastrillo-comfort",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/rastrillo-comfort/967096401.html"
+      "urlcanonica": "/productos/herramientas/rastrillo-comfort"
     },
     {
       "id": "HERR020",
@@ -5794,15 +5781,14 @@
         "name": "Rascador Comfort GARDENA",
         "description": "Herramienta manual para retirar residuos y realizar tareas de mantenimiento.",
         "sku": "8959-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR020-1.webp",
           "/HERR020-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/rascador-comfort",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/rascador-comfort/967096501.html"
+      "urlcanonica": "/productos/herramientas/rascador-comfort"
     },
     {
       "id": "HERR021",
@@ -5821,22 +5807,21 @@
         "name": "Palita Comfort GARDENA",
         "description": "Palita de jardín para cavar y plantar.",
         "sku": "8960-20",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR021-1.webp",
           "/HERR021-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/palita-comfort",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/palita-comfort/967096701.html"
+      "urlcanonica": "/productos/herramientas/palita-comfort"
     },
     {
       "id": "HERR022",
       "name": "Set de Balcón GARDENA",
       "description": "Conjunto de herramientas manuales para realizar tareas de jardinería en balcones, macetas y jardineras. Está pensado para facilitar la plantación, el trasplante y el mantenimiento de plantas en espacios reducidos.",
       "category": "herramientas",
-      "subcategory": "herramientas-de-jardin",
+      "subcategory": "herramientas de jardin",
       "images": [
         "/HERR022-1.webp",
         "/HERR022-2.webp",
@@ -5849,7 +5834,7 @@
         "name": "Set de Balcón GARDENA",
         "description": "Conjunto de herramientas manuales para el cuidado de plantas en balcones y jardineras.",
         "sku": "8970-30",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR022-1.webp",
           "/HERR022-2.webp",
@@ -5857,8 +5842,7 @@
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/set-de-balcon",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/set-de-balcon/967097101.html"
+      "urlcanonica": "/productos/herramientas/set-de-balcon"
     },
     {
       "id": "HERR026",
@@ -5877,15 +5861,14 @@
         "name": "Escoba Rastrillo NatureLine GARDENA",
         "description": "Herramienta para recoger hojas y residuos vegetales en el jardín.",
         "sku": "17105-30",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR026-1.webp",
           "/HERR026-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/escoba-rastrillo-natureline",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/"
+      "urlcanonica": "/productos/herramientas/escoba-rastrillo-natureline"
     },
     {
       "id": "HERR028",
@@ -5904,15 +5887,194 @@
         "name": "Rastrillo NatureLine GARDENA",
         "description": "Rastrillo para preparar y nivelar la tierra del jardín.",
         "sku": "17107-30",
-        "category": "herramientas-de-jardin",
+        "category": "herramientas de jardin",
         "image": [
           "/HERR028-1.webp",
           "/HERR028-2.webp"
         ],
         "additionalProperty": []
       },
-      "urlcanonica": "/productos/herramientas/rastrillo-natureline",
-      "sourceUrl": "https://www.gardena.com/es/productos/suelo-y-tierra/herramientas-de-jardin/rastrillo-natureline/967931101.html"
+      "urlcanonica": "/productos/herramientas/rastrillo-natureline"
+    },
+    {
+      "id": "FER001",
+      "name": "Compost Orgánico",
+      "description": "Para plantas exterior e interior en contenedores. Elaborado a partir de la descomposición de residuos orgánicos de la industria, jardines y otras fuentes orgánicas.",
+      "category": "fertilizantes",
+      "subcategory": "compost",
+      "images": [
+        "/compost.webp"
+      ],
+      "metaDescription": "Compost Orgánico para plantas de interior y exterior en contenedores. Elaborado a partir de residuos orgánicos compostados.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Compost Orgánico",
+        "description": "Para plantas exterior e interior en contenedores. Elaborado a partir de la descomposición de residuos orgánicos de la industria, jardines y otras fuentes orgánicas.",
+        "sku": "FER001",
+        "category": "compost",
+        "image": [
+          "/compost.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Uso",
+            "value": "Para plantas de exterior e interior en contenedores"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Elaboración",
+            "value": "A partir de residuos orgánicos de la industria, jardines y otras fuentes orgánicas"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/fertilizantes/compost-organico"
+    },
+    {
+      "id": "FER002",
+      "name": "Sustrato Orgánico",
+      "description": "Para plantas de exterior, trasplantes, canteros y macetas de gran porte. Su estructura permite retener la humedad. Su compost con alto grado de madurez  y estabilidad es la base de todos nuestros productos. Se recomienda mezclar con compost en contenedores medianos y grandes.",
+      "category": "fertilizantes",
+      "subcategory": "sustrato",
+      "images": [
+        "/sustrato.webp"
+      ],
+      "metaDescription": "Sustrato Orgánico para plantas de exterior, trasplantes, canteros y macetas grandes. Retiene la humedad y se recomienda mezclar con compost.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Sustrato Orgánico",
+        "description": "Para plantas de exterior, trasplantes, canteros y macetas de gran porte. Su estructura permite retener la humedad. Su compost con alto grado de madurez y estabilidad es la base de todos nuestros productos. Se recomienda mezclar con compost en contenedores medianos y grandes.",
+        "sku": "FER002",
+        "category": "sustrato",
+        "image": [
+          "/sustrato.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Uso",
+            "value": "Para plantas de exterior, trasplantes, canteros y macetas de gran porte"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Retención de humedad",
+            "value": "Su estructura permite retener la humedad"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Recomendación",
+            "value": "Mezclar con compost en contenedores medianos y grandes"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/fertilizantes/sustrato-organico"
+    },
+    {
+      "id": "FER003",
+      "name": "Huertas",
+      "description": "Compost orgánico para contenedores medianos y grandes. Retiene la humedad, ayuda a enfrentar temperaturas elevadas y aporta materia orgánica para un crecimiento vigoroso.",
+      "category": "fertilizantes",
+      "subcategory": "huertas",
+      "images": [
+        "/huertas.webp"
+      ],
+      "metaDescription": "Huertas: compost orgánico para contenedores medianos y grandes. Retiene humedad y aporta materia orgánica para un crecimiento vigoroso.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Huertas",
+        "description": "Compost orgánico para contenedores medianos y grandes. Retiene la humedad, ayuda a enfrentar temperaturas elevadas y aporta materia orgánica para un crecimiento vigoroso.",
+        "sku": "FER003",
+        "category": "huertas",
+        "image": [
+          "/huertas.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Uso",
+            "value": "Para contenedores medianos y grandes"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Beneficios",
+            "value": "Retiene la humedad, ayuda a enfrentar temperaturas elevadas y aporta materia orgánica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/fertilizantes/huertas"
+    },
+    {
+      "id": "FER004",
+      "name": "Turba Subtropical",
+      "description": "Resaca subtropical combinada con Compost fino de corteza de pino compostada. Conserva la humedad. Modera los cambios de temperatura. Favorece el desarrollo de raíces. ",
+      "category": "fertilizantes",
+      "subcategory": "turba",
+      "images": [
+        "/turba.webp"
+      ],
+      "metaDescription": "Turba Subtropical con resaca subtropical y compost fino de corteza de pino. Conserva la humedad y favorece el desarrollo de raíces.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Turba Subtropical",
+        "description": "Resaca subtropical combinada con compost fino de corteza de pino compostada. Conserva la humedad. Modera los cambios de temperatura. Favorece el desarrollo de raíces.",
+        "sku": "FER004",
+        "category": "turba",
+        "image": [
+          "/turba.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Composición",
+            "value": "Resaca subtropical combinada con compost fino de corteza de pino compostada"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Beneficios",
+            "value": "Conserva la humedad, modera los cambios de temperatura y favorece el desarrollo de raíces"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/fertilizantes/turba-subtropical"
+    },
+    {
+      "id": "FER005",
+      "name": "Corteza de Pino",
+      "description": "Reduce la pérdida de agua del suelo, mejora su estructura y minimiza el crecimiento de malas hierbas. Protección natural para canteros, jardines y espacios verdes.",
+      "category": "fertilizantes",
+      "subcategory": "corteza de pino",
+      "images": [
+        "/corteza.webp"
+      ],
+      "metaDescription": "Corteza de Pino para proteger canteros, jardines y espacios verdes. Reduce la pérdida de agua, mejora el suelo y minimiza las malas hierbas.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Corteza de Pino",
+        "description": "Reduce la pérdida de agua del suelo, mejora su estructura y minimiza el crecimiento de malas hierbas. Protección natural para canteros, jardines y espacios verdes.",
+        "sku": "FER005",
+        "category": "corteza-de-pino",
+        "image": [
+          "/corteza.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Beneficios",
+            "value": "Reduce la pérdida de agua del suelo, mejora su estructura y minimiza el crecimiento de malas hierbas"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Uso",
+            "value": "Protección natural para canteros, jardines y espacios verdes"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/fertilizantes/corteza-de-pino"
     }
   ]
 }

@@ -22,8 +22,8 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
     case "macetas":
       badgeIcon = "potted_plant";
       break;
-    case "sustratos-y-fertilizantes":
-      badgeIcon = "water_drop";
+    case "fertilizantes":
+      badgeIcon = "compost";
       break;
     case "herramientas":
       badgeIcon = "garden_cart";

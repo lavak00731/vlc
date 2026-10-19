@@ -84,14 +84,14 @@ export default async function ProductPage({
 
   switch (category) {
     case "plantas":
+    case "herramientas":
+    case "fertilizantes":
       categoryName = category
       break;
     case "arboles-y-arbustos":
       categoryName = "Árboles y Arbustos"
       break;  
-    case "herramientas":
-      categoryName = category
-      break;  
+
     default:
       break;
   }

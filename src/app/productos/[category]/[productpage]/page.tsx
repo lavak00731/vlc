@@ -11,6 +11,7 @@ import { getOrganizationJsonLd } from "../../../lib/site-json-ld";
 import { getRequestOrigin } from "../../../lib/site-url";
 import { Carousel } from "@/app/components/Carousel";
 import AddToCartBtn from "@/app/components/AddToCartBtn";
+import Image from "next/image";
 
 type Params = {
   category: string;
@@ -102,7 +103,21 @@ export default async function ProductPage({
         <section className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="flex min-w-0 flex-col gap-4">
             <div className="relative overflow-hidden rounded-3xl bg-surface-container flex flex-col gap-5">
-              <Carousel images={product.images} />
+                {
+                  product.images.length > 1 && <Carousel images={product.images} />
+                }
+                {
+                  product.images.length === 1 && (
+                    <Image
+                      src={product.images[0]}
+                      alt=""
+                      width={300}
+                      height={300}
+                      className="h-auto w-full object-cover"
+                      loading="eager"
+                    />
+                  )
+                }
             </div>            
           </div> 
           

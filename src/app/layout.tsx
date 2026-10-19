@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { getRequestOrigin } from "./lib/site-url";
 import { QuotationProvider } from "./context/QuotationContext";
+import { SkipLink } from "./components/SkipLink";
 
 
 const playfair = Playfair_Display({
@@ -40,8 +41,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </Head>
       <body>
         <QuotationProvider>
+          <SkipLink />
           <Header/>
-          <main className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow overflow-hidden">{children}</main>
+          <main id="main-content" className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow overflow-hidden">{children}</main>
           <Footer/>
         </QuotationProvider>
       </body>

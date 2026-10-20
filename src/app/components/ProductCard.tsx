@@ -19,6 +19,7 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
     case "arboles-y-arbustos":
       badgeIcon = "nature";
       break;
+    case "maceta":
     case "macetas":
       badgeIcon = "potted_plant";
       break;
@@ -40,7 +41,7 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
         alt=""
         width="300"
         height="300"
-        src={images[0]}
+        src={images?.[0] ?? "/macetaslistas.webp"}
       />
       <div className="p-8 flex flex-col justify-between bg-surface-container-lowest sm:min-h-90 md:min-h-105 lg:min-h-90">
         <div className="flex flex-col items-center">

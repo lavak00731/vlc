@@ -58,6 +58,7 @@ export default async function ProductPage({
   if (!product) notFound();
 
   const productJsonLd = "jsonLd" in product ? product.jsonLd : product.jsonld;
+  const productImages = product.images ?? [];
   const origin = await getRequestOrigin();
   const pageUrl = new URL(product.urlcanonica, origin).toString();
   const organization = getOrganizationJsonLd(origin);
@@ -89,6 +90,12 @@ export default async function ProductPage({
     case "fertilizantes":
       categoryName = category
       break;
+    case "maceta":
+      categoryName = "macetas"
+      break;
+    case "macetas":
+      categoryName = "macetas"
+      break;
     case "arboles-y-arbustos":
       categoryName = "Árboles y Arbustos"
       break;  
@@ -104,12 +111,12 @@ export default async function ProductPage({
           <div className="flex min-w-0 flex-col gap-4">
             <div className="relative overflow-hidden rounded-3xl bg-surface-container flex flex-col gap-5">
                 {
-                  product.images.length > 1 && <Carousel images={product.images} />
+                  productImages.length > 1 && <Carousel images={productImages} />
                 }
                 {
-                  product.images.length === 1 && (
+                  productImages.length === 1 && (
                     <Image
-                      src={product.images[0]}
+                      src={productImages[0]}
                       alt=""
                       width={300}
                       height={300}
@@ -144,9 +151,11 @@ export default async function ProductPage({
                 </dd>
               </div>
             </dl>
-            <p className="mb-8 max-w-2xl leading-relaxed text-on-surface-variant">
-              {product.description}
-            </p>            
+            <div className="mb-8 max-w-2xl space-y-3 leading-relaxed text-on-surface-variant">
+              {product.description.split(/\n\s*\n/).map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
             <AddToCartBtn
               product={product as unknown as Parameters<typeof AddToCartBtn>[0]["product"]}
             />

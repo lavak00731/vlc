@@ -21,11 +21,25 @@ type SearchParams = {
 
 const PRODUCTS_PER_PAGE = 9;
 
-function getCategorySeo(category: string, productCount: number) {
+function getCategorySeo(category: string, productCount: number, image: string) {
+  const title = `${category} | Productos`;
+  const description = `Explorá nuestra selección de ${category}: ${productCount} productos.`;
+
   return {
-    title: `${category} | Productos`,
-    description: `Explorá nuestra selección de ${category}: ${productCount} productos.`,
+    title,
+    description,
     alternates: { canonical: `/productos/${category}` },
+    openGraph: {
+      title,
+      description,
+      images: [{ url: image, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+    },
   };
 }
 
@@ -36,9 +50,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { category } = await params;
   const productos = getProductsByCategory(category);
-  if (!productos.length) return {};
+  const prodData = (categoryData as Record<string, CategoryInterface>)[category];
+  if (!productos.length || !prodData) return {};
 
-  return getCategorySeo(category, productos.length);
+  return getCategorySeo(category, productos.length, prodData.image);
 }
 
 export default async function CategoriaPage({
@@ -58,7 +73,7 @@ export default async function CategoriaPage({
   const origin = await getRequestOrigin();
   const url = new URL(`/productos/${category}`, origin).toString();
   const organization = getOrganizationJsonLd(origin);
-  const categorySeo = getCategorySeo(category, productos.length);
+  const categorySeo = getCategorySeo(category, productos.length, prodData.image);
   const rawFilter = Array.isArray(query.filter) ? query.filter[0] : query.filter;
   const selectedFilter =
     prodData.filter.find(

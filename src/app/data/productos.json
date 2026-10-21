@@ -14220,7 +14220,7 @@
         "category": "macetas",
         "image": [
           "/maceta-importada-simil-cemento-modelo-europa-55-x-20-cm-01.webp",
-            "/maceta-importada-simil-cemento-modelo-europa-55-x-20-cm-03.webp",
+          "/maceta-importada-simil-cemento-modelo-europa-55-x-20-cm-03.webp",
           "/maceta-importada-simil-cemento-modelo-europa-55-x-20-cm-04.webp",
           "/maceta-importada-simil-cemento-modelo-europa-55-x-20-cm-06.webp",
           "/maceta-importada-simil-cemento-modelo-europa-55-x-20-cm-07.webp"
@@ -14264,6 +14264,974 @@
         ]
       },
       "urlcanonica": "/productos/macetas/maceta-importada-simil-cemento-modelo-rustico-bowl-25-x-20-cm"
+    },
+    {
+      "id": "MAC152",
+      "name": "T344 13CM",
+      "description": "MACETA DE CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/1_T344-600x600.webp"
+      ],
+      "metaDescription": "T344 13CM: Maceta de cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T344 13CM",
+        "description": "MACETA DE CERÁMICA 13CM",
+        "sku": "MAC152",
+        "category": "macetas",
+        "image": [
+          "/1_T344-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t344-13cm"
+    },
+    {
+      "id": "MAC153",
+      "name": "T345 13CM",
+      "description": "MACETA DE CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/2_T345-600x600.webp"
+      ],
+      "metaDescription": "T345 13CM: Maceta de cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T345 13CM",
+        "description": "MACETA DE CERÁMICA 13CM",
+        "sku": "MAC153",
+        "category": "macetas",
+        "image": [
+          "/2_T345-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t345-13cm"
+    },
+    {
+      "id": "MAC154",
+      "name": "T635 MACETA 14CM",
+      "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 15,5CM, ANCHO: 15,5CM, ALTO: 13,5CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/3_T635-600x600.webp"
+      ],
+      "metaDescription": "T635 MACETA 14CM: Florero de cerámica medidas: largo 15,5cm, ancho: 15,5cm, alto: 13,5cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T635 MACETA 14CM",
+        "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 15,5CM, ANCHO: 15,5CM, ALTO: 13,5CM",
+        "sku": "MAC154",
+        "category": "macetas",
+        "image": [
+          "/3_T635-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t635-maceta-14cm"
+    },
+    {
+      "id": "MAC155",
+      "name": "T636 MACETA 10CM",
+      "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 11,5CM, ANCHO: 11,5CM, ALTO: 10CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/4_T636-600x600.webp"
+      ],
+      "metaDescription": "T636 MACETA 10CM: Florero de cerámica medidas: largo 11,5cm, ancho: 11,5cm, alto: 10cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T636 MACETA 10CM",
+        "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 11,5CM, ANCHO: 11,5CM, ALTO: 10CM",
+        "sku": "MAC155",
+        "category": "macetas",
+        "image": [
+          "/4_T636-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t636-maceta-10cm"
+    },
+    {
+      "id": "MAC156",
+      "name": "T634 MACETA 17CM",
+      "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 19CM, ANCHO: 19CM, ALTO: 17CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/5_T634-600x600.webp",
+        "/5_T635-AMBIENT-600x600.webp"
+      ],
+      "metaDescription": "T634 MACETA 17CM: Florero de cerámica medidas: largo 19cm, ancho: 19cm, alto: 17cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T634 MACETA 17CM",
+        "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 19CM, ANCHO: 19CM, ALTO: 17CM",
+        "sku": "MAC156",
+        "category": "macetas",
+        "image": [
+          "/5_T634-600x600.webp",
+          "/5_T635-AMBIENT-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t634-maceta-17cm"
+    },
+    {
+      "id": "MAC157",
+      "name": "T633 MACETA 20CM",
+      "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 22CM, ANCHO: 21CM, ALTO: 19,5CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/6_T633-600x600.webp",
+        "/6_T633-AMBIENT-600x600.webp"
+      ],
+      "metaDescription": "T633 MACETA 20CM: Florero de cerámica medidas: largo 22cm, ancho: 21cm, alto: 19,5cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T633 MACETA 20CM",
+        "description": "FLORERO DE CERÁMICA MEDIDAS: LARGO 22CM, ANCHO: 21CM, ALTO: 19,5CM",
+        "sku": "MAC157",
+        "category": "macetas",
+        "image": [
+          "/6_T633-600x600.webp",
+          "/6_T633-AMBIENT-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t633-maceta-20cm"
+    },
+    {
+      "id": "MAC158",
+      "name": "T337 12CM",
+      "description": "MACETA DE CERÁMICA 12CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/7_T33-340-600x600.webp"
+      ],
+      "metaDescription": "T337 12CM: Maceta de cerámica 12cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T337 12CM",
+        "description": "MACETA DE CERÁMICA 12CM",
+        "sku": "MAC158",
+        "category": "macetas",
+        "image": [
+          "/7_T33-340-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t337-12cm"
+    },
+    {
+      "id": "MAC159",
+      "name": "T362 13CM",
+      "description": "MACETA CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/8_T362-600x600.webp"
+      ],
+      "metaDescription": "T362 13CM: Maceta cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T362 13CM",
+        "description": "MACETA CERÁMICA 13CM",
+        "sku": "MAC159",
+        "category": "macetas",
+        "image": [
+          "/8_T362-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t362-13cm"
+    },
+    {
+      "id": "MAC160",
+      "name": "T335 12CM",
+      "description": "MACETA DE CERÁMICA 12CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/9_T335-338-600x600.webp"
+      ],
+      "metaDescription": "T335 12CM: Maceta de cerámica 12cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T335 12CM",
+        "description": "MACETA DE CERÁMICA 12CM",
+        "sku": "MAC160",
+        "category": "macetas",
+        "image": [
+          "/9_T335-338-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t335-12cm"
+    },
+    {
+      "id": "MAC161",
+      "name": "T352 17CM",
+      "description": "MACETA CERÁMICA 17CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/10_T352-600x600.webp",
+        "/10_T352-AMBIENT-600x600.webp"
+      ],
+      "metaDescription": "T352 17CM: Maceta cerámica 17cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T352 17CM",
+        "description": "MACETA CERÁMICA 17CM",
+        "sku": "MAC161",
+        "category": "macetas",
+        "image": [
+          "/10_T352-600x600.webp",
+          "/10_T352-AMBIENT-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t352-17cm"
+    },
+    {
+      "id": "MAC162",
+      "name": "T364 18CM",
+      "description": "MACETA CERÁMICA 18CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/11_T364-600x600.webp"
+      ],
+      "metaDescription": "T364 18CM: Maceta cerámica 18cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T364 18CM",
+        "description": "MACETA CERÁMICA 18CM",
+        "sku": "MAC162",
+        "category": "macetas",
+        "image": [
+          "/11_T364-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t364-18cm"
+    },
+    {
+      "id": "MAC163",
+      "name": "T346 13CM",
+      "description": "MACETA DE CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/12_T346-600x600.webp"
+      ],
+      "metaDescription": "T346 13CM: Maceta de cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T346 13CM",
+        "description": "MACETA DE CERÁMICA 13CM",
+        "sku": "MAC163",
+        "category": "macetas",
+        "image": [
+          "/12_T346-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t346-13cm"
+    },
+    {
+      "id": "MAC164",
+      "name": "T333 13CM",
+      "description": "MACETA DE CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/13_T333-600x600.webp"
+      ],
+      "metaDescription": "T333 13CM: Maceta de cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T333 13CM",
+        "description": "MACETA DE CERÁMICA 13CM",
+        "sku": "MAC164",
+        "category": "macetas",
+        "image": [
+          "/13_T333-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t333-13cm"
+    },
+    {
+      "id": "MAC165",
+      "name": "T340 15CM",
+      "description": "MACETA DE CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/14_T33-340-600x600.webp"
+      ],
+      "metaDescription": "T340 15CM: Maceta de cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T340 15CM",
+        "description": "MACETA DE CERÁMICA 15CM",
+        "sku": "MAC165",
+        "category": "macetas",
+        "image": [
+          "/14_T33-340-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t340-15cm"
+    },
+    {
+      "id": "MAC166",
+      "name": "T338 15CM",
+      "description": "MACETA DE CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/15_T335-338-600x600.webp"
+      ],
+      "metaDescription": "T338 15CM: Maceta de cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T338 15CM",
+        "description": "MACETA DE CERÁMICA 15CM",
+        "sku": "MAC166",
+        "category": "macetas",
+        "image": [
+          "/15_T335-338-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t338-15cm"
+    },
+    {
+      "id": "MAC167",
+      "name": "T322 15CM",
+      "description": "MACETA DE CERÁMICA 18CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/16_T322-T325-600x600.webp"
+      ],
+      "metaDescription": "T322 15CM: Maceta de cerámica 18cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T322 15CM",
+        "description": "MACETA DE CERÁMICA 18CM",
+        "sku": "MAC167",
+        "category": "macetas",
+        "image": [
+          "/16_T322-T325-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t322-15cm"
+    },
+    {
+      "id": "MAC168",
+      "name": "T320 15CM",
+      "description": "MACETA DE CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/17_T320-T323-600x600.webp"
+      ],
+      "metaDescription": "T320 15CM: Maceta de cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T320 15CM",
+        "description": "MACETA DE CERÁMICA 15CM",
+        "sku": "MAC168",
+        "category": "macetas",
+        "image": [
+          "/17_T320-T323-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t320-15cm"
+    },
+    {
+      "id": "MAC169",
+      "name": "T321 15CM",
+      "description": "MACETA DE CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/18_T321-T324-600x600.webp"
+      ],
+      "metaDescription": "T321 15CM: Maceta de cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T321 15CM",
+        "description": "MACETA DE CERÁMICA 15CM",
+        "sku": "MAC169",
+        "category": "macetas",
+        "image": [
+          "/18_T321-T324-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t321-15cm"
+    },
+    {
+      "id": "MAC170",
+      "name": "T347 15CM",
+      "description": "MACETA DE CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/19_T347-600x600.webp"
+      ],
+      "metaDescription": "T347 15CM: Maceta de cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T347 15CM",
+        "description": "MACETA DE CERÁMICA 15CM",
+        "sku": "MAC170",
+        "category": "macetas",
+        "image": [
+          "/19_T347-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t347-15cm"
+    },
+    {
+      "id": "MAC171",
+      "name": "T323 18CM",
+      "description": "MACETA DE CERÁMICA 18CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/20_T320-T323-600x600.webp"
+      ],
+      "metaDescription": "T323 18CM: Maceta de cerámica 18cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T323 18CM",
+        "description": "MACETA DE CERÁMICA 18CM",
+        "sku": "MAC171",
+        "category": "macetas",
+        "image": [
+          "/20_T320-T323-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t323-18cm"
+    },
+    {
+      "id": "MAC172",
+      "name": "T324 18CM",
+      "description": "MACETA DE CERÁMICA 18CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/21_T321-T324-600x600.webp"
+      ],
+      "metaDescription": "T324 18CM: Maceta de cerámica 18cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T324 18CM",
+        "description": "MACETA DE CERÁMICA 18CM",
+        "sku": "MAC172",
+        "category": "macetas",
+        "image": [
+          "/21_T321-T324-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t324-18cm"
+    },
+    {
+      "id": "MAC173",
+      "name": "T348 15CM",
+      "description": "MACETA DE CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/22_T348-600x600.webp"
+      ],
+      "metaDescription": "T348 15CM: Maceta de cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T348 15CM",
+        "description": "MACETA DE CERÁMICA 15CM",
+        "sku": "MAC173",
+        "category": "macetas",
+        "image": [
+          "/22_T348-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t348-15cm"
+    },
+    {
+      "id": "MAC174",
+      "name": "T361 13CM",
+      "description": "MACETA CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/23_T361-600x600.webp"
+      ],
+      "metaDescription": "T361 13CM: Maceta cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T361 13CM",
+        "description": "MACETA CERÁMICA 13CM",
+        "sku": "MAC174",
+        "category": "macetas",
+        "image": [
+          "/23_T361-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t361-13cm"
+    },
+    {
+      "id": "MAC175",
+      "name": "T354 13CM",
+      "description": "MACETA CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/24_T354-600x600.webp"
+      ],
+      "metaDescription": "T354 13CM: Maceta cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T354 13CM",
+        "description": "MACETA CERÁMICA 13CM",
+        "sku": "MAC175",
+        "category": "macetas",
+        "image": [
+          "/24_T354-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t354-13cm"
+    },
+    {
+      "id": "MAC176",
+      "name": "T366 12CM",
+      "description": "MACETA CERÁMICA 12CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/25_T366-367-368-600x600.webp"
+      ],
+      "metaDescription": "T366 12CM: Maceta cerámica 12cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T366 12CM",
+        "description": "MACETA CERÁMICA 12CM",
+        "sku": "MAC176",
+        "category": "macetas",
+        "image": [
+          "/25_T366-367-368-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t366-12cm"
+    },
+    {
+      "id": "MAC177",
+      "name": "T360 13CM",
+      "description": "MACETA CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/26_T360-600x600.webp"
+      ],
+      "metaDescription": "T360 13CM: Maceta cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T360 13CM",
+        "description": "MACETA CERÁMICA 13CM",
+        "sku": "MAC177",
+        "category": "macetas",
+        "image": [
+          "/26_T360-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t360-13cm"
+    },
+    {
+      "id": "MAC178",
+      "name": "T363 13CM",
+      "description": "MACETA CERÁMICA 13CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/27_T363-600x600.webp"
+      ],
+      "metaDescription": "T363 13CM: Maceta cerámica 13cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T363 13CM",
+        "description": "MACETA CERÁMICA 13CM",
+        "sku": "MAC178",
+        "category": "macetas",
+        "image": [
+          "/27_T363-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t363-13cm"
+    },
+    {
+      "id": "MAC179",
+      "name": "T367 15CM",
+      "description": "MACETA CERÁMICA 15CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/28_T366-367-368-600x600.webp",
+        "/28_T367-AMBIENT-600x600.webp"
+      ],
+      "metaDescription": "T367 15CM: Maceta cerámica 15cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T367 15CM",
+        "description": "MACETA CERÁMICA 15CM",
+        "sku": "MAC179",
+        "category": "macetas",
+        "image": [
+          "/28_T366-367-368-600x600.webp",
+          "/28_T367-AMBIENT-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t367-15cm"
+    },
+    {
+      "id": "MAC180",
+      "name": "T353 17CM",
+      "description": "MACETA CERÁMICA 17CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/29_T353-600x600.webp"
+      ],
+      "metaDescription": "T353 17CM: Maceta cerámica 17cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T353 17CM",
+        "description": "MACETA CERÁMICA 17CM",
+        "sku": "MAC180",
+        "category": "macetas",
+        "image": [
+          "/29_T353-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t353-17cm"
+    },
+    {
+      "id": "MAC181",
+      "name": "T350 14CM",
+      "description": "MACETA CERÁMICA 14CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/30_T350-600x600.webp"
+      ],
+      "metaDescription": "T350 14CM: Maceta cerámica 14cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T350 14CM",
+        "description": "MACETA CERÁMICA 14CM",
+        "sku": "MAC181",
+        "category": "macetas",
+        "image": [
+          "/30_T350-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t350-14cm"
+    },
+    {
+      "id": "MAC182",
+      "name": "T368 19CM",
+      "description": "MACETA CERÁMICA 19CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/31_T366-367-368-600x600.webp"
+      ],
+      "metaDescription": "T368 19CM: Maceta cerámica 19cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T368 19CM",
+        "description": "MACETA CERÁMICA 19CM",
+        "sku": "MAC182",
+        "category": "macetas",
+        "image": [
+          "/31_T366-367-368-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t368-19cm"
+    },
+    {
+      "id": "MAC183",
+      "name": "T358 16CM",
+      "description": "MACETA CERÁMICA 16CM",
+      "category": "macetas",
+      "subcategory": "cerámica",
+      "images": [
+        "/32_T358-600x600.webp"
+      ],
+      "metaDescription": "T358 16CM: Maceta cerámica 16cm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "T358 16CM",
+        "description": "MACETA CERÁMICA 16CM",
+        "sku": "MAC183",
+        "category": "macetas",
+        "image": [
+          "/32_T358-600x600.webp"
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategoría",
+            "value": "cerámica"
+          }
+        ]
+      },
+      "urlcanonica": "/productos/macetas/t358-16cm"
     }
   ]
 }

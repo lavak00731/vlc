@@ -23,16 +23,9 @@
         "title": "Herramientas de Jardín",
         "description": ["Ofrecemos una gran variedad de herramientas de jardín para ayudarte a plantar, quitar hierbas o transplantar jardineras y macetas. "]
     },
-    "maceta": {
-        "filter": ["terracota"],
-        "image": "/macetas.webp",
-        "badgeIcon": "potted_plant",
-        "badgeText": "Macetas de Terracota",
-        "title": "Macetas de Terracota",
-        "description": ["Explorá nuestra línea de macetas de terracota Blumsa, con distintos diseños y medidas para tus plantas, patios y jardines.", "Encontrá modelos clásicos, pintados y grafito; consultanos por tamaños, dimensiones y disponibilidad."]
-    },
+
     "macetas": {
-        "filter": ["portamacetas", "plásticas"],
+        "filter": ["terracota", "portamacetas", "plásticas"],
         "image": "/macetaslistas.webp",
         "badgeIcon": "potted_plant",
         "badgeText": "Macetas y portamacetas",

@@ -6019,12 +6019,12 @@
       "urlcanonica": "/productos/fertilizantes/corteza-de-pino"
     }
   ],
-  "maceta": [
+  "macetas": [
     {
       "id": "MAC031",
       "name": "Común",
       "description": "Boca: 40 mm; Base: 27 mm; Altura: 40 mm; Peso: 0.02 kg; Capacidad: 0.03 dm3\n\nBoca: 50 mm; Base: 31 mm; Altura: 50 mm; Peso: 0.03 kg; Capacidad: 0.05 dm3\n\nBoca: 60 mm; Base: 37 mm; Altura: 63 mm; Peso: 0.07 kg; Capacidad: 0.06 dm3\n\nBoca: 70 mm; Base: 45 mm; Altura: 65 mm; Peso: 0.07 kg; Capacidad: 0.12 dm3\n\nBoca: 78 mm; Base: 48 mm; Altura: 75 mm; Peso: 0.12 kg; Capacidad: 0.15 dm3\n\nBoca: 101 mm; Base: 59 mm; Altura: 100 mm; Peso: 0.24 kg; Capacidad: 0.35 dm3; Plato: 8 mm\n\nBoca: 124 mm; Base: 71 mm; Altura: 115 mm; Peso: 0.45 kg; Capacidad: 0.6 dm3; Plato: 10 mm\n\nBoca: 142 mm; Base: 80 mm; Altura: 130 mm; Peso: 0.49 kg; Capacidad: 1 dm3; Plato: 12 mm\n\nBoca: 166 mm; Base: 95 mm; Altura: 159 mm; Peso: 0.88 kg; Capacidad: 1.5 dm3; Plato: 14 mm\n\nBoca: 185 mm; Base: 108 mm; Altura: 180 mm; Peso: 1.27 kg; Capacidad: 2.2 dm3; Plato: 14 mm\n\nBoca: 203 mm; Base: 124 mm; Altura: 198 mm; Peso: 1.55 kg; Capacidad: 3.2 dm3; Plato: 16 mm\n\nBoca: 223 mm; Base: 135 mm; Altura: 210 mm; Peso: 2.28 kg; Capacidad: 4 dm3; Plato: 18 mm\n\nBoca: 242 mm; Base: 150 mm; Altura: 233 mm; Peso: 2.37 kg; Capacidad: 5.5 dm3; Plato: 20 mm\n\nBoca: 260 mm; Base: 162 mm; Altura: 254 mm; Peso: 3 kg; Capacidad: 7 dm3; Plato: 22 mm\n\nBoca: 278 mm; Base: 173 mm; Altura: 276 mm; Peso: 3.92 kg; Capacidad: 9 dm3; Plato: 22 mm\n\nBoca: 300 mm; Base: 189 mm; Altura: 297 mm; Peso: 4.86 kg; Capacidad: 12 dm3; Plato: 24 mm\n\nBoca: 352 mm; Base: 220 mm; Altura: 342 mm; Peso: 7.17 kg; Capacidad: 19 dm3; Plato: 28 mm\n\nBoca: 399 mm; Base: 254 mm; Altura: 390 mm; Peso: 10 kg; Capacidad: 27 dm3; Plato: 35 mm\n\nBoca: 464 mm; Base: 284 mm; Altura: 454 mm; Peso: 15.15 kg; Capacidad: 46 dm3; Plato: 40 mm\n\nBoca: 520 mm; Base: 294 mm; Altura: 490 mm; Peso: 19 kg; Capacidad: 56 dm3; Plato: 40 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture001.webp",
         "/category001.webp"
@@ -6148,13 +6148,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/comun"
+      "urlcanonica": "/productos/macetas/comun"
     },
     {
       "id": "MAC032",
       "name": "Icono",
       "description": "Boca: 80 mm; Base: 50 mm; Altura: 80 mm; Peso: 0.12 kg; Capacidad: 0.22 dm3; Plato: 8 mm\n\nBoca: 100 mm; Base: 65 mm; Altura: 100 mm; Peso: 0.24 kg; Capacidad: 0.3 dm3; Plato: 8 mm\n\nBoca: 117 mm; Base: 80 mm; Altura: 125 mm; Peso: 0.42 kg; Capacidad: 0.55 dm3; Plato: 10 mm\n\nBoca: 133 mm; Base: 92 mm; Altura: 140 mm; Peso: 0.59 kg; Capacidad: 0.71 dm3; Plato: 12 mm\n\nBoca: 160 mm; Base: 105 mm; Altura: 160 mm; Peso: 0.89 kg; Capacidad: 1.6 dm3; Plato: 14 mm\n\nBoca: 180 mm; Base: 115 mm; Altura: 180 mm; Peso: 1.19 kg; Capacidad: 2 dm3; Plato: 14 mm\n\nBoca: 200 mm; Base: 130 mm; Altura: 200 mm; Peso: 1.82 kg; Capacidad: 3 dm3; Plato: 16 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture007.webp",
         "/category007.webp"
@@ -6213,13 +6213,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/icono"
+      "urlcanonica": "/productos/macetas/icono"
     },
     {
       "id": "MAC033",
       "name": "Cono",
       "description": "Boca: 200 mm; Base: 120 mm; Altura: 310 mm; Peso: 3.1 kg; Capacidad: 4.5 dm3; Plato: 14 mm\n\nBoca: 250 mm; Base: 150 mm; Altura: 400 mm; Peso: 5.7 kg; Capacidad: 5 dm3; Plato: 18 mm\n\nBoca: 280 mm; Base: 180 mm; Altura: 480 mm; Peso: 8.8 kg; Capacidad: 19 dm3; Plato: 22 mm\n\nBoca: 330 mm; Base: 210 mm; Altura: 560 mm; Peso: 11.5 kg; Capacidad: 28 dm3; Plato: 26 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture031.webp",
         "/category031.webp"
@@ -6263,13 +6263,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cono"
+      "urlcanonica": "/productos/macetas/cono"
     },
     {
       "id": "MAC034",
       "name": "Cilindro",
       "description": "Boca: 115 mm; Base: 110 mm; Altura: 85 mm; Peso: 0.37 kg; Capacidad: 0.8 dm3; Plato: 14 mm\n\nBoca: 150 mm; Base: 144 mm; Altura: 146 mm; Peso: 1.32 kg; Capacidad: 1.8 dm3; Plato: 18 mm\n\nBoca: 190 mm; Base: 189 mm; Altura: 185 mm; Peso: 2.26 kg; Capacidad: 3.2 dm3; Plato: 22 mm\n\nBoca: 231 mm; Base: 228 mm; Altura: 226 mm; Peso: 3.69 kg; Capacidad: 7 dm3; Plato: 28 mm\n\nBoca: 268 mm; Base: 270 mm; Altura: 260 mm; Peso: 5.05 kg; Capacidad: 12.4 dm3; Plato: 35 mm\n\nBoca: 305 mm; Base: 305 mm; Altura: 299 mm; Peso: 7.77 kg; Capacidad: 18.4 dm3; Plato: 40 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture003.webp",
         "/category003.webp"
@@ -6323,13 +6323,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cilindro"
+      "urlcanonica": "/productos/macetas/cilindro"
     },
     {
       "id": "MAC035",
       "name": "Nórdica",
       "description": "Boca: 220 mm; Base: 146 mm; Altura: 190 mm; Peso: 1.96 kg; Capacidad: 4.4 dm3; Plato: 20 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture010.webp",
         "/category010.webp"
@@ -6358,13 +6358,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/nordica"
+      "urlcanonica": "/productos/macetas/nordica"
     },
     {
       "id": "MAC036",
       "name": "Italiana",
       "description": "Boca: 146 mm; Base: 92 mm; Altura: 142 mm; Peso: 0.61 kg; Capacidad: 1.1 dm3; Plato: 12 mm\n\nBoca: 175 mm; Base: 105 mm; Altura: 167 mm; Peso: 1 kg; Capacidad: 1.6 dm3; Plato: 14 mm\n\nBoca: 194 mm; Base: 119 mm; Altura: 184 mm; Peso: 1.45 kg; Capacidad: 2.2 dm3; Plato: 16 mm\n\nBoca: 218 mm; Base: 130 mm; Altura: 205 mm; Peso: 1.79 kg; Capacidad: 3.2 dm3; Plato: 18 mm\n\nBoca: 228 mm; Base: 143 mm; Altura: 224 mm; Peso: 2.99 kg; Capacidad: 4.2 dm3; Plato: 20 mm\n\nBoca: 255 mm; Base: 162 mm; Altura: 247 mm; Peso: 3.1 kg; Capacidad: 5.6 dm3; Plato: 22 mm\n\nBoca: 274 mm; Base: 170 mm; Altura: 265 mm; Peso: 3.62 kg; Capacidad: 7.4 dm3; Plato: 22 mm\n\nBoca: 315 mm; Base: 196 mm; Altura: 302 mm; Peso: 5.57 kg; Capacidad: 11 dm3; Plato: 24 mm\n\nBoca: 365 mm; Base: 228 mm; Altura: 351 mm; Peso: 7.43 kg; Capacidad: 19 dm3; Plato: 28 mm\n\nBoca: 410 mm; Base: 256 mm; Altura: 398 mm; Peso: 11 kg; Capacidad: 27 dm3; Plato: 35 mm\n\nBoca: 475 mm; Base: 295 mm; Altura: 448 mm; Peso: 12.7 kg; Capacidad: 41 dm3; Plato: 40 mm\n\nBoca: 520 mm; Base: 326 mm; Altura: 484 mm; Peso: 17.85 kg; Capacidad: 50 dm3; Plato: 40 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture002.webp",
         "/category002.webp"
@@ -6448,13 +6448,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/italiana"
+      "urlcanonica": "/productos/macetas/italiana"
     },
     {
       "id": "MAC037",
       "name": "Lebrillo",
       "description": "Boca: 235 mm; Base: 142 mm; Altura: 129 mm; Peso: 1.27 kg; Capacidad: 2.4 dm3; Plato: 18 mm\n\nBoca: 275 mm; Base: 160 mm; Altura: 152 mm; Peso: 1.83 kg; Capacidad: 3.8 dm3; Plato: 20 mm\n\nBoca: 308 mm; Base: 175 mm; Altura: 171 mm; Peso: 2.92 kg; Capacidad: 5.8 dm3; Plato: 22 mm\n\nBoca: 349 mm; Base: 200 mm; Altura: 190 mm; Peso: 3.81 kg; Capacidad: 7.8 dm3; Plato: 26 mm\n\nBoca: 395 mm; Base: 240 mm; Altura: 220 mm; Peso: 5.5 kg; Capacidad: 11.8 dm3; Plato: 30 mm\n\nBoca: 445 mm; Base: 265 mm; Altura: 243 mm; Peso: 7.1 kg; Capacidad: 18.8 dm3; Plato: 35 mm\n\nBoca: 515 mm; Base: 275 mm; Altura: 308 mm; Peso: 9.9 kg; Capacidad: 28.8 dm3; Plato: 40 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture005.webp",
         "/category005.webp"
@@ -6513,13 +6513,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/lebrillo"
+      "urlcanonica": "/productos/macetas/lebrillo"
     },
     {
       "id": "MAC038",
       "name": "Cilindro con Borde",
       "description": "Boca: 150 mm; Base: 118 mm; Altura: 115 mm; Peso: 0.61 kg; Capacidad: 1 dm3; Plato: 18 mm\n\nBoca: 195 mm; Base: 150 mm; Altura: 148 mm; Peso: 1.11 kg; Capacidad: 2.4 dm3; Plato: 20 mm\n\nBoca: 240 mm; Base: 184 mm; Altura: 178 mm; Peso: 2.13 kg; Capacidad: 4.4 dm3; Plato: 24 mm\n\nBoca: 300 mm; Base: 230 mm; Altura: 223 mm; Peso: 3.62 kg; Capacidad: 10 dm3; Plato: 28 mm\n\nBoca: 380 mm; Base: 292 mm; Altura: 280 mm; Peso: 6.81 kg; Capacidad: 22 dm3; Plato: 40 mm\n\nBoca: 480 mm; Base: 380 mm; Altura: 365 mm; Peso: 14.35 kg; Capacidad: 42 dm3; Plato: 52 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture026.webp",
         "/category026.webp"
@@ -6573,13 +6573,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cilindro-con-borde"
+      "urlcanonica": "/productos/macetas/cilindro-con-borde"
     },
     {
       "id": "MAC039",
       "name": "Paila",
       "description": "Boca: 315 mm; Base: 175 mm; Altura: 110 mm; Peso: 2.1 kg; Capacidad: 4 dm3\n\nBoca: 475 mm; Base: 250 mm; Altura: 180 mm; Peso: 5.57 kg; Capacidad: 13 dm3\n\nBoca: 620 mm; Base: 320 mm; Altura: 210 mm; Peso: 12 kg; Capacidad: 35 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture027.webp",
         "/category027.webp"
@@ -6618,13 +6618,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/paila"
+      "urlcanonica": "/productos/macetas/paila"
     },
     {
       "id": "MAC040",
       "name": "Nido de Paloma",
       "description": "Boca: 240 mm; Base: 115 mm; Altura: 71 mm; Peso: 0.98 kg; Capacidad: 1.2 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture008.webp",
         "/category008.webp"
@@ -6653,13 +6653,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/nido-de-paloma"
+      "urlcanonica": "/productos/macetas/nido-de-paloma"
     },
     {
       "id": "MAC041",
       "name": "Plato",
       "description": "Boca: 89 mm; Base: 56 mm; Altura: 25 mm; Peso: 0.04 kg\n\nBoca: 112 mm; Base: 79 mm; Altura: 26 mm; Peso: 0.11 kg\n\nBoca: 131 mm; Base: 93 mm; Altura: 27 mm; Peso: 0.16 kg\n\nBoca: 160 mm; Base: 117 mm; Altura: 29 mm; Peso: 0.26 kg\n\nBoca: 172 mm; Base: 128 mm; Altura: 31 mm; Peso: 0.03 kg\n\nBoca: 192 mm; Base: 143 mm; Altura: 33 mm; Peso: 0.42 kg\n\nBoca: 214 mm; Base: 164 mm; Altura: 35 mm; Peso: 0.55 kg\n\nBoca: 238 mm; Base: 182 mm; Altura: 37 mm; Peso: 0.72 kg\n\nBoca: 261 mm; Base: 206 mm; Altura: 39 mm; Peso: 0.97 kg\n\nBoca: 279 mm; Base: 217 mm; Altura: 41 mm; Peso: 1.11 kg\n\nBoca: 300 mm; Base: 235 mm; Altura: 43 mm; Peso: 1.4 kg\n\nBoca: 314 mm; Base: 247 mm; Altura: 45 mm; Peso: 1.66 kg\n\nBoca: 356 mm; Base: 278 mm; Altura: 47 mm; Peso: 2.45 kg\n\nBoca: 402 mm; Base: 330 mm; Altura: 51 mm; Peso: 3.23 kg\n\nBoca: 460 mm; Base: 380 mm; Altura: 57 mm; Peso: 5.35 kg\n\nBoca: 520 mm; Base: 450 mm; Altura: 55 mm; Peso: 6.07 kg",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture013.webp",
         "/category013.webp"
@@ -6763,13 +6763,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/plato"
+      "urlcanonica": "/productos/macetas/plato"
     },
     {
       "id": "MAC042",
       "name": "Plato Bajo",
       "description": "Boca: 140 mm; Base: 100 mm; Altura: 10 mm; Peso: 0.15 kg; Capacidad: 0.2 dm3\n\nBoca: 180 mm; Base: 140 mm; Altura: 20 mm; Peso: 0.33 kg; Capacidad: 0.12 dm3\n\nBoca: 235 mm; Base: 185 mm; Altura: 25 mm; Peso: 0.85 kg; Capacidad: 0.25 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category097.webp"
       ],
@@ -6806,13 +6806,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/plato-bajo"
+      "urlcanonica": "/productos/macetas/plato-bajo"
     },
     {
       "id": "MAC043",
       "name": "Plato Alto",
       "description": "Boca: 244 mm; Base: 227 mm; Altura: 47 mm; Peso: 1.32 kg\n\nBoca: 291 mm; Base: 278 mm; Altura: 51 mm; Peso: 1.69 kg",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture004.webp",
         "/category004.webp"
@@ -6846,13 +6846,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/plato-alto"
+      "urlcanonica": "/productos/macetas/plato-alto"
     },
     {
       "id": "MAC044",
       "name": "Terrina Blumsa",
       "description": "Boca: 84 mm; Base: 79 mm; Altura: 36 mm; Peso: 0.12 kg; Capacidad: 0.09 dm3\n\nBoca: 100 mm; Base: 88 mm; Altura: 44 mm; Peso: 0.21 kg; Capacidad: 0.15 dm3\n\nBoca: 116 mm; Base: 96 mm; Altura: 55 mm; Peso: 0.28 kg; Capacidad: 0.3 dm3\n\nBoca: 137 mm; Base: 115 mm; Altura: 59 mm; Peso: 0.44 kg; Capacidad: 0.5 dm3\n\nBoca: 230 mm; Base: 200 mm; Altura: 86 mm; Peso: 1.53 kg; Capacidad: 2.4 dm3\n\nBoca: 261 mm; Base: 235 mm; Altura: 97 mm; Peso: 2.07 kg; Capacidad: 5.4 dm3\n\nBoca: 280 mm; Base: 255 mm; Altura: 97 mm; Peso: 2.44 kg; Capacidad: 9.4 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture006.webp",
         "/category006.webp"
@@ -6911,13 +6911,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/terrina-blumsa"
+      "urlcanonica": "/productos/macetas/terrina-blumsa"
     },
     {
       "id": "MAC045",
       "name": "Bols Colgante",
       "description": "Boca: 240 mm; Base: 150 mm; Altura: 115 mm; Peso: 0.96 kg; Capacidad: 2.4 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture025.webp",
         "/category025.webp"
@@ -6946,13 +6946,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/bols-colgante"
+      "urlcanonica": "/productos/macetas/bols-colgante"
     },
     {
       "id": "MAC046",
       "name": "Cazuela",
       "description": "Boca: 74 mm; Base: 54 mm; Altura: 29 mm; Peso: 0.06 kg; Capacidad: 0.05 dm3\n\nBoca: 92 mm; Base: 69 mm; Altura: 37 mm; Peso: 0.11 kg; Capacidad: 0.1 dm3\n\nBoca: 110 mm; Base: 82 mm; Altura: 44 mm; Peso: 0.2 kg; Capacidad: 0.2 dm3\n\nBoca: 129 mm; Base: 96 mm; Altura: 53 mm; Peso: 0.27 kg; Capacidad: 0.3 dm3\n\nBoca: 157 mm; Base: 116 mm; Altura: 64 mm; Peso: 0.55 kg; Capacidad: 0.6 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture092.webp",
         "/category092.webp"
@@ -7001,13 +7001,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cazuela"
+      "urlcanonica": "/productos/macetas/cazuela"
     },
     {
       "id": "MAC047",
       "name": "Bols",
       "description": "Boca: 130 mm; Base: 65 mm; Altura: 65 mm; Peso: 0.28 kg; Capacidad: 0.4 dm3\n\nBoca: 170 mm; Base: 85 mm; Altura: 83 mm; Peso: 0.4 kg; Capacidad: 1.25 dm3\n\nBoca: 205 mm; Base: 105 mm; Altura: 105 mm; Peso: 0.9 kg; Capacidad: 2.2 dm3\n\nBoca: 245 mm; Base: 127 mm; Altura: 125 mm; Peso: 1.25 kg; Capacidad: 3.7 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture091.webp",
         "/category091.webp"
@@ -7051,13 +7051,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/bols"
+      "urlcanonica": "/productos/macetas/bols"
     },
     {
       "id": "MAC048",
       "name": "Porteña",
       "description": "Boca: 196 mm; Base: 100 mm; Altura: 170 mm; Peso: 1.06 kg; Capacidad: 1.72 dm3; Plato: 16 mm\n\nBoca: 377 mm; Base: 190 mm; Altura: 320 mm; Peso: 7.5 kg; Capacidad: 16.5 dm3; Plato: 24 mm\n\nBoca: 421 mm; Base: 215 mm; Altura: 375 mm; Peso: 9.5 kg; Capacidad: 23 dm3; Plato: 28 mm\n\nBoca: 484 mm; Base: 245 mm; Altura: 410 mm; Peso: 14.5 kg; Capacidad: 33 dm3; Plato: 35 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture051.webp",
         "/category051.webp"
@@ -7101,13 +7101,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/portena"
+      "urlcanonica": "/productos/macetas/portena"
     },
     {
       "id": "MAC049",
       "name": "Americana",
       "description": "Boca: 227 mm; Base: 120 mm; Altura: 200 mm; Peso: 1.81 kg; Capacidad: 4.4 dm3; Plato: 16 mm\n\nBoca: 288 mm; Base: 153 mm; Altura: 238 mm; Peso: 3.39 kg; Capacidad: 8.6 dm3; Plato: 20 mm\n\nBoca: 368 mm; Base: 190 mm; Altura: 275 mm; Peso: 5.83 kg; Capacidad: 15.3 dm3; Plato: 24 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture052.webp",
         "/category052.webp"
@@ -7146,13 +7146,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/americana"
+      "urlcanonica": "/productos/macetas/americana"
     },
     {
       "id": "MAC050",
       "name": "Bomba",
       "description": "Boca: 80 mm; Base: 62 mm; Altura: 62 mm; Peso: 0.15 kg; Capacidad: 0.1 dm3; Plato: 8 mm\n\nBoca: 136 mm; Base: 98 mm; Altura: 97 mm; Peso: 0.6 kg; Capacidad: 0.8 dm3; Plato: 12 mm\n\nBoca: 156 mm; Base: 113 mm; Altura: 109 mm; Peso: 0.85 kg; Capacidad: 1.2 dm3; Plato: 14 mm\n\nBoca: 188 mm; Base: 132 mm; Altura: 122 mm; Peso: 1.35 kg; Capacidad: 2 dm3; Plato: 18 mm\n\nBoca: 226 mm; Base: 175 mm; Altura: 133 mm; Peso: 1.93 kg; Capacidad: 3.8 dm3; Plato: 22 mm\n\nBoca: 290 mm; Base: 215 mm; Altura: 215 mm; Peso: 4.4 kg; Capacidad: 8.9 dm3; Plato: 28 mm\n\nBoca: 350 mm; Base: 254 mm; Altura: 262 mm; Peso: 7.15 kg; Capacidad: 16 dm3; Plato: 35 mm\n\nBoca: 400 mm; Base: 291 mm; Altura: 302 mm; Peso: 8.8 kg; Capacidad: 24 dm3; Plato: 40 mm\n\nBoca: 480 mm; Base: 350 mm; Altura: 363 mm; Peso: 18.37 kg; Capacidad: 42 dm3; Plato: 45 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture014.webp",
         "/category014.webp"
@@ -7221,13 +7221,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/bomba"
+      "urlcanonica": "/productos/macetas/bomba"
     },
     {
       "id": "MAC051",
       "name": "Agustiniana",
       "description": "Boca: 125 mm; Base: 110 mm; Altura: 200 mm; Peso: 1.67 kg; Capacidad: 2.8 dm3; Plato: 18 mm\n\nBoca: 210 mm; Base: 148 mm; Altura: 270 mm; Peso: 2.3 kg; Capacidad: 3.9 dm3; Plato: 20 mm\n\nBoca: 261 mm; Base: 190 mm; Altura: 340 mm; Peso: 10.45 kg; Capacidad: 25 dm3; Plato: 24 mm\n\nBoca: 280 mm; Base: 240 mm; Altura: 420 mm; Peso: 13.9 kg; Capacidad: 30 dm3; Plato: 35 mm\n\nBoca: 390 mm; Base: 330 mm; Altura: 600 mm; Peso: 27.5 kg; Capacidad: 80 dm3; Plato: 52 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture028.webp",
         "/category028.webp"
@@ -7276,13 +7276,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/agustiniana"
+      "urlcanonica": "/productos/macetas/agustiniana"
     },
     {
       "id": "MAC052",
       "name": "Agustiniana Rústica",
       "description": "Boca: 280 mm; Base: 240 mm; Altura: 420 mm; Peso: 13.9 kg; Capacidad: 30 dm3; Plato: 35 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture028R.webp",
         "/category028R.webp"
@@ -7311,13 +7311,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/agustiniana-rustica"
+      "urlcanonica": "/productos/macetas/agustiniana-rustica"
     },
     {
       "id": "MAC053",
       "name": "Frutillera",
       "description": "Boca: 280 mm; Base: 240 mm; Altura: 420 mm; Peso: 13.9 kg; Capacidad: 30 dm3; Plato: 35 mm\n\nBoca: 390 mm; Base: 330 mm; Altura: 600 mm; Peso: 27.5 kg; Capacidad: 80 dm3; Plato: 52 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture029.webp",
         "/category029.webp"
@@ -7351,13 +7351,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/frutillera"
+      "urlcanonica": "/productos/macetas/frutillera"
     },
     {
       "id": "MAC054",
       "name": "Calchaqui",
       "description": "Boca: 210 mm; Base: 132 mm; Altura: 198 mm; Peso: 2.6 kg; Capacidad: 4.4 dm3; Plato: 20 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture019.webp",
         "/category019.webp"
@@ -7386,13 +7386,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/calchaqui"
+      "urlcanonica": "/productos/macetas/calchaqui"
     },
     {
       "id": "MAC055",
       "name": "Macedonia",
       "description": "Boca: 140 mm; Base: 85 mm; Altura: 110 mm; Peso: 0.75 kg; Capacidad: 0.9 dm3; Plato: 14 mm\n\nBoca: 190 mm; Base: 115 mm; Altura: 155 mm; Peso: 1.7 kg; Capacidad: 3 dm3; Plato: 20 mm\n\nBoca: 246 mm; Base: 146 mm; Altura: 200 mm; Peso: 2.75 kg; Capacidad: 5.4 dm3; Plato: 22 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture020.webp",
         "/category020.webp"
@@ -7431,13 +7431,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/macedonia"
+      "urlcanonica": "/productos/macetas/macedonia"
     },
     {
       "id": "MAC056",
       "name": "Festoneada",
       "description": "Boca: 70 mm; Base: 43 mm; Altura: 65 mm; Peso: 0.1 kg; Capacidad: 0.1 dm3; Plato: 8 mm\n\nBoca: 100 mm; Base: 65 mm; Altura: 85 mm; Peso: 0.22 kg; Capacidad: 0.3 dm3; Plato: 10 mm\n\nBoca: 160 mm; Base: 100 mm; Altura: 130 mm; Peso: 0.95 kg; Capacidad: 1.2 dm3; Plato: 14 mm\n\nBoca: 195 mm; Base: 115 mm; Altura: 155 mm; Peso: 1.19 kg; Capacidad: 2.2 dm3; Plato: 16 mm\n\nBoca: 234 mm; Base: 138 mm; Altura: 195 mm; Peso: 2.25 kg; Capacidad: 4 dm3; Plato: 18 mm\n\nBoca: 300 mm; Base: 170 mm; Altura: 230 mm; Peso: 4.55 kg; Capacidad: 7 dm3; Plato: 18 mm\n\nBoca: 450 mm; Base: 268 mm; Altura: 365 mm; Peso: 15.3 kg; Capacidad: 26 dm3; Plato: 35 mm\n\nBoca: 570 mm; Base: 340 mm; Altura: 445 mm; Peso: 29.5 kg; Capacidad: 50 dm3; Plato: 45 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture022.webp",
         "/category022.webp"
@@ -7501,13 +7501,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/festoneada"
+      "urlcanonica": "/productos/macetas/festoneada"
     },
     {
       "id": "MAC057",
       "name": "Vaso Antiguo",
       "description": "Boca: 350 mm; Base: 235 mm; Altura: 259 mm; Peso: 6 kg; Capacidad: 14 dm3; Plato: 30 mm\n\nBoca: 450 mm; Base: 295 mm; Altura: 355 mm; Peso: 12.5 kg; Capacidad: 30 dm3; Plato: 40 mm\n\nBoca: 550 mm; Base: 350 mm; Altura: 445 mm; Peso: 25.5 kg; Capacidad: 68 dm3; Plato: 45 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture015.webp",
         "/category015.webp"
@@ -7546,13 +7546,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/vaso-antiguo"
+      "urlcanonica": "/productos/macetas/vaso-antiguo"
     },
     {
       "id": "MAC058",
       "name": "Hielera",
       "description": "Boca: 140 mm; Base: 150 mm; Altura: 215 mm; Peso: 2 kg; Diametro: 12 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture090.webp",
         "/category090.webp"
@@ -7581,13 +7581,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/hielera"
+      "urlcanonica": "/productos/macetas/hielera"
     },
     {
       "id": "MAC059",
       "name": "Jardinera",
       "description": "Boca: 300 mm; Base: 145 mm; Altura: 130 mm; Peso: 2.5 kg; Capacidad: 3 dm3\n\nBoca: 406 mm; Base: 178 mm; Altura: 154 mm; Peso: 4.6 kg; Capacidad: 6 dm3\n\nBoca: 515 mm; Base: 200 mm; Altura: 185 mm; Peso: 7.25 kg; Capacidad: 10.4 dm3\n\nBoca: 920 mm; Base: 315 mm; Altura: 295 mm; Peso: 33.35 kg; Capacidad: 56 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture016.webp",
         "/category016.webp"
@@ -7631,13 +7631,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/jardinera"
+      "urlcanonica": "/productos/macetas/jardinera"
     },
     {
       "id": "MAC060",
       "name": "Jardinera Romana",
       "description": "Boca: 308 mm; Base: 154 mm; Altura: 138 mm; Peso: 2.82 kg; Capacidad: 3.4 dm3\n\nBoca: 415 mm; Base: 180 mm; Altura: 170 mm; Peso: 4.6 kg; Capacidad: 4.2 dm3\n\nBoca: 520 mm; Base: 200 mm; Altura: 180 mm; Peso: 7.55 kg; Capacidad: 11 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture018.webp",
         "/category018.webp"
@@ -7676,13 +7676,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/jardinera-romana"
+      "urlcanonica": "/productos/macetas/jardinera-romana"
     },
     {
       "id": "MAC061",
       "name": "Balconera",
       "description": "Boca: 454 mm; Base: 128 mm; Altura: 128 mm; Peso: 3.55 kg; Capacidad: 4 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture017.webp",
         "/category017.webp"
@@ -7711,13 +7711,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/balconera"
+      "urlcanonica": "/productos/macetas/balconera"
     },
     {
       "id": "MAC062",
       "name": "Colgadera",
       "description": "Boca: 250 mm; Base: 130 mm; Altura: 175 mm; Peso: 2.1 kg; Capacidad: 2.16 dm3\n\nBoca: 294 mm; Base: 150 mm; Altura: 210 mm; Peso: 2.65 kg; Capacidad: 3.6 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture021.webp",
         "/category021.webp"
@@ -7751,13 +7751,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/colgadera"
+      "urlcanonica": "/productos/macetas/colgadera"
     },
     {
       "id": "MAC063",
       "name": "Pie de Maceta",
       "description": "Altura: 47 mm; Ancho: 57 mm; Lenght: 45 mm; Peso: 0.12 kg\n\nAltura: 47 mm; Ancho: 57 mm; Lenght: 90 mm; Peso: 0.29 kg",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture011.webp",
         "/category011.webp"
@@ -7791,13 +7791,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/pie-de-maceta"
+      "urlcanonica": "/productos/macetas/pie-de-maceta"
     },
     {
       "id": "MAC064",
       "name": "Común Grafito",
       "description": "Boca: 166 mm; Base: 95 mm; Altura: 159 mm; Peso: 0.88 kg; Capacidad: 1.5 dm3; Plato: 14 mm\n\nBoca: 242 mm; Base: 150 mm; Altura: 233 mm; Peso: 2.37 kg; Capacidad: 5.5 dm3; Plato: 20 mm\n\nBoca: 300 mm; Base: 189 mm; Altura: 297 mm; Peso: 4.86 kg; Capacidad: 12 dm3; Plato: 24 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category801.webp"
       ],
@@ -7834,13 +7834,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/comun-grafito"
+      "urlcanonica": "/productos/macetas/comun-grafito"
     },
     {
       "id": "MAC065",
       "name": "Icono Grafito",
       "description": "Maceta de terracota Icono Grafito. Consultá medidas y disponibilidad.",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category807.webp"
       ],
@@ -7862,13 +7862,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/icono-grafito"
+      "urlcanonica": "/productos/macetas/icono-grafito"
     },
     {
       "id": "MAC066",
       "name": "Cilindro Grafito",
       "description": "Boca: 115 mm; Base: 110 mm; Altura: 85 mm; Peso: 0.37 kg; Capacidad: 0.8 dm3; Plato: 14 mm\n\nBoca: 150 mm; Base: 144 mm; Altura: 146 mm; Peso: 1.32 kg; Capacidad: 1.8 dm3; Plato: 18 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category803.webp"
       ],
@@ -7900,13 +7900,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cilindro-grafito"
+      "urlcanonica": "/productos/macetas/cilindro-grafito"
     },
     {
       "id": "MAC067",
       "name": "Nórdica Grafito",
       "description": "Maceta de terracota Nórdica Grafito. Consultá medidas y disponibilidad.",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category810.webp"
       ],
@@ -7928,13 +7928,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/nordica-grafito"
+      "urlcanonica": "/productos/macetas/nordica-grafito"
     },
     {
       "id": "MAC068",
       "name": "Italiana Grafito",
       "description": "Boca: 315 mm; Base: 196 mm; Altura: 302 mm; Peso: 5.57 kg; Capacidad: 11 dm3; Plato: 24 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category802.webp"
       ],
@@ -7961,13 +7961,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/italiana-grafito"
+      "urlcanonica": "/productos/macetas/italiana-grafito"
     },
     {
       "id": "MAC069",
       "name": "Bomba Grafito",
       "description": "Boca: 226 mm; Base: 175 mm; Altura: 133 mm; Peso: 1.93 kg; Capacidad: 3.8 dm3; Plato: 22 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category814.webp"
       ],
@@ -7994,13 +7994,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/bomba-grafito"
+      "urlcanonica": "/productos/macetas/bomba-grafito"
     },
     {
       "id": "MAC070",
       "name": "Plato Grafito",
       "description": "Boca: 160 mm; Base: 117 mm; Altura: 29 mm; Peso: 0.26 kg",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category813.webp"
       ],
@@ -8027,13 +8027,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/plato-grafito"
+      "urlcanonica": "/productos/macetas/plato-grafito"
     },
     {
       "id": "MAC071",
       "name": "Común Pintada",
       "description": "Boca: 40 mm; Base: 27 mm; Altura: 40 mm; Peso: 0.02 kg; Capacidad: 0.03 dm3\n\nBoca: 50 mm; Base: 31 mm; Altura: 50 mm; Peso: 0.03 kg; Capacidad: 0.05 dm3\n\nBoca: 78 mm; Base: 48 mm; Altura: 75 mm; Peso: 0.12 kg; Capacidad: 0.15 dm3\n\nBoca: 101 mm; Base: 59 mm; Altura: 100 mm; Peso: 0.24 kg; Capacidad: 0.35 dm3\n\nBoca: 124 mm; Base: 71 mm; Altura: 115 mm; Peso: 0.45 kg; Capacidad: 0.6 dm3\n\nBoca: 145 mm; Base: 83 mm; Altura: 140 mm; Peso: 0.63 kg; Capacidad: 1 dm3\n\nBoca: 166 mm; Base: 95 mm; Altura: 159 mm; Peso: 0.88 kg; Capacidad: 1.5 dm3\n\nBoca: 185 mm; Base: 108 mm; Altura: 180 mm; Peso: 1.27 kg; Capacidad: 2.2 dm3\n\nBoca: 223 mm; Base: 135 mm; Altura: 210 mm; Peso: 2.28 kg; Capacidad: 4 dm3\n\nBoca: 242 mm; Base: 150 mm; Altura: 233 mm; Peso: 2.37 kg; Capacidad: 5.5 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/category301.webp"
       ],
@@ -8105,13 +8105,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/comun-pintada"
+      "urlcanonica": "/productos/macetas/comun-pintada"
     },
     {
       "id": "MAC072",
       "name": "Icono Pintado",
       "description": "Boca: 80 mm; Base: 50 mm; Altura: 80 mm; Peso: 0.12 kg; Capacidad: 0.22 dm3\n\nBoca: 100 mm; Base: 65 mm; Altura: 100 mm; Peso: 0.24 kg; Capacidad: 0.3 dm3\n\nBoca: 117 mm; Base: 80 mm; Altura: 125 mm; Peso: 0.42 kg; Capacidad: 0.55 dm3\n\nBoca: 133 mm; Base: 92 mm; Altura: 140 mm; Peso: 0.59 kg; Capacidad: 0.71 dm3\n\nBoca: 160 mm; Base: 105 mm; Altura: 160 mm; Peso: 0.89 kg; Capacidad: 1.6 dm3\n\nBoca: 180 mm; Base: 115 mm; Altura: 180 mm; Peso: 1.19 kg; Capacidad: 2 dm3\n\nBoca: 200 mm; Base: 130 mm; Altura: 200 mm; Peso: 1.82 kg; Capacidad: 3 dm3",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture307.webp",
         "/category307.webp"
@@ -8170,13 +8170,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/icono-pintado"
+      "urlcanonica": "/productos/macetas/icono-pintado"
     },
     {
       "id": "MAC073",
       "name": "Cilindro Pintado",
       "description": "Boca: 115 mm; Base: 110 mm; Altura: 85 mm; Peso: 0.37 kg; Capacidad: 0.8 dm3\n\nBoca: 150 mm; Base: 144 mm; Altura: 146 mm; Peso: 1.32 kg; Capacidad: 1.8 dm3\n\nBoca: 190 mm; Base: 189 mm; Altura: 185 mm; Peso: 2.26 kg; Capacidad: 3.2 dm3\n\nBoca: 231 mm; Base: 228 mm; Altura: 226 mm; Peso: 3.69 kg; Capacidad: 7 dm3; Plato: 28 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture303.webp"
       ],
@@ -8218,13 +8218,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cilindro-pintado"
+      "urlcanonica": "/productos/macetas/cilindro-pintado"
     },
     {
       "id": "MAC074",
       "name": "Cilindro Pint. Negro",
       "description": "Boca: 115 mm; Base: 110 mm; Altura: 85 mm; Peso: 0.37 kg; Capacidad: 0.8 dm3\n\nBoca: 150 mm; Base: 144 mm; Altura: 146 mm; Peso: 1.32 kg; Capacidad: 1.8 dm3\n\nBoca: 190 mm; Base: 189 mm; Altura: 186 mm; Peso: 2.26 kg; Capacidad: 3.2 dm3; Plato: 185 mm\n\nBoca: 231 mm; Base: 228 mm; Altura: 226 mm; Peso: 3.69 kg; Capacidad: 7 dm3; Plato: 28 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture403.webp",
         "/category403-74.webp"
@@ -8268,13 +8268,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/cilindro-pint-negro"
+      "urlcanonica": "/productos/macetas/cilindro-pint-negro"
     },
     {
       "id": "MAC075",
       "name": "Nórdica Pintada",
       "description": "Boca: 220 mm; Base: 146 mm; Altura: 190 mm; Peso: 1.96 kg; Capacidad: 4.4 dm3; Plato: 20 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture310.webp",
         "/category310.webp"
@@ -8303,13 +8303,13 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/nordica-pintada"
+      "urlcanonica": "/productos/macetas/nordica-pintada"
     },
     {
       "id": "MAC076",
       "name": "Nórdica Pint. Negro",
       "description": "Boca: 220 mm; Base: 146 mm; Altura: 190 mm; Peso: 1.96 kg; Capacidad: 4.4 dm3; Plato: 20 mm",
-      "category": "maceta",
+      "category": "macetas",
       "subcategory": "terracota",
       "images": [        "/picture410.webp",
         "/category410-74.webp"
@@ -8338,7 +8338,7 @@
           }
         ]
       },
-      "urlcanonica": "/productos/maceta/nordica-pint-negro"
+      "urlcanonica": "/productos/macetas/nordica-pint-negro"
     },
          {
       "id": "MAC001",
@@ -9613,7 +9613,7 @@
       "description": "Altura: 300 mm; Ancho: 300 mm Longitud: 1000 mm; Peso: 4.5 kg; Capacidad: 76 dm3\n\nAltura: 300 mm; Ancho: 300 mm Longitud: 800 mm; Peso: 4 kg; Capacidad: 63 dm3",
       "category": "macetas",
       "subcategory": "plásticas",
-      "images": [        ],
+      "images": [   "/category35.webp"    ],
       "metaDescription": "Jardinera 30x30: maceta plástica Blumsa. Medidas 300 mm.",
       "jsonLd": {
         "@context": "https://schema.org",
@@ -9622,7 +9622,7 @@
         "description": "Altura: 300 mm; Ancho: 300 mm Longitud: 1000 mm; Peso: 4.5 kg; Capacidad: 76 dm3\n\nAltura: 300 mm; Ancho: 300 mm Longitud: 800 mm; Peso: 4 kg; Capacidad: 63 dm3",
         "sku": "MAC086",
         "category": "macetas",
-        "image": [          ],
+        "image": [    "/category35.webp"      ],
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -9845,8 +9845,7 @@
       "description": "Boca: 320 mm; Base: 290 mm; Altura: 35 mm; Peso: 0.4 kg\n\nBoca: 435 mm; Base: 390 mm; Altura: 45 mm; Peso: 0.9 kg",
       "category": "macetas",
       "subcategory": "plásticas",
-      "images": [        "/picture00.webp",
-        "/category00-78.webp",
+      "images": [ "/category00-78.webp",
         "/category00-72.webp",
         "/category00-32.webp",
         "/category00-75.webp",
@@ -10682,7 +10681,7 @@
       "description": "Boca: 340 mm; Base: 300 mm; Altura: 810 mm; Peso: 3.5 kg; Capacidad: 87 dm3; Plato: 42 mm",
       "category": "macetas",
       "subcategory": "plásticas",
-      "images": [        ],
+      "images": [    "/category34R.webp"    ],
       "metaDescription": "Mate Alto Rústico: maceta plástica Blumsa. Medidas 340 mm.",
       "jsonLd": {
         "@context": "https://schema.org",
@@ -10691,7 +10690,7 @@
         "description": "Boca: 340 mm; Base: 300 mm; Altura: 810 mm; Peso: 3.5 kg; Capacidad: 87 dm3; Plato: 42 mm",
         "sku": "MAC104",
         "category": "macetas",
-        "image": [          ],
+        "image": [    "/category34R.webp"       ],
         "additionalProperty": [
           {
             "@type": "PropertyValue",

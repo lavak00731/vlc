@@ -37,10 +37,29 @@ export async function generateMetadata({
 
   if (!product) return {};
 
+  const title = `${product.name} | Vivero del Golf`;
+  const description = product.metaDescription;
+  const images = product.images.map((image) => ({
+    url: image,
+    alt: product.name,
+  }));
+
   return {
-    title: `${product.name} | Vivero del Golf`,
-    description: product.metaDescription,
+    title,
+    description,
     alternates: { canonical: product.urlcanonica },
+    openGraph: {
+      title,
+      description,
+      url: product.urlcanonica,
+      ...(images.length > 0 ? { images } : {}),
+    },
+    twitter: {
+      card: images.length > 0 ? "summary_large_image" : "summary",
+      title,
+      description,
+      ...(images.length > 0 ? { images: images.map(({ url }) => url) } : {}),
+    },
   };
 }
 
@@ -49,13 +68,28 @@ export default async function ProductPage({
 }: {
   params: Promise<Params>;
 }) {
-  let categoryName;
+  let categoryName: string | undefined;
   const { category, productpage } = await params;
   const product = getProductByCanonicalUrl(
     `/productos/${category}/${productpage}`,
   );
 
   if (!product) notFound();
+
+  switch (category) {
+    case "plantas":
+    case "herramientas":
+    case "fertilizantes":
+      categoryName = category;
+      break;
+    case "maceta":
+    case "macetas":
+      categoryName = "macetas";
+      break;
+    case "arboles-y-arbustos":
+      categoryName = "Árboles y Arbustos";
+      break;
+  }
 
   const productJsonLd = "jsonLd" in product ? product.jsonLd : product.jsonld;
   const productImages = product.images ?? [];
@@ -68,6 +102,13 @@ export default async function ProductPage({
         "@graph": [
           {
             ...productJsonLd,
+            ...(productImages.length > 0
+              ? {
+                  image: productImages.map((image) =>
+                    new URL(image, origin).toString(),
+                  ),
+                }
+              : {}),
             "@id": `${pageUrl}#product`,
             url: pageUrl,
           },
@@ -79,30 +120,34 @@ export default async function ProductPage({
             description: product.metaDescription,
             mainEntity: { "@id": `${pageUrl}#product` },
           },
+          {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Productos",
+                item: new URL("/productos", origin).toString(),
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: categoryName ?? category,
+                item: new URL(`/productos/${category}`, origin).toString(),
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: product.name,
+                item: pageUrl,
+              },
+            ],
+          },
           organization,
         ],
       }
     : undefined;
 
-  switch (category) {
-    case "plantas":
-    case "herramientas":
-    case "fertilizantes":
-      categoryName = category
-      break;
-    case "maceta":
-      categoryName = "macetas"
-      break;
-    case "macetas":
-      categoryName = "macetas"
-      break;
-    case "arboles-y-arbustos":
-      categoryName = "Árboles y Arbustos"
-      break;  
-
-    default:
-      break;
-  }
   return (
     <>
       <div className="mx-auto flex w-full max-w-7xl flex-col px-4 py-12 md:px-8">

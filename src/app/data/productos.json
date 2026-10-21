@@ -15232,6 +15232,578 @@
         ]
       },
       "urlcanonica": "/productos/macetas/t358-16cm"
+    },
+    {
+      "id": "MAC184",
+      "name": "Facetadas",
+      "description": "Código 16 Diámetro en cm.: 16 Alto en cm.: 13,5 Volumen: 2,2 Pack Unidad: 20 Plato sugerido: – Código 20 Diámetro en cm.: 20 Alto en cm.: 17 Volumen: 5,1 Pack Unidad: 20 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/1_FACETADA.webp",
+        "/1_FACETADA4.webp"
+      ],
+      "metaDescription": "Maceta plástica Facetadas: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Facetadas",
+        "description": "Código 16 Diámetro en cm.: 16 Alto en cm.: 13,5 Volumen: 2,2 Pack Unidad: 20 Plato sugerido: – Código 20 Diámetro en cm.: 20 Alto en cm.: 17 Volumen: 5,1 Pack Unidad: 20 Plato sugerido: –",
+        "sku": "MAC184",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/1_FACETADA.webp",
+          "/1_FACETADA4.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/facetadas"
+    },
+    {
+      "id": "MAC185",
+      "name": "Milan",
+      "description": "Código 16 Diámetro en cm.: 16 Alto en cm.: 14 Volumen: 2,5 Pack Unidad: 10 Plato sugerido: – Código 20 Diámetro en cm.: 20 Alto en cm.: 17 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/2_MILAN-T-scaled.webp",
+        "/2_MILAN-scaled.webp"
+      ],
+      "metaDescription": "Maceta plástica Milan: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Milan",
+        "description": "Código 16 Diámetro en cm.: 16 Alto en cm.: 14 Volumen: 2,5 Pack Unidad: 10 Plato sugerido: – Código 20 Diámetro en cm.: 20 Alto en cm.: 17 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: –",
+        "sku": "MAC185",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/2_MILAN-T-scaled.webp",
+          "/2_MILAN-scaled.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/milan"
+    },
+    {
+      "id": "MAC186",
+      "name": "Macetas Premium",
+      "description": "Código 9508 Diámetro en cm.: 8 Alto en cm.: 7,2 Volumen: 0,3 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9512 Diámetro en cm.: 12 Alto en cm.: 10,5 Volumen: 0,8 Pack Unidad: 10 Plato sugerido: 12 Colores: A Código 9516 Diámetro en cm.: 16 Alto en cm.: 14 Volumen: 2 Pack Unidad: 10 Plato sugerido: 16 Colores: A Código 9518 Diámetro en cm.: 18 Alto en cm.: 16 Volumen: 3 Pack Unidad: 10 Plato sugerido: 18 Colores: B Código 9522 Diámetro en cm.: 22 Alto en cm.: 19.6 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: 20 Colores: B Código 9527 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 10 Plato sugerido: 22 Colores: B Código 9535 Diámetro en cm.: 35 Alto en cm.: 32 Volumen: 24 Pack Unidad: 10 Plato sugerido: 28/32 Colores: C",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/3_PREMIUM.webp",
+        "/3_s02-1.webp",
+        "/3_s01-1.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas Premium: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas Premium",
+        "description": "Código 9508 Diámetro en cm.: 8 Alto en cm.: 7,2 Volumen: 0,3 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9512 Diámetro en cm.: 12 Alto en cm.: 10,5 Volumen: 0,8 Pack Unidad: 10 Plato sugerido: 12 Colores: A Código 9516 Diámetro en cm.: 16 Alto en cm.: 14 Volumen: 2 Pack Unidad: 10 Plato sugerido: 16 Colores: A Código 9518 Diámetro en cm.: 18 Alto en cm.: 16 Volumen: 3 Pack Unidad: 10 Plato sugerido: 18 Colores: B Código 9522 Diámetro en cm.: 22 Alto en cm.: 19.6 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: 20 Colores: B Código 9527 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 10 Plato sugerido: 22 Colores: B Código 9535 Diámetro en cm.: 35 Alto en cm.: 32 Volumen: 24 Pack Unidad: 10 Plato sugerido: 28/32 Colores: C",
+        "sku": "MAC186",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/3_PREMIUM.webp",
+          "/3_s02-1.webp",
+          "/3_s01-1.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-premium"
+    },
+    {
+      "id": "MAC187",
+      "name": "Premium cuadrada",
+      "description": "Código 9408 Diámetro en cm.: 8 x 8 Alto en cm.: 7,2 Volumen: 0,4 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9412 Diámetro en cm.: 12 x 12 Alto en cm.: 10,5 Volumen: 1,1 Pack Unidad: 10 Plato sugerido: – Código 9416 Diámetro en cm.: 16 x 16 Alto en cm.: 14 Volumen: 2,5 Pack Unidad: 10 Plato sugerido: 15 Código 9420 Diámetro en cm.: 20 x 20 Alto en cm.: 18 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: 15/17",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/4_s02-2.webp",
+        "/4_s01-2.webp",
+        "/4_cuadrada.webp"
+      ],
+      "metaDescription": "Maceta plástica Premium cuadrada: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Premium cuadrada",
+        "description": "Código 9408 Diámetro en cm.: 8 x 8 Alto en cm.: 7,2 Volumen: 0,4 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9412 Diámetro en cm.: 12 x 12 Alto en cm.: 10,5 Volumen: 1,1 Pack Unidad: 10 Plato sugerido: – Código 9416 Diámetro en cm.: 16 x 16 Alto en cm.: 14 Volumen: 2,5 Pack Unidad: 10 Plato sugerido: 15 Código 9420 Diámetro en cm.: 20 x 20 Alto en cm.: 18 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: 15/17",
+        "sku": "MAC187",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/4_s02-2.webp",
+          "/4_s01-2.webp",
+          "/4_cuadrada.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/premium-cuadrada"
+    },
+    {
+      "id": "MAC188",
+      "name": "Macetas clásicas",
+      "description": "Código 0139 Diámetro en cm.: 13 Alto en cm.: 10,8 Volumen: 1,1 Pack Unidad: 100 Plato sugerido: 12 Color: A Código 0140 Diámetro en cm.: 15 Alto en cm.: 12,3 Volumen: 1,6 Pack Unidad: 100 Plato sugerido: 14 Color: A Código 0140 Diámetro en cm.: 15 Alto en cm.: 12,3 Volumen: 1,6 Pack Unidad: 100 Plato sugerido: 14 Color: A Código 0142 Diámetro en cm.: 19 Alto en cm.: 15,5 Volumen: 3,1 Pack Unidad: 50 Plato sugerido: 16 Color: A Código 0143 Diámetro en cm.: 21 Alto en cm.: 17 Volumen: 4,3 Pack Unidad: 50 Plato sugerido: 18 Color: A Código 0144 Diámetro en cm.: 24 Alto en cm.: 19 Volumen: 6,5 Pack Unidad: 50 Plato sugerido: 20 Color: B Código 0145 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 50 Plato sugerido: 22 Color: B Código 0146 Diámetro en cm.: 30 Alto en cm.: 26 Volumen: 13,5 Pack Unidad: 50 Plato sugerido: 24 Color: B Código 0147 Diámetro en cm.: 35 Alto en cm.: 32 Volumen: 23 Pack Unidad: 30 Plato sugerido: 26 Color: B Código 0148 Diámetro en cm.: 40 Alto en cm.: 38 Volumen: 35 Pack Unidad: 20 Plato sugerido: 32 Color: B Código 0149 Diámetro en cm.: 45 Alto en cm.: 40 Volumen: 46 Pack Unidad: 10 Plato sugerido: 36 Color: A Código 0150 Diámetro en cm.: 50 Alto en cm.: 45 Volumen: 65 Pack Unidad: 10 Plato sugerido: 36/40 Color: B Código 0152 Diámetro en cm.: 60 Alto en cm.: 47 Volumen: 90 Pack Unidad: 10 Plato sugerido: 45 Color: B",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/5_clasica.webp",
+        "/5_s02-3.webp",
+        "/5_s01-3.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas clásicas: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas clásicas",
+        "description": "Código 0139 Diámetro en cm.: 13 Alto en cm.: 10,8 Volumen: 1,1 Pack Unidad: 100 Plato sugerido: 12 Color: A Código 0140 Diámetro en cm.: 15 Alto en cm.: 12,3 Volumen: 1,6 Pack Unidad: 100 Plato sugerido: 14 Color: A Código 0140 Diámetro en cm.: 15 Alto en cm.: 12,3 Volumen: 1,6 Pack Unidad: 100 Plato sugerido: 14 Color: A Código 0142 Diámetro en cm.: 19 Alto en cm.: 15,5 Volumen: 3,1 Pack Unidad: 50 Plato sugerido: 16 Color: A Código 0143 Diámetro en cm.: 21 Alto en cm.: 17 Volumen: 4,3 Pack Unidad: 50 Plato sugerido: 18 Color: A Código 0144 Diámetro en cm.: 24 Alto en cm.: 19 Volumen: 6,5 Pack Unidad: 50 Plato sugerido: 20 Color: B Código 0145 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 50 Plato sugerido: 22 Color: B Código 0146 Diámetro en cm.: 30 Alto en cm.: 26 Volumen: 13,5 Pack Unidad: 50 Plato sugerido: 24 Color: B Código 0147 Diámetro en cm.: 35 Alto en cm.: 32 Volumen: 23 Pack Unidad: 30 Plato sugerido: 26 Color: B Código 0148 Diámetro en cm.: 40 Alto en cm.: 38 Volumen: 35 Pack Unidad: 20 Plato sugerido: 32 Color: B Código 0149 Diámetro en cm.: 45 Alto en cm.: 40 Volumen: 46 Pack Unidad: 10 Plato sugerido: 36 Color: A Código 0150 Diámetro en cm.: 50 Alto en cm.: 45 Volumen: 65 Pack Unidad: 10 Plato sugerido: 36/40 Color: B Código 0152 Diámetro en cm.: 60 Alto en cm.: 47 Volumen: 90 Pack Unidad: 10 Plato sugerido: 45 Color: B",
+        "sku": "MAC188",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/5_clasica.webp",
+          "/5_s02-3.webp",
+          "/5_s01-3.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-clasicas"
+    },
+    {
+      "id": "MAC189",
+      "name": "Macetas clásicas cuadrada",
+      "description": "Código 4023 Diámetro en cm.: 23 x 23 Alto en cm.: 17 Volumen: 6 Pack Unidad: 20 Plato sugerido: 17 Código 4028 Diámetro en cm.: 28 x 28 Alto en cm.: 23 Volumen: 12 Pack Unidad: 20 Plato sugerido: 20 Código 4033 Diámetro en cm.: 33 x 33 Alto en cm.: 28,5 Volumen: 18 Pack Unidad: 20 Plato sugerido: 20 Código 4038 Diámetro en cm.: 38 x 38 Alto en cm.: 33,5 Volumen: 30 Pack Unidad: 20 Plato sugerido: 25 Código 4044 Diámetro en cm.: 44 x 44 Alto en cm.: 38,5 Volumen: 46 Pack Unidad: 10 Plato sugerido: 30 Código 4050 Diámetro en cm.: 50 x 50 Alto en cm.: 46,5 Volumen: 75 Pack Unidad: 10 Plato sugerido: 30",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/6_FABRICA-DE-MACETA-CLASICA-CUADRADA.webp",
+        "/6_s01.webp",
+        "/6_s02.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas clásicas cuadrada: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas clásicas cuadrada",
+        "description": "Código 4023 Diámetro en cm.: 23 x 23 Alto en cm.: 17 Volumen: 6 Pack Unidad: 20 Plato sugerido: 17 Código 4028 Diámetro en cm.: 28 x 28 Alto en cm.: 23 Volumen: 12 Pack Unidad: 20 Plato sugerido: 20 Código 4033 Diámetro en cm.: 33 x 33 Alto en cm.: 28,5 Volumen: 18 Pack Unidad: 20 Plato sugerido: 20 Código 4038 Diámetro en cm.: 38 x 38 Alto en cm.: 33,5 Volumen: 30 Pack Unidad: 20 Plato sugerido: 25 Código 4044 Diámetro en cm.: 44 x 44 Alto en cm.: 38,5 Volumen: 46 Pack Unidad: 10 Plato sugerido: 30 Código 4050 Diámetro en cm.: 50 x 50 Alto en cm.: 46,5 Volumen: 75 Pack Unidad: 10 Plato sugerido: 30",
+        "sku": "MAC189",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/6_FABRICA-DE-MACETA-CLASICA-CUADRADA.webp",
+          "/6_s01.webp",
+          "/6_s02.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-clasicas-cuadrada"
+    },
+    {
+      "id": "MAC190",
+      "name": "Macetas clásica pared",
+      "description": "Código 0068 Diámetro en cm.: 22 Alto en cm.: 17,5 Volumen: 4,6 Pack Unidad: 20 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/7_maceta-clasica-pared.webp",
+        "/7_maceta-clasica-pared-barro-ta-plastic.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas clásica pared: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas clásica pared",
+        "description": "Código 0068 Diámetro en cm.: 22 Alto en cm.: 17,5 Volumen: 4,6 Pack Unidad: 20 Plato sugerido: –",
+        "sku": "MAC190",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/7_maceta-clasica-pared.webp",
+          "/7_maceta-clasica-pared-barro-ta-plastic.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-clasica-pared"
+    },
+    {
+      "id": "MAC191",
+      "name": "Maceta Paris",
+      "description": "Código 1118 Diámetro en cm.: 18 Alto en cm.: 16 Volumen: 3 Pack Unidad: 10 Plato sugerido: 18 Código 1122 Diámetro en cm.: 22 Alto en cm.: 19,6 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: 20 Código 1127 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 10 Plato sugerido: 20",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-1.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-2.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-3.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-4.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-5.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-6.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-7.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-8.webp",
+        "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-9-1.webp"
+      ],
+      "metaDescription": "Maceta plástica Maceta Paris: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Maceta Paris",
+        "description": "Código 1118 Diámetro en cm.: 18 Alto en cm.: 16 Volumen: 3 Pack Unidad: 10 Plato sugerido: 18 Código 1122 Diámetro en cm.: 22 Alto en cm.: 19,6 Volumen: 5,3 Pack Unidad: 10 Plato sugerido: 20 Código 1127 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 10 Plato sugerido: 20",
+        "sku": "MAC191",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-1.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-2.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-3.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-4.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-5.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-6.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-7.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-8.webp",
+          "/8_MACETA-PLASTICA-PARIS-FABRICA-TAPLASTIC-9-1.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/maceta-paris"
+    },
+    {
+      "id": "MAC192",
+      "name": "Premium Cónica",
+      "description": "Código 9308 Diámetro en cm.: 8 Alto en cm.: 8,5 Volumen: 0,2 Pack Unidad: 10 Plato sugerido: – Código 9312 Diámetro en cm.: 12 Alto en cm.: 12,5 Volumen: 0,7 Pack Unidad: 10 Plato sugerido: – Código 9316 Diámetro en cm.: 16 Alto en cm.: 12,5 Volumen: 1,8 Pack Unidad: 10 Plato sugerido: – Código 9320 Diámetro en cm.: 20 Alto en cm.: 20 Volumen: 5 Pack Unidad: 10 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/9_PREMIUM-CONICA-BLANCA.webp",
+        "/9_PREMIUM-CONICA-MAGENTA.webp",
+        "/9_PREMIUM-CONICA-NEGRA.webp",
+        "/9_PREMIUM-CONICA-ROSA.webp",
+        "/9_PREMIUM-CONICA-TURQUESA.webp",
+        "/9_PREMIUM-CONICA-VIOLETA.webp",
+        "/9_PREMIUM-CONICA.webp"
+      ],
+      "metaDescription": "Maceta plástica Premium Cónica: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Premium Cónica",
+        "description": "Código 9308 Diámetro en cm.: 8 Alto en cm.: 8,5 Volumen: 0,2 Pack Unidad: 10 Plato sugerido: – Código 9312 Diámetro en cm.: 12 Alto en cm.: 12,5 Volumen: 0,7 Pack Unidad: 10 Plato sugerido: – Código 9316 Diámetro en cm.: 16 Alto en cm.: 12,5 Volumen: 1,8 Pack Unidad: 10 Plato sugerido: – Código 9320 Diámetro en cm.: 20 Alto en cm.: 20 Volumen: 5 Pack Unidad: 10 Plato sugerido: –",
+        "sku": "MAC192",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/9_PREMIUM-CONICA-BLANCA.webp",
+          "/9_PREMIUM-CONICA-MAGENTA.webp",
+          "/9_PREMIUM-CONICA-NEGRA.webp",
+          "/9_PREMIUM-CONICA-ROSA.webp",
+          "/9_PREMIUM-CONICA-TURQUESA.webp",
+          "/9_PREMIUM-CONICA-VIOLETA.webp",
+          "/9_PREMIUM-CONICA.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/premium-conica"
+    },
+    {
+      "id": "MAC193",
+      "name": "Balconera Premium",
+      "description": "Código 9627 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 7 Pack Unidad: 10 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/10_PREMIUM-BALCONERA-AMARILLA.webp",
+        "/10_PREMIUM-BALCONERA-AMARILLO2.webp",
+        "/10_PREMIUM-BALCONERA-BLANCA.webp",
+        "/10_PREMIUM-BALCONERA-BLANCA2.webp",
+        "/10_PREMIUM-BALCONERA-BORDO.webp",
+        "/10_PREMIUM-BALCONERA-BORDO2.webp",
+        "/10_PREMIUM-BALCONERA-LIMA.webp",
+        "/10_PREMIUM-BALCONERA-LIMA2.webp",
+        "/10_PREMIUM-BALCONERA-NARANJA.webp",
+        "/10_PREMIUM-BALCONERA-NARANJA2.webp",
+        "/10_PREMIUM-BALCONERA-NEGRA.webp",
+        "/10_PREMIUM-BALCONERA-NEGRA2.webp",
+        "/10_PREMIUM-BALCONERA-VIOLETA-2.webp",
+        "/10_PREMIUM-BALCONERA-VIOLETA.webp",
+        "/10_PREMIUM-BALCONERA-1.webp"
+      ],
+      "metaDescription": "Maceta plástica Balconera Premium: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Balconera Premium",
+        "description": "Código 9627 Diámetro en cm.: 27 Alto en cm.: 23 Volumen: 7 Pack Unidad: 10 Plato sugerido: –",
+        "sku": "MAC193",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/10_PREMIUM-BALCONERA-AMARILLA.webp",
+          "/10_PREMIUM-BALCONERA-AMARILLO2.webp",
+          "/10_PREMIUM-BALCONERA-BLANCA.webp",
+          "/10_PREMIUM-BALCONERA-BLANCA2.webp",
+          "/10_PREMIUM-BALCONERA-BORDO.webp",
+          "/10_PREMIUM-BALCONERA-BORDO2.webp",
+          "/10_PREMIUM-BALCONERA-LIMA.webp",
+          "/10_PREMIUM-BALCONERA-LIMA2.webp",
+          "/10_PREMIUM-BALCONERA-NARANJA.webp",
+          "/10_PREMIUM-BALCONERA-NARANJA2.webp",
+          "/10_PREMIUM-BALCONERA-NEGRA.webp",
+          "/10_PREMIUM-BALCONERA-NEGRA2.webp",
+          "/10_PREMIUM-BALCONERA-VIOLETA-2.webp",
+          "/10_PREMIUM-BALCONERA-VIOLETA.webp",
+          "/10_PREMIUM-BALCONERA-1.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/balconera-premium"
+    },
+    {
+      "id": "MAC194",
+      "name": "Barrilito",
+      "description": "Código 0050 Diámetro en cm.: 20 Alto en cm.: 11,50 Volumen: 2,8 Pack Unidad: 10 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/11_barrilito-maceta-1.webp",
+        "/11_macetas-barrilito.webp"
+      ],
+      "metaDescription": "Maceta plástica Barrilito: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Barrilito",
+        "description": "Código 0050 Diámetro en cm.: 20 Alto en cm.: 11,50 Volumen: 2,8 Pack Unidad: 10 Plato sugerido: –",
+        "sku": "MAC194",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/11_barrilito-maceta-1.webp",
+          "/11_macetas-barrilito.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/barrilito"
+    },
+    {
+      "id": "MAC195",
+      "name": "Macetas Ibiza",
+      "description": "Código 6025 Diámetro en cm.: 25 Alto en cm.: 19 Volumen: 4,2 Pack Unidad: 20 Plato sugerido: 18 Colores: A Código 6030 Diámetro en cm.: 30 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 20 Plato sugerido: 22 Colores: A Código 6035 Diámetro en cm.: 35 Alto en cm.: 26 Volumen: 15,5 Pack Unidad: 20 Plato sugerido: 24 Colores: A Código 6040 Diámetro en cm.: 40 Alto en cm.: 30 Volumen: 22,5 Pack Unidad: 20 Plato sugerido: 28 Colores: A Código 6050 Diámetro en cm.: 50 Alto en cm.: 38 Volumen: 46,5 Pack Unidad: 10 Plato sugerido: 36 Colores: B Código 6060 Diámetro en cm.: 60 Alto en cm.: 45 Volumen: 75 Pack Unidad: 10 Plato sugerido: 40 Colores: B",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/12_macetas-ibiza.webp",
+        "/12_s01-1.webp",
+        "/12_s02-1.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas Ibiza: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas Ibiza",
+        "description": "Código 6025 Diámetro en cm.: 25 Alto en cm.: 19 Volumen: 4,2 Pack Unidad: 20 Plato sugerido: 18 Colores: A Código 6030 Diámetro en cm.: 30 Alto en cm.: 23 Volumen: 9,5 Pack Unidad: 20 Plato sugerido: 22 Colores: A Código 6035 Diámetro en cm.: 35 Alto en cm.: 26 Volumen: 15,5 Pack Unidad: 20 Plato sugerido: 24 Colores: A Código 6040 Diámetro en cm.: 40 Alto en cm.: 30 Volumen: 22,5 Pack Unidad: 20 Plato sugerido: 28 Colores: A Código 6050 Diámetro en cm.: 50 Alto en cm.: 38 Volumen: 46,5 Pack Unidad: 10 Plato sugerido: 36 Colores: B Código 6060 Diámetro en cm.: 60 Alto en cm.: 45 Volumen: 75 Pack Unidad: 10 Plato sugerido: 40 Colores: B",
+        "sku": "MAC195",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/12_macetas-ibiza.webp",
+          "/12_s01-1.webp",
+          "/12_s02-1.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-ibiza"
+    },
+    {
+      "id": "MAC196",
+      "name": "Macetas Piramidal",
+      "description": "Código 7030 Diámetro en cm.: 30 x 30 Alto en cm.: 30 Volumen: 16 Pack Unidad: 20 Plato sugerido: 20 Colores: A Código 7040 Diámetro en cm.: 35 x 35 Alto en cm.: 40 Volumen: 27 Pack Unidad: 10 Plato sugerido: 25 Colores: A Código 7052 Diámetro en cm.: 40 x 40 Alto en cm.: 52 Volumen: 47 Pack Unidad: 10 Plato sugerido: 25/30 Colores: A",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/13_maceta-piramidal.webp",
+        "/13_s01-2.webp",
+        "/13_s02-2.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas Piramidal: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas Piramidal",
+        "description": "Código 7030 Diámetro en cm.: 30 x 30 Alto en cm.: 30 Volumen: 16 Pack Unidad: 20 Plato sugerido: 20 Colores: A Código 7040 Diámetro en cm.: 35 x 35 Alto en cm.: 40 Volumen: 27 Pack Unidad: 10 Plato sugerido: 25 Colores: A Código 7052 Diámetro en cm.: 40 x 40 Alto en cm.: 52 Volumen: 47 Pack Unidad: 10 Plato sugerido: 25/30 Colores: A",
+        "sku": "MAC196",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/13_maceta-piramidal.webp",
+          "/13_s01-2.webp",
+          "/13_s02-2.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-piramidal"
+    },
+    {
+      "id": "MAC197",
+      "name": "Macetas Ciotola",
+      "description": "Código 9035 Diámetro en cm.: 35 Alto en cm.: 12 Volumen: 5,5 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9040 Diámetro en cm.: 40 Alto en cm.: 16 Volumen: 11 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9048 Diámetro en cm.: 48 Alto en cm.: 17 Volumen: 17 Pack Unidad: 10 Plato sugerido: – Colores: A",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/14_maceta-ciotola.webp",
+        "/14_s01-3.webp",
+        "/14_s02-3.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas Ciotola: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas Ciotola",
+        "description": "Código 9035 Diámetro en cm.: 35 Alto en cm.: 12 Volumen: 5,5 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9040 Diámetro en cm.: 40 Alto en cm.: 16 Volumen: 11 Pack Unidad: 10 Plato sugerido: – Colores: A Código 9048 Diámetro en cm.: 48 Alto en cm.: 17 Volumen: 17 Pack Unidad: 10 Plato sugerido: – Colores: A",
+        "sku": "MAC197",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/14_maceta-ciotola.webp",
+          "/14_s01-3.webp",
+          "/14_s02-3.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-ciotola"
+    },
+    {
+      "id": "MAC198",
+      "name": "Macetas Rocío",
+      "description": "Código 1006 Diámetro en cm.: 6 Alto en cm.: 5,5 Volumen: 0,2 Pack Unidad: 1350 Plato sugerido: – Colores: A Código 1008 Diámetro en cm.: 8 Alto en cm.: 7,5 Volumen: 0,3 Pack Unidad: 720 Plato sugerido: – Colores: A Código 1010 Diámetro en cm.: 10 Alto en cm.: 8 Volumen: 0,55 Pack Unidad: 450 Plato sugerido: – Colores: A Código 1011 Diámetro en cm.: 11 Alto en cm.: 9,7 Volumen: 0,7 Pack Unidad: 840 Plato sugerido: 12 Colores: A Código 1012 Diámetro en cm.: 12 Alto en cm.: 10,5 Volumen: 0,8 Pack Unidad: 540 Plato sugerido: 12 Colores: B Código 1013 Diámetro en cm.: 13 Alto en cm.: 11 Volumen: 1,1 Pack Unidad: 500 Plato sugerido: 12 Colores: A Código 1014 Diámetro en cm.: 14 Alto en cm.: 11,5 Volumen: 1,5 Pack Unidad: 400 Plato sugerido: 14 Colores: B Código 1015 Diámetro en cm.: 15 Alto en cm.: 12,5 Volumen: 1,8 Pack Unidad: 400 Plato sugerido: 14 Colores: A Código 1017 Diámetro en cm.: 17 Alto en cm.: 13,5 Volumen: 2,4 Pack Unidad: 50 Plato sugerido: 16 Colores: C Código 1019 Diámetro en cm.: 19 Alto en cm.: 15,5 Volumen: 3,4 Pack Unidad: 50 Plato sugerido: 18 Colores: C Código 1021 Diámetro en cm.: 21 Alto en cm.: 16,5 Volumen: 4 Pack Unidad: 50 Plato sugerido: 20 Colores: C Código 1024 Diámetro en cm.: 24 Alto en cm.: 17 Volumen: 6 Pack Unidad: 50 Plato sugerido: 22 Colores: C Código 1030 Diámetro en cm.: 30 Alto en cm.: 24 Volumen: 12,8 Pack Unidad: 50 Plato sugerido: 26 Colores: C Código 1035 Diámetro en cm.: 35 Alto en cm.: 29,5 Volumen: 21 Pack Unidad: 30 Plato sugerido: 32 Colores: C",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/15_macetas-rocio-de-plastico.webp",
+        "/15_s01-4.webp",
+        "/15_s02-4.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas Rocío: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas Rocío",
+        "description": "Código 1006 Diámetro en cm.: 6 Alto en cm.: 5,5 Volumen: 0,2 Pack Unidad: 1350 Plato sugerido: – Colores: A Código 1008 Diámetro en cm.: 8 Alto en cm.: 7,5 Volumen: 0,3 Pack Unidad: 720 Plato sugerido: – Colores: A Código 1010 Diámetro en cm.: 10 Alto en cm.: 8 Volumen: 0,55 Pack Unidad: 450 Plato sugerido: – Colores: A Código 1011 Diámetro en cm.: 11 Alto en cm.: 9,7 Volumen: 0,7 Pack Unidad: 840 Plato sugerido: 12 Colores: A Código 1012 Diámetro en cm.: 12 Alto en cm.: 10,5 Volumen: 0,8 Pack Unidad: 540 Plato sugerido: 12 Colores: B Código 1013 Diámetro en cm.: 13 Alto en cm.: 11 Volumen: 1,1 Pack Unidad: 500 Plato sugerido: 12 Colores: A Código 1014 Diámetro en cm.: 14 Alto en cm.: 11,5 Volumen: 1,5 Pack Unidad: 400 Plato sugerido: 14 Colores: B Código 1015 Diámetro en cm.: 15 Alto en cm.: 12,5 Volumen: 1,8 Pack Unidad: 400 Plato sugerido: 14 Colores: A Código 1017 Diámetro en cm.: 17 Alto en cm.: 13,5 Volumen: 2,4 Pack Unidad: 50 Plato sugerido: 16 Colores: C Código 1019 Diámetro en cm.: 19 Alto en cm.: 15,5 Volumen: 3,4 Pack Unidad: 50 Plato sugerido: 18 Colores: C Código 1021 Diámetro en cm.: 21 Alto en cm.: 16,5 Volumen: 4 Pack Unidad: 50 Plato sugerido: 20 Colores: C Código 1024 Diámetro en cm.: 24 Alto en cm.: 17 Volumen: 6 Pack Unidad: 50 Plato sugerido: 22 Colores: C Código 1030 Diámetro en cm.: 30 Alto en cm.: 24 Volumen: 12,8 Pack Unidad: 50 Plato sugerido: 26 Colores: C Código 1035 Diámetro en cm.: 35 Alto en cm.: 29,5 Volumen: 21 Pack Unidad: 30 Plato sugerido: 32 Colores: C",
+        "sku": "MAC198",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/15_macetas-rocio-de-plastico.webp",
+          "/15_s01-4.webp",
+          "/15_s02-4.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-rocio"
+    },
+    {
+      "id": "MAC199",
+      "name": "Bols Mónaco",
+      "description": "Código 5012 Diámetro en cm.: 12 Alto en cm.: 7,5 Volumen: 0,4 Pack Unidad: 160 Plato sugerido: – Código 5015 Diámetro en cm.: 15 Alto en cm.: 8,7 Volumen: 0,9 Pack Unidad: 100 Plato sugerido: – Código 5018 Diámetro en cm.: 18 Alto en cm.: 10,4 Volumen: 1,8 Pack Unidad: 100 Plato sugerido: – Código 5021 Diámetro en cm.: 21 Alto en cm.: 12 Volumen: 3 Pack Unidad: 100 Plato sugerido: – Código 5024 Diámetro en cm.: 24 Alto en cm.: 13 Volumen: 4 Pack Unidad: 50 Plato sugerido: –",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/16_bols-monaco-maceta-plastico.webp",
+        "/16_Maceta-de-platico-para-cultivo-Bols-Monaco.webp"
+      ],
+      "metaDescription": "Maceta plástica Bols Mónaco: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Bols Mónaco",
+        "description": "Código 5012 Diámetro en cm.: 12 Alto en cm.: 7,5 Volumen: 0,4 Pack Unidad: 160 Plato sugerido: – Código 5015 Diámetro en cm.: 15 Alto en cm.: 8,7 Volumen: 0,9 Pack Unidad: 100 Plato sugerido: – Código 5018 Diámetro en cm.: 18 Alto en cm.: 10,4 Volumen: 1,8 Pack Unidad: 100 Plato sugerido: – Código 5021 Diámetro en cm.: 21 Alto en cm.: 12 Volumen: 3 Pack Unidad: 100 Plato sugerido: – Código 5024 Diámetro en cm.: 24 Alto en cm.: 13 Volumen: 4 Pack Unidad: 50 Plato sugerido: –",
+        "sku": "MAC199",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/16_bols-monaco-maceta-plastico.webp",
+          "/16_Maceta-de-platico-para-cultivo-Bols-Monaco.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/bols-monaco"
+    },
+    {
+      "id": "MAC200",
+      "name": "Macetas Diamante",
+      "description": "Código 6015 Diámetro en cm.: 15 Alto en cm.: 11 Volumen: 1,7 Pack Unidad: 20 Plato sugerido: Código 6019 Diámetro en cm.: 19 Alto en cm.: 15 Volumen: 3,3 Pack Unidad: 20 Plato sugerido:",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/17_3fb3d2db-90a9-497a-ad13-d14bcbf63198.webp",
+        "/17_6c8a0883-b65b-4c56-8a9f-11c30fede77f.webp",
+        "/17_a1b891c8-9a7f-445e-86dd-6c74b568b27b.webp",
+        "/17_f93999f9-4a00-472b-8317-ceba6b448abf.webp",
+        "/17_s01-11.webp",
+        "/17_s02-11.webp"
+      ],
+      "metaDescription": "Maceta plástica Macetas Diamante: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Macetas Diamante",
+        "description": "Código 6015 Diámetro en cm.: 15 Alto en cm.: 11 Volumen: 1,7 Pack Unidad: 20 Plato sugerido: Código 6019 Diámetro en cm.: 19 Alto en cm.: 15 Volumen: 3,3 Pack Unidad: 20 Plato sugerido:",
+        "sku": "MAC200",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/17_3fb3d2db-90a9-497a-ad13-d14bcbf63198.webp",
+          "/17_6c8a0883-b65b-4c56-8a9f-11c30fede77f.webp",
+          "/17_a1b891c8-9a7f-445e-86dd-6c74b568b27b.webp",
+          "/17_f93999f9-4a00-472b-8317-ceba6b448abf.webp",
+          "/17_s01-11.webp",
+          "/17_s02-11.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/macetas-diamante"
+    },
+    {
+      "id": "MAC201",
+      "name": "Jardinera Rocío",
+      "description": "Código 1535 Largo/cm.: 35 Ancho/cm.: 15 Alto/cm.: 11 Volumen en Lts.: 4,4 Pack Unidad: 10 Código 1545 Largo/cm.: 45 Ancho/cm.: 15,5 Alto/cm.: 12 Volumen en Lts.: 6,8 Pack Unidad: 10 Código 1555 Largo/cm.: 55 Ancho/cm.: 14,5 Alto/cm.: 14 Volumen en Lts.: 10,2 Pack Unidad: 10 Código 1565 Largo/cm.: 65 Ancho/cm.: 20,5 Alto/cm.: 16,5 Volumen en Lts.: 16,7 Pack Unidad: 10",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/18_maceta-jardinera-rocio.webp",
+        "/18_s01-7.webp",
+        "/18_s02-7.webp"
+      ],
+      "metaDescription": "Jardinera plástica Jardinera Rocío: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Jardinera Rocío",
+        "description": "Código 1535 Largo/cm.: 35 Ancho/cm.: 15 Alto/cm.: 11 Volumen en Lts.: 4,4 Pack Unidad: 10 Código 1545 Largo/cm.: 45 Ancho/cm.: 15,5 Alto/cm.: 12 Volumen en Lts.: 6,8 Pack Unidad: 10 Código 1555 Largo/cm.: 55 Ancho/cm.: 14,5 Alto/cm.: 14 Volumen en Lts.: 10,2 Pack Unidad: 10 Código 1565 Largo/cm.: 65 Ancho/cm.: 20,5 Alto/cm.: 16,5 Volumen en Lts.: 16,7 Pack Unidad: 10",
+        "sku": "MAC201",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/18_maceta-jardinera-rocio.webp",
+          "/18_s01-7.webp",
+          "/18_s02-7.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/jardinera-rocio"
+    },
+    {
+      "id": "MAC202",
+      "name": "Jardinera Mini",
+      "description": "Código 0082 Largo/cm.: 20 Ancho/cm.: 10,4 Alto/cm.: 9,3 Volumen en Lts.: 1,7 Pack Unidad: 10 Código 0085 Largo/cm.: 36 Ancho/cm.: 10,4 Alto/cm.: 10 Volumen en Lts.: 3,2 Pack Unidad: 10",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/19_maceta-jardinera-mini-1.webp",
+        "/19_jar-mini-png.webp"
+      ],
+      "metaDescription": "Jardinera plástica Jardinera Mini: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Jardinera Mini",
+        "description": "Código 0082 Largo/cm.: 20 Ancho/cm.: 10,4 Alto/cm.: 9,3 Volumen en Lts.: 1,7 Pack Unidad: 10 Código 0085 Largo/cm.: 36 Ancho/cm.: 10,4 Alto/cm.: 10 Volumen en Lts.: 3,2 Pack Unidad: 10",
+        "sku": "MAC202",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/19_maceta-jardinera-mini-1.webp",
+          "/19_jar-mini-png.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/jardinera-mini"
+    },
+    {
+      "id": "MAC203",
+      "name": "Jardinera Premium",
+      "description": "Código 0025 Largo/cm.: 25 Ancho/cm.: 12,5 Alto/cm.: 11,5 Volumen en Lts.: 3,5 Pack Unidad: 10 Código 0035 Largo/cm.: 35 Ancho/cm.: 14,5 Alto/cm.: 12,5 Volumen en Lts.: 6 Pack Unidad: 10",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": ["/307e06e5-6259-425b-8738-d753c7727080-1024x681.webp"],
+      "metaDescription": "Jardinera plástica Jardinera Premium: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Jardinera Premium",
+        "description": "Código 0025 Largo/cm.: 25 Ancho/cm.: 12,5 Alto/cm.: 11,5 Volumen en Lts.: 3,5 Pack Unidad: 10 Código 0035 Largo/cm.: 35 Ancho/cm.: 14,5 Alto/cm.: 12,5 Volumen en Lts.: 6 Pack Unidad: 10",
+        "sku": "MAC203",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/307e06e5-6259-425b-8738-d753c7727080-1024x681.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/jardinera-premium"
     }
   ]
 }

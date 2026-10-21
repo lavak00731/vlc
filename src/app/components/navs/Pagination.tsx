@@ -23,7 +23,7 @@ export const Pagination = ({
       aria-label="Paginación de productos"
       className="mt-10"
     >
-      <ul className="flex flex-wrap justify-center gap-2 max-w-5xl">
+      <ul className="flex flex-wrap justify-center gap-2 max-w-5xl mx-auto">
         {Array.from({ length: totalPages }, (_, index) => index + 1).map(
           (page) => (
             <li key={page}>

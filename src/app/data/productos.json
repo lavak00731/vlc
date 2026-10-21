@@ -15790,7 +15790,9 @@
       "description": "Código 0025 Largo/cm.: 25 Ancho/cm.: 12,5 Alto/cm.: 11,5 Volumen en Lts.: 3,5 Pack Unidad: 10 Código 0035 Largo/cm.: 35 Ancho/cm.: 14,5 Alto/cm.: 12,5 Volumen en Lts.: 6 Pack Unidad: 10",
       "category": "macetas",
       "subcategory": "plásticas",
-      "images": ["/307e06e5-6259-425b-8738-d753c7727080-1024x681.webp"],
+      "images": [
+        "/307e06e5-6259-425b-8738-d753c7727080-1024x681.webp"
+      ],
       "metaDescription": "Jardinera plástica Jardinera Premium: medidas y características del modelo. Consultá disponibilidad en Vivero del Golf.",
       "jsonLd": {
         "@context": "https://schema.org",
@@ -15804,6 +15806,825 @@
         ]
       },
       "urlcanonica": "/productos/macetas/jardinera-premium"
+    },
+    {
+      "id": "MAC204",
+      "name": "Línea Berta",
+      "description": "Colores Arena, Azul Metal, Barro, Blanco, Bronce, Cemento, Cromo, Dorado, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/1_Berta-ambientada.webp",
+        "/1_Berta-macetas.webp",
+        "/1_Macetas-Berta-Cromo-Ambientada-Matri-min.webp",
+        "/1_Macetas-Berta-Terracota-Matri.webp",
+        "/1_Macetas-Berta-Barro-Matri.webp",
+        "/1_Macetas-Berta-Negro-Matri.webp"
+      ],
+      "metaDescription": "Línea Berta: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Berta",
+        "description": "Colores Arena, Azul Metal, Barro, Blanco, Bronce, Cemento, Cromo, Dorado, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC204",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/1_Berta-ambientada.webp",
+          "/1_Berta-macetas.webp",
+          "/1_Macetas-Berta-Cromo-Ambientada-Matri-min.webp",
+          "/1_Macetas-Berta-Terracota-Matri.webp",
+          "/1_Macetas-Berta-Barro-Matri.webp",
+          "/1_Macetas-Berta-Negro-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-berta"
+    },
+    {
+      "id": "MAC205",
+      "name": "Línea Bina",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/2_Macetas-Bina-Ambientada-Matri-min.webp",
+        "/2_Macetas-Bina-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Bina: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Bina",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC205",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/2_Macetas-Bina-Ambientada-Matri-min.webp",
+          "/2_Macetas-Bina-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-bina"
+    },
+    {
+      "id": "MAC206",
+      "name": "Línea Bols",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/3_Macetas-Bols-Ambientada-Matri-min.webp",
+        "/3_Maceta-Bols-Matri-min.webp",
+        "/3_Macetas-Bols-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Bols: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Bols",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC206",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/3_Macetas-Bols-Ambientada-Matri-min.webp",
+          "/3_Maceta-Bols-Matri-min.webp",
+          "/3_Macetas-Bols-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-bols"
+    },
+    {
+      "id": "MAC207",
+      "name": "Línea Carina",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/4_Maceta-Carina-Ambientada-Matri-min.webp",
+        "/4_Macetas-Carina-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Carina: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Carina",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC207",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/4_Maceta-Carina-Ambientada-Matri-min.webp",
+          "/4_Macetas-Carina-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-carina"
+    },
+    {
+      "id": "MAC208",
+      "name": "Línea Común",
+      "description": "Colores Amarillo, Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/5_Macetas-Comun-Ambientada-Matri-min.webp",
+        "/5_Macetas-Comun-Matri-min.webp",
+        "/5_Macetas-Comun-color-rojo-Matri.webp",
+        "/5_Macetas-Comun-color-verde-Matri.webp"
+      ],
+      "metaDescription": "Línea Común: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Común",
+        "description": "Colores Amarillo, Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC208",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/5_Macetas-Comun-Ambientada-Matri-min.webp",
+          "/5_Macetas-Comun-Matri-min.webp",
+          "/5_Macetas-Comun-color-rojo-Matri.webp",
+          "/5_Macetas-Comun-color-verde-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-comun"
+    },
+    {
+      "id": "MAC209",
+      "name": "Línea Conca",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/6_Macetas-Conca-Ambientada-Matri-min.webp",
+        "/6_Macetas-Conca-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Conca: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Conca",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC209",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/6_Macetas-Conca-Ambientada-Matri-min.webp",
+          "/6_Macetas-Conca-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-conca"
+    },
+    {
+      "id": "MAC210",
+      "name": "Línea Cónica",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/7_Macetas-Conica-Ambientada-Matri-min.webp",
+        "/7_Macetas-Conica-Matri-min.webp",
+        "/7_Macetas-Conica-de-colores-Ambientada-Matri-min.webp",
+        "/7_Macetas-Conica-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Cónica: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Cónica",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC210",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/7_Macetas-Conica-Ambientada-Matri-min.webp",
+          "/7_Macetas-Conica-Matri-min.webp",
+          "/7_Macetas-Conica-de-colores-Ambientada-Matri-min.webp",
+          "/7_Macetas-Conica-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-conica"
+    },
+    {
+      "id": "MAC211",
+      "name": "Línea Copa",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/8_Macetas-Copa-Ambientada-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Copa: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Copa",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC211",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/8_Macetas-Copa-Ambientada-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-copa"
+    },
+    {
+      "id": "MAC212",
+      "name": "Línea Cubos",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/9_Macetas-Cubos-Ambientada-Matri-min.webp",
+        "/9_Macetas-Cubos-Matri-min.webp",
+        "/9_Macetas-Cubos-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Cubos: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Cubos",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC212",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/9_Macetas-Cubos-Ambientada-Matri-min.webp",
+          "/9_Macetas-Cubos-Matri-min.webp",
+          "/9_Macetas-Cubos-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-cubos"
+    },
+    {
+      "id": "MAC213",
+      "name": "Línea Cultivo",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/10_Jardinera-Cultivo-Ambientada-Matri-min.webp",
+        "/10_Maceta-Cultivo-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Cultivo: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Cultivo",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC213",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/10_Jardinera-Cultivo-Ambientada-Matri-min.webp",
+          "/10_Maceta-Cultivo-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-cultivo"
+    },
+    {
+      "id": "MAC214",
+      "name": "Línea Denise",
+      "description": "Colores Barro, Blanco, Cemento, Negro, Terracota, Verde",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/11_Maceta-Denise-Redonda-Ambientada-Matri-min.webp",
+        "/11_Maceta-Denise-Redonda-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Denise: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Denise",
+        "description": "Colores Barro, Blanco, Cemento, Negro, Terracota, Verde",
+        "sku": "MAC214",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/11_Maceta-Denise-Redonda-Ambientada-Matri-min.webp",
+          "/11_Maceta-Denise-Redonda-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-denise"
+    },
+    {
+      "id": "MAC215",
+      "name": "Línea Denise de colores",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/12_Macetas-Denise-de-colores-Matri.webp"
+      ],
+      "metaDescription": "Línea Denise de colores: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Denise de colores",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC215",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/12_Macetas-Denise-de-colores-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-denise-de-colores"
+    },
+    {
+      "id": "MAC216",
+      "name": "Línea Denise de Pared",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Negro, Terracota, Verde",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/13_Maceta-Denise-de-Pared-Ambientada-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Denise de Pared: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Denise de Pared",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Negro, Terracota, Verde",
+        "sku": "MAC216",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/13_Maceta-Denise-de-Pared-Ambientada-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-denise-de-pared"
+    },
+    {
+      "id": "MAC217",
+      "name": "Línea Económica",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/14_Macetas-Economica-Ambientada-Matri-min.webp",
+        "/14_Macetas-Economica-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Económica: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Económica",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC217",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/14_Macetas-Economica-Ambientada-Matri-min.webp",
+          "/14_Macetas-Economica-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-economica"
+    },
+    {
+      "id": "MAC218",
+      "name": "Línea Finny",
+      "description": "Colores Arena, Azul Metal, Blanco, Negro, Taupe",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/15_Maceta-Finny-Ambientada-Matri.webp",
+        "/15_Maceta-Finny-Matri.webp",
+        "/15_Maceta-Finny-Arena-Matri.webp",
+        "/15_Maceta-Finny-varios-Matri.webp",
+        "/15_Maceta-Finny-Negro-Matri.webp",
+        "/15_Maceta-Finny-Taupe-Matri.webp",
+        "/15_Maceta-Finny-Blanco-Matri.webp"
+      ],
+      "metaDescription": "Línea Finny: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Finny",
+        "description": "Colores Arena, Azul Metal, Blanco, Negro, Taupe",
+        "sku": "MAC218",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/15_Maceta-Finny-Ambientada-Matri.webp",
+          "/15_Maceta-Finny-Matri.webp",
+          "/15_Maceta-Finny-Arena-Matri.webp",
+          "/15_Maceta-Finny-varios-Matri.webp",
+          "/15_Maceta-Finny-Negro-Matri.webp",
+          "/15_Maceta-Finny-Taupe-Matri.webp",
+          "/15_Maceta-Finny-Blanco-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-finny"
+    },
+    {
+      "id": "MAC219",
+      "name": "Línea Ivana",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/16_Macetas-Ivana-Ambientada-Matri-min.webp",
+        "/16_Macetas-Ivana-Matri-min.webp",
+        "/16_Macetas-Ivana-de-colores-Ambientada-Matri-min.webp",
+        "/16_Macetas-Ivana-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Ivana: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Ivana",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC219",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/16_Macetas-Ivana-Ambientada-Matri-min.webp",
+          "/16_Macetas-Ivana-Matri-min.webp",
+          "/16_Macetas-Ivana-de-colores-Ambientada-Matri-min.webp",
+          "/16_Macetas-Ivana-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-ivana"
+    },
+    {
+      "id": "MAC220",
+      "name": "Línea Ivana con Aro",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/17_Macetas-Ivana-con-aro-de-colores-Ambientada-Matri-min.webp",
+        "/17_Macetas-Ivana-con-aro-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Ivana con Aro: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Ivana con Aro",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC220",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/17_Macetas-Ivana-con-aro-de-colores-Ambientada-Matri-min.webp",
+          "/17_Macetas-Ivana-con-aro-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-ivana-con-aro"
+    },
+    {
+      "id": "MAC221",
+      "name": "Línea Ivana Owen",
+      "description": "Colores Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Dorado, Naranja, Negro, Óxido, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/18_Macetas-Owen-Ambientada-Matri-min.webp",
+        "/18_Macetas-Ivana-Owen-Matri.webp",
+        "/18_Macetas-Ivana-Owen-Barro-Matri.webp"
+      ],
+      "metaDescription": "Línea Ivana Owen: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Ivana Owen",
+        "description": "Colores Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Dorado, Naranja, Negro, Óxido, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC221",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/18_Macetas-Owen-Ambientada-Matri-min.webp",
+          "/18_Macetas-Ivana-Owen-Matri.webp",
+          "/18_Macetas-Ivana-Owen-Barro-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-ivana-owen"
+    },
+    {
+      "id": "MAC222",
+      "name": "Línea Josephine",
+      "description": "Colores Amarillo, Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Cromo, Dorado, Naranja, Negro, Óxido, Rojo, Rosa, Terracota, Traslucido, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/19_Macetas-Josephine-Ambientada-Matri-min.webp",
+        "/19_Macetas-Josephine-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Josephine: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Josephine",
+        "description": "Colores Amarillo, Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Cromo, Dorado, Naranja, Negro, Óxido, Rojo, Rosa, Terracota, Traslucido, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC222",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/19_Macetas-Josephine-Ambientada-Matri-min.webp",
+          "/19_Macetas-Josephine-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-josephine"
+    },
+    {
+      "id": "MAC223",
+      "name": "Línea Liliana",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/20_Macetas-Liliana-Ambientada-Matri-min.webp",
+        "/20_Maceta-Liliana-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Liliana: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Liliana",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC223",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/20_Macetas-Liliana-Ambientada-Matri-min.webp",
+          "/20_Maceta-Liliana-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-liliana"
+    },
+    {
+      "id": "MAC224",
+      "name": "Línea Mauro",
+      "description": "Colores Barro, Blanco, Cemento, Negro, Terracota, Verde",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/21_Macetas-Mauro-Ambientada-Matri-min.webp",
+        "/21_Macetas-Mauro-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Mauro: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Mauro",
+        "description": "Colores Barro, Blanco, Cemento, Negro, Terracota, Verde",
+        "sku": "MAC224",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/21_Macetas-Mauro-Ambientada-Matri-min.webp",
+          "/21_Macetas-Mauro-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-mauro"
+    },
+    {
+      "id": "MAC225",
+      "name": "Línea Nueva Mauro",
+      "description": "Colores Amarillo, Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Cromo, Dorado, Naranja, Negro, Óxido, Rojo, Rosa, Terracota, Traslucido, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/22_Maceta-Mauro-Nueva-Ambientada-Matri-min.webp",
+        "/22_Maceta-Mauro-Nueva-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Nueva Mauro: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Nueva Mauro",
+        "description": "Colores Amarillo, Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Cromo, Dorado, Naranja, Negro, Óxido, Rojo, Rosa, Terracota, Traslucido, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC225",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/22_Maceta-Mauro-Nueva-Ambientada-Matri-min.webp",
+          "/22_Maceta-Mauro-Nueva-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-nueva-mauro"
+    },
+    {
+      "id": "MAC226",
+      "name": "Línea Owen",
+      "description": "Colores Arena, Azul Metal, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Dorado, Naranja, Negro, Óxido, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/23_Macetas-Owen-Ambientada-01-Matri-min.webp",
+        "/23_Macetas-Owen-Barro-Matri.webp",
+        "/23_Macetas-Owen-Negro-Matri.webp",
+        "/23_Macetas-Owen-Barro-Ambientada-Matri.webp"
+      ],
+      "metaDescription": "Línea Owen: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Owen",
+        "description": "Colores Arena, Azul Metal, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Dorado, Naranja, Negro, Óxido, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC226",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/23_Macetas-Owen-Ambientada-01-Matri-min.webp",
+          "/23_Macetas-Owen-Barro-Matri.webp",
+          "/23_Macetas-Owen-Negro-Matri.webp",
+          "/23_Macetas-Owen-Barro-Ambientada-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-owen"
+    },
+    {
+      "id": "MAC227",
+      "name": "Línea Owen Redonda",
+      "description": "Colores Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Cromo, Dorado, Naranja, Negro, Óxido, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/24_Maceta-Owen-Redonda-Ambientada-Matri-min.webp",
+        "/24_Maceta-Owen-Redonda-Ambientada-01-Matri-min.webp",
+        "/24_Maceta-Owen-Redonda-Matri-min.webp",
+        "/24_Maceta-Owen-Redonda-01-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Owen Redonda: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Owen Redonda",
+        "description": "Colores Arena, Barro, Blanco, Bronce, Cemento, Chocolate, Cobre, Cromo, Dorado, Naranja, Negro, Óxido, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC227",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/24_Maceta-Owen-Redonda-Ambientada-Matri-min.webp",
+          "/24_Maceta-Owen-Redonda-Ambientada-01-Matri-min.webp",
+          "/24_Maceta-Owen-Redonda-Matri-min.webp",
+          "/24_Maceta-Owen-Redonda-01-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-owen-redonda"
+    },
+    {
+      "id": "MAC228",
+      "name": "Línea Paula",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/25_Maceta-Paula-Ambientada-Matri-min.webp",
+        "/25_Maceta-Paula-familia-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Paula: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Paula",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC228",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/25_Maceta-Paula-Ambientada-Matri-min.webp",
+          "/25_Maceta-Paula-familia-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-paula"
+    },
+    {
+      "id": "MAC229",
+      "name": "Línea Piramidal",
+      "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/26_Maceta-Piramidal-Ambientada-Matri-min.webp",
+        "/26_Maceta-Piramidal-Matri-min.webp",
+        "/26_Macetas-Piramidal-de-colores-Ambientada-Matri-min.webp",
+        "/26_Macetas-Piramidal-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Piramidal: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Piramidal",
+        "description": "Colores Arena, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC229",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/26_Maceta-Piramidal-Ambientada-Matri-min.webp",
+          "/26_Maceta-Piramidal-Matri-min.webp",
+          "/26_Macetas-Piramidal-de-colores-Ambientada-Matri-min.webp",
+          "/26_Macetas-Piramidal-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-piramidal"
+    },
+    {
+      "id": "MAC230",
+      "name": "Línea Piramidal de colores",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/27_Macetas-Piramidal-de-colores-Ambientada-Matri-min.webp",
+        "/27_Macetas-Piramidal-de-colores-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Piramidal de colores: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Piramidal de colores",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC230",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/27_Macetas-Piramidal-de-colores-Ambientada-Matri-min.webp",
+          "/27_Macetas-Piramidal-de-colores-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-piramidal-de-colores"
+    },
+    {
+      "id": "MAC231",
+      "name": "Línea Tahia",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/28_Macetas-Tahia-Ambientada-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Tahia: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Tahia",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC231",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/28_Macetas-Tahia-Ambientada-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-tahia"
+    },
+    {
+      "id": "MAC232",
+      "name": "Línea Toscana",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/29_Macetas-Toscana-Ambientada-Matri-min.webp",
+        "/29_Maceta-Toscana-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Toscana: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Toscana",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC232",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/29_Macetas-Toscana-Ambientada-Matri-min.webp",
+          "/29_Maceta-Toscana-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-toscana"
+    },
+    {
+      "id": "MAC233",
+      "name": "Línea Tulipán",
+      "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/30_Maceta-Tulipan-Ambientada-Matri-min.webp",
+        "/30_Maceta-Tulipan-Matri-min.webp"
+      ],
+      "metaDescription": "Línea Tulipán: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Tulipán",
+        "description": "Colores Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Violeta",
+        "sku": "MAC233",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/30_Maceta-Tulipan-Ambientada-Matri-min.webp",
+          "/30_Maceta-Tulipan-Matri-min.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-tulipan"
+    },
+    {
+      "id": "MAC234",
+      "name": "Línea Valeria",
+      "description": "Colores Arena, Azul Metal, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+      "category": "macetas",
+      "subcategory": "plásticas",
+      "images": [
+        "/31_Macetas-Valeria-de-colores-Ambientada-Matri-min.webp",
+        "/31_Macetas-Valeria-de-colores-Matri-min.webp",
+        "/31_Macetas-Valeria-tradicional-Matri.webp",
+        "/31_Macetas-Valeria-de-colores-01-Matri.webp"
+      ],
+      "metaDescription": "Línea Valeria: macetas plásticas disponibles en distintos colores. Consult? disponibilidad en Vivero del Golf.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Línea Valeria",
+        "description": "Colores Arena, Azul Metal, Barro, Blanco, Cemento, Naranja, Negro, Rojo, Terracota, Verde, Verde claro, Verde Metal, Violeta",
+        "sku": "MAC234",
+        "category": "Macetas > plásticas",
+        "image": [
+          "/31_Macetas-Valeria-de-colores-Ambientada-Matri-min.webp",
+          "/31_Macetas-Valeria-de-colores-Matri-min.webp",
+          "/31_Macetas-Valeria-tradicional-Matri.webp",
+          "/31_Macetas-Valeria-de-colores-01-Matri.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/linea-valeria"
     }
   ]
 }

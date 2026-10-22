@@ -39,7 +39,14 @@
         "badgeText": "Fertilizantes",
         "title": "Sustratos y Nutrición",
         "description": ["Encontrá sustratos, compost orgánico y productos para huertas y jardines en Vivero del Golf. Te ayudamos a elegir las opciones adecuadas para acompañar el crecimiento de tus plantas, preparar tus espacios verdes y cuidar la tierra.", "Trabajamos con la línea <strong>Novofértil</strong>, con alternativas para diferentes cultivos y necesidades de jardinería.", "Consultanos por los productos disponibles y encontrá lo que necesitás para tu jardín, tus macetas o tu huerta."]
-    }
-        
+    },
+    "decoracion": {
+        "filter": ["candelabros", "faroles", "bandejas/jarrones"],
+        "image": "/decoracion.webp",
+        "badgeIcon": "local_florist",
+        "badgeText": "Deco",
+        "title": "Decoración",
+        "description": ["Encontrá sustratos, compost orgánico y productos para huertas y jardines en Vivero del Golf. Te ayudamos a elegir las opciones adecuadas para acompañar el crecimiento de tus plantas, preparar tus espacios verdes y cuidar la tierra.", "Trabajamos con la línea <strong>Novofértil</strong>, con alternativas para diferentes cultivos y necesidades de jardinería.", "Consultanos por los productos disponibles y encontrá lo que necesitás para tu jardín, tus macetas o tu huerta."]
+    }   
      
 }

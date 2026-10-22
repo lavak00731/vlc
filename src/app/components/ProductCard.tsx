@@ -19,7 +19,6 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
     case "arboles-y-arbustos":
       badgeIcon = "nature";
       break;
-    case "maceta":
     case "macetas":
       badgeIcon = "potted_plant";
       break;
@@ -29,6 +28,9 @@ export const ProductCard = ({product}:{product:ProductInterface}) => {
     case "herramientas":
       badgeIcon = "garden_cart";
       break;
+    case "decoracion":
+      badgeIcon = "local_florist";
+      break; 
     default:
       badgeIcon = "nest_eco_leaf";
   }

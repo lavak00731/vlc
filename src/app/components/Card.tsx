@@ -86,8 +86,8 @@ export const Card = ({
               {description}
             </p>
           </div>
-          <div className="flex items-center justify-between pt-space-xs">
-            <span className="font-label-sm text-label-sm text-secondary font-semibold">
+          <div className="flex items-center justify-between">
+            <span className="font-label-sm text-label-sm text-secondary font-semibold flex-1 max-w-55">
               {footerDescription}
             </span>
             <span className="w-8 h-8 rounded-full flex items-center justify-center bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container transition-colors">

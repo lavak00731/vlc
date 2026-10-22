@@ -16378,6 +16378,2592 @@
         ]
       },
       "urlcanonica": "/productos/decoracion/jarron-madera-17x40cm-negro-6"
+    },
+    {
+      "id": "DECO031",
+      "name": "PH131 PLANTA 67CM",
+      "description": "PLANTA HELECHO ESPADA 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": ["/1_PH131-NV.webp"],
+      "metaDescription": "PH131 PLANTA 67CM: PLANTA HELECHO ESPADA 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH131 PLANTA 67CM",
+        "description": "PLANTA HELECHO ESPADA 67CM",
+        "sku": "PH131",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH131"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": ["/1_PH131-NV.webp"]
+      },
+      "urlcanonica": "/productos/decoracion/ph131-planta-67cm"
+    },
+    {
+      "id": "DECO032",
+      "name": "PH129 PLANTA 67CM",
+      "description": "PLANTA ARALIA MING 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/2_PH129-NV.webp"
+      ],
+      "metaDescription": "PH129 PLANTA 67CM: PLANTA ARALIA MING 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH129 PLANTA 67CM",
+        "description": "PLANTA ARALIA MING 67CM",
+        "sku": "PH129",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH129"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/2_PH129-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph129-planta-67cm"
+    },
+    {
+      "id": "DECO033",
+      "name": "PH126 PLANTA 67CM",
+      "description": "PLANTA HELECHO ESPADA 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/3_PH126-NV.webp"
+      ],
+      "metaDescription": "PH126 PLANTA 67CM: PLANTA HELECHO ESPADA 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH126 PLANTA 67CM",
+        "description": "PLANTA HELECHO ESPADA 67CM",
+        "sku": "PH126",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH126"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/3_PH126-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph126-planta-67cm"
+    },
+    {
+      "id": "DECO034",
+      "name": "PH127 PLANTA 67CM",
+      "description": "PLANTA HELECHO JAPONES 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/4_PH127-NV.webp"
+      ],
+      "metaDescription": "PH127 PLANTA 67CM: PLANTA HELECHO JAPONES 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH127 PLANTA 67CM",
+        "description": "PLANTA HELECHO JAPONES 67CM",
+        "sku": "PH127",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH127"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/4_PH127-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph127-planta-67cm"
+    },
+    {
+      "id": "DECO035",
+      "name": "PL155 SETX4 90CM",
+      "description": "SETX4 UNIDADES DE PALMERA 90CM EL PRECIO ES UNITARIO POR PLANTA",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/5_PL155SETX4-1.webp"
+      ],
+      "metaDescription": "PL155 SETX4 90CM: SETX4 UNIDADES DE PALMERA 90CM EL PRECIO ES UNITARIO POR PLANTA.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL155 SETX4 90CM",
+        "description": "SETX4 UNIDADES DE PALMERA 90CM EL PRECIO ES UNITARIO POR PLANTA",
+        "sku": "PL155",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL155"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/5_PL155SETX4-1.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl155-setx4-90cm"
+    },
+    {
+      "id": "DECO036",
+      "name": "PH125 PLANTA 67CM",
+      "description": "PLANTA HELECHO PLUMOSO 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/6_PH125-NV.webp"
+      ],
+      "metaDescription": "PH125 PLANTA 67CM: PLANTA HELECHO PLUMOSO 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH125 PLANTA 67CM",
+        "description": "PLANTA HELECHO PLUMOSO 67CM",
+        "sku": "PH125",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH125"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/6_PH125-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph125-planta-67cm"
+    },
+    {
+      "id": "DECO037",
+      "name": "FA141 70CM",
+      "description": "PLANTA ARTIFICIAL FICUS PANDURATA 70CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/7_FA141.webp"
+      ],
+      "metaDescription": "FA141 70CM: PLANTA ARTIFICIAL FICUS PANDURATA 70CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA141 70CM",
+        "description": "PLANTA ARTIFICIAL FICUS PANDURATA 70CM",
+        "sku": "FA141",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA141"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/7_FA141.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa141-70cm"
+    },
+    {
+      "id": "DECO038",
+      "name": "PH128 PLANTA 67CM",
+      "description": "PLANTA HELECHO ESPÁRRAGO 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/8_PH128-NV.webp"
+      ],
+      "metaDescription": "PH128 PLANTA 67CM: PLANTA HELECHO ESPÁRRAGO 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH128 PLANTA 67CM",
+        "description": "PLANTA HELECHO ESPÁRRAGO 67CM",
+        "sku": "PH128",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH128"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/8_PH128-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph128-planta-67cm"
+    },
+    {
+      "id": "DECO039",
+      "name": "PH124 PLANTA 67CM",
+      "description": "PLANTA HELECHO BOSTON 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/9_PH124-NV.webp"
+      ],
+      "metaDescription": "PH124 PLANTA 67CM: PLANTA HELECHO BOSTON 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH124 PLANTA 67CM",
+        "description": "PLANTA HELECHO BOSTON 67CM",
+        "sku": "PH124",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH124"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/9_PH124-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph124-planta-67cm"
+    },
+    {
+      "id": "DECO040",
+      "name": "PH132 PLANTA 67CM",
+      "description": "PLANTA HELECHO BOSTON 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/10_PH132-NV.webp"
+      ],
+      "metaDescription": "PH132 PLANTA 67CM: PLANTA HELECHO BOSTON 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH132 PLANTA 67CM",
+        "description": "PLANTA HELECHO BOSTON 67CM",
+        "sku": "PH132",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH132"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/10_PH132-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph132-planta-67cm"
+    },
+    {
+      "id": "DECO041",
+      "name": "PH130 PLANTA 67CM",
+      "description": "PLANTA ARALIA 67CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/11_PH130-NV.webp"
+      ],
+      "metaDescription": "PH130 PLANTA 67CM: PLANTA ARALIA 67CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PH130 PLANTA 67CM",
+        "description": "PLANTA ARALIA 67CM",
+        "sku": "PH130",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PH130"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/11_PH130-NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/ph130-planta-67cm"
+    },
+    {
+      "id": "DECO042",
+      "name": "FA135 105CM",
+      "description": "PLANTA 105CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/12_FA135.webp"
+      ],
+      "metaDescription": "FA135 105CM: PLANTA 105CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA135 105CM",
+        "description": "PLANTA 105CM",
+        "sku": "FA135",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA135"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/12_FA135.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa135-105cm"
+    },
+    {
+      "id": "DECO043",
+      "name": "PL233 BAMBOO 210CM",
+      "description": "BAMBOO 210CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/13_PL233.webp"
+      ],
+      "metaDescription": "PL233 BAMBOO 210CM: BAMBOO 210CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL233 BAMBOO 210CM",
+        "description": "BAMBOO 210CM",
+        "sku": "PL233",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL233"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/13_PL233.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl233-bamboo-210cm"
+    },
+    {
+      "id": "DECO044",
+      "name": "FA136 120CM",
+      "description": "PLANTA ARTIFICIAL 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/14_FA136.webp"
+      ],
+      "metaDescription": "FA136 120CM: PLANTA ARTIFICIAL 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA136 120CM",
+        "description": "PLANTA ARTIFICIAL 120CM",
+        "sku": "FA136",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA136"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/14_FA136.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa136-120cm"
+    },
+    {
+      "id": "DECO045",
+      "name": "PL155 PLANTA 90CM",
+      "description": "PLANTA PAMLERA 90CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/15_PL153-PL154-PL155.webp"
+      ],
+      "metaDescription": "PL155 PLANTA 90CM: PLANTA PAMLERA 90CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL155 PLANTA 90CM",
+        "description": "PLANTA PAMLERA 90CM",
+        "sku": "PL155",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL155"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/15_PL153-PL154-PL155.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl155-planta-90cm"
+    },
+    {
+      "id": "DECO046",
+      "name": "FA206 120CM",
+      "description": "PLANTA ARTIFICIAL 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/16_FA206.webp"
+      ],
+      "metaDescription": "FA206 120CM: PLANTA ARTIFICIAL 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA206 120CM",
+        "description": "PLANTA ARTIFICIAL 120CM",
+        "sku": "FA206",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA206"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/16_FA206.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa206-120cm"
+    },
+    {
+      "id": "DECO047",
+      "name": "PL223 PLANTA 160CM",
+      "description": "PLANTA PALMERA 160CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/17_PL223.webp"
+      ],
+      "metaDescription": "PL223 PLANTA 160CM: PLANTA PALMERA 160CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL223 PLANTA 160CM",
+        "description": "PLANTA PALMERA 160CM",
+        "sku": "PL223",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL223"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/17_PL223.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl223-planta-160cm"
+    },
+    {
+      "id": "DECO048",
+      "name": "PL250 PLANTA 160CM",
+      "description": "PLANTA 160CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/18_PL250.webp"
+      ],
+      "metaDescription": "PL250 PLANTA 160CM: PLANTA 160CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL250 PLANTA 160CM",
+        "description": "PLANTA 160CM",
+        "sku": "PL250",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL250"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/18_PL250.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl250-planta-160cm"
+    },
+    {
+      "id": "DECO049",
+      "name": "FA138 140CM",
+      "description": "PALMERA PALMERA 140CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/19_FA137-138-139-140-NUEVO.webp"
+      ],
+      "metaDescription": "FA138 140CM: PALMERA PALMERA 140CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA138 140CM",
+        "description": "PALMERA PALMERA 140CM",
+        "sku": "FA138",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA138"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/19_FA137-138-139-140-NUEVO.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa138-140cm"
+    },
+    {
+      "id": "DECO050",
+      "name": "PL237 PLANTA 180CM",
+      "description": "PLANTA PALMERA 180CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/20_PL237.webp"
+      ],
+      "metaDescription": "PL237 PLANTA 180CM: PLANTA PALMERA 180CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL237 PLANTA 180CM",
+        "description": "PLANTA PALMERA 180CM",
+        "sku": "PL237",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL237"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/20_PL237.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl237-planta-180cm"
+    },
+    {
+      "id": "DECO051",
+      "name": "FA210 140CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 140CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/21_FA210.webp"
+      ],
+      "metaDescription": "FA210 140CM: PLANTA ARTIFICIAL PALMERA 140CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA210 140CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 140CM",
+        "sku": "FA210",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA210"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/21_FA210.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa210-140cm"
+    },
+    {
+      "id": "DECO052",
+      "name": "FA223 230CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 230CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/22_FA223-1.webp"
+      ],
+      "metaDescription": "FA223 230CM: PLANTA ARTIFICIAL PALMERA 230CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA223 230CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 230CM",
+        "sku": "FA223",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA223"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/22_FA223-1.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa223-230cm"
+    },
+    {
+      "id": "DECO053",
+      "name": "FA207 160CM",
+      "description": "PLANTA ARTIFICIAL 160CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/23_FA207.webp"
+      ],
+      "metaDescription": "FA207 160CM: PLANTA ARTIFICIAL 160CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA207 160CM",
+        "description": "PLANTA ARTIFICIAL 160CM",
+        "sku": "FA207",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA207"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/23_FA207.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa207-160cm"
+    },
+    {
+      "id": "DECO054",
+      "name": "FA209 110CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 110CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/24_FA209.webp"
+      ],
+      "metaDescription": "FA209 110CM: PLANTA ARTIFICIAL PALMERA 110CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA209 110CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 110CM",
+        "sku": "FA209",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA209"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/24_FA209.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa209-110cm"
+    },
+    {
+      "id": "DECO055",
+      "name": "PL160 PLANTA 120CM",
+      "description": "PLANTA PALMERA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/25_PL160.webp"
+      ],
+      "metaDescription": "PL160 PLANTA 120CM: PLANTA PALMERA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL160 PLANTA 120CM",
+        "description": "PLANTA PALMERA 120CM",
+        "sku": "PL160",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL160"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/25_PL160.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl160-planta-120cm"
+    },
+    {
+      "id": "DECO056",
+      "name": "PL261 PLANTA 180CM",
+      "description": "PLANTA PREMIUM 180CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/26_PL261.webp"
+      ],
+      "metaDescription": "PL261 PLANTA 180CM: PLANTA PREMIUM 180CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL261 PLANTA 180CM",
+        "description": "PLANTA PREMIUM 180CM",
+        "sku": "PL261",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL261"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/26_PL261.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl261-planta-180cm"
+    },
+    {
+      "id": "DECO057",
+      "name": "PL217 PLANTA 130CM",
+      "description": "PLANTA 130CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/27_PL217.webp"
+      ],
+      "metaDescription": "PL217 PLANTA 130CM: PLANTA 130CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL217 PLANTA 130CM",
+        "description": "PLANTA 130CM",
+        "sku": "PL217",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL217"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/27_PL217.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl217-planta-130cm"
+    },
+    {
+      "id": "DECO058",
+      "name": "PL198 PLANTA 120CM",
+      "description": "BAMBOO 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/28_PL198.webp"
+      ],
+      "metaDescription": "PL198 PLANTA 120CM: BAMBOO 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL198 PLANTA 120CM",
+        "description": "BAMBOO 120CM",
+        "sku": "PL198",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL198"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/28_PL198.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl198-planta-120cm"
+    },
+    {
+      "id": "DECO059",
+      "name": "FA211 160CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 160CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/29_FA211.webp"
+      ],
+      "metaDescription": "FA211 160CM: PLANTA ARTIFICIAL PALMERA 160CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA211 160CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 160CM",
+        "sku": "FA211",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA211"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/29_FA211.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa211-160cm"
+    },
+    {
+      "id": "DECO060",
+      "name": "PL144 PLANTA 120CM",
+      "description": "BAMBOO 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/30_PL144.webp"
+      ],
+      "metaDescription": "PL144 PLANTA 120CM: BAMBOO 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL144 PLANTA 120CM",
+        "description": "BAMBOO 120CM",
+        "sku": "PL144",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL144"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/30_PL144.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl144-planta-120cm"
+    },
+    {
+      "id": "DECO061",
+      "name": "PL206 PLANTA 75CM",
+      "description": "HELECHO ARTIFICIAL 75CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/31_PL206.webp"
+      ],
+      "metaDescription": "PL206 PLANTA 75CM: HELECHO ARTIFICIAL 75CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL206 PLANTA 75CM",
+        "description": "HELECHO ARTIFICIAL 75CM",
+        "sku": "PL206",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL206"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/31_PL206.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl206-planta-75cm"
+    },
+    {
+      "id": "DECO062",
+      "name": "FA324 150CM",
+      "description": "FICUS 150CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/32_FA324-TEST.webp"
+      ],
+      "metaDescription": "FA324 150CM: FICUS 150CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA324 150CM",
+        "description": "FICUS 150CM",
+        "sku": "FA324",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA324"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/32_FA324-TEST.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa324-150cm"
+    },
+    {
+      "id": "DECO063",
+      "name": "PL172 PLANTA 130CM",
+      "description": "PLANTA 130CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/33_PL172.webp"
+      ],
+      "metaDescription": "PL172 PLANTA 130CM: PLANTA 130CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL172 PLANTA 130CM",
+        "description": "PLANTA 130CM",
+        "sku": "PL172",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL172"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/33_PL172.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl172-planta-130cm"
+    },
+    {
+      "id": "DECO064",
+      "name": "FA225 135CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 135CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/34_FA225.webp"
+      ],
+      "metaDescription": "FA225 135CM: PLANTA ARTIFICIAL PALMERA 135CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA225 135CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 135CM",
+        "sku": "FA225",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA225"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/34_FA225.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa225-135cm"
+    },
+    {
+      "id": "DECO065",
+      "name": "PL197 PLANTA 90CM",
+      "description": "BAMBOO 90CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/35_PL197.webp"
+      ],
+      "metaDescription": "PL197 PLANTA 90CM: BAMBOO 90CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL197 PLANTA 90CM",
+        "description": "BAMBOO 90CM",
+        "sku": "PL197",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL197"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/35_PL197.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl197-planta-90cm"
+    },
+    {
+      "id": "DECO066",
+      "name": "FA498 95CM",
+      "description": "PLANTA 95CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/36_FA498-NUEVA.webp"
+      ],
+      "metaDescription": "FA498 95CM: PLANTA 95CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA498 95CM",
+        "description": "PLANTA 95CM",
+        "sku": "FA498",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA498"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/36_FA498-NUEVA.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa498-95cm"
+    },
+    {
+      "id": "DECO067",
+      "name": "PL204 PLANTA 90CM",
+      "description": "PLANTA 90CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/37_PL204.webp"
+      ],
+      "metaDescription": "PL204 PLANTA 90CM: PLANTA 90CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL204 PLANTA 90CM",
+        "description": "PLANTA 90CM",
+        "sku": "PL204",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL204"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/37_PL204.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl204-planta-90cm"
+    },
+    {
+      "id": "DECO068",
+      "name": "PL201 PLANTA 120CM",
+      "description": "OLIVO 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/38_PL201.webp"
+      ],
+      "metaDescription": "PL201 PLANTA 120CM: OLIVO 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL201 PLANTA 120CM",
+        "description": "OLIVO 120CM",
+        "sku": "PL201",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL201"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/38_PL201.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl201-planta-120cm"
+    },
+    {
+      "id": "DECO069",
+      "name": "PL202 PLANTA 120CM",
+      "description": "PLANTA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/39_PL202.webp"
+      ],
+      "metaDescription": "PL202 PLANTA 120CM: PLANTA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL202 PLANTA 120CM",
+        "description": "PLANTA 120CM",
+        "sku": "PL202",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL202"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/39_PL202.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl202-planta-120cm"
+    },
+    {
+      "id": "DECO070",
+      "name": "PL138 PLANTA 120CM",
+      "description": "PLANTA ARTIFICIAL DECORATIVA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/40_PL138.webp"
+      ],
+      "metaDescription": "PL138 PLANTA 120CM: PLANTA ARTIFICIAL DECORATIVA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL138 PLANTA 120CM",
+        "description": "PLANTA ARTIFICIAL DECORATIVA 120CM",
+        "sku": "PL138",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL138"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/40_PL138.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl138-planta-120cm"
+    },
+    {
+      "id": "DECO071",
+      "name": "FA329 120CM",
+      "description": "ARBOL 135CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/41_FA329-TST.webp"
+      ],
+      "metaDescription": "FA329 120CM: ARBOL 135CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA329 120CM",
+        "description": "ARBOL 135CM",
+        "sku": "FA329",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA329"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/41_FA329-TST.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa329-120cm"
+    },
+    {
+      "id": "DECO072",
+      "name": "FA325 95CM",
+      "description": "OLIVO 95CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/42_FA325.webp"
+      ],
+      "metaDescription": "FA325 95CM: OLIVO 95CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA325 95CM",
+        "description": "OLIVO 95CM",
+        "sku": "FA325",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA325"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/42_FA325.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa325-95cm"
+    },
+    {
+      "id": "DECO073",
+      "name": "FA321 160CM",
+      "description": "PALMERA 160CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/43_FA321.webp"
+      ],
+      "metaDescription": "FA321 160CM: PALMERA 160CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA321 160CM",
+        "description": "PALMERA 160CM",
+        "sku": "FA321",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA321"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/43_FA321.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa321-160cm"
+    },
+    {
+      "id": "DECO074",
+      "name": "FA217 117CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 117CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/44_FA217.webp"
+      ],
+      "metaDescription": "FA217 117CM: PLANTA ARTIFICIAL PALMERA 117CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA217 117CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 117CM",
+        "sku": "FA217",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA217"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/44_FA217.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa217-117cm"
+    },
+    {
+      "id": "DECO075",
+      "name": "PL176 PLANTA 90CM",
+      "description": "OLIVO ARTIFICIAL 90CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/45_PL176.webp"
+      ],
+      "metaDescription": "PL176 PLANTA 90CM: OLIVO ARTIFICIAL 90CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL176 PLANTA 90CM",
+        "description": "OLIVO ARTIFICIAL 90CM",
+        "sku": "PL176",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL176"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/45_PL176.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl176-planta-90cm"
+    },
+    {
+      "id": "DECO076",
+      "name": "PL203 PLANTA 150CM",
+      "description": "PLANTA PALMERA 150CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/46_PL203.webp"
+      ],
+      "metaDescription": "PL203 PLANTA 150CM: PLANTA PALMERA 150CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL203 PLANTA 150CM",
+        "description": "PLANTA PALMERA 150CM",
+        "sku": "PL203",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL203"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/46_PL203.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl203-planta-150cm"
+    },
+    {
+      "id": "DECO077",
+      "name": "PL288 PLANTA 120CM",
+      "description": "PLANTA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/47_PL288NV.webp"
+      ],
+      "metaDescription": "PL288 PLANTA 120CM: PLANTA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL288 PLANTA 120CM",
+        "description": "PLANTA 120CM",
+        "sku": "PL288",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL288"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/47_PL288NV.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl288-planta-120cm"
+    },
+    {
+      "id": "DECO078",
+      "name": "PL167 PLANTA 120CM",
+      "description": "PLANTA PALMERA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/48_PL167.webp"
+      ],
+      "metaDescription": "PL167 PLANTA 120CM: PLANTA PALMERA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL167 PLANTA 120CM",
+        "description": "PLANTA PALMERA 120CM",
+        "sku": "PL167",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL167"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/48_PL167.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl167-planta-120cm"
+    },
+    {
+      "id": "DECO079",
+      "name": "PL171 PLANTA 190CM",
+      "description": "PLANTA 190CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/49_PL171.webp"
+      ],
+      "metaDescription": "PL171 PLANTA 190CM: PLANTA 190CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL171 PLANTA 190CM",
+        "description": "PLANTA 190CM",
+        "sku": "PL171",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL171"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/49_PL171.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl171-planta-190cm"
+    },
+    {
+      "id": "DECO080",
+      "name": "PL156 PLANTA 140CM",
+      "description": "PLANTA PALMERA 140CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/50_PL156.webp"
+      ],
+      "metaDescription": "PL156 PLANTA 140CM: PLANTA PALMERA 140CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL156 PLANTA 140CM",
+        "description": "PLANTA PALMERA 140CM",
+        "sku": "PL156",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL156"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/50_PL156.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl156-planta-140cm"
+    },
+    {
+      "id": "DECO081",
+      "name": "PL182 PLANTA 120CM",
+      "description": "ARBOL 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/51_PL182.webp"
+      ],
+      "metaDescription": "PL182 PLANTA 120CM: ARBOL 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL182 PLANTA 120CM",
+        "description": "ARBOL 120CM",
+        "sku": "PL182",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL182"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/51_PL182.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl182-planta-120cm"
+    },
+    {
+      "id": "DECO082",
+      "name": "PL189 PLANTA 210CM",
+      "description": "BAMBOO 210CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/52_PL189.webp"
+      ],
+      "metaDescription": "PL189 PLANTA 210CM: BAMBOO 210CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL189 PLANTA 210CM",
+        "description": "BAMBOO 210CM",
+        "sku": "PL189",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL189"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/52_PL189.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl189-planta-210cm"
+    },
+    {
+      "id": "DECO083",
+      "name": "PL148 PLANTA 120CM",
+      "description": "PLANTA ARTIFICIAL 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/53_PL148.webp"
+      ],
+      "metaDescription": "PL148 PLANTA 120CM: PLANTA ARTIFICIAL 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL148 PLANTA 120CM",
+        "description": "PLANTA ARTIFICIAL 120CM",
+        "sku": "PL148",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL148"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/53_PL148.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl148-planta-120cm"
+    },
+    {
+      "id": "DECO084",
+      "name": "FA330 145CM",
+      "description": "ARBOL 145CM.",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/54_FA330-331-332-333-334.webp"
+      ],
+      "metaDescription": "FA330 145CM: ARBOL 145CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA330 145CM",
+        "description": "ARBOL 145CM.",
+        "sku": "FA330",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA330"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/54_FA330-331-332-333-334.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa330-145cm"
+    },
+    {
+      "id": "DECO085",
+      "name": "FA226 182CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 182CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/55_FA226.webp"
+      ],
+      "metaDescription": "FA226 182CM: PLANTA ARTIFICIAL PALMERA 182CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA226 182CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 182CM",
+        "sku": "FA226",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA226"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/55_FA226.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa226-182cm"
+    },
+    {
+      "id": "DECO086",
+      "name": "PL154 PLANTA 80CM",
+      "description": "PALMERA 80CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/56_PL153-PL154-PL155.webp"
+      ],
+      "metaDescription": "PL154 PLANTA 80CM: PALMERA 80CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL154 PLANTA 80CM",
+        "description": "PALMERA 80CM",
+        "sku": "PL154",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL154"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/56_PL153-PL154-PL155.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl154-planta-80cm"
+    },
+    {
+      "id": "DECO087",
+      "name": "PL139 PLANTA 150CM",
+      "description": "PLANTA ARTIFICIAL AVE DEL PARAISO 150CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/57_PL139.webp"
+      ],
+      "metaDescription": "PL139 PLANTA 150CM: PLANTA ARTIFICIAL AVE DEL PARAISO 150CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL139 PLANTA 150CM",
+        "description": "PLANTA ARTIFICIAL AVE DEL PARAISO 150CM",
+        "sku": "PL139",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL139"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/57_PL139.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl139-planta-150cm"
+    },
+    {
+      "id": "DECO088",
+      "name": "FA331 165CM",
+      "description": "ARBOL 165CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/58_FA330-331-332-333-334.webp"
+      ],
+      "metaDescription": "FA331 165CM: ARBOL 165CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA331 165CM",
+        "description": "ARBOL 165CM",
+        "sku": "FA331",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA331"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/58_FA330-331-332-333-334.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa331-165cm"
+    },
+    {
+      "id": "DECO089",
+      "name": "PL169 PLANTA 180CM",
+      "description": "PLANTA 180CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/59_PL163.webp"
+      ],
+      "metaDescription": "PL169 PLANTA 180CM: PLANTA 180CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL169 PLANTA 180CM",
+        "description": "PLANTA 180CM",
+        "sku": "PL169",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL169"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/59_PL163.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl169-planta-180cm"
+    },
+    {
+      "id": "DECO090",
+      "name": "PL216 PLANTA 160CM",
+      "description": "PLANTA 160CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/60_PL216-TST.webp"
+      ],
+      "metaDescription": "PL216 PLANTA 160CM: PLANTA 160CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL216 PLANTA 160CM",
+        "description": "PLANTA 160CM",
+        "sku": "PL216",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL216"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/60_PL216-TST.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl216-planta-160cm"
+    },
+    {
+      "id": "DECO091",
+      "name": "PL234 OLIVO 120CM",
+      "description": "OLIVO 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/61_PL234.webp"
+      ],
+      "metaDescription": "PL234 OLIVO 120CM: OLIVO 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL234 OLIVO 120CM",
+        "description": "OLIVO 120CM",
+        "sku": "PL234",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL234"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/61_PL234.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl234-olivo-120cm"
+    },
+    {
+      "id": "DECO092",
+      "name": "FA502 120CM",
+      "description": "ARBOL 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/62_FA502.webp"
+      ],
+      "metaDescription": "FA502 120CM: ARBOL 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA502 120CM",
+        "description": "ARBOL 120CM",
+        "sku": "FA502",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA502"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/62_FA502.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa502-120cm"
+    },
+    {
+      "id": "DECO093",
+      "name": "PL183 PLANTA 150CM",
+      "description": "ARBOL 150CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/63_PL183.webp"
+      ],
+      "metaDescription": "PL183 PLANTA 150CM: ARBOL 150CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL183 PLANTA 150CM",
+        "description": "ARBOL 150CM",
+        "sku": "PL183",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL183"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/63_PL183.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl183-planta-150cm"
+    },
+    {
+      "id": "DECO094",
+      "name": "PL185 PLANTA 120CM",
+      "description": "ARBOL 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/64_PL185.webp"
+      ],
+      "metaDescription": "PL185 PLANTA 120CM: ARBOL 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL185 PLANTA 120CM",
+        "description": "ARBOL 120CM",
+        "sku": "PL185",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL185"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/64_PL185.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl185-planta-120cm"
+    },
+    {
+      "id": "DECO095",
+      "name": "PL212 PLANTA 150CM",
+      "description": "PLANTA PALMERA 150CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/65_PL212.webp"
+      ],
+      "metaDescription": "PL212 PLANTA 150CM: PLANTA PALMERA 150CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL212 PLANTA 150CM",
+        "description": "PLANTA PALMERA 150CM",
+        "sku": "PL212",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL212"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/65_PL212.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl212-planta-150cm"
+    },
+    {
+      "id": "DECO096",
+      "name": "PL168 PLANTA 140CM",
+      "description": "PLANTA PALMERA 140CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/66_PL161.webp"
+      ],
+      "metaDescription": "PL168 PLANTA 140CM: PLANTA PALMERA 140CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL168 PLANTA 140CM",
+        "description": "PLANTA PALMERA 140CM",
+        "sku": "PL168",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL168"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/66_PL161.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl168-planta-140cm"
+    },
+    {
+      "id": "DECO097",
+      "name": "PL259 PLANTA 120CM",
+      "description": "PLANTA PREMIUM PALMERA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/67_PL259.webp"
+      ],
+      "metaDescription": "PL259 PLANTA 120CM: PLANTA PREMIUM PALMERA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL259 PLANTA 120CM",
+        "description": "PLANTA PREMIUM PALMERA 120CM",
+        "sku": "PL259",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL259"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/67_PL259.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl259-planta-120cm"
+    },
+    {
+      "id": "DECO098",
+      "name": "PL153 PLANTA 70CM",
+      "description": "PLANTA PALMERA 70CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/68_PL153-PL154-PL155.webp"
+      ],
+      "metaDescription": "PL153 PLANTA 70CM: PLANTA PALMERA 70CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL153 PLANTA 70CM",
+        "description": "PLANTA PALMERA 70CM",
+        "sku": "PL153",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL153"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/68_PL153-PL154-PL155.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl153-planta-70cm"
+    },
+    {
+      "id": "DECO099",
+      "name": "PL264 PLANTA 120CM",
+      "description": "PLANTA PREMIUM 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/69_PL264.webp"
+      ],
+      "metaDescription": "PL264 PLANTA 120CM: PLANTA PREMIUM 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL264 PLANTA 120CM",
+        "description": "PLANTA PREMIUM 120CM",
+        "sku": "PL264",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL264"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/69_PL264.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl264-planta-120cm"
+    },
+    {
+      "id": "DECO100",
+      "name": "PL267 PLANTA 120CM",
+      "description": "PLANTA PREMIUM PALMERA 120CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/70_PL267.webp"
+      ],
+      "metaDescription": "PL267 PLANTA 120CM: PLANTA PREMIUM PALMERA 120CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL267 PLANTA 120CM",
+        "description": "PLANTA PREMIUM PALMERA 120CM",
+        "sku": "PL267",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL267"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/70_PL267.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl267-planta-120cm"
+    },
+    {
+      "id": "DECO101",
+      "name": "PL186 PLANTA 150CM",
+      "description": "ARBOL 150CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/71_PL186.webp"
+      ],
+      "metaDescription": "PL186 PLANTA 150CM: ARBOL 150CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL186 PLANTA 150CM",
+        "description": "ARBOL 150CM",
+        "sku": "PL186",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL186"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/71_PL186.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl186-planta-150cm"
+    },
+    {
+      "id": "DECO102",
+      "name": "PL184 PLANTA 180CM",
+      "description": "ARBOL 180CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/72_PL184.webp"
+      ],
+      "metaDescription": "PL184 PLANTA 180CM: ARBOL 180CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL184 PLANTA 180CM",
+        "description": "ARBOL 180CM",
+        "sku": "PL184",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL184"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/72_PL184.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl184-planta-180cm"
+    },
+    {
+      "id": "DECO103",
+      "name": "PL187 PLANTA 180CM",
+      "description": "ARBOL 180CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/73_PL187.webp"
+      ],
+      "metaDescription": "PL187 PLANTA 180CM: ARBOL 180CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PL187 PLANTA 180CM",
+        "description": "ARBOL 180CM",
+        "sku": "PL187",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "PL187"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/73_PL187.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/pl187-planta-180cm"
+    },
+    {
+      "id": "DECO104",
+      "name": "FA221 166CM",
+      "description": "PLANTA ARTIFICIAL PALMERA 166CM",
+      "category": "decoracion",
+      "subcategory": "plantas artificiales",
+      "images": [
+        "/74_FA221-REEM.webp"
+      ],
+      "metaDescription": "FA221 166CM: PLANTA ARTIFICIAL PALMERA 166CM.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FA221 166CM",
+        "description": "PLANTA ARTIFICIAL PALMERA 166CM",
+        "sku": "FA221",
+        "category": "decoración > plantas artificiales",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Código de producto",
+            "value": "FA221"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Subcategor?a",
+            "value": "plantas artificiales"
+          }
+        ],
+        "image": [
+          "/74_FA221-REEM.webp"
+        ]
+      },
+      "urlcanonica": "/productos/decoracion/fa221-166cm"
     }
   ]
 }

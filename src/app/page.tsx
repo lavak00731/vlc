@@ -74,6 +74,9 @@ export default async function Home() {
               orgánica. Diseñamos paisajes que inspiran paz, purifican tus
               rincones y transforman cualquier habitación en un oasis vivo.
             </p>
+            <p className="font-body-lg text-body-lg text-on-surface/85 max-w-xl mb-5">
+              Tenemos más de 2200 metros cuadrados para transformar tus espacios en lugares únicos. Visitá nuestro vivero en Rosario y descubrí los detalles que harán la diferencia en tu hogar y jardín.
+            </p>
             <div className="flex flex-wrap items-center gap-5 md:gap-6 mb-5 sm:justify-between w-full max-w-2xl">
               <Link
                 className="group inline-flex items-center gap-space-xs px-8 py-3.5 rounded-full font-label-md text-label-md transition-all duration-300 shadow-sm hover:shadow-md bg-primary btn-text-color hover:text-on-surface hover:bg-primary-container focus-within:bg-primary-container w-full justify-center gap-4 md:max-w-80"
@@ -429,7 +432,7 @@ export default async function Home() {
               <Link
                 className="group h-full relative rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-surface-container-lowest flex flex-col"
                 aria-label="Fertilizantes y sustratos, Mezclas listas y específicas"
-                href="/productos/fertilizantes"
+                href="/productos/decoracion"
               >
                 <div className="relative w-full overflow-hidden">
                   <Image

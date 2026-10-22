@@ -16625,6 +16625,719 @@
         ]
       },
       "urlcanonica": "/productos/macetas/linea-valeria"
+    },
+    {
+      "id": "MAC235",
+      "name": "SILLON / MESA EGG",
+      "description": "Color: FIBROCEMENTO BLANCO\n\nTamaño: GRIS\n\nTamaño: BLANCO",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/1_e0c413e30004ad48958c8a7a2b530d59.webp"
+      ],
+      "metaDescription": "SILLON / MESA EGG: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO Tamaño: GRIS Tamaño: BLANCO",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "SILLON / MESA EGG",
+        "description": "Color: FIBROCEMENTO BLANCO\n\nTamaño: GRIS\n\nTamaño: BLANCO",
+        "sku": "MAC235",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/1_e0c413e30004ad48958c8a7a2b530d59.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/sillon-mesa-egg"
+    },
+    {
+      "id": "MAC236",
+      "name": "MISIONERA",
+      "description": "Color: FIBROCEMENTO BLANCO NEGRO TRAVERTINO\n\nNúmero: 20; Alto: 20; Boca: 17; Base: 18\n\nNúmero: 27; Alto: 27; Boca: 24; Base: 20\n\nNúmero: 34; Alto: 34; Boca: 28; Base: 36\n\nNúmero: 38; Alto: 38; Boca: 28; Base: 20\n\nNúmero: 50; Alto: 50; Boca: 37; Base: 32\n\nNúmero: 60; Alto: 60; Boca: 48; Base: 46\n\nNúmero: 66; Alto: 66; Boca: 36; Base: 32\n\nNúmero: 80; Alto: 80; Boca: 52\n\nNúmero: 90; Alto: 90; Boca: 43; Base: 35",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/2_55ea3c819c8b85088c6ea08a477fd078.webp"
+      ],
+      "metaDescription": "MISIONERA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO NEGRO TRAVERTINO Número: 20; Alto: 20; Boca: 17; Base: 18 Número: 27; Alto: 27; Boca: 24;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "MISIONERA",
+        "description": "Color: FIBROCEMENTO BLANCO NEGRO TRAVERTINO\n\nNúmero: 20; Alto: 20; Boca: 17; Base: 18\n\nNúmero: 27; Alto: 27; Boca: 24; Base: 20\n\nNúmero: 34; Alto: 34; Boca: 28; Base: 36\n\nNúmero: 38; Alto: 38; Boca: 28; Base: 20\n\nNúmero: 50; Alto: 50; Boca: 37; Base: 32\n\nNúmero: 60; Alto: 60; Boca: 48; Base: 46\n\nNúmero: 66; Alto: 66; Boca: 36; Base: 32\n\nNúmero: 80; Alto: 80; Boca: 52\n\nNúmero: 90; Alto: 90; Boca: 43; Base: 35",
+        "sku": "MAC236",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/2_55ea3c819c8b85088c6ea08a477fd078.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/misionera"
+    },
+    {
+      "id": "MAC237",
+      "name": "ANDINA",
+      "description": "Color: FIBROCEMENTO BLANCO NEGRO OXIDO TRAVERTINO\n\nNúmero: 40; Alto: 33; Boca: 40; Base: 26\n\nNúmero: 50; Alto: 43; Boca: 50; Base: 33\n\nNúmero: 65; Alto: 55; Boca: 65; Base: 43\n\nNúmero: 80; Alto: 69; Boca: 80; Base: 53",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/3_b00c94667f30545b13b10d271a73f7fc.webp"
+      ],
+      "metaDescription": "ANDINA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO NEGRO OXIDO TRAVERTINO Número: 40; Alto: 33; Boca: 40; Base: 26 Número: 50; Alto: 43; Boca: 50;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "ANDINA",
+        "description": "Color: FIBROCEMENTO BLANCO NEGRO OXIDO TRAVERTINO\n\nNúmero: 40; Alto: 33; Boca: 40; Base: 26\n\nNúmero: 50; Alto: 43; Boca: 50; Base: 33\n\nNúmero: 65; Alto: 55; Boca: 65; Base: 43\n\nNúmero: 80; Alto: 69; Boca: 80; Base: 53",
+        "sku": "MAC237",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/3_b00c94667f30545b13b10d271a73f7fc.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/andina"
+    },
+    {
+      "id": "MAC238",
+      "name": "GRECIA",
+      "description": "Color: FIBROCEMENTO NEGRO BLANCO TRAVERTINO\n\nNúmero: 24; Alto: 24; Boca: 32; Base: 15\n\nNúmero: 36; Alto: 36; Boca: 44; Base: 20\n\nNúmero: 42; Alto: 42; Boca: 55; Base: 25",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/4_5817e616d50bd7ae6ccff9b03d3a32d5.webp"
+      ],
+      "metaDescription": "GRECIA: Maceta de fibrocemento. Color: FIBROCEMENTO NEGRO BLANCO TRAVERTINO Número: 24; Alto: 24; Boca: 32; Base: 15 Número: 36; Alto: 36; Boca: 44; Base:...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "GRECIA",
+        "description": "Color: FIBROCEMENTO NEGRO BLANCO TRAVERTINO\n\nNúmero: 24; Alto: 24; Boca: 32; Base: 15\n\nNúmero: 36; Alto: 36; Boca: 44; Base: 20\n\nNúmero: 42; Alto: 42; Boca: 55; Base: 25",
+        "sku": "MAC238",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/4_5817e616d50bd7ae6ccff9b03d3a32d5.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/grecia"
+    },
+    {
+      "id": "MAC239",
+      "name": "JARDINERA",
+      "description": "Color: BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 10; Largo: 17.5; Boca: 7.5\n\nAncho: 10; Largo: 15; Boca: 10\n\nAncho: 10; Largo: 20; Boca: 10\n\nAncho: 10; Largo: 30; Boca: 10\n\nAncho: 10; Largo: 40; Boca: 20\n\nAncho: 15; Largo: 40; Boca: 13\n\nAncho: 20; Largo: 40; Boca: 20\n\nAncho: 30; Largo: 40; Boca: 20\n\nAncho: 40; Largo: 40; Boca: 20\n\nAncho: 20; Largo: 50; Boca: 20\n\nAncho: 10; Largo: 60; Boca: 20\n\nAncho: 15; Largo: 60; Boca: 13\n\nAncho: 30; Largo: 60; Boca: 15\n\nAncho: 20; Largo: 60; Boca: 20\n\nAncho: 30; Largo: 60; Boca: 20\n\nAncho: 40; Largo: 60; Boca: 20\n\nAncho: 25; Largo: 60; Boca: 25\n\nAncho: 30; Largo: 60; Boca: 30\n\nAncho: 15; Largo: 80; Boca: 13\n\nAncho: 30; Largo: 80; Boca: 15\n\nAncho: 20; Largo: 80; Boca: 20\n\nAncho: 30; Largo: 80; Boca: 20\n\nAncho: 40; Largo: 80; Boca: 20\n\nAncho: 25; Largo: 80; Boca: 25\n\nAncho: 30; Largo: 80; Boca: 30\n\nAncho: 40; Largo: 80; Boca: 35\n\nAncho: 20; Largo: 100; Boca: 20\n\nAncho: 30; Largo: 100; Boca: 20\n\nAncho: 40; Largo: 100; Boca: 20\n\nAncho: 25; Largo: 100; Boca: 25\n\nAncho: 60; Largo: 100; Boca: 25\n\nAncho: 30; Largo: 100; Boca: 30\n\nAncho: 40; Largo: 100; Boca: 35\n\nAncho: 30; Largo: 120; Boca: 30\n\nAncho: 60; Largo: 125; Boca: 25\n\nAncho: 60; Largo: 125; Boca: 35",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/5_4c858d9170731a68d6a99bbe2969a626.webp"
+      ],
+      "metaDescription": "JARDINERA: Maceta de fibrocemento. Color: BLANCO OXIDO NEGRO TRAVERTINO Ancho: 10; Largo: 17.5; Boca: 7.5 Ancho: 10; Largo: 15; Boca: 10 Ancho: 10; Largo:...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "JARDINERA",
+        "description": "Color: BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 10; Largo: 17.5; Boca: 7.5\n\nAncho: 10; Largo: 15; Boca: 10\n\nAncho: 10; Largo: 20; Boca: 10\n\nAncho: 10; Largo: 30; Boca: 10\n\nAncho: 10; Largo: 40; Boca: 20\n\nAncho: 15; Largo: 40; Boca: 13\n\nAncho: 20; Largo: 40; Boca: 20\n\nAncho: 30; Largo: 40; Boca: 20\n\nAncho: 40; Largo: 40; Boca: 20\n\nAncho: 20; Largo: 50; Boca: 20\n\nAncho: 10; Largo: 60; Boca: 20\n\nAncho: 15; Largo: 60; Boca: 13\n\nAncho: 30; Largo: 60; Boca: 15\n\nAncho: 20; Largo: 60; Boca: 20\n\nAncho: 30; Largo: 60; Boca: 20\n\nAncho: 40; Largo: 60; Boca: 20\n\nAncho: 25; Largo: 60; Boca: 25\n\nAncho: 30; Largo: 60; Boca: 30\n\nAncho: 15; Largo: 80; Boca: 13\n\nAncho: 30; Largo: 80; Boca: 15\n\nAncho: 20; Largo: 80; Boca: 20\n\nAncho: 30; Largo: 80; Boca: 20\n\nAncho: 40; Largo: 80; Boca: 20\n\nAncho: 25; Largo: 80; Boca: 25\n\nAncho: 30; Largo: 80; Boca: 30\n\nAncho: 40; Largo: 80; Boca: 35\n\nAncho: 20; Largo: 100; Boca: 20\n\nAncho: 30; Largo: 100; Boca: 20\n\nAncho: 40; Largo: 100; Boca: 20\n\nAncho: 25; Largo: 100; Boca: 25\n\nAncho: 60; Largo: 100; Boca: 25\n\nAncho: 30; Largo: 100; Boca: 30\n\nAncho: 40; Largo: 100; Boca: 35\n\nAncho: 30; Largo: 120; Boca: 30\n\nAncho: 60; Largo: 125; Boca: 25\n\nAncho: 60; Largo: 125; Boca: 35",
+        "sku": "MAC239",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/5_4c858d9170731a68d6a99bbe2969a626.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/jardinera-fibrocemento"
+    },
+    {
+      "id": "MAC240",
+      "name": "SALTEÑA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 30; Boca: 44; Base: 16\n\nAlto: 50; Boca: 65; Base: 33\n\nAlto: 75; Boca: 65; Base: 33; Peso: 63.20",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/6_22c1861bac7dbb1d51415d6785f43896.webp"
+      ],
+      "metaDescription": "SALTEÑA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 30; Boca: 44; Base: 16 Alto: 50; Boca: 65; Base: 33 Alto: 75; Boca:...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "SALTEÑA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 30; Boca: 44; Base: 16\n\nAlto: 50; Boca: 65; Base: 33\n\nAlto: 75; Boca: 65; Base: 33; Peso: 63.20",
+        "sku": "MAC240",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/6_22c1861bac7dbb1d51415d6785f43896.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/saltena"
+    },
+    {
+      "id": "MAC241",
+      "name": "CILINDRO",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 30; Diámetro: 30; Apilado: n/d; Peso: 10.35\n\nPeso: 1\n\nAlto: 40; Diámetro: 40; Apilado: n/d; Peso: n/d\n\nAlto: 52; Diámetro: 52; Apilado: n/d; Peso: n/d",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/7_3bb6c053c12186fcdceb18541ecc85e2.webp"
+      ],
+      "metaDescription": "CILINDRO: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 30; Diámetro: 30; Apilado: n/d; Peso: 10.35 Peso: 1 Alto: 40;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CILINDRO",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 30; Diámetro: 30; Apilado: n/d; Peso: 10.35\n\nPeso: 1\n\nAlto: 40; Diámetro: 40; Apilado: n/d; Peso: n/d\n\nAlto: 52; Diámetro: 52; Apilado: n/d; Peso: n/d",
+        "sku": "MAC241",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/7_3bb6c053c12186fcdceb18541ecc85e2.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cilindro-fibrocemento"
+    },
+    {
+      "id": "MAC242",
+      "name": "CONICA-TRADICIONAL",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 30; Boca: 30; Base: 18; Apilado: n/d; Peso: 7.55\n\nAlto: 40; Boca: 40; Base: 25; Apilado: n/d; Peso: 14.6\n\nAlto: 50; Boca: 50; Base: 29; Apilado: n/d; Peso: 22.8\n\nAlto: 60; Boca: 60; Base: 36; Apilado: n/d; Peso: n/d\n\nAlto: 70; Boca: 70; Base: 44; Apilado: n/d; Peso: 56",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/8_e08e099632e36d4f90426bbc87583f62.webp"
+      ],
+      "metaDescription": "CONICA-TRADICIONAL: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 30; Boca: 30; Base: 18; Apilado: n/d; Peso: 7.55 Alto:...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CONICA-TRADICIONAL",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 30; Boca: 30; Base: 18; Apilado: n/d; Peso: 7.55\n\nAlto: 40; Boca: 40; Base: 25; Apilado: n/d; Peso: 14.6\n\nAlto: 50; Boca: 50; Base: 29; Apilado: n/d; Peso: 22.8\n\nAlto: 60; Boca: 60; Base: 36; Apilado: n/d; Peso: n/d\n\nAlto: 70; Boca: 70; Base: 44; Apilado: n/d; Peso: 56",
+        "sku": "MAC242",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/8_e08e099632e36d4f90426bbc87583f62.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/conica-tradicional"
+    },
+    {
+      "id": "MAC243",
+      "name": "CUBOS",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 7.5; Largo: 7.5; Alto: 7.5; Apilado: n/d; Peso: 0.300\n\nAncho: 10; Largo: 10; Alto: 10; Apilado: n/d; Peso: 1.1\n\nAncho: 15; Largo: 15; Alto: 15; Apilado: n/d; Peso: 2.7\n\nAncho: 20; Largo: 20; Alto: 20; Apilado: n/d; Peso: 4.8\n\nAncho: 25; Largo: 25; Alto: 25; Apilado: n/d; Peso: 7.6\n\nAncho: 30; Largo: 30; Alto: 30; Apilado: n/d; Peso: 10.6\n\nAncho: 35; Largo: 35; Alto: 35; Apilado: n/d; Peso: 15.7\n\nAncho: 40; Largo: 40; Alto: 40; Apilado: n/d; Peso: 21.6\n\nAncho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 37.65\n\nAncho: 60; Largo: 60; Alto: 60; Apilado: n/d; Peso: 55.75\n\nAncho: 80; Largo: 80; Alto: 80; Apilado: n/d; Peso: n/d",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/9_ee2075d96485c97082f88389e79c02e7.webp"
+      ],
+      "metaDescription": "CUBOS: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Ancho: 7.5; Largo: 7.5; Alto: 7.5; Apilado: n/d; Peso: 0.300 Ancho: 10;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CUBOS",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 7.5; Largo: 7.5; Alto: 7.5; Apilado: n/d; Peso: 0.300\n\nAncho: 10; Largo: 10; Alto: 10; Apilado: n/d; Peso: 1.1\n\nAncho: 15; Largo: 15; Alto: 15; Apilado: n/d; Peso: 2.7\n\nAncho: 20; Largo: 20; Alto: 20; Apilado: n/d; Peso: 4.8\n\nAncho: 25; Largo: 25; Alto: 25; Apilado: n/d; Peso: 7.6\n\nAncho: 30; Largo: 30; Alto: 30; Apilado: n/d; Peso: 10.6\n\nAncho: 35; Largo: 35; Alto: 35; Apilado: n/d; Peso: 15.7\n\nAncho: 40; Largo: 40; Alto: 40; Apilado: n/d; Peso: 21.6\n\nAncho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 37.65\n\nAncho: 60; Largo: 60; Alto: 60; Apilado: n/d; Peso: 55.75\n\nAncho: 80; Largo: 80; Alto: 80; Apilado: n/d; Peso: n/d",
+        "sku": "MAC243",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/9_ee2075d96485c97082f88389e79c02e7.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cubos"
+    },
+    {
+      "id": "MAC244",
+      "name": "PIRAMIDAL",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 10; Boca: 10; Base: 7.5; Apilado: n/d; Peso: 0.6\n\nAlto: 15; Boca: 10; Base: 7.5; Apilado: n/d; Peso: 1.3\n\nAlto: 15; Boca: 15; Base: 11; Apilado: n/d; Peso: 2.1\n\nAlto: 20; Boca: 12.5; Base: 8; Apilado: n/d; Peso: 1.75\n\nAlto: 22; Boca: 22; Base: 14; Apilado: n/d; Peso: 4.05\n\nAlto: 30; Boca: 15; Base: 10; Apilado: n/d; Peso: n/d\n\nAlto: 30; Boca: 25; Base: 15; Apilado: n/d; Peso: 5.85\n\nAlto: 30; Boca: 35; Base: 28; Apilado: n/d; Peso: 11.8\n\nAlto: 40; Boca: 15; Base: 10; Apilado: n/d; Peso: n/d\n\nAlto: 40; Boca: 25; Base: 20; Apilado: n/d; Peso: 8.55\n\nAlto: 40; Boca: 30; Base: 20; Apilado: n/d; Peso: 9.4\n\nAlto: 40; Boca: 35; Base: 20; Apilado: n/d; Peso: n/d\n\nAlto: 45; Boca: 35; Base: 23; Apilado: n/d; Peso: 12.45\n\nAlto: 50; Boca: 25; Base: 20; Apilado: n/d; Peso: 11.5\n\nAlto: 50; Boca: 40; Base: 30; Apilado: n/d; Peso: 20.65\n\nAlto: 60; Boca: 30; Base: 25; Apilado: n/d; Peso: 15.8\n\nAlto: 60; Boca: 35; Base: 25; Apilado: n/d; Peso: 19\n\nAlto: 60; Boca: 50; Base: 40; Apilado: n/d; Peso: n/d\n\nAlto: 70; Boca: 35; Base: 25; Apilado: n/d; Peso: 22.15\n\nAlto: 80; Boca: 35; Base: 25; Apilado: n/d; Peso: 36.6\n\nAlto: 80; Boca: 50; Base: 32; Apilado: n/d; Peso: 45.2\n\nAlto: 100; Boca: 50; Base: 36; Apilado: n/d; Peso: 54.6\n\nAlto: 120; Boca: 50; Base: 31; Apilado: n/d; Peso: n/d\n\nAlto: 8; Boca: 8",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/10_fabd2baa9582ed7e0dde784122e4cf99.webp"
+      ],
+      "metaDescription": "PIRAMIDAL: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 10; Boca: 10; Base: 7.5; Apilado: n/d; Peso: 0.6 Alto: 15; Boca:...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PIRAMIDAL",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 10; Boca: 10; Base: 7.5; Apilado: n/d; Peso: 0.6\n\nAlto: 15; Boca: 10; Base: 7.5; Apilado: n/d; Peso: 1.3\n\nAlto: 15; Boca: 15; Base: 11; Apilado: n/d; Peso: 2.1\n\nAlto: 20; Boca: 12.5; Base: 8; Apilado: n/d; Peso: 1.75\n\nAlto: 22; Boca: 22; Base: 14; Apilado: n/d; Peso: 4.05\n\nAlto: 30; Boca: 15; Base: 10; Apilado: n/d; Peso: n/d\n\nAlto: 30; Boca: 25; Base: 15; Apilado: n/d; Peso: 5.85\n\nAlto: 30; Boca: 35; Base: 28; Apilado: n/d; Peso: 11.8\n\nAlto: 40; Boca: 15; Base: 10; Apilado: n/d; Peso: n/d\n\nAlto: 40; Boca: 25; Base: 20; Apilado: n/d; Peso: 8.55\n\nAlto: 40; Boca: 30; Base: 20; Apilado: n/d; Peso: 9.4\n\nAlto: 40; Boca: 35; Base: 20; Apilado: n/d; Peso: n/d\n\nAlto: 45; Boca: 35; Base: 23; Apilado: n/d; Peso: 12.45\n\nAlto: 50; Boca: 25; Base: 20; Apilado: n/d; Peso: 11.5\n\nAlto: 50; Boca: 40; Base: 30; Apilado: n/d; Peso: 20.65\n\nAlto: 60; Boca: 30; Base: 25; Apilado: n/d; Peso: 15.8\n\nAlto: 60; Boca: 35; Base: 25; Apilado: n/d; Peso: 19\n\nAlto: 60; Boca: 50; Base: 40; Apilado: n/d; Peso: n/d\n\nAlto: 70; Boca: 35; Base: 25; Apilado: n/d; Peso: 22.15\n\nAlto: 80; Boca: 35; Base: 25; Apilado: n/d; Peso: 36.6\n\nAlto: 80; Boca: 50; Base: 32; Apilado: n/d; Peso: 45.2\n\nAlto: 100; Boca: 50; Base: 36; Apilado: n/d; Peso: 54.6\n\nAlto: 120; Boca: 50; Base: 31; Apilado: n/d; Peso: n/d\n\nAlto: 8; Boca: 8",
+        "sku": "MAC244",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/10_fabd2baa9582ed7e0dde784122e4cf99.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/piramidal"
+    },
+    {
+      "id": "MAC245",
+      "name": "PRISMAS",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 10; Largo: 10; Alto: 15\n\nAncho: 10; Largo: 10; Alto: 20; Peso: 1.85\n\nAncho: 15; Largo: 15; Alto: 10\n\nAncho: 15; Largo: 15; Alto: 20; Peso: 3.1\n\nAncho: 15; Largo: 15; Alto: 30; Peso: 4.15\n\nAncho: 15; Largo: 15; Alto: 40; Peso: 6.9\n\nAncho: 15; Largo: 15; Alto: 60; Peso: 8.45\n\nAncho: 15; Largo: 15; Alto: 80; Peso: 12.5\n\nAncho: 20; Largo: 20; Alto: 30; Peso: 6.55\n\nAncho: 20; Largo: 20; Alto: 40; Peso: 9.3\n\nAncho: 20; Largo: 20; Alto: 50; Peso: 10.5\n\nAncho: 20; Largo: 20; Alto: 60; Peso: 11.5\n\nAncho: 20; Largo: 20; Alto: 80; Peso: 16.75\n\nAncho: 20; Largo: 20; Alto: 100\n\nAncho: 25; Largo: 25; Alto: 30\n\nAncho: 25; Largo: 25; Alto: 40; Peso: 10.6\n\nAncho: 25; Largo: 25; Alto: 50\n\nAncho: 30; Largo: 30; Alto: 20; Peso: 8.85\n\nAncho: 30; Largo: 30; Alto: 40; Peso: 16.3\n\nAncho: 30; Largo: 30; Alto: 50; Peso: 17\n\nAncho: 30; Largo: 30; Alto: 60\n\nAncho: 30; Largo: 30; Alto: 80; Peso: 29.05\n\nAncho: 40; Largo: 40; Alto: 20\n\nAncho: 40; Largo: 40; Alto: 50; Peso: 24.10\n\nAncho: 40; Largo: 40; Alto: 60; Peso: 28.5\n\nAncho: 40; Largo: 40; Alto: 80; Peso: 38.2\n\nAncho: 80; Largo: 80; Alto: 50",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/11_ac02311ef39a6412130bb7fe3b2e9297.webp"
+      ],
+      "metaDescription": "PRISMAS: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Ancho: 10; Largo: 10; Alto: 15 Ancho: 10; Largo: 10; Alto: 20; Peso: 1.85...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PRISMAS",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 10; Largo: 10; Alto: 15\n\nAncho: 10; Largo: 10; Alto: 20; Peso: 1.85\n\nAncho: 15; Largo: 15; Alto: 10\n\nAncho: 15; Largo: 15; Alto: 20; Peso: 3.1\n\nAncho: 15; Largo: 15; Alto: 30; Peso: 4.15\n\nAncho: 15; Largo: 15; Alto: 40; Peso: 6.9\n\nAncho: 15; Largo: 15; Alto: 60; Peso: 8.45\n\nAncho: 15; Largo: 15; Alto: 80; Peso: 12.5\n\nAncho: 20; Largo: 20; Alto: 30; Peso: 6.55\n\nAncho: 20; Largo: 20; Alto: 40; Peso: 9.3\n\nAncho: 20; Largo: 20; Alto: 50; Peso: 10.5\n\nAncho: 20; Largo: 20; Alto: 60; Peso: 11.5\n\nAncho: 20; Largo: 20; Alto: 80; Peso: 16.75\n\nAncho: 20; Largo: 20; Alto: 100\n\nAncho: 25; Largo: 25; Alto: 30\n\nAncho: 25; Largo: 25; Alto: 40; Peso: 10.6\n\nAncho: 25; Largo: 25; Alto: 50\n\nAncho: 30; Largo: 30; Alto: 20; Peso: 8.85\n\nAncho: 30; Largo: 30; Alto: 40; Peso: 16.3\n\nAncho: 30; Largo: 30; Alto: 50; Peso: 17\n\nAncho: 30; Largo: 30; Alto: 60\n\nAncho: 30; Largo: 30; Alto: 80; Peso: 29.05\n\nAncho: 40; Largo: 40; Alto: 20\n\nAncho: 40; Largo: 40; Alto: 50; Peso: 24.10\n\nAncho: 40; Largo: 40; Alto: 60; Peso: 28.5\n\nAncho: 40; Largo: 40; Alto: 80; Peso: 38.2\n\nAncho: 80; Largo: 80; Alto: 50",
+        "sku": "MAC245",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/11_ac02311ef39a6412130bb7fe3b2e9297.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/prismas"
+    },
+    {
+      "id": "MAC246",
+      "name": "TRAPECIO MODERNO",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 26; Boca: 40; Base: 25; Peso: 12.2\n\nAlto: 30; Boca: 30; Base: 17; Peso: 10.3\n\nAlto: 44; Boca: 40; Base: 17; Peso: 18\n\nAlto: 60; Boca: 45; Base: 24; Peso: 30.55\n\nAlto: 80; Boca: 45; Base: 24",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/12_4ae33b67f6171e9c945887d643ee571b.webp"
+      ],
+      "metaDescription": "TRAPECIO MODERNO: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 26; Boca: 40; Base: 25; Peso: 12.2 Alto: 30; Boca: 30;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "TRAPECIO MODERNO",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 26; Boca: 40; Base: 25; Peso: 12.2\n\nAlto: 30; Boca: 30; Base: 17; Peso: 10.3\n\nAlto: 44; Boca: 40; Base: 17; Peso: 18\n\nAlto: 60; Boca: 45; Base: 24; Peso: 30.55\n\nAlto: 80; Boca: 45; Base: 24",
+        "sku": "MAC246",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/12_4ae33b67f6171e9c945887d643ee571b.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/trapecio-moderno"
+    },
+    {
+      "id": "MAC247",
+      "name": "TARTAGAL",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 41; Boca: 50; Base: 35\n\nAlto: 45; Boca: 35; Base: 18\n\nAlto: 55; Boca: 50; Base: 35",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/13_fd7ec96a55016a5ddc7aee44ac6481ad.webp"
+      ],
+      "metaDescription": "TARTAGAL: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 41; Boca: 50; Base: 35 Alto: 45; Boca: 35; Base: 18 Alto: 55;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "TARTAGAL",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 41; Boca: 50; Base: 35\n\nAlto: 45; Boca: 35; Base: 18\n\nAlto: 55; Boca: 50; Base: 35",
+        "sku": "MAC247",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/13_fd7ec96a55016a5ddc7aee44ac6481ad.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/tartagal"
+    },
+    {
+      "id": "MAC248",
+      "name": "PLATO",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 15; Largo: 15; Peso: 2\n\nAncho: 20; Largo: 20; Peso: 4.3\n\nAncho: 20; Largo: 40; Peso: 6.75\n\nAncho: 20; Largo: 60; Peso: 12.3\n\nAncho: 20; Largo: 80; Peso: 13.3\n\nAncho: 25; Largo: 25\n\nAncho: 30; Largo: 30; Peso: 6.20\n\nAncho: 30; Largo: 80; Peso: 15.75\n\nAncho: 35; Largo: 35\n\nAncho: 40; Largo: 40; Peso: 10.15\n\nAncho: 50; Largo: 50; Peso: 18.50\n\nAncho: 60; Largo: 60; Peso: 29.80\n\nDiámetro: 24\n\nDiámetro: 27\n\nDiámetro: 30\n\nDiámetro: 37\n\nDiámetro: 40",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/14_ee1dc69d278dd9dbe3df20c553f5d33f.webp"
+      ],
+      "metaDescription": "PLATO: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Ancho: 15; Largo: 15; Peso: 2 Ancho: 20; Largo: 20; Peso: 4.3 Ancho: 20;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PLATO",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 15; Largo: 15; Peso: 2\n\nAncho: 20; Largo: 20; Peso: 4.3\n\nAncho: 20; Largo: 40; Peso: 6.75\n\nAncho: 20; Largo: 60; Peso: 12.3\n\nAncho: 20; Largo: 80; Peso: 13.3\n\nAncho: 25; Largo: 25\n\nAncho: 30; Largo: 30; Peso: 6.20\n\nAncho: 30; Largo: 80; Peso: 15.75\n\nAncho: 35; Largo: 35\n\nAncho: 40; Largo: 40; Peso: 10.15\n\nAncho: 50; Largo: 50; Peso: 18.50\n\nAncho: 60; Largo: 60; Peso: 29.80\n\nDiámetro: 24\n\nDiámetro: 27\n\nDiámetro: 30\n\nDiámetro: 37\n\nDiámetro: 40",
+        "sku": "MAC248",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/14_ee1dc69d278dd9dbe3df20c553f5d33f.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/plato-fibrocemento"
+    },
+    {
+      "id": "MAC249",
+      "name": "CONO PANAL",
+      "description": "Color: FIBROCEMENTO BLANCO NEGRO TRAVERTINO\n\nNúmero: 43; Alto: 43; Boca: 30; Base: 20\n\nNúmero: 60; Alto: 60; Boca: 41; Base: 26",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/15_096c4ce31febaa8f6af42189f4f5a4c7.webp"
+      ],
+      "metaDescription": "CONO PANAL: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO NEGRO TRAVERTINO Número: 43; Alto: 43; Boca: 30; Base: 20 Número: 60; Alto: 60; Boca: 41;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CONO PANAL",
+        "description": "Color: FIBROCEMENTO BLANCO NEGRO TRAVERTINO\n\nNúmero: 43; Alto: 43; Boca: 30; Base: 20\n\nNúmero: 60; Alto: 60; Boca: 41; Base: 26",
+        "sku": "MAC249",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/15_096c4ce31febaa8f6af42189f4f5a4c7.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cono-panal"
+    },
+    {
+      "id": "MAC250",
+      "name": "SANJUANINA",
+      "description": "Color: FIBROCEMENTO NEGRO BLANCO TRAVERTINO\n\nNúmero: 53; Alto: 53; Boca: 40; Base: 33\n\nNúmero: 63; Alto: 63; Boca: 39; Base: 33",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/16_1aa50fcecf4441dbcae5c384452138f3.webp"
+      ],
+      "metaDescription": "SANJUANINA: Maceta de fibrocemento. Color: FIBROCEMENTO NEGRO BLANCO TRAVERTINO Número: 53; Alto: 53; Boca: 40; Base: 33 Número: 63; Alto: 63; Boca: 39;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "SANJUANINA",
+        "description": "Color: FIBROCEMENTO NEGRO BLANCO TRAVERTINO\n\nNúmero: 53; Alto: 53; Boca: 40; Base: 33\n\nNúmero: 63; Alto: 63; Boca: 39; Base: 33",
+        "sku": "MAC250",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/16_1aa50fcecf4441dbcae5c384452138f3.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/sanjuanina"
+    },
+    {
+      "id": "MAC251",
+      "name": "CONO MODERNO",
+      "description": "Color: FIBROCEMENTO\n\nAlto: 40; Base: 22; Diámetro: 31\n\nAlto: 55; Base: 25; Diámetro: 36\n\nAlto: 70; Base: 24; Diámetro: 36\n\nAlto: 80; Base: 27; Diámetro: 43",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/17_4727817b2c6dacb9b53cc9b82648c5b7.webp"
+      ],
+      "metaDescription": "CONO MODERNO: Maceta de fibrocemento. Color: FIBROCEMENTO Alto: 40; Base: 22; Diámetro: 31 Alto: 55; Base: 25; Diámetro: 36 Alto: 70; Base: 24; Diámetro: 36...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CONO MODERNO",
+        "description": "Color: FIBROCEMENTO\n\nAlto: 40; Base: 22; Diámetro: 31\n\nAlto: 55; Base: 25; Diámetro: 36\n\nAlto: 70; Base: 24; Diámetro: 36\n\nAlto: 80; Base: 27; Diámetro: 43",
+        "sku": "MAC251",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/17_4727817b2c6dacb9b53cc9b82648c5b7.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cono-moderno"
+    },
+    {
+      "id": "MAC252",
+      "name": "CUBO LA BARRA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 40; Largo: 40; Alto: 40; Apilado: n/d; Peso: n/d\n\nAncho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 39.85",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/18_fce8167ee3b7baa0c3e048698d980ccd.webp"
+      ],
+      "metaDescription": "CUBO LA BARRA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Ancho: 40; Largo: 40; Alto: 40; Apilado: n/d; Peso: n/d Ancho: 50;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CUBO LA BARRA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 40; Largo: 40; Alto: 40; Apilado: n/d; Peso: n/d\n\nAncho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 39.85",
+        "sku": "MAC252",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/18_fce8167ee3b7baa0c3e048698d980ccd.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cubo-la-barra"
+    },
+    {
+      "id": "MAC253",
+      "name": "CONO",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 40; Boca: 30; Base: 20; Apilado: n/d; Peso: 9.25\n\nAlto: 50; Boca: 42; Base: 32; Apilado: n/d; Peso: 18.7\n\nAlto: 60; Boca: 42; Base: 30; Apilado: n/d; Peso: 21\n\nAlto: 70; Boca: 35; Base: 20; Apilado: n/d; Peso: 17.85\n\nAlto: 80; Boca: 43; Base: 27; Apilado: n/d; Peso: 27.10\n\nAlto: 90; Boca: 46; Base: 27; Apilado: n/d; Peso: 33.7\n\nAlto: 100; Boca: 50; Base: 30; Apilado: n/d; Peso: n/d\n\nAlto: 120; Boca: 50; Base: 30; Apilado: n/d; Peso: 56.35",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/19_cca49d30a821b82502a29e97bfec45d5.webp"
+      ],
+      "metaDescription": "CONO: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 40; Boca: 30; Base: 20; Apilado: n/d; Peso: 9.25 Alto: 50; Boca: 42;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CONO",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 40; Boca: 30; Base: 20; Apilado: n/d; Peso: 9.25\n\nAlto: 50; Boca: 42; Base: 32; Apilado: n/d; Peso: 18.7\n\nAlto: 60; Boca: 42; Base: 30; Apilado: n/d; Peso: 21\n\nAlto: 70; Boca: 35; Base: 20; Apilado: n/d; Peso: 17.85\n\nAlto: 80; Boca: 43; Base: 27; Apilado: n/d; Peso: 27.10\n\nAlto: 90; Boca: 46; Base: 27; Apilado: n/d; Peso: 33.7\n\nAlto: 100; Boca: 50; Base: 30; Apilado: n/d; Peso: n/d\n\nAlto: 120; Boca: 50; Base: 30; Apilado: n/d; Peso: 56.35",
+        "sku": "MAC253",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/19_cca49d30a821b82502a29e97bfec45d5.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cono-fibrocemento"
+    },
+    {
+      "id": "MAC254",
+      "name": "TINAJON",
+      "description": "Color: FIBROCEMENTO TRAVERTINO BLANCO NEGRO OXIDO\n\nAlto: 100; Boca: 50; Peso: 74\n\nAlto: 80; Boca: 40; Peso: 54.20\n\nAlto: 60; Boca: 38; Peso: 26.40\n\nAlto: 50; Boca: 38; Peso: 18.7",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/20_b6393607b0f6cd12a3102e76060acc2f.webp"
+      ],
+      "metaDescription": "TINAJON: Maceta de fibrocemento. Color: FIBROCEMENTO TRAVERTINO BLANCO NEGRO OXIDO Alto: 100; Boca: 50; Peso: 74 Alto: 80; Boca: 40; Peso: 54.20 Alto: 60;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "TINAJON",
+        "description": "Color: FIBROCEMENTO TRAVERTINO BLANCO NEGRO OXIDO\n\nAlto: 100; Boca: 50; Peso: 74\n\nAlto: 80; Boca: 40; Peso: 54.20\n\nAlto: 60; Boca: 38; Peso: 26.40\n\nAlto: 50; Boca: 38; Peso: 18.7",
+        "sku": "MAC254",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/20_b6393607b0f6cd12a3102e76060acc2f.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/tinajon"
+    },
+    {
+      "id": "MAC255",
+      "name": "PAILA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nDiámetro: 35; Peso: 4.3\n\nDiámetro: 48; Peso: 10.7\n\nDiámetro: 60; Peso: 18.05\n\nDiámetro: 80; Peso: 25.2\n\nDiámetro: 27",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/21_8175eeeb5185494cea3c834bf0f9dd75.webp"
+      ],
+      "metaDescription": "PAILA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Diámetro: 35; Peso: 4.3 Diámetro: 48; Peso: 10.7 Diámetro: 60; Peso: 18.05...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PAILA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nDiámetro: 35; Peso: 4.3\n\nDiámetro: 48; Peso: 10.7\n\nDiámetro: 60; Peso: 18.05\n\nDiámetro: 80; Peso: 25.2\n\nDiámetro: 27",
+        "sku": "MAC255",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/21_8175eeeb5185494cea3c834bf0f9dd75.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/paila-fibrocemento"
+    },
+    {
+      "id": "MAC256",
+      "name": "BOLS",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 28; Boca: 53; Base: 27; Apilado: n/d; Peso: 16.55\n\nAlto: 30; Boca: 80; Base: 34; Apilado: n/d; Peso: 30.66",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/22_3c53a8a20c95092712e25c6e41a4157d.webp"
+      ],
+      "metaDescription": "BOLS: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 28; Boca: 53; Base: 27; Apilado: n/d; Peso: 16.55 Alto: 30; Boca: 80;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "BOLS",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 28; Boca: 53; Base: 27; Apilado: n/d; Peso: 16.55\n\nAlto: 30; Boca: 80; Base: 34; Apilado: n/d; Peso: 30.66",
+        "sku": "MAC256",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/22_3c53a8a20c95092712e25c6e41a4157d.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/bols-fibrocemento"
+    },
+    {
+      "id": "MAC257",
+      "name": "CHINO",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nTamaño: CHICO; Alto: 32; Boca: 32; Base: 27; Apilado: n/d; Peso: 15.25\n\nTamaño: MEDIANO; Alto: 40; Boca: 70; Base: 38; Apilado: n/d; Peso: 25.4",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/23_6124caf0c7c203580ab3c41adc90a177.webp"
+      ],
+      "metaDescription": "CHINO: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Tamaño: CHICO; Alto: 32; Boca: 32; Base: 27; Apilado: n/d; Peso: 15.25...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CHINO",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nTamaño: CHICO; Alto: 32; Boca: 32; Base: 27; Apilado: n/d; Peso: 15.25\n\nTamaño: MEDIANO; Alto: 40; Boca: 70; Base: 38; Apilado: n/d; Peso: 25.4",
+        "sku": "MAC257",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/23_6124caf0c7c203580ab3c41adc90a177.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/chino"
+    },
+    {
+      "id": "MAC258",
+      "name": "CUBO CON SOL",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 39.80",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/24_b845d6fe6c2db151d9b4baaf636aeb83.webp"
+      ],
+      "metaDescription": "CUBO CON SOL: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Ancho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 39.80",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "CUBO CON SOL",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAncho: 50; Largo: 50; Alto: 50; Apilado: n/d; Peso: 39.80",
+        "sku": "MAC258",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/24_b845d6fe6c2db151d9b4baaf636aeb83.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/cubo-con-sol"
+    },
+    {
+      "id": "MAC259",
+      "name": "OLLA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nNúmero: 0; Alto: 27; Boca: 30; Peso: 6.8\n\nNúmero: 1; Alto: 30; Boca: 36; Peso: 9.9\n\nNúmero: 2; Alto: 37; Boca: 38; Peso: 19.7\n\nNúmero: 3; Alto: 40; Boca: 38; Peso: 21.55\n\nNúmero: 5; Alto: 48; Boca: 47\n\nTamaño: BOMBA; Alto: 33; Boca: 38; Peso: 12.85",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/25_bc2d39e7ba4205cc9eedbadc75f05145.webp"
+      ],
+      "metaDescription": "OLLA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Número: 0; Alto: 27; Boca: 30; Peso: 6.8 Número: 1; Alto: 30; Boca: 36;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "OLLA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nNúmero: 0; Alto: 27; Boca: 30; Peso: 6.8\n\nNúmero: 1; Alto: 30; Boca: 36; Peso: 9.9\n\nNúmero: 2; Alto: 37; Boca: 38; Peso: 19.7\n\nNúmero: 3; Alto: 40; Boca: 38; Peso: 21.55\n\nNúmero: 5; Alto: 48; Boca: 47\n\nTamaño: BOMBA; Alto: 33; Boca: 38; Peso: 12.85",
+        "sku": "MAC259",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/25_bc2d39e7ba4205cc9eedbadc75f05145.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/olla"
+    },
+    {
+      "id": "MAC260",
+      "name": "ANFORA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nNúmero: 50; Alto: 50; Peso: 20\n\nNúmero: 75; Alto: 75; Peso: 53\n\nNúmero: 90; Alto: 90; Peso: 71",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/26_6e19d524fe808ec45ed79e85196e2b7f.webp"
+      ],
+      "metaDescription": "ANFORA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Número: 50; Alto: 50; Peso: 20 Número: 75; Alto: 75; Peso: 53 Número: 90;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "ANFORA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nNúmero: 50; Alto: 50; Peso: 20\n\nNúmero: 75; Alto: 75; Peso: 53\n\nNúmero: 90; Alto: 90; Peso: 71",
+        "sku": "MAC260",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/26_6e19d524fe808ec45ed79e85196e2b7f.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/anfora"
+    },
+    {
+      "id": "MAC261",
+      "name": "MACETA ESFERICA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nDiámetro: 20; Peso: 3.5\n\nDiámetro: 30; Peso: 8.95\n\nDiámetro: 50; Peso: 17.75",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/27_919be0a42e3b92394d8d41ca739fbd92.webp"
+      ],
+      "metaDescription": "MACETA ESFERICA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Diámetro: 20; Peso: 3.5 Diámetro: 30; Peso: 8.95 Diámetro: 50;...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "MACETA ESFERICA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nDiámetro: 20; Peso: 3.5\n\nDiámetro: 30; Peso: 8.95\n\nDiámetro: 50; Peso: 17.75",
+        "sku": "MAC261",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/27_919be0a42e3b92394d8d41ca739fbd92.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/maceta-esferica"
+    },
+    {
+      "id": "MAC262",
+      "name": "MENDOCINA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 50; Boca: 60; Base: 32; Peso: 25.60",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/28_f9cf084d9601ebf9ef05fc36431bae23.webp"
+      ],
+      "metaDescription": "MENDOCINA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 50; Boca: 60; Base: 32; Peso: 25.60",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "MENDOCINA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 50; Boca: 60; Base: 32; Peso: 25.60",
+        "sku": "MAC262",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/28_f9cf084d9601ebf9ef05fc36431bae23.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/mendocina"
+    },
+    {
+      "id": "MAC263",
+      "name": "HOLANDESA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 47; Boca: 57; Base: 34; Apilado: n/d; Peso: 25.45",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/29_2d075069d88195542bc14735447c9f9e.webp"
+      ],
+      "metaDescription": "HOLANDESA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Alto: 47; Boca: 57; Base: 34; Apilado: n/d; Peso: 25.45",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "HOLANDESA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nAlto: 47; Boca: 57; Base: 34; Apilado: n/d; Peso: 25.45",
+        "sku": "MAC263",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/29_2d075069d88195542bc14735447c9f9e.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/holandesa"
+    },
+    {
+      "id": "MAC264",
+      "name": "RECOSTADA",
+      "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nDiámetro: 35; Peso: 12.7\n\nDiámetro: 40; Peso: 15.3\n\nDiámetro: 45",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/30_197f0b803af614980ca0e64199a54d6c.webp"
+      ],
+      "metaDescription": "RECOSTADA: Maceta de fibrocemento. Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO Diámetro: 35; Peso: 12.7 Diámetro: 40; Peso: 15.3 Diámetro: 45",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "RECOSTADA",
+        "description": "Color: FIBROCEMENTO BLANCO OXIDO NEGRO TRAVERTINO\n\nDiámetro: 35; Peso: 12.7\n\nDiámetro: 40; Peso: 15.3\n\nDiámetro: 45",
+        "sku": "MAC264",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/30_197f0b803af614980ca0e64199a54d6c.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/recostada"
+    },
+    {
+      "id": "MAC265",
+      "name": "VASO ANTIGUO",
+      "description": "Color: FIBROCEMENTO TRAVERTINO BLANCO NEGRO OXIDO\n\nTamaño: CHICO; Alto: 27; Boca: 35; Base: 24; Peso: 7.75\n\nTamaño: MEDIANO; Alto: 40; Boca: 45; Base: 30; Peso: 13\n\nTamaño: GRANDE; Alto: 45; Boca: 55; Base: 36; Peso: 23.8",
+      "category": "macetas",
+      "subcategory": "fibrocemento",
+      "images": [
+        "/31_c921c945de021b218777dc52d29f1115.webp"
+      ],
+      "metaDescription": "VASO ANTIGUO: Maceta de fibrocemento. Color: FIBROCEMENTO TRAVERTINO BLANCO NEGRO OXIDO Tamaño: CHICO; Alto: 27; Boca: 35; Base: 24; Peso: 7.75 Tamaño:...",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "VASO ANTIGUO",
+        "description": "Color: FIBROCEMENTO TRAVERTINO BLANCO NEGRO OXIDO\n\nTamaño: CHICO; Alto: 27; Boca: 35; Base: 24; Peso: 7.75\n\nTamaño: MEDIANO; Alto: 40; Boca: 45; Base: 30; Peso: 13\n\nTamaño: GRANDE; Alto: 45; Boca: 55; Base: 36; Peso: 23.8",
+        "sku": "MAC265",
+        "category": "Macetas > fibrocemento",
+        "image": [
+          "/31_c921c945de021b218777dc52d29f1115.webp"
+        ]
+      },
+      "urlcanonica": "/productos/macetas/vaso-antiguo-fibrocemento"
     }
   ]
 }

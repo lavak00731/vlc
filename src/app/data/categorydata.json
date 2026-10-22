@@ -25,7 +25,7 @@
     },
 
     "macetas": {
-        "filter": ["terracota", "portamacetas", "plásticas", "plásticas rotomoldeadas", "cerámica"],
+        "filter": ["terracota", "portamacetas", "plásticas", "plásticas rotomoldeadas", "cerámica", "fibrocemento"],
         "image": "/macetaslistas.webp",
         "badgeIcon": "potted_plant",
         "badgeText": "Macetas y portamacetas",

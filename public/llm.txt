@@ -1,0 +1,25 @@
+# Vivero del Golf
+
+> Vivero en Rosario, Santa Fe, Argentina, con catálogo de plantas, árboles, arbustos, macetas, herramientas de jardín, sustratos, fertilizantes y artículos de decoración. Brinda asesoramiento botánico y permite solicitar cotizaciones en línea.
+
+## Sitio
+
+- Inicio: https://www.viverodelgolf.com.ar/
+- Catálogo: https://www.viverodelgolf.com.ar/productos
+- Contacto: https://www.viverodelgolf.com.ar/contacto
+- Búsqueda del catálogo: https://www.viverodelgolf.com.ar/buscar
+
+## Categorías
+
+- Plantas: https://www.viverodelgolf.com.ar/productos/plantas
+- Árboles y arbustos: https://www.viverodelgolf.com.ar/productos/arboles-y-arbustos
+- Macetas: https://www.viverodelgolf.com.ar/productos/macetas
+- Herramientas de jardín: https://www.viverodelgolf.com.ar/productos/herramientas
+- Sustratos y fertilizantes: https://www.viverodelgolf.com.ar/productos/fertilizantes
+- Decoración: https://www.viverodelgolf.com.ar/productos/decoracion
+
+## Información
+
+- Dirección: Av. Jorge Newbery 9320, Rosario, Santa Fe, Argentina.
+- Consultas y cotizaciones: https://www.viverodelgolf.com.ar/contacto
+- Sitemap: https://www.viverodelgolf.com.ar/sitemap.xml

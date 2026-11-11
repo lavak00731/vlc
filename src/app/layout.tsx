@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Head from 'next/head'
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header";
@@ -8,6 +9,7 @@ import { getRequestOrigin } from "./lib/site-url";
 import { QuotationProvider } from "./context/QuotationContext";
 import { SkipLink } from "./components/SkipLink";
 
+const gaId = process.env.GA_ID;
 
 const playfair = Playfair_Display({
   variable: "--playfair-display",
@@ -46,6 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main id="main-content" className="flex flex-col relative w-full pt-18 mt-4 bg-surface grow overflow-hidden">{children}</main>
           <Footer/>
         </QuotationProvider>
+        {gaId && <GoogleAnalytics gaId={gaId} />}
       </body>
     </html>
   );

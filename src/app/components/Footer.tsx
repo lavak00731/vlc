@@ -24,6 +24,9 @@ export const Footer = () => {
         <p className="font-label-sm text-[10px] text-[#000000]/60 tracking-wider uppercase pt-2">
           © { new Date().getFullYear() } Vivero Del Golf. Todos los derechos reservados.
         </p>
+        <p className="font-label-sm text-[10px] text-[#000000]/60 tracking-wider pt-2">
+           Creado por <a href="https://www.ezequiellavaca.com.ar" className="underline! capitalize underline-offset-4">Ezequiel Lavaca</a>
+        </p>
       </div>
     </footer>
   );

@@ -91,62 +91,46 @@ export default async function ProductPage({
       break;
   }
 
-  const productJsonLd = "jsonLd" in product ? product.jsonLd : product.jsonld;
   const productImages = product.images ?? [];
   const origin = await getRequestOrigin();
   const pageUrl = new URL(product.urlcanonica, origin).toString();
   const organization = getOrganizationJsonLd(origin);
-  const productPageJsonLd = productJsonLd
-    ? {
-        "@context": "https://schema.org",
-        "@graph": [
+  const productPageJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: `${product.name} | Vivero del Golf`,
+        description: product.metaDescription,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
           {
-            ...productJsonLd,
-            ...(productImages.length > 0
-              ? {
-                  image: productImages.map((image) =>
-                    new URL(image, origin).toString(),
-                  ),
-                }
-              : {}),
-            "@id": `${pageUrl}#product`,
-            url: pageUrl,
+            "@type": "ListItem",
+            position: 1,
+            name: "Productos",
+            item: new URL("/productos", origin).toString(),
           },
           {
-            "@type": "WebPage",
-            "@id": `${pageUrl}#webpage`,
-            url: pageUrl,
-            name: `${product.name} | Vivero del Golf`,
-            description: product.metaDescription,
-            mainEntity: { "@id": `${pageUrl}#product` },
+            "@type": "ListItem",
+            position: 2,
+            name: categoryName ?? category,
+            item: new URL(`/productos/${category}`, origin).toString(),
           },
           {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Productos",
-                item: new URL("/productos", origin).toString(),
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: categoryName ?? category,
-                item: new URL(`/productos/${category}`, origin).toString(),
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: product.name,
-                item: pageUrl,
-              },
-            ],
+            "@type": "ListItem",
+            position: 3,
+            name: product.name,
+            item: pageUrl,
           },
-          organization,
         ],
-      }
-    : undefined;
+      },
+      organization,
+    ],
+  };
 
   return (
     <>
@@ -207,7 +191,7 @@ export default async function ProductPage({
           </div>
         </section>
       </div>
-      {productPageJsonLd && <JsonLd data={productPageJsonLd} />}
+      <JsonLd data={productPageJsonLd} />
     </>
   );
 }

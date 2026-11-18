@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Head from 'next/head'
+import localFont from "next/font/local";
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header";
@@ -21,6 +22,14 @@ const plusjakarta = Plus_Jakarta_Sans({
   subsets: ["latin"]
 })
 
+const materialSymbols = localFont({
+  src: "../../node_modules/material-symbols/material-symbols-outlined.woff2",
+  variable: "--font-material-symbols-outlined",
+  weight: "100 700",
+  display: "swap",
+  preload: true,
+});
+
 export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: await getRequestOrigin(),
@@ -34,7 +43,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="es-Ar" className={`${playfair.variable} ${plusjakarta.variable}`}>
+    <html lang="es-Ar" className={`${playfair.variable} ${plusjakarta.variable} ${materialSymbols.variable}`}>
       <Head>
         <link rel="preload" as="video" href="/viverovideo" type="video/mp4" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
